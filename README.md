@@ -1,8 +1,6 @@
 
 
 
-
-
 # Table of Contents
 
 
@@ -31,7 +29,14 @@
 
 
 
+
+
+
+
+
+
 # Testboard schematic
+
 ![](https://github.com/rsnkhatri3/pllsoc/blob/main/images/pll_testboard.png)
 
 
@@ -53,10 +58,13 @@ Connect 1.8V, 3.3V, GND and 5V power supply for testing and also 0.2V to 1.2V va
 
 3. Connect indicated position CLK’ to Oscilloscope CH. II to observe the output. 
 
-4. Adjust the value of Variable(Trimming) Capacitors as calculated by equation 1 connected to the crystal, which will cause a sinusoidal wave to be applied to PLL inside SoC and observe the PLL input signal on oscilloscope CH.I  which is available as REF (put oscilloscope in dual mode). 
+4. Adjust the value of Variable(Trimming) Capacitors as calculated by equation 1 connected to the crystal, which will cause a sinusoidal wave to be 
+
+applied to PLL inside SoC and observe the PLL input signal on oscilloscope CH.I  which is available as REF (put oscilloscope in dual mode). 
 
 
 The value of  C1  and  C2   are kept same for simplicity. Need not be always true.
+
 PLL is locked when the phase difference between the REF and CLK’ signals are constant.
 
 
@@ -70,7 +78,9 @@ Let, N = 5 for below figure,
 # For Settling Time
 
 
-Similarly, settling time can be measured  by observing the output in oscilloscope. Here, Tlock is the settling time for the observed frequency.  After Tlock , the PLL is phase locked.
+Similarly, settling time can be measured  by observing the output in oscilloscope. Here, Tlock is the settling time for the observed frequency.  After 
+
+Tlock , the PLL is phase locked.
 
 
 
@@ -97,7 +107,9 @@ After taking the above measurements the VCO gain can be determined using the fol
 
 
  
-In certain applications it may be necessary to determine VCO non-linearity, this can be determined by taking incremental measurements of the VCO gain between the points V1 and V2.
+In certain applications it may be necessary to determine VCO non-linearity, this can be determined by taking incremental measurements of the VCO gain 
+
+between the points V1 and V2.
 
 
 ![](https://github.com/rsnkhatri3/pllsoc/blob/main/images/vco_linearity.png)
@@ -139,14 +151,18 @@ For developing the SoC, we use opensource flow Openlane. Here, we have done till
 
 To perform the above mentioned operation, we use verilog blackbox technique. Here, we consider the IO and Periphery cells used, PLL IP to be tested and 
 
-the Power on Reset circuit as a black box. For this we use their .lef and verilog files containing only the input output port description.
+the Power on Reset circuit as a black box. For this we use their .lef and verilog files containing only the input output port description. The top level 
+
+verilog file whose module name is pll_soc can be found [here](https://github.com/rsnkhatri3/pllsoc/blob/main/openlane/verilog/pll_soc.v). Here, we have 
+
+included all verilog files present in src directory as `include "*.v/.blackbox.v".
 
 
 
-we follow the below mentioned steps:
+We follow the below mentioned steps:
 
 
-1. Create a folder with the name of top level verilog file in design directory.
+1. Create a folder with the module name of top level verilog file in design directory.
                
                       cd vsdflow/work/tools/openlane_working_dir/openlane/designs/
 
@@ -212,8 +228,11 @@ we follow the below mentioned steps:
 
 
 This will create `config.tcl` file with default settings. We then modify the file with required configuration variables that can be seen from 
+
 [here](https://github.com/rsnkhatri3/pllsoc/blob/main/openlane/config.tcl). The information about configuration variables can be found [here] 
+
 (https://github.com/efabless/openlane/blob/master/configuration/README.md). We have basically pointed the location of verilog and lef files 
+
 present in src directory in config.tcl.          
 
 6. Repeat the commands mentioned in step 5 till the bash window opens. In the bash window, the interactive flow is executed.
@@ -233,9 +252,12 @@ present in src directory in config.tcl.
                                   
 
                                   run_synthesis                                                          //Synthesis
+
                                    
 The output file can be found [here](https://github.com/rsnkhatri3/pllsoc/blob/main/openlane/results/synthesis/pll_soc.synthesis.v).
 
                            
                                   init_floorplan_or                                                      //Floorplanning
+
+
 The output DEF file can be found [here](https://github.com/rsnkhatri3/pllsoc/blob/main/openlane/results/floorplan/pll_soc.floorplan.def)
