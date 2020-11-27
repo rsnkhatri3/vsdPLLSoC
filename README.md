@@ -1,4 +1,30 @@
-# pllsoc
+
+
+
+
+
+# Table of Contents
+
+
+* # Introduction
+
+* # [Testboard Schematic](https://github.com/rsnkhatri3/pllsoc#testboard-schematic)
+
+* # [Procedure](https://github.com/rsnkhatri3/pllsoc#procedure)
+
+* ## [For Observing PLL Locking](https://github.com/rsnkhatri3/pllsoc#for-observing-pll-locking)
+   
+* ## [For Settling Time](https://github.com/rsnkhatri3/pllsoc#for-settling-time)
+
+* ## [For VCO linearity and gain](https://github.com/rsnkhatri3/pllsoc#for-vco-linearity-and-gain)
+
+* # [PLL](https://github.com/rsnkhatri3/pllsoc#pll)
+
+* # [SoC Package](https://github.com/rsnkhatri3/pllsoc#soc-package)
+
+* # [IO and PG PAD cells](https://github.com/rsnkhatri3/pllsoc#io-and-pg-pad-cells)
+
+
 
 
 
