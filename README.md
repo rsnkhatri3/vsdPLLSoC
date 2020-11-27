@@ -77,6 +77,9 @@ In certain applications it may be necessary to determine VCO non-linearity, this
 ![](https://github.com/rsnkhatri3/pllsoc/blob/main/images/vco_linearity.png)
 
 
+![](https://github.com/rsnkhatri3/pllsoc/blob/main/images/vco_output.png)
+
+
 
 # PLL
 
