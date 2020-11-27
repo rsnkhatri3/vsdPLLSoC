@@ -4,23 +4,23 @@
 # Table of Contents
 
 
-* # Introduction
+* ## Introduction
 
-* # [Testboard Schematic](https://github.com/rsnkhatri3/pllsoc#testboard-schematic)
+* ##  [Testboard Schematic](https://github.com/rsnkhatri3/pllsoc#testboard-schematic)
 
-* # [Procedure](https://github.com/rsnkhatri3/pllsoc#procedure)
+* ##  [Procedure](https://github.com/rsnkhatri3/pllsoc#procedure)
 
-* ## [For Observing PLL Locking](https://github.com/rsnkhatri3/pllsoc#for-observing-pll-locking)
+* ### [For Observing PLL Locking](https://github.com/rsnkhatri3/pllsoc#for-observing-pll-locking)
    
-* ## [For Settling Time](https://github.com/rsnkhatri3/pllsoc#for-settling-time)
+* ### [For Settling Time](https://github.com/rsnkhatri3/pllsoc#for-settling-time)
 
-* ## [For VCO linearity and gain](https://github.com/rsnkhatri3/pllsoc#for-vco-linearity-and-gain)
+* ###  [For VCO linearity and gain](https://github.com/rsnkhatri3/pllsoc#for-vco-linearity-and-gain)
 
-* # [PLL](https://github.com/rsnkhatri3/pllsoc#pll)
+* ##  [PLL](https://github.com/rsnkhatri3/pllsoc#pll)
 
-* # [SoC Package](https://github.com/rsnkhatri3/pllsoc#soc-package)
+* ##  [SoC Package](https://github.com/rsnkhatri3/pllsoc#soc-package)
 
-* # [IO and PG PAD cells](https://github.com/rsnkhatri3/pllsoc#io-and-pg-pad-cells)
+* ##  [IO and PG PAD cells](https://github.com/rsnkhatri3/pllsoc#io-and-pg-pad-cells)
 
 
 
@@ -54,12 +54,11 @@ Connect 1.8V, 3.3V, GND and 5V power supply for testing and also 0.2V to 1.2V va
 
 1. EN_VCO is made HIGH and EN_CP is made HIGH with switches S1 and S2. GND is applied at VCO_IN through switch S3. 
 
-2. Pass  10uA current through B_CP with switch S4 HIGH. 
+2. Pass 10uA current through B_CP with switch S4 HIGH. 
 
 3. Connect indicated position CLK’ to Oscilloscope CH. II to observe the output. 
 
-4. Adjust the value of Variable(Trimming) Capacitors as calculated by equation 1 connected to the crystal, which will cause a sinusoidal wave to be 
-applied to PLL inside SoC and observe the PLL input signal on oscilloscope CH.I  which is available as REF (put oscilloscope in dual mode). 
+4. Pulse generator will cause a sinusoidal wave(or square wave) to be applied to PLL inside SoC and observe the PLL input clock signal on oscilloscope CH.I  which is available as REF_CLK (put oscilloscope in dual mode). 
 
 
 
