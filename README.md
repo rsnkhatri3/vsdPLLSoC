@@ -4,7 +4,7 @@
 # Table of Contents
 
 
-* ## Introduction
+* ## [Introduction](https://github.com/rsnkhatri3/pllsoc/wiki#introduction)
 
 * ##  [Testboard Schematic](https://github.com/rsnkhatri3/pllsoc#testboard-schematic)
 
@@ -22,10 +22,16 @@
 
 * ##  [IO and PG PAD cells](https://github.com/rsnkhatri3/pllsoc#io-and-pg-pad-cells)
 
+* ## [Using Openlane for Synthesis and Floorplanning](https://github.com/rsnkhatri3/pllsoc/wiki#using-openlane-for-synthesis-and-floorplanning)
 
 
 
 
+
+# Introduction
+
+
+In this project we are planning to test a PLL IP. The PLL IP is developed using SKY130 PDK. For this, we first develop a testboard and the test flow. The PLL IP to be tested is included in the SOIC-24 package to communicate with external circuitry present in the testboard. The package consists of PAD cells from SKY130 IO and Periphery library. Similarly, Power on Reset circuit is used from Caravel repository to provide enable_h signal to PAD cells. Using LEF and Verilog files of PAD cells used, Power on Reset circuit and PLL IP to be tested and top level verilog module, we do synthesis and floorplanning. To complete the process, PNR is to be done.
 
 
 
@@ -139,6 +145,10 @@ The PAD cells used are listed below:
 
 
 ![](https://github.com/rsnkhatri3/pllsoc/blob/main/images/io_pg_cells.png)
+
+
+
+# Using Openlane for Synthesis and Floorplanning
 
 
 
