@@ -279,3 +279,4 @@ The output DEF file can be found [here](https://github.com/rsnkhatri3/pllsoc/blo
 
 * Philipp Gühring, Developer at Falcontrol
 
+* Nickson Jose, VLSI Engineer
