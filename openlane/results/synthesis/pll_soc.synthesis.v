@@ -9,10 +9,11 @@ module pll_soc(REF_CLK, B_CP, B_VCO, VCO_IN, EN_CP, EN_VCO, VDDA, VSSA, VSSD, VD
   output B_VCO;
   output CLK;
   input EN_CP;
+  wire EN_CP_pll;
   input EN_VCO;
+  wire EN_VCO_pll;
   input GNDO;
   input GNDR;
-  wire GNDR_pll;
   input GPIO_0;
   input GPIO_1;
   input GPIO_2;
@@ -21,30 +22,26 @@ module pll_soc(REF_CLK, B_CP, B_VCO, VCO_IN, EN_CP, EN_VCO, VDDA, VSSA, VSSD, VD
   input REF_CLK;
   wire TIE_HI_ESD;
   wire TIE_LO_ESD;
-  wire VCCD1;
   input VCO_IN;
   input VDDA;
   input VDDD;
-  wire VDDIO;
   input VDDO;
   input VDDR;
   input VSSA;
   input VSSD;
-  wire \avsdpll.ENb_CP ;
-  wire \avsdpll.ENb_VCO ;
   sky130_fd_io__top_gpiov2 B_CP_PAD (
     .AMUXBUS_A(),
     .AMUXBUS_B(),
     .ANALOG_EN(1'b0),
     .ANALOG_POL(1'b0),
     .ANALOG_SEL(1'b0),
-    .DM({ VCCD1, VCCD1, 1'b0 }),
+    .DM(3'b000),
     .ENABLE_H(PORB),
     .ENABLE_INP_H(TIE_LO_ESD),
     .ENABLE_VDDA_H(1'b0),
-    .ENABLE_VDDIO(VCCD1),
+    .ENABLE_VDDIO(1'b0),
     .ENABLE_VSWITCH_H(1'b0),
-    .HLD_H_N(VDDIO),
+    .HLD_H_N(1'b0),
     .HLD_OVR(1'b0),
     .IB_MODE_SEL(1'b0),
     .IN(),
@@ -67,13 +64,13 @@ module pll_soc(REF_CLK, B_CP, B_VCO, VCO_IN, EN_CP, EN_VCO, VDDA, VSSA, VSSD, VD
     .ANALOG_EN(1'b0),
     .ANALOG_POL(1'b0),
     .ANALOG_SEL(1'b0),
-    .DM({ VCCD1, VCCD1, 1'b0 }),
+    .DM(3'b000),
     .ENABLE_H(PORB),
     .ENABLE_INP_H(TIE_LO_ESD),
     .ENABLE_VDDA_H(1'b0),
-    .ENABLE_VDDIO(VCCD1),
+    .ENABLE_VDDIO(1'b0),
     .ENABLE_VSWITCH_H(1'b0),
-    .HLD_H_N(VDDIO),
+    .HLD_H_N(1'b0),
     .HLD_OVR(1'b0),
     .IB_MODE_SEL(1'b0),
     .IN(),
@@ -101,19 +98,19 @@ module pll_soc(REF_CLK, B_CP, B_VCO, VCO_IN, EN_CP, EN_VCO, VDDA, VSSA, VSSD, VD
     .ANALOG_EN(1'b0),
     .ANALOG_POL(1'b0),
     .ANALOG_SEL(1'b0),
-    .DM({ 2'b00, VCCD1 }),
+    .DM(3'b000),
     .ENABLE_H(PORB),
     .ENABLE_INP_H(TIE_LO_ESD),
     .ENABLE_VDDA_H(1'b0),
-    .ENABLE_VDDIO(VCCD1),
+    .ENABLE_VDDIO(1'b0),
     .ENABLE_VSWITCH_H(1'b0),
-    .HLD_H_N(VDDIO),
+    .HLD_H_N(1'b0),
     .HLD_OVR(1'b0),
     .IB_MODE_SEL(1'b0),
-    .IN(\avsdpll.ENb_CP ),
+    .IN(EN_CP_pll),
     .INP_DIS(1'b0),
     .IN_H(),
-    .OE_N(VCCD1),
+    .OE_N(1'b0),
     .OUT(1'b0),
     .PAD(EN_CP),
     .PAD_A_ESD_0_H(),
@@ -130,19 +127,19 @@ module pll_soc(REF_CLK, B_CP, B_VCO, VCO_IN, EN_CP, EN_VCO, VDDA, VSSA, VSSD, VD
     .ANALOG_EN(1'b0),
     .ANALOG_POL(1'b0),
     .ANALOG_SEL(1'b0),
-    .DM({ 2'b00, VCCD1 }),
+    .DM(3'b000),
     .ENABLE_H(PORB),
     .ENABLE_INP_H(TIE_LO_ESD),
     .ENABLE_VDDA_H(1'b0),
-    .ENABLE_VDDIO(VCCD1),
+    .ENABLE_VDDIO(1'b0),
     .ENABLE_VSWITCH_H(1'b0),
-    .HLD_H_N(VDDIO),
+    .HLD_H_N(1'b0),
     .HLD_OVR(1'b0),
     .IB_MODE_SEL(1'b0),
-    .IN(\avsdpll.ENb_VCO ),
+    .IN(EN_VCO_pll),
     .INP_DIS(1'b0),
     .IN_H(),
-    .OE_N(VCCD1),
+    .OE_N(1'b0),
     .OUT(1'b0),
     .PAD(EN_VCO),
     .PAD_A_ESD_0_H(),
@@ -159,19 +156,19 @@ module pll_soc(REF_CLK, B_CP, B_VCO, VCO_IN, EN_CP, EN_VCO, VDDA, VSSA, VSSD, VD
     .ANALOG_EN(1'b0),
     .ANALOG_POL(1'b0),
     .ANALOG_SEL(1'b0),
-    .DM({ 2'b00, VCCD1 }),
+    .DM(3'b000),
     .ENABLE_H(PORB),
     .ENABLE_INP_H(TIE_LO_ESD),
     .ENABLE_VDDA_H(1'b0),
-    .ENABLE_VDDIO(VCCD1),
+    .ENABLE_VDDIO(1'b0),
     .ENABLE_VSWITCH_H(1'b0),
-    .HLD_H_N(VDDIO),
+    .HLD_H_N(1'b0),
     .HLD_OVR(1'b0),
     .IB_MODE_SEL(1'b0),
     .IN(B_0_pll),
     .INP_DIS(1'b0),
     .IN_H(),
-    .OE_N(VCCD1),
+    .OE_N(1'b0),
     .OUT(1'b0),
     .PAD(GPIO_0),
     .PAD_A_ESD_0_H(),
@@ -188,19 +185,19 @@ module pll_soc(REF_CLK, B_CP, B_VCO, VCO_IN, EN_CP, EN_VCO, VDDA, VSSA, VSSD, VD
     .ANALOG_EN(1'b0),
     .ANALOG_POL(1'b0),
     .ANALOG_SEL(1'b0),
-    .DM({ 2'b00, VCCD1 }),
+    .DM(3'b000),
     .ENABLE_H(PORB),
     .ENABLE_INP_H(TIE_LO_ESD),
     .ENABLE_VDDA_H(1'b0),
-    .ENABLE_VDDIO(VCCD1),
+    .ENABLE_VDDIO(1'b0),
     .ENABLE_VSWITCH_H(1'b0),
-    .HLD_H_N(VDDIO),
+    .HLD_H_N(1'b0),
     .HLD_OVR(1'b0),
     .IB_MODE_SEL(1'b0),
     .IN(B_1_pll),
     .INP_DIS(1'b0),
     .IN_H(),
-    .OE_N(VCCD1),
+    .OE_N(1'b0),
     .OUT(1'b0),
     .PAD(GPIO_1),
     .PAD_A_ESD_0_H(),
@@ -217,19 +214,19 @@ module pll_soc(REF_CLK, B_CP, B_VCO, VCO_IN, EN_CP, EN_VCO, VDDA, VSSA, VSSD, VD
     .ANALOG_EN(1'b0),
     .ANALOG_POL(1'b0),
     .ANALOG_SEL(1'b0),
-    .DM({ 2'b00, VCCD1 }),
+    .DM(3'b000),
     .ENABLE_H(PORB),
     .ENABLE_INP_H(TIE_LO_ESD),
     .ENABLE_VDDA_H(1'b0),
-    .ENABLE_VDDIO(VCCD1),
+    .ENABLE_VDDIO(1'b0),
     .ENABLE_VSWITCH_H(1'b0),
-    .HLD_H_N(VDDIO),
+    .HLD_H_N(1'b0),
     .HLD_OVR(1'b0),
     .IB_MODE_SEL(1'b0),
     .IN(B_2_pll),
     .INP_DIS(1'b0),
     .IN_H(),
-    .OE_N(VCCD1),
+    .OE_N(1'b0),
     .OUT(1'b0),
     .PAD(GPIO_2),
     .PAD_A_ESD_0_H(),
@@ -246,19 +243,19 @@ module pll_soc(REF_CLK, B_CP, B_VCO, VCO_IN, EN_CP, EN_VCO, VDDA, VSSA, VSSD, VD
     .ANALOG_EN(1'b0),
     .ANALOG_POL(1'b0),
     .ANALOG_SEL(1'b0),
-    .DM({ 2'b00, VCCD1 }),
+    .DM(3'b000),
     .ENABLE_H(PORB),
     .ENABLE_INP_H(TIE_LO_ESD),
     .ENABLE_VDDA_H(1'b0),
-    .ENABLE_VDDIO(VCCD1),
+    .ENABLE_VDDIO(1'b0),
     .ENABLE_VSWITCH_H(1'b0),
-    .HLD_H_N(VDDIO),
+    .HLD_H_N(1'b0),
     .HLD_OVR(1'b0),
     .IB_MODE_SEL(1'b0),
     .IN(B_3_pll),
     .INP_DIS(1'b0),
     .IN_H(),
-    .OE_N(VCCD1),
+    .OE_N(1'b0),
     .OUT(1'b0),
     .PAD(GPIO_3),
     .PAD_A_ESD_0_H(),
@@ -270,11 +267,8 @@ module pll_soc(REF_CLK, B_CP, B_VCO, VCO_IN, EN_CP, EN_VCO, VDDA, VSSA, VSSD, VD
     .VTRIP_SEL(1'b0)
   );
   simple_por POR (
-    .por_l(),
     .porb_h(PORB),
-    .porb_l(),
-    .vdd1v8(VCCD1),
-    .vdd3v3(VDDIO),
-    .vss(GNDR_pll)
+    .vdd3v3(1'b0),
+    .vss(1'b0)
   );
 endmodule

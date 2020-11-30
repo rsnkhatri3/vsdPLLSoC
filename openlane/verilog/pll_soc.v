@@ -1,11 +1,11 @@
-`include "sky130_fd_io__top_ground_hvc_wpad.blackbox.v"
-`include "sky130_fd_io__top_ground_lvc_wpad.blackbox.v"
-`include "sky130_fd_io__top_power_hvc_wpad.blackbox.v"
-`include "sky130_fd_io__top_power_lvc_wpad.blackbox.v"
-`include "sky130_fd_io__top_gpiov2.blackbox.v"
+`include "sky130_fd_io__top_ground_hvc_wpad.v"
+`include "sky130_fd_io__top_ground_lvc_wpad.v"
+`include "sky130_fd_io__top_power_hvc_wpad.v"
+`include "sky130_fd_io__top_power_lvc_wpad.v"
+`include "sky130_fd_io__top_gpiov2.v"
 
 `include "avsdpll_1v8.v"
-`include "simple_por.blackbox.v"
+`include "simple_por.v"
 
 
 
@@ -115,12 +115,12 @@ wire   PORB;
 
 
 simple_por   POR  (.vdd3v3(VDDIO),
-                    .vss(VSSIO),
-                    .porb_h(PORB),
-                    .vdd1v8(VCCD1),
-                    .porb_l(),
-                    .por_l()
-                    );
+                   .vss(VSSIO),
+                   .porb_h(PORB)
+                    //.vdd1v8(VCCD1),
+                    //.porb_l(),
+                    //.por_l()
+                 );
 
 
 
@@ -135,7 +135,7 @@ avsdpll_1v8   avsdpll             (.REF(REF_CLK_pll),
                                    .ENb_CP(EN_CP_pll),
                                    //.B({B_3_pll,B_2_pll,B_1_pll,B_0_pll}),
                                    .CLK(CLK_pll),
-                                   .VCO_IN(VCO_IN_pll),
+                                   .VCO_IN(VCO_IN_pll)
                                    
                                   // .VDD3(VDDA_pll),
                                   // .GND2(VSSA_pll),
@@ -179,7 +179,7 @@ sky130_fd_io__top_gpiov2 GPIO_0_PAD (.IN_H(),
                                   .ANALOG_POL(VSSD1), 
                                   .OUT(VSSD1), 
                                   .AMUXBUS_A(), 
-                                  .AMUXBUS_B(),
+                                  .AMUXBUS_B()
                                   
                                  // .VSSA(VSSA1), 
                                  // .VDDA(VDDA1), 
@@ -225,7 +225,7 @@ sky130_fd_io__top_gpiov2 GPIO_1_PAD (.IN_H(),
                                   .ANALOG_POL(VSSD1), 
                                   .OUT(VSSD1), 
                                   .AMUXBUS_A(), 
-                                  .AMUXBUS_B(),
+                                  .AMUXBUS_B()
                                   
                                  // .VSSA(VSSA1), 
                                  // .VDDA(VDDA1), 
@@ -270,7 +270,7 @@ sky130_fd_io__top_gpiov2 GPIO_2_PAD (.IN_H(),
                                   .ANALOG_POL(VSSD1), 
                                   .OUT(VSSD1), 
                                   .AMUXBUS_A(), 
-                                  .AMUXBUS_B(),
+                                  .AMUXBUS_B()
                                   
                                  // .VSSA(VSSA1), 
                                  // .VDDA(VDDA1), 
@@ -316,7 +316,7 @@ sky130_fd_io__top_gpiov2 GPIO_3_PAD (.IN_H(),
                                   .ANALOG_POL(VSSD1), 
                                   .OUT(VSSD1), 
                                   .AMUXBUS_A(), 
-                                  .AMUXBUS_B(),
+                                  .AMUXBUS_B()
                                   
                                  // .VSSA(VSSA1), 
                                  // .VDDA(VDDA1), 
@@ -361,8 +361,8 @@ sky130_fd_io__top_gpiov2 EN_VCO_PAD (.IN_H(),
                                   .ANALOG_POL(VSSD1), 
                                   .OUT(VSSD1), 
                                   .AMUXBUS_A(), 
-                                  .AMUXBUS_B(),
-                                  
+                                  .AMUXBUS_B()
+                                 
                                  // .VSSA(VSSA1), 
                                  // .VDDA(VDDA1), 
                                  // .VSWITCH(VDDIO), 
@@ -407,7 +407,7 @@ sky130_fd_io__top_gpiov2 EN_CP_PAD (.IN_H(),
                                   .ANALOG_POL(VSSD1), 
                                   .OUT(VSSD1), 
                                   .AMUXBUS_A(), 
-                                  .AMUXBUS_B(),
+                                  .AMUXBUS_B()
                                   
                                  // .VSSA(VSSA1), 
                                  // .VDDA(VDDA1), 
@@ -452,7 +452,7 @@ sky130_fd_io__top_gpiov2 B_VCO_PAD (.IN_H(),
                                   .ANALOG_POL(VSSD1), 
                                   .OUT(B_VCO_pll), 
                                   .AMUXBUS_A(), 
-                                  .AMUXBUS_B(),
+                                  .AMUXBUS_B()
                                   
                                  // .VSSA(VSSA1), 
                                  // .VDDA(VDDA1), 
@@ -497,7 +497,7 @@ sky130_fd_io__top_gpiov2 B_CP_PAD (.IN_H(),
                                   .ANALOG_POL(VSSD1), 
                                   .OUT(B_CP_pll), 
                                   .AMUXBUS_A(), 
-                                  .AMUXBUS_B(),
+                                  .AMUXBUS_B()
                                   
                                  // .VSSA(VSSA1), 
                                  // .VDDA(VDDA1), 
@@ -514,7 +514,7 @@ sky130_fd_io__top_gpiov2 B_CP_PAD (.IN_H(),
 
 sky130_fd_io__top_power_lvc_wpad VCO_IN_PAD ( .P_PAD(VCO_IN), 
                                    .AMUXBUS_A(), 
-                                   .AMUXBUS_B(),
+                                   .AMUXBUS_B()
                                   // .P_CORE(VCO_IN_pll), 
                                   // .BDY2_B2B(VSSA1), 
                                   // .DRN_LVC1(VDDA1), 
@@ -540,7 +540,7 @@ sky130_fd_io__top_power_lvc_wpad VCO_IN_PAD ( .P_PAD(VCO_IN),
 
 sky130_fd_io__top_power_lvc_wpad REF_CLK_PAD ( .P_PAD(REF_CLK), 
                                    .AMUXBUS_A(), 
-                                   .AMUXBUS_B(),
+                                   .AMUXBUS_B()
                                   // .P_CORE(REF_CLK_pll), 
                                   // .BDY2_B2B(VSSA1), 
                                   // .DRN_LVC1(VDDA1), 
@@ -564,7 +564,7 @@ sky130_fd_io__top_power_lvc_wpad REF_CLK_PAD ( .P_PAD(REF_CLK),
 
 sky130_fd_io__top_power_lvc_wpad CLK_PAD ( .P_PAD(CLK), 
                                    .AMUXBUS_A(), 
-                                   .AMUXBUS_B(),
+                                   .AMUXBUS_B()
                                   // .P_CORE(CLK_pll), 
                                   // .BDY2_B2B(VSSA1), 
                                   // .DRN_LVC1(VDDA1), 
@@ -589,7 +589,7 @@ sky130_fd_io__top_power_lvc_wpad CLK_PAD ( .P_PAD(CLK),
 
 sky130_fd_io__top_power_lvc_wpad VDDA_PAD ( .P_PAD(VDDA), 
                                    .AMUXBUS_A(), 
-                                   .AMUXBUS_B(),
+                                   .AMUXBUS_B()
                                   // .P_CORE(VDDA_pll), 
                                   // .BDY2_B2B(VSSA1), 
                                   // .DRN_LVC1(VDDA1), 
@@ -613,7 +613,7 @@ sky130_fd_io__top_power_lvc_wpad VDDA_PAD ( .P_PAD(VDDA),
 
 sky130_fd_io__top_ground_lvc_wpad VSSA_PAD ( .G_PAD(VSSA), 
                                     .AMUXBUS_A(), 
-                                    .AMUXBUS_B(),
+                                    .AMUXBUS_B()
                                    // .G_CORE(VSSA_pll), 
                                    // .BDY2_B2B(VSSA1), 
                                    // .DRN_LVC1(VDDA1), 
@@ -638,7 +638,7 @@ sky130_fd_io__top_ground_lvc_wpad VSSA_PAD ( .G_PAD(VSSA),
 
 sky130_fd_io__top_ground_lvc_wpad VSSD_PAD ( .G_PAD(VSSD), 
                                     .AMUXBUS_A(), 
-                                    .AMUXBUS_B(),
+                                    .AMUXBUS_B()
                                    // .G_CORE(VSSD_pll), 
                                    // .BDY2_B2B(VSSA1), 
                                    // .DRN_LVC1(VDDA1), 
@@ -663,7 +663,7 @@ sky130_fd_io__top_ground_lvc_wpad VSSD_PAD ( .G_PAD(VSSD),
 
 sky130_fd_io__top_power_lvc_wpad VDDD_PAD ( .P_PAD(VDDD), 
                                    .AMUXBUS_A(), 
-                                   .AMUXBUS_B(),
+                                   .AMUXBUS_B()
                                   // .P_CORE(VDDD_pll), 
                                   // .BDY2_B2B(VSSA1), 
                                   // .DRN_LVC1(VDDA1), 
@@ -691,7 +691,7 @@ sky130_fd_io__top_power_lvc_wpad VDDD_PAD ( .P_PAD(VDDD),
 
 sky130_fd_io__top_power_hvc_wpad VDDR_PAD( .P_PAD(VDDR), 
                                    .AMUXBUS_A(), 
-                                   .AMUXBUS_B(),
+                                   .AMUXBUS_B()
                                   // .P_CORE(VDDR_pll), 
                                   // .DRN_HVC(VDDA1), 
                                   // .OGC_HVC(), 
@@ -713,7 +713,7 @@ sky130_fd_io__top_power_hvc_wpad VDDR_PAD( .P_PAD(VDDR),
 
 sky130_fd_io__top_ground_hvc_wpad GNDR_PAD ( .G_PAD(GNDR),
                                     .AMUXBUS_A(), 
-                                    .AMUXBUS_B(),
+                                    .AMUXBUS_B()
                                    // .G_CORE(GNDR_pll), 
                                    // .DRN_HVC(VDDA1), 
                                    // .OGC_HVC(), 
@@ -734,7 +734,7 @@ sky130_fd_io__top_ground_hvc_wpad GNDR_PAD ( .G_PAD(GNDR),
 
 sky130_fd_io__top_power_hvc_wpad VDDO_PAD( .P_PAD(VDDO), 
                                    .AMUXBUS_A(), 
-                                   .AMUXBUS_B(),
+                                   .AMUXBUS_B()
                                   // .P_CORE(VDDO_pll), 
                                   // .DRN_HVC(VDDA1), 
                                   // .OGC_HVC(), 
@@ -756,7 +756,7 @@ sky130_fd_io__top_power_hvc_wpad VDDO_PAD( .P_PAD(VDDO),
 
 sky130_fd_io__top_ground_hvc_wpad GNDO_PAD ( .G_PAD(GNDO),
                                     .AMUXBUS_A(), 
-                                    .AMUXBUS_B(),
+                                    .AMUXBUS_B()
                                    // .G_CORE(GNDO_pll), 
                                    // .DRN_HVC(VDDA1), 
                                    // .OGC_HVC(), 

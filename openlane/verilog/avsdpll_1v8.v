@@ -1,3 +1,10 @@
+
+
+`timescale 1ns / 1ps
+`default_nettype none
+
+
+(*blackbox*)
 module avsdpll_1v8 ( CLK, VCO_IN, ENb_CP, ENb_VCO, REF );
 
   supply0 GND;
