@@ -1,0 +1,22 @@
+
+20. Printing statistics.
+
+=== chip_io ===
+
+   Number of wires:                167
+   Number of wire bits:            167
+   Number of public wires:          33
+   Number of public wire bits:      33
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                145
+     sky130_fd_io__top_gpiov2        8
+     sky130_fd_io__top_power_lvc_wpad      1
+     sky130_fd_sc_hd__conb_1       136
+
+   Area for cell type \sky130_fd_io__top_power_lvc_wpad is unknown!
+   Area for cell type \sky130_fd_io__top_gpiov2 is unknown!
+
+   Chip area for module '\chip_io': 510.489600
+

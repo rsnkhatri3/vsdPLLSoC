@@ -1,0 +1,16 @@
+
+12. Printing statistics.
+
+=== chip_io ===
+
+   Number of wires:                 33
+   Number of wire bits:             33
+   Number of public wires:          33
+   Number of public wire bits:      33
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  9
+     sky130_fd_io__top_gpiov2        8
+     sky130_fd_io__top_power_lvc_wpad      1
+
