@@ -156,7 +156,7 @@ For developing the SoC, we use opensource flow Openlane. Here, we have done till
 To perform the above mentioned operation, we use verilog blackbox technique. Here, we consider the IO and Periphery cells used, PLL IP to be tested and 
 the Power on Reset circuit as a black box. For this we use their .lef and verilog files containing only the input output port description. The top level 
 verilog file whose module name is pll_soc can be found [here](https://github.com/rsnkhatri3/pllsoc/blob/main/openlane/verilog/pll_soc.v). Here, we have 
-included all verilog files present in src directory as `include "*.v/.blackbox.v".
+included all verilog files present in src directory as `include "*.v".
 
 
 
@@ -199,17 +199,17 @@ We follow the below mentioned steps:
 
                     avsdpll_1v8.v
 
-                    simple_por.blackbox.v
+                    simple_por.v
 
-                    sky130_fd_io__top_gpiov2.blackbox.v
+                    sky130_fd_io__top_gpiov2.v
 
-                    sky130_fd_io__top_ground_hvc_wpad.blackbox.v
+                    sky130_fd_io__top_ground_hvc_wpad.v
 
-                    sky130_fd_io__top_ground_lvc_wpad.blackbox.v
+                    sky130_fd_io__top_ground_lvc_wpad.v
 
-                    sky130_fd_io__top_power_hvc_wpad.blackbox.v
+                    sky130_fd_io__top_power_hvc_wpad.v
 
-                    sky130_fd_io__top_power_lvc_wpad.blackbox.v
+                    sky130_fd_io__top_power_lvc_wpad.v
 
    Above mentioned files are present under pllsoc/openlane/verilog.
 
