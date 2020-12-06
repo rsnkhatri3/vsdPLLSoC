@@ -1,0 +1,28 @@
+
+10. Executing CHECK pass (checking for obvious problems).
+checking module chip_io..
+Warning: multiple conflicting drivers for chip_io.\TIE_LO_ESD:
+    port TIE_LO_ESD[0] of cell B_CP_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_LO_ESD[0] of cell B_VCO_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_LO_ESD[0] of cell EN_CP_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_LO_ESD[0] of cell EN_VCO_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_LO_ESD[0] of cell GPIO_0_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_LO_ESD[0] of cell GPIO_1_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_LO_ESD[0] of cell GPIO_2_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_LO_ESD[0] of cell GPIO_3_PAD (sky130_fd_io__top_gpiov2)
+Warning: multiple conflicting drivers for chip_io.\TIE_HI_ESD:
+    port TIE_HI_ESD[0] of cell B_CP_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_HI_ESD[0] of cell B_VCO_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_HI_ESD[0] of cell EN_CP_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_HI_ESD[0] of cell EN_VCO_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_HI_ESD[0] of cell GPIO_0_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_HI_ESD[0] of cell GPIO_1_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_HI_ESD[0] of cell GPIO_2_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_HI_ESD[0] of cell GPIO_3_PAD (sky130_fd_io__top_gpiov2)
+Warning: Wire chip_io.\VCO_IN_pll is used but has no driver.
+Warning: Wire chip_io.\REF_CLK_pll is used but has no driver.
+Warning: Wire chip_io.\VDDIO is used but has no driver.
+Warning: Wire chip_io.\GNDO_pll is used but has no driver.
+Warning: Wire chip_io.\VCCD1 is used but has no driver.
+Warning: Wire chip_io.\VSSD1 is used but has no driver.
+found and reported 8 problems.

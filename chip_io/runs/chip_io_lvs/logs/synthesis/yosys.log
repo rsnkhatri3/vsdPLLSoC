@@ -1,0 +1,163 @@
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2020  Claire Wolf <claire@symbioticeda.com>          |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.9+3621 (git sha1 84e9fa7, gcc 8.3.1 -fPIC -Os)
+
+[TCL: yosys -import] Command name collision: found pre-existing command `cd' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `eval' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `exec' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `read' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `trace' -> skip.
+
+1. Executing Verilog-2005 frontend: /openLANE_flow/designs/chip_io/src/sky130_fd_io__top_power_lvc_wpad.v
+Parsing Verilog input from `/openLANE_flow/designs/chip_io/src/sky130_fd_io__top_power_lvc_wpad.v' to AST representation.
+Generating RTLIL representation for module `\sky130_fd_io__top_power_lvc_wpad'.
+Successfully finished Verilog frontend.
+
+2. Executing Verilog-2005 frontend: /home/roshan/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/open_pdks/sky130/sky130A/libs.ref/sky130_fd_io/verilog/sky130_ef_io.v
+Parsing Verilog input from `/home/roshan/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/open_pdks/sky130/sky130A/libs.ref/sky130_fd_io/verilog/sky130_ef_io.v' to AST representation.
+Generating RTLIL representation for module `\sky130_ef_io__vccd_hvc_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vccd_lvc_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vdda_lvc_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vdda_hvc_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vddio_lvc_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vddio_hvc_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vssd_lvc_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vssd_hvc_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vssio_lvc_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vssio_hvc_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vssa_lvc_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__vssa_hvc_pad'.
+Generating RTLIL representation for module `\sky130_ef_io__corner_pad'.
+Generating RTLIL representation for module `\sky130_fd_io__com_bus_slice'.
+Generating RTLIL representation for module `\sky130_ef_io__com_bus_slice_1um'.
+Generating RTLIL representation for module `\sky130_ef_io__com_bus_slice_5um'.
+Generating RTLIL representation for module `\sky130_ef_io__com_bus_slice_10um'.
+Generating RTLIL representation for module `\sky130_ef_io__com_bus_slice_20um'.
+Generating RTLIL representation for module `\sky130_ef_io__gpiov2_pad'.
+Successfully finished Verilog frontend.
+
+3. Executing Verilog-2005 frontend: /openLANE_flow/designs/chip_io/src/chip_io.v
+Parsing Verilog input from `/openLANE_flow/designs/chip_io/src/chip_io.v' to AST representation.
+Generating RTLIL representation for module `\sky130_fd_io__top_ground_hvc_wpad'.
+Generating RTLIL representation for module `\sky130_fd_io__top_ground_lvc_wpad'.
+Generating RTLIL representation for module `\sky130_fd_io__top_power_hvc_wpad'.
+Generating RTLIL representation for module `\sky130_fd_io__top_gpiov2'.
+Generating RTLIL representation for module `\chip_io'.
+Successfully finished Verilog frontend.
+
+4. Generating Graphviz representation of design.
+Writing dot description to `/openLANE_flow/designs/chip_io/runs/chip_io_lvs/tmp/synthesis/hierarchy.dot'.
+Dumping module chip_io to page 1.
+
+5. Executing HIERARCHY pass (managing design hierarchy).
+
+5.1. Analyzing design hierarchy..
+Top module:  \chip_io
+
+5.2. Analyzing design hierarchy..
+Top module:  \chip_io
+Removed 0 unused modules.
+
+6. Executing FLATTEN pass (flatten design).
+
+7. Printing statistics.
+
+=== chip_io ===
+
+   Number of wires:                 47
+   Number of wire bits:             47
+   Number of public wires:          47
+   Number of public wire bits:      47
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 19
+     sky130_fd_io__top_gpiov2        8
+     sky130_fd_io__top_ground_hvc_wpad      2
+     sky130_fd_io__top_ground_lvc_wpad      2
+     sky130_fd_io__top_power_hvc_wpad      2
+     sky130_fd_io__top_power_lvc_wpad      5
+
+8. Executing SPLITNETS pass (splitting up multi-bit signals).
+
+9. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \chip_io..
+
+10. Executing CHECK pass (checking for obvious problems).
+checking module chip_io..
+Warning: multiple conflicting drivers for chip_io.\TIE_LO_ESD:
+    port TIE_LO_ESD[0] of cell B_CP_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_LO_ESD[0] of cell B_VCO_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_LO_ESD[0] of cell EN_CP_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_LO_ESD[0] of cell EN_VCO_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_LO_ESD[0] of cell GPIO_0_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_LO_ESD[0] of cell GPIO_1_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_LO_ESD[0] of cell GPIO_2_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_LO_ESD[0] of cell GPIO_3_PAD (sky130_fd_io__top_gpiov2)
+Warning: multiple conflicting drivers for chip_io.\TIE_HI_ESD:
+    port TIE_HI_ESD[0] of cell B_CP_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_HI_ESD[0] of cell B_VCO_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_HI_ESD[0] of cell EN_CP_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_HI_ESD[0] of cell EN_VCO_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_HI_ESD[0] of cell GPIO_0_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_HI_ESD[0] of cell GPIO_1_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_HI_ESD[0] of cell GPIO_2_PAD (sky130_fd_io__top_gpiov2)
+    port TIE_HI_ESD[0] of cell GPIO_3_PAD (sky130_fd_io__top_gpiov2)
+Warning: Wire chip_io.\VCO_IN_pll is used but has no driver.
+Warning: Wire chip_io.\REF_CLK_pll is used but has no driver.
+Warning: Wire chip_io.\VDDIO is used but has no driver.
+Warning: Wire chip_io.\GNDO_pll is used but has no driver.
+Warning: Wire chip_io.\VCCD1 is used but has no driver.
+Warning: Wire chip_io.\VSSD1 is used but has no driver.
+found and reported 8 problems.
+
+11. Printing statistics.
+
+=== chip_io ===
+
+   Number of wires:                 47
+   Number of wire bits:             47
+   Number of public wires:          47
+   Number of public wire bits:      47
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                 19
+     sky130_fd_io__top_gpiov2        8
+     sky130_fd_io__top_ground_hvc_wpad      2
+     sky130_fd_io__top_ground_lvc_wpad      2
+     sky130_fd_io__top_power_hvc_wpad      2
+     sky130_fd_io__top_power_lvc_wpad      5
+
+   Area for cell type \sky130_fd_io__top_power_lvc_wpad is unknown!
+   Area for cell type \sky130_fd_io__top_ground_hvc_wpad is unknown!
+   Area for cell type \sky130_fd_io__top_ground_lvc_wpad is unknown!
+   Area for cell type \sky130_fd_io__top_power_hvc_wpad is unknown!
+   Area for cell type \sky130_fd_io__top_gpiov2 is unknown!
+
+12. Executing Verilog backend.
+Dumping module `\chip_io'.
+
+Warnings: 8 unique messages, 8 total
+End of script. Logfile hash: 4d018a5b10, CPU: user 0.07s system 0.00s, MEM: 15.84 MB peak
+Yosys 0.9+3621 (git sha1 84e9fa7, gcc 8.3.1 -fPIC -Os)
+Time spent: 44% 2x stat (0 sec), 27% 6x read_verilog (0 sec), ...
