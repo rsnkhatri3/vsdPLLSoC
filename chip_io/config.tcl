@@ -3,13 +3,19 @@ set ::env(DESIGN_NAME) chip_io
 # Change if needed
 set ::env(VERILOG_FILES) [glob $::env(DESIGN_DIR)/src/chip_io.v]
 
+#set ::env(VERILOG_FILES) [glob $::env(DESIGN_DIR)/src/sky130_ef_io__vdda_hvc_pad.v]
+
+#set ::env(VERILOG_FILES) [glob $::env(DESIGN_DIR)/src/sky130_ef_io__vddio_hvc_pad.v]
+
+set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/sky130_ef_io.v]
+
 set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/sky130_fd_io__top_gpiov2.v]
 
 set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/sky130_fd_io__top_ground_hvc_wpad.v]
 
 set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/sky130_fd_io__top_ground_lvc_wpad.v]
 
-set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/sky130_fd_io__top_power_hvc_wpad.v]
+set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/sky130_fd_io__top_power_hvc_wpadv2.v]
 
 set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/sky130_fd_io__top_power_lvc_wpad.v]
 

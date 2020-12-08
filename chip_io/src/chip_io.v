@@ -1,9 +1,11 @@
 `include "sky130_fd_io__top_ground_hvc_wpad.v"
 `include "sky130_fd_io__top_ground_lvc_wpad.v"
-`include "sky130_fd_io__top_power_hvc_wpad.v"
+`include "sky130_fd_io__top_power_hvc_wpadv2.v"
 `include "sky130_fd_io__top_power_lvc_wpad.v"
 `include "sky130_fd_io__top_gpiov2.v"
-
+//`include "sky130_ef_io__vddio_hvc_pad.v"
+//`include "sky130_ef_io__vdda_hvc_pad.v"
+`include "sky130_ef_io.v"
 
 
 module chip_io (input GPIO_0,
@@ -28,10 +30,10 @@ module chip_io (input GPIO_0,
 		input B_CP_pll, 
 		output B_VCO, 
 		input B_VCO_pll, 
-		input VDDA, 
+		input VDDA2, 
 		input VSSA, 
-		input VDDD,
-		input  VSSD,
+		input VDDD2,
+		input VSSD,
 		input VDDR,
 		input GNDR,
 		input VDDO,
@@ -687,7 +689,7 @@ sky130_fd_io__top_power_lvc_wpad VDDD_PAD ( .P_PAD(VDDD),
 
 
 
-sky130_fd_io__top_power_hvc_wpad VDDR_PAD( .P_PAD(VDDR), 
+sky130_fd_io__top_power_hvc_wpadv2 VDDR_PAD( .P_PAD(VDDR), 
                                    .AMUXBUS_A(), 
                                    .AMUXBUS_B()
                                   // .P_CORE(VDDR_pll), 
@@ -730,10 +732,10 @@ sky130_fd_io__top_ground_hvc_wpad GNDR_PAD ( .G_PAD(GNDR),
 
 
 
-sky130_fd_io__top_power_hvc_wpad VDDO_PAD( .P_PAD(VDDO), 
+sky130_fd_io__top_power_hvc_wpadv2 VDDO_PAD( .P_PAD(VDDO), 
                                    .AMUXBUS_A(), 
                                    .AMUXBUS_B()
-                                  // .P_CORE(VDDO_pll), 
+                                  // .P_CORE(VDDR_pll), 
                                   // .DRN_HVC(VDDA1), 
                                   // .OGC_HVC(), 
                                   // .SRC_BDY_HVC(VSSA1),
@@ -770,6 +772,74 @@ sky130_fd_io__top_ground_hvc_wpad GNDO_PAD ( .G_PAD(GNDO),
                                    // .VSSD(VSSD1), 
                                    // .VSSIO_Q()
                                          );
+ 
+ 
+sky130_ef_io__corner_pad corner_1 (.AMUXBUS_A(), 
+                                   .AMUXBUS_B(), 
+	                           .VSSA(VSSA1), 
+	                           .VDDA(VDDA1), 
+	                           .VSWITCH(VDDIO), 
+	                           .VDDIO_Q(), 
+	                           .VCCHIB(VCCD1), 
+	                           .VDDIO(VDDIO), 
+	                           .VCCD(VCCD1),
+	                           .VSSIO(VSSIO), 
+	                           .VSSD(VSSD1), 
+	                           .VSSIO_Q()
+                                       );
+  
+  
+  
+sky130_ef_io__corner_pad corner_2 (.AMUXBUS_A(), 
+                                   .AMUXBUS_B(), 
+	                           .VSSA(VSSA1), 
+	                           .VDDA(VDDA1), 
+	                           .VSWITCH(VDDIO), 
+	                           .VDDIO_Q(), 
+	                           .VCCHIB(VCCD1), 
+	                           .VDDIO(VDDIO), 
+	                           .VCCD(VCCD1),
+	                           .VSSIO(VSSIO), 
+	                           .VSSD(VSSD1), 
+	                           .VSSIO_Q()
+                                       );
+ 
+ 
+sky130_ef_io__corner_pad corner_3 (.AMUXBUS_A(), 
+                                   .AMUXBUS_B(), 
+	                           .VSSA(VSSA1), 
+	                           .VDDA(VDDA1), 
+	                           .VSWITCH(VDDIO), 
+	                           .VDDIO_Q(), 
+	                           .VCCHIB(VCCD1), 
+	                           .VDDIO(VDDIO), 
+	                           .VCCD(VCCD1),
+	                           .VSSIO(VSSIO), 
+	                           .VSSD(VSSD1), 
+	                           .VSSIO_Q()
+                                       );
+ 
+ 
+ 
+sky130_ef_io__corner_pad corner_4 (.AMUXBUS_A(), 
+                                   .AMUXBUS_B(), 
+	                           .VSSA(VSSA1), 
+	                           .VDDA(VDDA1), 
+	                           .VSWITCH(VDDIO), 
+	                           .VDDIO_Q(), 
+	                           .VCCHIB(VCCD1), 
+	                           .VDDIO(VDDIO), 
+	                           .VCCD(VCCD1),
+	                           .VSSIO(VSSIO), 
+	                           .VSSD(VSSD1), 
+	                           .VSSIO_Q()
+                                       );
+ 
+ 
+
+ 
+ 
+ 
                                      
 endmodule                                         
                                          

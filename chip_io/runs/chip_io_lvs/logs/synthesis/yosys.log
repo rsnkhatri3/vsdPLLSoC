@@ -59,8 +59,46 @@ Successfully finished Verilog frontend.
 Parsing Verilog input from `/openLANE_flow/designs/chip_io/src/chip_io.v' to AST representation.
 Generating RTLIL representation for module `\sky130_fd_io__top_ground_hvc_wpad'.
 Generating RTLIL representation for module `\sky130_fd_io__top_ground_lvc_wpad'.
-Generating RTLIL representation for module `\sky130_fd_io__top_power_hvc_wpad'.
+Generating RTLIL representation for module `\sky130_fd_io__top_power_hvc_wpadv2'.
 Generating RTLIL representation for module `\sky130_fd_io__top_gpiov2'.
+Replacing existing blackbox module `\sky130_ef_io__vccd_hvc_pad' at /openLANE_flow/designs/chip_io/src/sky130_ef_io.v:12.1-52.10.
+Generating RTLIL representation for module `\sky130_ef_io__vccd_hvc_pad'.
+Replacing existing blackbox module `\sky130_ef_io__vccd_lvc_pad' at /openLANE_flow/designs/chip_io/src/sky130_ef_io.v:54.1-101.10.
+Generating RTLIL representation for module `\sky130_ef_io__vccd_lvc_pad'.
+Replacing existing blackbox module `\sky130_ef_io__vdda_lvc_pad' at /openLANE_flow/designs/chip_io/src/sky130_ef_io.v:103.1-150.10.
+Generating RTLIL representation for module `\sky130_ef_io__vdda_lvc_pad'.
+Replacing existing blackbox module `\sky130_ef_io__vdda_hvc_pad' at /openLANE_flow/designs/chip_io/src/sky130_ef_io.v:152.1-192.10.
+Generating RTLIL representation for module `\sky130_ef_io__vdda_hvc_pad'.
+Replacing existing blackbox module `\sky130_ef_io__vddio_lvc_pad' at /openLANE_flow/designs/chip_io/src/sky130_ef_io.v:194.1-243.10.
+Generating RTLIL representation for module `\sky130_ef_io__vddio_lvc_pad'.
+Replacing existing blackbox module `\sky130_ef_io__vddio_hvc_pad' at /openLANE_flow/designs/chip_io/src/sky130_ef_io.v:245.1-287.10.
+Generating RTLIL representation for module `\sky130_ef_io__vddio_hvc_pad'.
+Replacing existing blackbox module `\sky130_ef_io__vssd_lvc_pad' at /openLANE_flow/designs/chip_io/src/sky130_ef_io.v:289.1-336.10.
+Generating RTLIL representation for module `\sky130_ef_io__vssd_lvc_pad'.
+Replacing existing blackbox module `\sky130_ef_io__vssd_hvc_pad' at /openLANE_flow/designs/chip_io/src/sky130_ef_io.v:338.1-378.10.
+Generating RTLIL representation for module `\sky130_ef_io__vssd_hvc_pad'.
+Replacing existing blackbox module `\sky130_ef_io__vssio_lvc_pad' at /openLANE_flow/designs/chip_io/src/sky130_ef_io.v:380.1-429.10.
+Generating RTLIL representation for module `\sky130_ef_io__vssio_lvc_pad'.
+Replacing existing blackbox module `\sky130_ef_io__vssio_hvc_pad' at /openLANE_flow/designs/chip_io/src/sky130_ef_io.v:432.1-474.10.
+Generating RTLIL representation for module `\sky130_ef_io__vssio_hvc_pad'.
+Replacing existing blackbox module `\sky130_ef_io__vssa_lvc_pad' at /openLANE_flow/designs/chip_io/src/sky130_ef_io.v:476.1-523.10.
+Generating RTLIL representation for module `\sky130_ef_io__vssa_lvc_pad'.
+Replacing existing blackbox module `\sky130_ef_io__vssa_hvc_pad' at /openLANE_flow/designs/chip_io/src/sky130_ef_io.v:525.1-565.10.
+Generating RTLIL representation for module `\sky130_ef_io__vssa_hvc_pad'.
+Replacing existing blackbox module `\sky130_ef_io__corner_pad' at /openLANE_flow/designs/chip_io/src/sky130_ef_io.v:567.1-585.10.
+Generating RTLIL representation for module `\sky130_ef_io__corner_pad'.
+Replacing existing blackbox module `\sky130_fd_io__com_bus_slice' at /openLANE_flow/designs/chip_io/src/sky130_ef_io.v:587.1-605.10.
+Generating RTLIL representation for module `\sky130_fd_io__com_bus_slice'.
+Replacing existing blackbox module `\sky130_ef_io__com_bus_slice_1um' at /openLANE_flow/designs/chip_io/src/sky130_ef_io.v:607.1-625.10.
+Generating RTLIL representation for module `\sky130_ef_io__com_bus_slice_1um'.
+Replacing existing blackbox module `\sky130_ef_io__com_bus_slice_5um' at /openLANE_flow/designs/chip_io/src/sky130_ef_io.v:627.1-645.10.
+Generating RTLIL representation for module `\sky130_ef_io__com_bus_slice_5um'.
+Replacing existing blackbox module `\sky130_ef_io__com_bus_slice_10um' at /openLANE_flow/designs/chip_io/src/sky130_ef_io.v:647.1-665.10.
+Generating RTLIL representation for module `\sky130_ef_io__com_bus_slice_10um'.
+Replacing existing blackbox module `\sky130_ef_io__com_bus_slice_20um' at /openLANE_flow/designs/chip_io/src/sky130_ef_io.v:667.1-685.10.
+Generating RTLIL representation for module `\sky130_ef_io__com_bus_slice_20um'.
+Replacing existing blackbox module `\sky130_ef_io__gpiov2_pad' at /openLANE_flow/designs/chip_io/src/sky130_ef_io.v:687.1-774.10.
+Generating RTLIL representation for module `\sky130_ef_io__gpiov2_pad'.
 Generating RTLIL representation for module `\chip_io'.
 Successfully finished Verilog frontend.
 
@@ -75,7 +113,20 @@ Top module:  \chip_io
 
 5.2. Analyzing design hierarchy..
 Top module:  \chip_io
-Removed 0 unused modules.
+Removing unused module `\sky130_ef_io__gpiov2_pad'.
+Removing unused module `\sky130_ef_io__vssa_hvc_pad'.
+Removing unused module `\sky130_ef_io__vssa_lvc_pad'.
+Removing unused module `\sky130_ef_io__vssio_hvc_pad'.
+Removing unused module `\sky130_ef_io__vssio_lvc_pad'.
+Removing unused module `\sky130_ef_io__vssd_hvc_pad'.
+Removing unused module `\sky130_ef_io__vssd_lvc_pad'.
+Removing unused module `\sky130_ef_io__vddio_hvc_pad'.
+Removing unused module `\sky130_ef_io__vddio_lvc_pad'.
+Removing unused module `\sky130_ef_io__vdda_hvc_pad'.
+Removing unused module `\sky130_ef_io__vdda_lvc_pad'.
+Removing unused module `\sky130_ef_io__vccd_lvc_pad'.
+Removing unused module `\sky130_ef_io__vccd_hvc_pad'.
+Removed 13 unused modules.
 
 6. Executing FLATTEN pass (flatten design).
 
@@ -83,18 +134,19 @@ Removed 0 unused modules.
 
 === chip_io ===
 
-   Number of wires:                 47
-   Number of wire bits:             47
-   Number of public wires:          47
-   Number of public wire bits:      47
+   Number of wires:                 49
+   Number of wire bits:             49
+   Number of public wires:          49
+   Number of public wire bits:      49
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:                 19
+   Number of cells:                 23
+     sky130_ef_io__corner_pad        4
      sky130_fd_io__top_gpiov2        8
      sky130_fd_io__top_ground_hvc_wpad      2
      sky130_fd_io__top_ground_lvc_wpad      2
-     sky130_fd_io__top_power_hvc_wpad      2
+     sky130_fd_io__top_power_hvc_wpadv2      2
      sky130_fd_io__top_power_lvc_wpad      5
 
 8. Executing SPLITNETS pass (splitting up multi-bit signals).
@@ -124,40 +176,38 @@ Warning: multiple conflicting drivers for chip_io.\TIE_HI_ESD:
     port TIE_HI_ESD[0] of cell GPIO_3_PAD (sky130_fd_io__top_gpiov2)
 Warning: Wire chip_io.\VCO_IN_pll is used but has no driver.
 Warning: Wire chip_io.\REF_CLK_pll is used but has no driver.
-Warning: Wire chip_io.\VDDIO is used but has no driver.
-Warning: Wire chip_io.\GNDO_pll is used but has no driver.
-Warning: Wire chip_io.\VCCD1 is used but has no driver.
-Warning: Wire chip_io.\VSSD1 is used but has no driver.
-found and reported 8 problems.
+found and reported 4 problems.
 
 11. Printing statistics.
 
 === chip_io ===
 
-   Number of wires:                 47
-   Number of wire bits:             47
-   Number of public wires:          47
-   Number of public wire bits:      47
+   Number of wires:                 49
+   Number of wire bits:             49
+   Number of public wires:          49
+   Number of public wire bits:      49
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:                 19
+   Number of cells:                 23
+     sky130_ef_io__corner_pad        4
      sky130_fd_io__top_gpiov2        8
      sky130_fd_io__top_ground_hvc_wpad      2
      sky130_fd_io__top_ground_lvc_wpad      2
-     sky130_fd_io__top_power_hvc_wpad      2
+     sky130_fd_io__top_power_hvc_wpadv2      2
      sky130_fd_io__top_power_lvc_wpad      5
 
    Area for cell type \sky130_fd_io__top_power_lvc_wpad is unknown!
+   Area for cell type \sky130_ef_io__corner_pad is unknown!
    Area for cell type \sky130_fd_io__top_ground_hvc_wpad is unknown!
    Area for cell type \sky130_fd_io__top_ground_lvc_wpad is unknown!
-   Area for cell type \sky130_fd_io__top_power_hvc_wpad is unknown!
+   Area for cell type \sky130_fd_io__top_power_hvc_wpadv2 is unknown!
    Area for cell type \sky130_fd_io__top_gpiov2 is unknown!
 
 12. Executing Verilog backend.
 Dumping module `\chip_io'.
 
-Warnings: 8 unique messages, 8 total
-End of script. Logfile hash: 4d018a5b10, CPU: user 0.07s system 0.00s, MEM: 15.84 MB peak
+Warnings: 4 unique messages, 4 total
+End of script. Logfile hash: 95b1f354f9, CPU: user 0.08s system 0.00s, MEM: 14.93 MB peak
 Yosys 0.9+3621 (git sha1 84e9fa7, gcc 8.3.1 -fPIC -Os)
-Time spent: 44% 2x stat (0 sec), 27% 6x read_verilog (0 sec), ...
+Time spent: 39% 6x read_verilog (0 sec), 35% 2x stat (0 sec), ...
