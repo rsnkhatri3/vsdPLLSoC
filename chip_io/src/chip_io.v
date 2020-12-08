@@ -1,11 +1,11 @@
 `include "sky130_fd_io__top_ground_hvc_wpad.v"
 `include "sky130_fd_io__top_ground_lvc_wpad.v"
-`include "sky130_fd_io__top_power_hvc_wpadv2.v"
+//`include "sky130_fd_io__top_power_hvc_wpadv2.v"
 `include "sky130_fd_io__top_power_lvc_wpad.v"
 `include "sky130_fd_io__top_gpiov2.v"
-//`include "sky130_ef_io__vddio_hvc_pad.v"
-//`include "sky130_ef_io__vdda_hvc_pad.v"
-`include "sky130_ef_io.v"
+`include "sky130_ef_io__vddio_hvc_pad.v"
+`include "sky130_ef_io__vdda_hvc_pad.v"
+`include "sky130_ef_io__corner_pad.v"
 
 
 module chip_io (input GPIO_0,
@@ -97,7 +97,7 @@ wire   VSSA1;
 wire   VCCD1;
 wire   VSSD1;
 
-assign VDDIO = VDDR_pll;
+//assign VDDIO = VDDR_pll;
 assign VSSIO = GNDR_pll;
 
 assign VDDA1 = VDDO_pll;
@@ -331,7 +331,7 @@ sky130_fd_io__top_gpiov2 GPIO_3_PAD (.IN_H(),
                                 );
 
 
-sky130_fd_io__top_gpiov2 EN_VCO_PAD (.IN_H(),
+sky130_fd_io__top_gpiov2 ENb_VCO_PAD (.IN_H(),
                                   .PAD_A_NOESD_H(),
                                   .PAD_A_ESD_0_H(),
                                   .PAD_A_ESD_1_H(),
@@ -377,7 +377,7 @@ sky130_fd_io__top_gpiov2 EN_VCO_PAD (.IN_H(),
 
 
 
-sky130_fd_io__top_gpiov2 EN_CP_PAD (.IN_H(),
+sky130_fd_io__top_gpiov2 ENb_CP_PAD (.IN_H(),
                                   .PAD_A_NOESD_H(),
                                   .PAD_A_ESD_0_H(),
                                   .PAD_A_ESD_1_H(),
@@ -689,25 +689,21 @@ sky130_fd_io__top_power_lvc_wpad VDDD_PAD ( .P_PAD(VDDD),
 
 
 
-sky130_fd_io__top_power_hvc_wpadv2 VDDR_PAD( .P_PAD(VDDR), 
-                                   .AMUXBUS_A(), 
-                                   .AMUXBUS_B()
-                                  // .P_CORE(VDDR_pll), 
-                                  // .DRN_HVC(VDDA1), 
-                                  // .OGC_HVC(), 
-                                  // .SRC_BDY_HVC(VSSA1),
-                                   
-                                  // .VSSA(VSSA1), 
-                                  // .VDDA(VDDA1), 
-                                  // .VSWITCH(VDDIO), 
-                                  // .VDDIO_Q(), 
-                                  // .VCCHIB(VCCD1), 
-                                  // .VDDIO(VDDIO), 
-                                  // .VCCD(VCCD1), 
-                                  // .VSSIO(VSSIO), 
-                                  // .VSSD(VSSD1), 
-                                  // .VSSIO_Q()
-                                        );
+sky130_ef_io__vddio_hvc_pad  VDDR_PAD (.AMUXBUS_A(), 
+                                      .AMUXBUS_B(), 
+                                      .DRN_HVC(VDDA),
+	                              .SRC_BDY_HVC(VSSA1),
+	                              .VSSA(VSSA1), 
+	                              .VDDA(VDDA1), 
+	                              .VSWITCH(VDDIO), 
+	                              .VDDIO_Q(), 
+	                              .VCCHIB(VCCD1), 
+	                              .VDDIO(VDDR), 
+	                              .VCCD(VCCD1),
+	                              .VSSIO(VSSIO), 
+	                              .VSSD(VSSD1), 
+	                              .VSSIO_Q()
+                                       );
 
 
 
@@ -732,25 +728,22 @@ sky130_fd_io__top_ground_hvc_wpad GNDR_PAD ( .G_PAD(GNDR),
 
 
 
-sky130_fd_io__top_power_hvc_wpadv2 VDDO_PAD( .P_PAD(VDDO), 
-                                   .AMUXBUS_A(), 
-                                   .AMUXBUS_B()
-                                  // .P_CORE(VDDR_pll), 
-                                  // .DRN_HVC(VDDA1), 
-                                  // .OGC_HVC(), 
-                                  // .SRC_BDY_HVC(VSSA1),
-                                   
-                                  // .VSSA(VSSA1), 
-                                  // .VDDA(VDDA1), 
-                                  // .VSWITCH(VDDIO), 
-                                  // .VDDIO_Q(), 
-                                  // .VCCHIB(VCCD1), 
-                                  // .VDDIO(VDDIO), 
-                                  // .VCCD(VCCD1), 
-                                  // .VSSIO(VSSIO), 
-                                  // .VSSD(VSSD1), 
-                                  // .VSSIO_Q()
-                                        );
+sky130_ef_io__vdda_hvc_pad  VDDO_PAD (.AMUXBUS_A(), 
+                                      .AMUXBUS_B(), 
+                                      .DRN_HVC(VDDA),
+	                              .SRC_BDY_HVC(VSSA1),
+	                              .VSSA(VSSA1), 
+	                              .VDDA(VDDO), 
+	                              .VSWITCH(VDDIO), 
+	                              .VDDIO_Q(), 
+	                              .VCCHIB(VCCD1), 
+	                              .VDDIO(VDDIO), 
+	                              .VCCD(VCCD1),
+	                              .VSSIO(VSSIO), 
+	                              .VSSD(VSSD1), 
+	                              .VSSIO_Q()
+                                       );
+  
 
 
 

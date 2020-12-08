@@ -113,7 +113,7 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .AMUXBUS_B(),
     .P_PAD(CLK)
   );
-  sky130_fd_io__top_gpiov2 EN_CP_PAD (
+  sky130_fd_io__top_gpiov2 ENb_CP_PAD (
     .AMUXBUS_A(),
     .AMUXBUS_B(),
     .ANALOG_EN(VSSD1),
@@ -142,7 +142,7 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .TIE_LO_ESD(TIE_LO_ESD),
     .VTRIP_SEL(VSSD1)
   );
-  sky130_fd_io__top_gpiov2 EN_VCO_PAD (
+  sky130_fd_io__top_gpiov2 ENb_VCO_PAD (
     .AMUXBUS_A(),
     .AMUXBUS_B(),
     .ANALOG_EN(VSSD1),
@@ -317,15 +317,37 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .AMUXBUS_B(),
     .P_PAD(VDDD)
   );
-  sky130_fd_io__top_power_hvc_wpadv2 VDDO_PAD (
+  sky130_ef_io__vdda_hvc_pad VDDO_PAD (
     .AMUXBUS_A(),
     .AMUXBUS_B(),
-    .P_PAD(VDDO)
+    .DRN_HVC(VDDA),
+    .SRC_BDY_HVC(GNDO_pll),
+    .VCCD(VCCD1),
+    .VCCHIB(VCCD1),
+    .VDDA(VDDO),
+    .VDDIO(VDDIO),
+    .VDDIO_Q(),
+    .VSSA(GNDO_pll),
+    .VSSD(VSSD1),
+    .VSSIO(GNDR_pll),
+    .VSSIO_Q(),
+    .VSWITCH(VDDIO)
   );
-  sky130_fd_io__top_power_hvc_wpadv2 VDDR_PAD (
+  sky130_ef_io__vddio_hvc_pad VDDR_PAD (
     .AMUXBUS_A(),
     .AMUXBUS_B(),
-    .P_PAD(VDDR)
+    .DRN_HVC(VDDA),
+    .SRC_BDY_HVC(GNDO_pll),
+    .VCCD(VCCD1),
+    .VCCHIB(VCCD1),
+    .VDDA(VDDA1),
+    .VDDIO(VDDR),
+    .VDDIO_Q(),
+    .VSSA(GNDO_pll),
+    .VSSD(VSSD1),
+    .VSSIO(GNDR_pll),
+    .VSSIO_Q(),
+    .VSWITCH(VDDIO)
   );
   sky130_fd_io__top_ground_lvc_wpad VSSA_PAD (
     .AMUXBUS_A(),
@@ -394,7 +416,6 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .VSWITCH(VDDIO)
   );
   assign VDDO_pll = VDDA1;
-  assign VDDR_pll = VDDIO;
   assign VDDD_pll = VCCD1;
   assign VSSD_pll = VSSD1;
   assign VSSA1 = GNDO_pll;

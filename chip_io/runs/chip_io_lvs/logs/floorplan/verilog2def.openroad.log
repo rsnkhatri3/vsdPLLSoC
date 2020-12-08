@@ -11,7 +11,8 @@ Notice 0: Finished LEF file:  /openLANE_flow/designs/chip_io/runs/chip_io/tmp/me
 Warning: LEF master sky130_fd_io__top_gpiov2 has no liberty cell.
 Warning: LEF master sky130_fd_io__top_power_lvc_wpad has no liberty cell.
 Warning: LEF master sky130_fd_io__top_ground_hvc_wpad has no liberty cell.
-Warning: LEF master sky130_fd_io__top_power_hvc_wpadv2 has no liberty cell.
+Warning: LEF master sky130_ef_io__vdda_hvc_pad has no liberty cell.
+Warning: LEF master sky130_ef_io__vddio_hvc_pad has no liberty cell.
 Warning: LEF master sky130_fd_io__top_ground_lvc_wpad has no liberty cell.
 Warning: LEF master sky130_ef_io__corner_pad has no liberty cell.
 [INFO] Using the set CORE_AREA; ignoring core margin parameters

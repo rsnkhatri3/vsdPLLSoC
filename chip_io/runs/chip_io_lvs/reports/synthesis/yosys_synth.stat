@@ -12,9 +12,10 @@
    Number of processes:              0
    Number of cells:                 23
      sky130_ef_io__corner_pad        4
+     sky130_ef_io__vdda_hvc_pad      1
+     sky130_ef_io__vddio_hvc_pad      1
      sky130_fd_io__top_gpiov2        8
      sky130_fd_io__top_ground_hvc_wpad      2
      sky130_fd_io__top_ground_lvc_wpad      2
-     sky130_fd_io__top_power_hvc_wpadv2      2
      sky130_fd_io__top_power_lvc_wpad      5
 

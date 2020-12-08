@@ -1,0 +1,6 @@
+during executing: "/openLANE_flow/scripts/remove_pins.sh /openLANE_flow/designs/chip_io/runs/chip_io/results/floorplan/padframe.def"
+Last 10 lines:
+sed: can't read /openLANE_flow/designs/chip_io/runs/chip_io/results/floorplan/padframe.def: No such file or directory
+sed: can't read /openLANE_flow/designs/chip_io/runs/chip_io/results/floorplan/padframe.def: No such file or directory
+sed: can't read /openLANE_flow/designs/chip_io/runs/chip_io/results/floorplan/padframe.def: No such file or directory
+

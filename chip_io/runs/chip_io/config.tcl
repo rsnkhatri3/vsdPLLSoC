@@ -13,7 +13,7 @@ set ::env(CLOCK_PERIOD) "200"
 set ::env(LIB_SYNTH) "/openLANE_flow/designs/chip_io/runs/chip_io_lvs/tmp/trimmed.lib"
 set ::env(LIB_SYNTH_COMPLETE) "/home/roshan/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/open_pdks/sky130/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
 
-set ::env(USE_GPIO_ROUTING_LEF) 1
+set ::env(SYNTH_DEFINES) "TOP_ROUTING"
 
 set ::env(SYNTH_DRIVING_CELL) "sky130_fd_sc_hd__inv_8"
 set ::env(SYNTH_CAP_LOAD) "17.65"
@@ -82,6 +82,6 @@ set ::env(CHECK_ASSIGN_STATEMENTS) "0"
 set ::env(CHECK_UNMAPPED_CELLS) "1"
 set ::env(USE_ARC_ANTENNA_CHECK) "1"
 set ::env(RUN_SPEF_EXTRACTION) "1"
-set ::env(CURRENT_DEF) /openLANE_flow/designs/chip_io/runs/chip_io_lvs/tmp/floorplan/verilog2def_openroad.def
+set ::env(CURRENT_DEF) /openLANE_flow/designs/chip_io/runs/chip_io/results/floorplan/padframe.def
 set ::env(CURRENT_NETLIST) /openLANE_flow/designs/chip_io/runs/chip_io_lvs/results/synthesis/chip_io.synthesis.v
 set ::env(PREV_NETLIST) /openLANE_flow/designs/chip_io/runs/chip_io_lvs/results/synthesis/chip_io.synthesis.v
