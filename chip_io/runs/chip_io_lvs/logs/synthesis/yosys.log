@@ -131,11 +131,6 @@ Finding unused cells or wires in module \chip_io..
 
 11. Executing CHECK pass (checking for obvious problems).
 checking module chip_io..
-Warning: multiple conflicting drivers for chip_io.\B_0_pll:
-    port IN[0] of cell GPIO_0_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port IN[0] of cell GPIO_1_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port IN[0] of cell GPIO_2_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port IN[0] of cell GPIO_3_PAD (sky130_ef_io__gpiov2_pad_wrapped)
 Warning: multiple conflicting drivers for chip_io.\TIE_LO_ESD:
     port TIE_LO_ESD[0] of cell B_CP_PAD (sky130_ef_io__gpiov2_pad_wrapped)
     port TIE_LO_ESD[0] of cell B_VCO_PAD (sky130_ef_io__gpiov2_pad_wrapped)
@@ -154,10 +149,7 @@ Warning: multiple conflicting drivers for chip_io.\TIE_HI_ESD:
     port TIE_HI_ESD[0] of cell GPIO_1_PAD (sky130_ef_io__gpiov2_pad_wrapped)
     port TIE_HI_ESD[0] of cell GPIO_2_PAD (sky130_ef_io__gpiov2_pad_wrapped)
     port TIE_HI_ESD[0] of cell GPIO_3_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-Warning: Wire chip_io.\B_3_pll is used but has no driver.
-Warning: Wire chip_io.\B_2_pll is used but has no driver.
-Warning: Wire chip_io.\B_1_pll is used but has no driver.
-found and reported 6 problems.
+found and reported 2 problems.
 
 12. Printing statistics.
 
@@ -198,7 +190,7 @@ found and reported 6 problems.
 13. Executing Verilog backend.
 Dumping module `\chip_io'.
 
-Warnings: 6 unique messages, 6 total
-End of script. Logfile hash: c62c70e5f7, CPU: user 0.08s system 0.01s, MEM: 14.75 MB peak
+Warnings: 2 unique messages, 2 total
+End of script. Logfile hash: 74cf3effa5, CPU: user 0.06s system 0.01s, MEM: 14.58 MB peak
 Yosys 0.9+3621 (git sha1 84e9fa7, gcc 8.3.1 -fPIC -Os)
-Time spent: 39% 2x write_verilog (0 sec), 28% 2x stat (0 sec), ...
+Time spent: 40% 2x write_verilog (0 sec), 28% 2x stat (0 sec), ...

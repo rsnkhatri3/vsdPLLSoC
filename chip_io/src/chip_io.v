@@ -120,9 +120,7 @@ sky130_ef_io__gpiov2_pad_wrapped GPIO_0_PAD (.IN_H(),
                                   .PAD_A_NOESD_H(),
                                   .PAD_A_ESD_0_H(),
                                   .PAD_A_ESD_1_H(),
-                                  
-                                  .PAD(GPIO_0), 
-                                  
+                                     
                                   .DM({VSSD,VSSD,VCCD}), 
                                   .HLD_H_N(VDDIO), 
                                  
@@ -145,9 +143,12 @@ sky130_ef_io__gpiov2_pad_wrapped GPIO_0_PAD (.IN_H(),
                                   .ENABLE_VSWITCH_H(VSSA_hv),     
                                   .ANALOG_POL(VSSD), 
                                   .OUT(VSSD), 
+                                  
+                                  
+             `ifndef TOP_ROUTING                    
+                                  .PAD(GPIO_0), 
                                   .AMUXBUS_A(), 
                                   .AMUXBUS_B(),
-                                  
                                   .VSSA(VSSA), 
                                   .VDDA(VDDA), 
                                   .VSWITCH(VDDIO), 
@@ -158,6 +159,7 @@ sky130_ef_io__gpiov2_pad_wrapped GPIO_0_PAD (.IN_H(),
                                   .VSSIO(VSSIO),
                                   .VSSD(VSSD), 
                                   .VSSIO_Q()
+             `endif                     
                                 );
 
 
@@ -167,13 +169,11 @@ sky130_ef_io__gpiov2_pad_wrapped GPIO_1_PAD (.IN_H(),
                                   .PAD_A_NOESD_H(),
                                   .PAD_A_ESD_0_H(),
                                   .PAD_A_ESD_1_H(),
-                                  
-                                  .PAD(GPIO_0), 
-                                  
+                                     
                                   .DM({VSSD,VSSD,VCCD}), 
                                   .HLD_H_N(VDDIO), 
                                  
-                                  .IN(B_0_pll), 
+                                  .IN(B_1_pll), 
                                   
                                   .INP_DIS(VSSD), 
                                   .IB_MODE_SEL(VSSD), 
@@ -192,9 +192,11 @@ sky130_ef_io__gpiov2_pad_wrapped GPIO_1_PAD (.IN_H(),
                                   .ENABLE_VSWITCH_H(VSSA_hv),     
                                   .ANALOG_POL(VSSD), 
                                   .OUT(VSSD), 
-                                  .AMUXBUS_A(), 
-                                  .AMUXBUS_B(),
                                   
+            `ifndef TOP_ROUTING                      
+                                  .PAD(GPIO_1),
+                                  .AMUXBUS_A(), 
+                                  .AMUXBUS_B(),                                  
                                   .VSSA(VSSA), 
                                   .VDDA(VDDA), 
                                   .VSWITCH(VDDIO), 
@@ -205,6 +207,7 @@ sky130_ef_io__gpiov2_pad_wrapped GPIO_1_PAD (.IN_H(),
                                   .VSSIO(VSSIO),
                                   .VSSD(VSSD), 
                                   .VSSIO_Q()
+             `endif                     
                                 );
                                 
                                 
@@ -214,14 +217,12 @@ sky130_ef_io__gpiov2_pad_wrapped GPIO_1_PAD (.IN_H(),
 sky130_ef_io__gpiov2_pad_wrapped GPIO_2_PAD (.IN_H(),
                                   .PAD_A_NOESD_H(),
                                   .PAD_A_ESD_0_H(),
-                                  .PAD_A_ESD_1_H(),
-                                  
-                                  .PAD(GPIO_0), 
+                                  .PAD_A_ESD_1_H(),          
                                   
                                   .DM({VSSD,VSSD,VCCD}), 
                                   .HLD_H_N(VDDIO), 
                                  
-                                  .IN(B_0_pll), 
+                                  .IN(B_2_pll), 
                                   
                                   .INP_DIS(VSSD), 
                                   .IB_MODE_SEL(VSSD), 
@@ -240,9 +241,11 @@ sky130_ef_io__gpiov2_pad_wrapped GPIO_2_PAD (.IN_H(),
                                   .ENABLE_VSWITCH_H(VSSA_hv),     
                                   .ANALOG_POL(VSSD), 
                                   .OUT(VSSD), 
-                                  .AMUXBUS_A(), 
-                                  .AMUXBUS_B(),
                                   
+              `ifndef TOP_ROUTING                    
+                                  .PAD(GPIO_2),
+                                  .AMUXBUS_A(), 
+                                  .AMUXBUS_B(),                                  
                                   .VSSA(VSSA), 
                                   .VDDA(VDDA), 
                                   .VSWITCH(VDDIO), 
@@ -253,6 +256,7 @@ sky130_ef_io__gpiov2_pad_wrapped GPIO_2_PAD (.IN_H(),
                                   .VSSIO(VSSIO),
                                   .VSSD(VSSD), 
                                   .VSSIO_Q()
+               `endif                    
                                 );                                
                                 
                                 
@@ -260,14 +264,12 @@ sky130_ef_io__gpiov2_pad_wrapped GPIO_2_PAD (.IN_H(),
 sky130_ef_io__gpiov2_pad_wrapped GPIO_3_PAD (.IN_H(),
                                   .PAD_A_NOESD_H(),
                                   .PAD_A_ESD_0_H(),
-                                  .PAD_A_ESD_1_H(),
-                                  
-                                  .PAD(GPIO_0), 
+                                  .PAD_A_ESD_1_H(),                                 
                                   
                                   .DM({VSSD,VSSD,VCCD}), 
                                   .HLD_H_N(VDDIO), 
                                  
-                                  .IN(B_0_pll), 
+                                  .IN(B_3_pll), 
                                   
                                   .INP_DIS(VSSD), 
                                   .IB_MODE_SEL(VSSD), 
@@ -286,9 +288,11 @@ sky130_ef_io__gpiov2_pad_wrapped GPIO_3_PAD (.IN_H(),
                                   .ENABLE_VSWITCH_H(VSSA_hv),     
                                   .ANALOG_POL(VSSD), 
                                   .OUT(VSSD), 
-                                  .AMUXBUS_A(), 
-                                  .AMUXBUS_B(),
                                   
+              `ifndef TOP_ROUTING                    
+                                  .PAD(GPIO_3), 
+                                  .AMUXBUS_A(), 
+                                  .AMUXBUS_B(),                                  
                                   .VSSA(VSSA), 
                                   .VDDA(VDDA), 
                                   .VSWITCH(VDDIO), 
@@ -299,6 +303,7 @@ sky130_ef_io__gpiov2_pad_wrapped GPIO_3_PAD (.IN_H(),
                                   .VSSIO(VSSIO),
                                   .VSSD(VSSD), 
                                   .VSSIO_Q()
+              `endif
                                 );
 
 
@@ -307,9 +312,7 @@ sky130_ef_io__gpiov2_pad_wrapped GPIO_3_PAD (.IN_H(),
 sky130_ef_io__gpiov2_pad_wrapped ENb_VCO_PAD (.IN_H(),
                                   .PAD_A_NOESD_H(),
                                   .PAD_A_ESD_0_H(),
-                                  .PAD_A_ESD_1_H(),
-                                  
-                                  .PAD(EN_VCO), 
+                                  .PAD_A_ESD_1_H(),         
                                   
                                   .HLD_H_N(VDDIO), 
                                  
@@ -332,9 +335,11 @@ sky130_ef_io__gpiov2_pad_wrapped ENb_VCO_PAD (.IN_H(),
                                   .ENABLE_VSWITCH_H(VSSA_hv),     
                                   .ANALOG_POL(VSSD), 
                                   .OUT(VSSD), 
-                                  .AMUXBUS_A(), 
-                                  .AMUXBUS_B(),
                                   
+             `ifndef TOP_ROUTING                     
+                                  .PAD(EN_VCO), 
+                                  .AMUXBUS_A(), 
+                                  .AMUXBUS_B(),  
                                   .VSSA(VSSA), 
                                   .VDDA(VDDA), 
                                   .VSWITCH(VDDIO), 
@@ -345,15 +350,14 @@ sky130_ef_io__gpiov2_pad_wrapped ENb_VCO_PAD (.IN_H(),
                                   .VSSIO(VSSIO),
                                   .VSSD(VSSD), 
                                   .VSSIO_Q()
+              `endif                   
                                 );
 
 
 sky130_ef_io__gpiov2_pad_wrapped ENb_CP_PAD (.IN_H(),
                                   .PAD_A_NOESD_H(),
                                   .PAD_A_ESD_0_H(),
-                                  .PAD_A_ESD_1_H(),
-                                  
-                                  .PAD(EN_CP), 
+                                  .PAD_A_ESD_1_H(), 
                                   
                                   .HLD_H_N(VDDIO), 
                                  
@@ -376,9 +380,11 @@ sky130_ef_io__gpiov2_pad_wrapped ENb_CP_PAD (.IN_H(),
                                   .ENABLE_VSWITCH_H(VSSA_hv),     
                                   .ANALOG_POL(VSSD), 
                                   .OUT(VSSD), 
-                                  .AMUXBUS_A(), 
-                                  .AMUXBUS_B(),
                                   
+               `ifndef TOP_ROUTING                   
+                                  .PAD(EN_CP), 
+                                  .AMUXBUS_A(), 
+                                  .AMUXBUS_B(),                                  
                                   .VSSA(VSSA), 
                                   .VDDA(VDDA), 
                                   .VSWITCH(VDDIO), 
@@ -389,6 +395,7 @@ sky130_ef_io__gpiov2_pad_wrapped ENb_CP_PAD (.IN_H(),
                                   .VSSIO(VSSIO),
                                   .VSSD(VSSD), 
                                   .VSSIO_Q()
+                `endif                   
                                 );
 
 
@@ -398,9 +405,7 @@ sky130_ef_io__gpiov2_pad_wrapped B_VCO_PAD (.IN_H(),
                                   .PAD_A_NOESD_H(),
                                   .PAD_A_ESD_0_H(),
                                   .PAD_A_ESD_1_H(),
-                                  
-                                  .PAD(B_VCO), 
-                                  
+                                   
                                   .DM({VCCD,VCCD,VSSD}), 
                                   .HLD_H_N(VDDIO), 
                                  
@@ -423,9 +428,11 @@ sky130_ef_io__gpiov2_pad_wrapped B_VCO_PAD (.IN_H(),
                                   .ENABLE_VSWITCH_H(VSSA_hv),     
                                   .ANALOG_POL(VSSD), 
                                   .OUT(B_VCO_pll), 
-                                  .AMUXBUS_A(), 
-                                  .AMUXBUS_B(),
                                   
+            `ifndef TOP_ROUTING                      
+                                  .PAD(B_VCO),
+                                  .AMUXBUS_A(), 
+                                  .AMUXBUS_B(),    
                                   .VSSA(VSSA), 
                                   .VDDA(VDDA), 
                                   .VSWITCH(VDDIO), 
@@ -436,6 +443,7 @@ sky130_ef_io__gpiov2_pad_wrapped B_VCO_PAD (.IN_H(),
                                   .VSSIO(VSSIO),
                                   .VSSD(VSSD), 
                                   .VSSIO_Q()
+            `endif                      
                                 );
 
 
@@ -444,8 +452,6 @@ sky130_ef_io__gpiov2_pad_wrapped B_CP_PAD (.IN_H(),
                                   .PAD_A_NOESD_H(),
                                   .PAD_A_ESD_0_H(),
                                   .PAD_A_ESD_1_H(),
-                                  
-                                  .PAD(B_CP), 
                                   
                                   .DM({VCCD,VCCD,VSSD}), 
                                   .HLD_H_N(VDDIO), 
@@ -469,9 +475,11 @@ sky130_ef_io__gpiov2_pad_wrapped B_CP_PAD (.IN_H(),
                                   .ENABLE_VSWITCH_H(VSSA_hv),     
                                   .ANALOG_POL(VSSD), 
                                   .OUT(B_CP_pll), 
-                                  .AMUXBUS_A(), 
-                                  .AMUXBUS_B(),
                                   
+                `ifndef TOP_ROUTING    
+                                  .PAD(B_CP),               
+                                  .AMUXBUS_A(), 
+                                  .AMUXBUS_B(),                                  
                                   .VSSA(VSSA), 
                                   .VDDA(VDDA), 
                                   .VSWITCH(VDDIO), 
@@ -482,6 +490,7 @@ sky130_ef_io__gpiov2_pad_wrapped B_CP_PAD (.IN_H(),
                                   .VSSIO(VSSIO),
                                   .VSSD(VSSD), 
                                   .VSSIO_Q()
+                `endif                  
                                 );
 
 
@@ -489,9 +498,7 @@ sky130_ef_io__gpiov2_pad_wrapped B_CP_PAD (.IN_H(),
 
 
 
-sky130_fd_io__top_power_lvc_wpad VCO_IN_PAD ( .P_PAD(VCO_IN), 
-                                   .AMUXBUS_A(), 
-                                   .AMUXBUS_B(),
+sky130_fd_io__top_power_lvc_wpad VCO_IN_PAD ( 
                                    .P_CORE(VCO_IN_pll), 
                                    .BDY2_B2B(VSSA), 
                                    .DRN_LVC1(VDDA), 
@@ -500,6 +507,10 @@ sky130_fd_io__top_power_lvc_wpad VCO_IN_PAD ( .P_PAD(VCO_IN),
                                    .SRC_BDY_LVC1(VSSA), 
                                    .SRC_BDY_LVC2(), 
                                    
+                `ifndef TOP_ROUTING                   
+                                   .P_PAD(VCO_IN), 
+                                   .AMUXBUS_A(), 
+                                   .AMUXBUS_B(),
                                    .VSSA(VSSA), 
                                    .VDDA(VDDA), 
                                    .VSWITCH(VDDIO), 
@@ -510,12 +521,11 @@ sky130_fd_io__top_power_lvc_wpad VCO_IN_PAD ( .P_PAD(VCO_IN),
                                    .VSSIO(VSSIO), 
                                    .VSSD(VSSD), 
                                    .VSSIO_Q()
+                 `endif                  
                                         );		
 		
 		
-sky130_fd_io__top_power_lvc_wpad REF_CLK_PAD ( .P_PAD(REF_CLK), 
-                                   .AMUXBUS_A(), 
-                                   .AMUXBUS_B(),
+sky130_fd_io__top_power_lvc_wpad REF_CLK_PAD ( 
                                    .P_CORE(REF_CLK_pll), 
                                    .BDY2_B2B(VSSA), 
                                    .DRN_LVC1(VDDA), 
@@ -524,6 +534,10 @@ sky130_fd_io__top_power_lvc_wpad REF_CLK_PAD ( .P_PAD(REF_CLK),
                                    .SRC_BDY_LVC1(VSSA), 
                                    .SRC_BDY_LVC2(), 
                                    
+                 `ifndef TOP_ROUTING                  
+                                   .P_PAD(REF_CLK), 
+                                   .AMUXBUS_A(), 
+                                   .AMUXBUS_B(),
                                    .VSSA(VSSA), 
                                    .VDDA(VDDA), 
                                    .VSWITCH(VDDIO), 
@@ -534,12 +548,11 @@ sky130_fd_io__top_power_lvc_wpad REF_CLK_PAD ( .P_PAD(REF_CLK),
                                    .VSSIO(VSSIO), 
                                    .VSSD(VSSD), 
                                    .VSSIO_Q()
+                  `endif                
                                         );		
                                         
                                         
-sky130_fd_io__top_power_lvc_wpad CLK_PAD ( .P_PAD(CLK), 
-                                   .AMUXBUS_A(), 
-                                   .AMUXBUS_B(),
+sky130_fd_io__top_power_lvc_wpad CLK_PAD ( 
                                    .P_CORE(CLK_pll), 
                                    .BDY2_B2B(VSSA), 
                                    .DRN_LVC1(VDDA), 
@@ -548,6 +561,10 @@ sky130_fd_io__top_power_lvc_wpad CLK_PAD ( .P_PAD(CLK),
                                    .SRC_BDY_LVC1(VSSA), 
                                    .SRC_BDY_LVC2(), 
                                    
+               `ifndef TOP_ROUTING                    
+                                   .P_PAD(CLK), 
+                                   .AMUXBUS_A(), 
+                                   .AMUXBUS_B(),
                                    .VSSA(VSSA), 
                                    .VDDA(VDDA), 
                                    .VSWITCH(VDDIO), 
@@ -558,20 +575,26 @@ sky130_fd_io__top_power_lvc_wpad CLK_PAD ( .P_PAD(CLK),
                                    .VSSIO(VSSIO), 
                                    .VSSD(VSSD), 
                                    .VSSIO_Q()
+                 `endif                  
                                         );                                        
                                         
 
 
-sky130_ef_io__vdda_lvc_pad VDDA_PAD (.AMUXBUS_A(), 
-                                     .AMUXBUS_B(), 
+sky130_ef_io__vdda_lvc_pad VDDA_PAD ( 
+
+                `ifdef TOP_ROUTING
+                                   .VDDA(VDDA),
+                `endif
                                    .BDY2_B2B(VSSA), 
                                    .DRN_LVC1(VDDA), 
                                    .DRN_LVC2(),  
                                    .SRC_BDY_LVC1(VSSA), 
                                    .SRC_BDY_LVC2(), 
                                    
-                                   .VSSA(VSSA), 
-                                   .VDDA(VDDA), 
+                `ifndef TOP_ROUTING                  
+                                   .AMUXBUS_A(), 
+                                   .AMUXBUS_B(),
+                                   .VSSA(VSSA),                                     
                                    .VSWITCH(VDDIO), 
                                    .VDDIO_Q(), 
                                    .VCCHIB(VCCD), 
@@ -580,18 +603,24 @@ sky130_ef_io__vdda_lvc_pad VDDA_PAD (.AMUXBUS_A(),
                                    .VSSIO(VSSIO), 
                                    .VSSD(VSSD), 
                                    .VSSIO_Q()
+                `endif                   
                                         );                                        
                                         
                                         
-sky130_ef_io__vssa_lvc_pad VSSA_PAD (.AMUXBUS_A(), 
-                                     .AMUXBUS_B(), 
+sky130_ef_io__vssa_lvc_pad VSSA_PAD ( 
+
+                `ifdef TOP_ROUTING
+                                   .VSSA(VSSA), 
+                `endif
                                    .BDY2_B2B(VSSA), 
                                    .DRN_LVC1(VDDA), 
                                    .DRN_LVC2(),  
                                    .SRC_BDY_LVC1(VSSA), 
                                    .SRC_BDY_LVC2(), 
                                    
-                                   .VSSA(VSSA), 
+                `ifndef TOP_ROUTING                   
+                                   .AMUXBUS_A(), 
+                                   .AMUXBUS_B(),                                   
                                    .VDDA(VDDA), 
                                    .VSWITCH(VDDIO), 
                                    .VDDIO_Q(), 
@@ -601,18 +630,53 @@ sky130_ef_io__vssa_lvc_pad VSSA_PAD (.AMUXBUS_A(),
                                    .VSSIO(VSSIO), 
                                    .VSSD(VSSD), 
                                    .VSSIO_Q()
+                 `endif                  
                                         ); 
                                         
                                         
                                         
-sky130_ef_io__vccd_lvc_pad VCCD_PAD (.AMUXBUS_A(), 
-                                     .AMUXBUS_B(), 
+sky130_ef_io__vccd_lvc_pad VCCD_PAD ( 
+
+               `ifdef TOP_ROUTING
+                                   .VCCD(VCCD), 
+               `endif                    
                                    .BDY2_B2B(VSSA), 
                                    .DRN_LVC1(VDDA), 
                                    .DRN_LVC2(),  
                                    .SRC_BDY_LVC1(VSSA), 
                                    .SRC_BDY_LVC2(), 
                                    
+              `ifndef TOP_ROUTING                   
+                                   .AMUXBUS_A(), 
+                                   .AMUXBUS_B(),
+                                   .VSSA(VSSA), 
+                                   .VDDA(VDDA), 
+                                   .VSWITCH(VDDIO), 
+                                   .VDDIO_Q(), 
+                                   .VCCHIB(VCCD), 
+                                   .VDDIO(VDDIO),                                 
+                                   .VSSIO(VSSIO), 
+                                   .VSSD(VSSD), 
+                                   .VSSIO_Q()
+               `endif                    
+                                        );                                        
+                                        
+                                        
+                                        
+sky130_ef_io__vssd_lvc_pad VSSD_PAD ( 
+
+              `ifdef TOP_ROUTING                     
+                                   .VSSD(VSSD),
+              `endif
+                                   .BDY2_B2B(VSSA), 
+                                   .DRN_LVC1(VDDA), 
+                                   .DRN_LVC2(),  
+                                   .SRC_BDY_LVC1(VSSA), 
+                                   .SRC_BDY_LVC2(), 
+                                     
+              `ifndef TOP_ROUTING                     
+                                   .AMUXBUS_A(), 
+                                   .AMUXBUS_B(), 
                                    .VSSA(VSSA), 
                                    .VDDA(VDDA), 
                                    .VSWITCH(VDDIO), 
@@ -620,60 +684,50 @@ sky130_ef_io__vccd_lvc_pad VCCD_PAD (.AMUXBUS_A(),
                                    .VCCHIB(VCCD), 
                                    .VDDIO(VDDIO), 
                                    .VCCD(VCCD), 
-                                   .VSSIO(VSSIO), 
-                                   .VSSD(VSSD), 
+                                   .VSSIO(VSSIO),  
                                    .VSSIO_Q()
+              `endif                     
                                         );                                        
                                         
                                         
                                         
-sky130_ef_io__vssd_lvc_pad VSSD_PAD (.AMUXBUS_A(), 
-                                     .AMUXBUS_B(), 
-                                   .BDY2_B2B(VSSA), 
-                                   .DRN_LVC1(VDDA), 
-                                   .DRN_LVC2(),  
-                                   .SRC_BDY_LVC1(VSSA), 
-                                   .SRC_BDY_LVC2(), 
-                                   
-                                   .VSSA(VSSA), 
-                                   .VDDA(VDDA), 
-                                   .VSWITCH(VDDIO), 
-                                   .VDDIO_Q(), 
-                                   .VCCHIB(VCCD), 
+                                        
+sky130_ef_io__vddio_hvc_pad VDDIO_PAD ( 
+
+               `ifdef TOP_ROUTING 
                                    .VDDIO(VDDIO), 
-                                   .VCCD(VCCD), 
-                                   .VSSIO(VSSIO), 
-                                   .VSSD(VSSD), 
-                                   .VSSIO_Q()
-                                        );                                        
-                                        
-                                        
-                                        
-                                        
-sky130_ef_io__vddio_hvc_pad VDDIO_PAD (.AMUXBUS_A(), 
-                                      .AMUXBUS_B(), 
+               `endif                     
                                    .DRN_HVC(VDDA_hv), 
                                    .SRC_BDY_HVC(VSSA_hv), 
-                                   
+                                    
+              `ifndef TOP_ROUTING                    
+                                   .AMUXBUS_A(), 
+                                   .AMUXBUS_B(), 
                                    .VSSA(VSSA_hv), 
                                    .VDDA(VDDA_hv), 
                                    .VSWITCH(VDDIO), 
                                    .VDDIO_Q(), 
                                    .VCCHIB(VCCD), 
-                                   .VDDIO(VDDIO), 
                                    .VCCD(VCCD), 
                                    .VSSIO(VSSIO), 
                                    .VSSD(VSSD), 
                                    .VSSIO_Q()
+              `endif                    
                                         );                                        
                                         
                                         
 
-sky130_ef_io__vssio_hvc_pad VSSIO_PAD (.AMUXBUS_A(), 
-                                      .AMUXBUS_B(), 
+sky130_ef_io__vssio_hvc_pad VSSIO_PAD (
+
+                       `ifdef TOP_ROUTING
+                                   .VSSIO(VSSIO), 
+                       `endif             
                                    .DRN_HVC(VDDA_hv), 
                                    .SRC_BDY_HVC(VSSA_hv), 
-                                   
+                                    
+                       `ifndef TOP_ROUTING             
+                                   .AMUXBUS_A(), 
+                                   .AMUXBUS_B(), 
                                    .VSSA(VSSA_hv), 
                                    .VDDA(VDDA_hv), 
                                    .VSWITCH(VDDIO), 
@@ -681,20 +735,28 @@ sky130_ef_io__vssio_hvc_pad VSSIO_PAD (.AMUXBUS_A(),
                                    .VCCHIB(VCCD), 
                                    .VDDIO(VDDIO), 
                                    .VCCD(VCCD), 
-                                   .VSSIO(VSSIO), 
+                                   
                                    .VSSD(VSSD), 
                                    .VSSIO_Q()
+                        `endif           
                                         );    
                                         
                                         
        
-sky130_ef_io__vdda_hvc_pad VDDA2_PAD (.AMUXBUS_A(), 
-                                      .AMUXBUS_B(), 
+sky130_ef_io__vdda_hvc_pad VDDA2_PAD (  
+
+                  `ifdef   TOP_ROUTING                       
+                                    .VDDA(VDDA_hv), 
+                  `endif                        
+                                   
                                    .DRN_HVC(VDDA_hv), 
                                    .SRC_BDY_HVC(VSSA_hv), 
                                    
-                                   .VSSA(VSSA_hv), 
-                                   .VDDA(VDDA_hv), 
+                  `ifndef  TOP_ROUTING                        
+                                   .AMUXBUS_A(), 
+                                   .AMUXBUS_B(), 
+                                      
+                                   .VSSA(VSSA_hv),                                    
                                    .VSWITCH(VDDIO), 
                                    .VDDIO_Q(), 
                                    .VCCHIB(VCCD), 
@@ -703,16 +765,24 @@ sky130_ef_io__vdda_hvc_pad VDDA2_PAD (.AMUXBUS_A(),
                                    .VSSIO(VSSIO), 
                                    .VSSD(VSSD), 
                                    .VSSIO_Q()
+                  `endif                 
                                    );
                                    
                                    
                                    
-sky130_ef_io__vssa_hvc_pad VSSA2_PAD (.AMUXBUS_A(), 
-                                      .AMUXBUS_B(), 
-                                   .DRN_HVC(VDDA_hv), 
-                                   .SRC_BDY_HVC(VSSA_hv), 
-                                   
-                                   .VSSA(VSSA_hv), 
+sky130_ef_io__vssa_hvc_pad VSSA2_PAD ( 
+
+                   `ifdef TOP_ROUTING
+                                    .VSSA(VSSA_hv),
+                   `endif                 
+                                    
+                                    .DRN_HVC(VDDA_hv), 
+                                    .SRC_BDY_HVC(VSSA_hv), 
+                                                                        
+                   `ifndef TOP_ROUTING                 
+                                   .AMUXBUS_A(), 
+                                   .AMUXBUS_B(),
+                                    
                                    .VDDA(VDDA_hv), 
                                    .VSWITCH(VDDIO), 
                                    .VDDIO_Q(), 
@@ -722,11 +792,15 @@ sky130_ef_io__vssa_hvc_pad VSSA2_PAD (.AMUXBUS_A(),
                                    .VSSIO(VSSIO), 
                                    .VSSD(VSSD), 
                                    .VSSIO_Q()
+                   `endif               
                                         );
  
  
  
-sky130_ef_io__corner_pad corner_4 (.AMUXBUS_A(), 
+sky130_ef_io__corner_pad corner_4 (
+
+                  `ifndef TOP_ROUTING
+                                   .AMUXBUS_A(), 
                                    .AMUXBUS_B(), 
 	                           .VSSA(VSSA), 
 	                           .VDDA(VDDA), 
@@ -737,11 +811,17 @@ sky130_ef_io__corner_pad corner_4 (.AMUXBUS_A(),
 	                           .VCCD(VCCD),
 	                           .VSSIO(VSSIO), 
 	                           .VSSD(VSSD), 
-	                           .VSSIO_Q()
+	                           .VSSIO_Q(),
+	           `else                
+	                           .VCCHIB()
+	           `endif                
                                        ); 
  
  
-sky130_ef_io__corner_pad corner_3 (.AMUXBUS_A(), 
+sky130_ef_io__corner_pad corner_3 (
+
+                  `ifndef TOP_ROUTING
+                                   .AMUXBUS_A(), 
                                    .AMUXBUS_B(), 
 	                           .VSSA(VSSA), 
 	                           .VDDA(VDDA), 
@@ -752,11 +832,17 @@ sky130_ef_io__corner_pad corner_3 (.AMUXBUS_A(),
 	                           .VCCD(VCCD),
 	                           .VSSIO(VSSIO), 
 	                           .VSSD(VSSD), 
-	                           .VSSIO_Q()
+	                           .VSSIO_Q(),
+	           `else                
+	                           .VCCHIB()
+	           `endif                
                                        );
                                        
                                        
-sky130_ef_io__corner_pad corner_2 (.AMUXBUS_A(), 
+sky130_ef_io__corner_pad corner_2 (
+
+                  `ifndef TOP_ROUTING                 
+                                   .AMUXBUS_A(), 
                                    .AMUXBUS_B(), 
 	                           .VSSA(VSSA), 
 	                           .VDDA(VDDA), 
@@ -767,12 +853,18 @@ sky130_ef_io__corner_pad corner_2 (.AMUXBUS_A(),
 	                           .VCCD(VCCD),
 	                           .VSSIO(VSSIO), 
 	                           .VSSD(VSSD), 
-	                           .VSSIO_Q()
+	                           .VSSIO_Q(),
+	           `else                 
+	                           .VCCHIB()
+	           `endif                
                                        );
                                        
                                        
                                        
-sky130_ef_io__corner_pad corner_1 (.AMUXBUS_A(), 
+sky130_ef_io__corner_pad corner_1 (
+                                   
+                  `ifndef TOP_ROUTING                 
+                                   .AMUXBUS_A(), 
                                    .AMUXBUS_B(), 
 	                           .VSSA(VSSA), 
 	                           .VDDA(VDDA), 
@@ -783,7 +875,10 @@ sky130_ef_io__corner_pad corner_1 (.AMUXBUS_A(),
 	                           .VCCD(VCCD),
 	                           .VSSIO(VSSIO), 
 	                           .VSSD(VSSD), 
-	                           .VSSIO_Q()
+	                           .VSSIO_Q(),
+	           `else                
+	                           .VCCHIB()
+	           `endif                
                                        );                                                                               
  
  
