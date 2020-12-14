@@ -3,18 +3,18 @@ set ::env(PDK) "sky130A"
 set ::env(STD_CELL_LIBRARY) "sky130_fd_sc_hd"
 set ::env(PDK_ROOT) "/home/roshan/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/open_pdks/sky130"
 set ::env(CELL_PAD) "8"
-set ::env(MERGED_LEF) "/openLANE_flow/designs/chip_io/runs/chip_io_lvs/tmp/merged.lef"
-set ::env(MERGED_LEF_UNPADDED) "/openLANE_flow/designs/chip_io/runs/chip_io_lvs/tmp/merged_unpadded.lef"
-set ::env(TRACKS_INFO_FILE) "/openLANE_flow/designs/chip_io/runs/chip_io_lvs/tmp/tracks_copy.info"
+set ::env(MERGED_LEF) "/openLANE_flow/designs/chip_io/runs/chip_io/tmp/merged.lef"
+set ::env(MERGED_LEF_UNPADDED) "/openLANE_flow/designs/chip_io/runs/chip_io/tmp/merged_unpadded.lef"
+set ::env(TRACKS_INFO_FILE) "/openLANE_flow/designs/chip_io/runs/chip_io/tmp/tracks_copy.info"
 set ::env(TECH_LEF) "/home/roshan/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/open_pdks/sky130/sky130A/libs.ref/sky130_fd_sc_hd/techlef/sky130_fd_sc_hd.tlef"
 # Design config
 set ::env(CLOCK_PERIOD) "200"
+set ::env(DESIGN_NAME) "chip_io"
+set ::env(DESIGN_DIR) "/openLANE_flow/designs/chip_io"
+set ::env(CLOCK_PORT) "REF_CLK"
 # Synthesis config
-set ::env(LIB_SYNTH) "/openLANE_flow/designs/chip_io/runs/chip_io_lvs/tmp/trimmed.lib"
+set ::env(LIB_SYNTH) "/openLANE_flow/designs/chip_io/runs/chip_io/tmp/trimmed.lib"
 set ::env(LIB_SYNTH_COMPLETE) "/home/roshan/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/open_pdks/sky130/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
-
-set ::env(SYNTH_DEFINES) "TOP_ROUTING"
-
 set ::env(SYNTH_DRIVING_CELL) "sky130_fd_sc_hd__inv_8"
 set ::env(SYNTH_CAP_LOAD) "17.65"
 set ::env(SYNTH_MAX_FANOUT) "5"
@@ -40,12 +40,14 @@ set ::env(FP_PDN_VPITCH) "153.6"
 set ::env(FP_PDN_HOFFSET) "16.65"
 set ::env(FP_PDN_HPITCH) "153.18"
 set ::env(FP_TAPCELL_DIST) "14"
+set ::env(CELL_PAD_EXCLUDE) "sky130_fd_sc_hd__tap* sky130_fd_sc_hd__decap* sky130_fd_sc_hd__fill*"
 # Placement config
 set ::env(PL_TARGET_DENSITY) "0.55"
 set ::env(PL_TIME_DRIVEN) "0"
 set ::env(PL_LIB) "/home/roshan/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/open_pdks/sky130/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib"
 set ::env(PL_BASIC_PLACEMENT) "0"
 set ::env(PL_SKIP_INITIAL_PLACEMENT) "0"
+set ::env(PL_RANDOM_GLB_PLACEMENT) "0"
 set ::env(PL_OPENPHYSYN_OPTIMIZATIONS) "1"
 set ::env(PSN_ENABLE_RESIZING) "1"
 set ::env(PSN_ENABLE_PIN_SWAP) "1"
@@ -83,5 +85,5 @@ set ::env(CHECK_UNMAPPED_CELLS) "1"
 set ::env(USE_ARC_ANTENNA_CHECK) "1"
 set ::env(RUN_SPEF_EXTRACTION) "1"
 set ::env(CURRENT_DEF) /openLANE_flow/designs/chip_io/runs/chip_io/results/floorplan/padframe.def
-set ::env(CURRENT_NETLIST) /openLANE_flow/designs/chip_io/runs/chip_io_lvs/results/synthesis/chip_io.synthesis.v
+set ::env(CURRENT_NETLIST) /openLANE_flow/designs/chip_io/runs/chip_io/results/synthesis/chip_io.synthesis.v
 set ::env(PREV_NETLIST) /openLANE_flow/designs/chip_io/runs/chip_io_lvs/results/synthesis/chip_io.synthesis.v

@@ -1,6 +1,4 @@
-during executing: "/openLANE_flow/scripts/remove_pins.sh /openLANE_flow/designs/chip_io/runs/chip_io/results/floorplan/padframe.def"
+during executing: "openroad -exit /openLANE_flow/scripts/openroad/or_route.tcl |& tee >&@stdout /openLANE_flow/designs/chip_io/runs/chip_io/logs/routing/fastroute.log"
 Last 10 lines:
-sed: can't read /openLANE_flow/designs/chip_io/runs/chip_io/results/floorplan/padframe.def: No such file or directory
-sed: can't read /openLANE_flow/designs/chip_io/runs/chip_io/results/floorplan/padframe.def: No such file or directory
-sed: can't read /openLANE_flow/designs/chip_io/runs/chip_io/results/floorplan/padframe.def: No such file or directory
+child process exited abnormally
 

@@ -1,29 +1,37 @@
 
-11. Printing statistics.
+12. Printing statistics.
 
 === chip_io ===
 
-   Number of wires:                 49
-   Number of wire bits:             49
-   Number of public wires:          49
-   Number of public wire bits:      49
+   Number of wires:                 33
+   Number of wire bits:             33
+   Number of public wires:          33
+   Number of public wire bits:      33
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
    Number of cells:                 23
      sky130_ef_io__corner_pad        4
+     sky130_ef_io__gpiov2_pad_wrapped      8
+     sky130_ef_io__vccd_lvc_pad      1
      sky130_ef_io__vdda_hvc_pad      1
+     sky130_ef_io__vdda_lvc_pad      1
      sky130_ef_io__vddio_hvc_pad      1
-     sky130_fd_io__top_gpiov2        8
-     sky130_fd_io__top_ground_hvc_wpad      2
-     sky130_fd_io__top_ground_lvc_wpad      2
-     sky130_fd_io__top_power_lvc_wpad      5
+     sky130_ef_io__vssa_hvc_pad      1
+     sky130_ef_io__vssa_lvc_pad      1
+     sky130_ef_io__vssd_lvc_pad      1
+     sky130_ef_io__vssio_hvc_pad      1
+     sky130_fd_io__top_power_lvc_wpad      3
 
    Area for cell type \sky130_fd_io__top_power_lvc_wpad is unknown!
+   Area for cell type \sky130_ef_io__vccd_lvc_pad is unknown!
+   Area for cell type \sky130_ef_io__vdda_lvc_pad is unknown!
    Area for cell type \sky130_ef_io__vdda_hvc_pad is unknown!
    Area for cell type \sky130_ef_io__vddio_hvc_pad is unknown!
+   Area for cell type \sky130_ef_io__vssd_lvc_pad is unknown!
+   Area for cell type \sky130_ef_io__vssio_hvc_pad is unknown!
+   Area for cell type \sky130_ef_io__vssa_lvc_pad is unknown!
+   Area for cell type \sky130_ef_io__vssa_hvc_pad is unknown!
    Area for cell type \sky130_ef_io__corner_pad is unknown!
-   Area for cell type \sky130_fd_io__top_ground_hvc_wpad is unknown!
-   Area for cell type \sky130_fd_io__top_ground_lvc_wpad is unknown!
-   Area for cell type \sky130_fd_io__top_gpiov2 is unknown!
+   Area for cell type \sky130_ef_io__gpiov2_pad_wrapped is unknown!
 
