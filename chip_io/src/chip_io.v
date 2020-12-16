@@ -802,8 +802,8 @@ sky130_ef_io__corner_pad corner_4 (
                   `ifndef TOP_ROUTING
                                    .AMUXBUS_A(), 
                                    .AMUXBUS_B(), 
-	                           .VSSA(VSSA), 
-	                           .VDDA(VDDA), 
+	                           .VSSA(VSSA_hv), 
+	                           .VDDA(VDDA_hv), 
 	                           .VSWITCH(VDDIO), 
 	                           .VDDIO_Q(), 
 	                           .VCCHIB(VCCD), 
@@ -823,8 +823,8 @@ sky130_ef_io__corner_pad corner_3 (
                   `ifndef TOP_ROUTING
                                    .AMUXBUS_A(), 
                                    .AMUXBUS_B(), 
-	                           .VSSA(VSSA), 
-	                           .VDDA(VDDA), 
+	                           .VSSA(VSSA_hv), 
+	                           .VDDA(VDDA_hv), 
 	                           .VSWITCH(VDDIO), 
 	                           .VDDIO_Q(), 
 	                           .VCCHIB(VCCD), 
@@ -844,8 +844,8 @@ sky130_ef_io__corner_pad corner_2 (
                   `ifndef TOP_ROUTING                 
                                    .AMUXBUS_A(), 
                                    .AMUXBUS_B(), 
-	                           .VSSA(VSSA), 
-	                           .VDDA(VDDA), 
+	                           .VSSA(VSSA_hv), 
+	                           .VDDA(VDDA_hv), 
 	                           .VSWITCH(VDDIO), 
 	                           .VDDIO_Q(), 
 	                           .VCCHIB(VCCD), 
@@ -866,8 +866,8 @@ sky130_ef_io__corner_pad corner_1 (
                   `ifndef TOP_ROUTING                 
                                    .AMUXBUS_A(), 
                                    .AMUXBUS_B(), 
-	                           .VSSA(VSSA), 
-	                           .VDDA(VDDA), 
+	                           .VSSA(VSSA_hv), 
+	                           .VDDA(VDDA_hv), 
 	                           .VSWITCH(VDDIO), 
 	                           .VDDIO_Q(), 
 	                           .VCCHIB(VCCD), 

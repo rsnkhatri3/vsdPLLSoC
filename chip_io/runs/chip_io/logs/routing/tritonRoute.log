@@ -22,14 +22,14 @@ design:      chip_io
 die area:    ( 0 0 ) ( 3588000 5188000 )
 trackPts:    12
 defvias:     0
-#components: 805
+#components: 790
 #terminals:  0
 #snets:      0
 #nets:       10
 
 reading guide ...
 
-#guides:     676
+#guides:     637
 Warning: met2 does not have viaDef align with layer direction, generating new viaDef via2_FR...
 Warning: met4 does not have viaDef align with layer direction, generating new viaDef via4_FR...
 done initConstraintLayerIdx
@@ -49,7 +49,7 @@ Writing reference output def...
 libcell analysis ...
 
 instance analysis ...
-#unique instances = 162
+#unique instances = 138
 
 init region query ...
   complete FR_MASTERSLICE
@@ -76,32 +76,32 @@ met2 shape region query size = 496
 via2 shape region query size = 0
 met3 shape region query size = 324
 via3 shape region query size = 0
-met4 shape region query size = 25233
+met4 shape region query size = 24893
 via4 shape region query size = 0
-met5 shape region query size = 20942
+met5 shape region query size = 20679
 
 
 start pin access
   complete 9 pins
   complete 0 unique inst patterns
   complete 0 groups
-Expt1 runtime (pin-level access point gen): 0.801726
-Expt2 runtime (design-level access pattern gen): 0.000519352
-#scanned instances     = 805
-#unique  instances     = 162
+Expt1 runtime (pin-level access point gen): 0.794437
+Expt2 runtime (design-level access pattern gen): 0.000519201
+#scanned instances     = 790
+#unique  instances     = 138
 #stdCellGenAp          = 0
 #stdCellValidPlanarAp  = 0
 #stdCellValidViaAp     = 0
 #stdCellPinNoAp        = 0
 #stdCellPinCnt         = 0
 #instTermValidViaApCnt = 0
-#macroGenAp            = 4039
-#macroValidPlanarAp    = 4038
+#macroGenAp            = 4112
+#macroValidPlanarAp    = 4111
 #macroValidViaAp       = 0
 #macroNoAp             = 0
 
 complete pin access
-cpu time = 00:00:00, elapsed time = 00:00:00, memory = 45.86 (MB), peak = 46.04 (MB)
+cpu time = 00:00:00, elapsed time = 00:00:00, memory = 45.86 (MB), peak = 45.94 (MB)
 
 post process guides ...
 GCELLGRID X -1 DO 375 STEP 13800 ;
@@ -122,5 +122,5 @@ GCELLGRID Y -1 DO 260 STEP 13800 ;
 Error: pin VCCD_PAD/VCCD not covered by guide
 Error: pin VCCD_PAD/VCCD not covered by guide
 Warning: VCCD 1 pin not visited, fall back to feedrough mode
-Error: VCCD 1 pin not visited #guides = 48
+Error: VCCD 1 pin not visited #guides = 47
 Error: critical error guide not connected, exit now 1!

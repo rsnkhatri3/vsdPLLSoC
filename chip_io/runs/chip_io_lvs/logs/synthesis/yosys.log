@@ -191,6 +191,6 @@ found and reported 2 problems.
 Dumping module `\chip_io'.
 
 Warnings: 2 unique messages, 2 total
-End of script. Logfile hash: 74cf3effa5, CPU: user 0.07s system 0.01s, MEM: 14.70 MB peak
+End of script. Logfile hash: 74cf3effa5, CPU: user 0.07s system 0.00s, MEM: 14.58 MB peak
 Yosys 0.9+3621 (git sha1 84e9fa7, gcc 8.3.1 -fPIC -Os)
-Time spent: 40% 2x write_verilog (0 sec), 29% 2x stat (0 sec), ...
+Time spent: 39% 2x write_verilog (0 sec), 30% 2x stat (0 sec), ...
