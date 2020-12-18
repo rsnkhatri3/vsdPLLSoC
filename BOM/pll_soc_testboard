@@ -1,0 +1,13 @@
+Reference, Quantity, Value, Footprint,Unit Price,Total, Datasheet
+C3 ,1,2p,Capacitor_THT:CP_Radial_D4.0mm_P2.00mm,$0.09000,$0.09000,https://www.digikey.com/en/products/detail/nte-electronics-inc/8902D0/11645156?s=N4IgTCBcDaIBwE4AMYAiSQF0C%2BQ
+C5 C6 ,2,1000p,Capacitor_THT:C_Rect_L4.0mm_W2.5mm_P2.50mm,$0.09224,$0.18448,https://www.digikey.com/en/products/detail/tdk-corporation/fa18x8r1h102knu00/7384236
+C1 C2 C4 C7 ,4,0.1u,Capacitor_THT:CP_Radial_D4.0mm_P1.50mm,$0.16422,$0.65688,https://www.digikey.com/en/products/detail/nichicon/uml1h0r1mdd/2598725
+H1 ,1,MountingHole_Pad,MountingHole:MountingHole_4mm_Pad,,,~
+H2 H3 H4 H5 H6 H7 ,6,MountingHole_Pad,MountingHole:MountingHole_4mm,,,~
+R1 ,1,180K,Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal,$0.4200,$0.4200,https://www.digikey.com/en/products/detail/te-connectivity-passive-product/RR03J180KTB/8603774?s=N4IgTCBcDaIEpwAwGYBSBGAHIg0gFQCEQBdAXyA
+R2 ,1,360K,Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P25.40mm_Horizontal,$0.4200,$0.4200,https://www.digikey.com/en/products/detail/te-connectivity-passive-product/RR03J360KTB/9371845?s=N4IgTCBcDaIEpwAwGYBSyBsiDSAVAQiALoC%2BQA
+R3 ,1,50K,Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P5.08mm_Vertical,$0.47813,$0.47813,https://www.digikey.com/en/products/detail/yageo/MFP200BBD73-50K/9126744?s=N4IgTCBcDaILIDEAKYAMqBCGAiB2AzALQCsqA0oQHLYgC6AvkA
+U1 U2 U1B1 U2B1 ,4,ADG419BN,Package_DIP:DIP-8_W7.62mm,$2.54798,$10.19192,https://www.digikey.com/en/products/detail/analog-devices-inc/ADG419BN/11533949
+U3 ,1,PLL_SoC,pll_soc_testboard:SOIC-24,,,
+U4 ,1,MC12093D,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,$1.25839,$1.25839,https://www.digikey.com/en/products/detail/on-semiconductor/MC12093D/11538448
+,,,,,$13.2798,
