@@ -17,7 +17,6 @@ set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/sky130_fd_io__top
 set ::env(EXTRA_LEFS) [glob $::env(DESIGN_DIR)/src/lef/*.lef]
 
 
-set ::env(USE_GPIO_ROUTING_LEF) 1
 
 set ::env(USE_GPIO_ROUTING_LEF) 1
 
