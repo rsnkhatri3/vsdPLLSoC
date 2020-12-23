@@ -5,19 +5,21 @@ set ::env(VERILOG_FILES) [glob $::env(DESIGN_DIR)/src/chip_io.v]
 
 set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/sky130_ef_io__vdda_hvc_pad.v]
 set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/sky130_ef_io__vccd_lvc_pad.v]
-set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/sky130_ef_io__vdda_lvc_pad.v]
+#set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/sky130_ef_io__vdda_lvc_pad.v]
 set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/sky130_ef_io__vssa_hvc_pad.v]
-set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/sky130_ef_io__vssa_lvc_pad.v]
+#set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/sky130_ef_io__vssa_lvc_pad.v]
 set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/sky130_ef_io__vssd_lvc_pad.v]
 set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/sky130_ef_io__vssio_hvc_pad.v]
 set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/sky130_ef_io__vddio_hvc_pad.v]
 set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/sky130_ef_io__gpiov2_pad_wrapped.v]
 set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/sky130_fd_io__top_power_lvc_wpad.v]
 
-set ::env(EXTRA_LEFS) [glob $::env(DESIGN_DIR)/src/*.lef]
+set ::env(EXTRA_LEFS) [glob $::env(DESIGN_DIR)/src/lef/*.lef]
 
-#set ::env(FP_CORE_UTIL) 80
-#set ::env(PL_TARGET_DENSITY) 0.2
+
+set ::env(USE_GPIO_ROUTING_LEF) 1
+
+set ::env(USE_GPIO_ROUTING_LEF) 1
 
 set ::env(GLB_RT_ALLOW_CONGESTION) 1
 
@@ -25,7 +27,7 @@ set ::env(DESIGN_IS_PADFRAME) 1
 set ::env(SYNTH_FLAT_TOP) 1
 set ::env(USE_GPIO_PADS) 1
 
-
+set ::env(GLB_RT_OVERFLOW_ITERS) 500
 
 set ::env(FP_SIZING) absolute
 
@@ -48,4 +50,10 @@ set filename $::env(DESIGN_DIR)/$::env(PDK)_$::env(STD_CELL_LIBRARY)_config.tcl
 if { [file exists $filename] == 1} {
 	source $filename
 }
+
+
+
+
+
+
 

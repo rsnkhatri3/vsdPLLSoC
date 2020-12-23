@@ -1,0 +1,201 @@
+Notice 0: Reading LEF file:  /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef
+Notice 0: Warning: WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef at line 68105.
+
+Notice 0: Warning: WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef at line 72580.
+
+Notice 0: Warning: WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef at line 77742.
+
+Notice 0:     Created 13 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 494 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef
+Notice 0: 
+Reading DEF file: /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.def
+Notice 0: Design: chip_io
+Notice 0:     Created 29 pins.
+Notice 0:     Created 21 components and 510 component-terminals.
+Notice 0:     Created 31 nets and 372 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.def
+Notice 0: Reading LEF file:  /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef
+Notice 0: Warning: WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef at line 68105.
+
+Notice 0: Warning: WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef at line 72580.
+
+Notice 0: Warning: WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
+The LEF parser will ignore this statement.
+To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef at line 77742.
+
+Notice 0:     Created 13 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 494 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef
+Notice 0: 
+Reading DEF file: /openLANE_flow/designs/chip_io/runs/chip_io/tmp/routing/fastroute.def
+Notice 0: Design: chip_io
+Notice 0: error: unknown library cell referenced (obs) for instance (obs_li1)
+Notice 0:     Created 826 components and 10170 component-terminals.
+Notice 0:     Created 9 nets and 194 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/chip_io/runs/chip_io/tmp/routing/fastroute.def
+/openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef
+Warning: net B_0_pll has a BTerm but no ITerms that match PAD_PIN_NAME
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Warning: will label the first ITerm on the net!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Labeling  B_0_pll ( B_0_pll - GPIO_0_PAD / IN )
+Warning: net B_1_pll has a BTerm but no ITerms that match PAD_PIN_NAME
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Warning: will label the first ITerm on the net!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Labeling  B_1_pll ( B_1_pll - GPIO_1_PAD / IN )
+Warning: net B_2_pll has a BTerm but no ITerms that match PAD_PIN_NAME
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Warning: will label the first ITerm on the net!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Labeling  B_2_pll ( B_2_pll - GPIO_2_PAD / IN )
+Warning: net B_3_pll has a BTerm but no ITerms that match PAD_PIN_NAME
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Warning: will label the first ITerm on the net!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Labeling  B_3_pll ( B_3_pll - GPIO_3_PAD / IN )
+Labeling  B_CP ( B_CP - B_CP_PAD / PAD )
+Warning: net B_CP_pll has a BTerm but no ITerms that match PAD_PIN_NAME
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Warning: will label the first ITerm on the net!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Labeling  B_CP_pll ( B_CP_pll - B_CP_PAD / OUT )
+Labeling  B_VCO ( B_VCO - B_VCO_PAD / PAD )
+Warning: net B_VCO_pll has a BTerm but no ITerms that match PAD_PIN_NAME
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Warning: will label the first ITerm on the net!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Labeling  B_VCO_pll ( B_VCO_pll - B_VCO_PAD / OUT )
+Warning: net CLK has a BTerm but no ITerms that match PAD_PIN_NAME
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Warning: will label the first ITerm on the net!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Labeling  CLK ( CLK - CLK_PAD / P_PAD )
+Warning: net CLK_pll has a BTerm but no ITerms that match PAD_PIN_NAME
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Warning: will label the first ITerm on the net!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Labeling  CLK_pll ( CLK_pll - CLK_PAD / P_CORE )
+Labeling  EN_CP ( EN_CP - ENb_CP_PAD / PAD )
+Warning: net EN_CP_pll has a BTerm but no ITerms that match PAD_PIN_NAME
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Warning: will label the first ITerm on the net!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Labeling  EN_CP_pll ( EN_CP_pll - ENb_CP_PAD / IN )
+Labeling  EN_VCO ( EN_VCO - ENb_VCO_PAD / PAD )
+Warning: net EN_VCO_pll has a BTerm but no ITerms that match PAD_PIN_NAME
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Warning: will label the first ITerm on the net!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Labeling  EN_VCO_pll ( EN_VCO_pll - ENb_VCO_PAD / IN )
+Labeling  GPIO_0 ( GPIO_0 - GPIO_0_PAD / PAD )
+Labeling  GPIO_1 ( GPIO_1 - GPIO_1_PAD / PAD )
+Labeling  GPIO_2 ( GPIO_2 - GPIO_2_PAD / PAD )
+Labeling  GPIO_3 ( GPIO_3 - GPIO_3_PAD / PAD )
+Warning: net PORB has a BTerm but no ITerms that match PAD_PIN_NAME
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Warning: will label the first ITerm on the net!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Labeling  PORB ( PORB - GPIO_3_PAD / ENABLE_H )
+Warning: net REF_CLK has a BTerm but no ITerms that match PAD_PIN_NAME
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Warning: will label the first ITerm on the net!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Labeling  REF_CLK ( REF_CLK - REF_CLK_PAD / P_PAD )
+Warning: net REF_CLK_pll has a BTerm but no ITerms that match PAD_PIN_NAME
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Warning: will label the first ITerm on the net!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Labeling  REF_CLK_pll ( REF_CLK_pll - REF_CLK_PAD / P_CORE )
+Warning: net VCO_IN has a BTerm but no ITerms that match PAD_PIN_NAME
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Warning: will label the first ITerm on the net!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Labeling  VCO_IN ( VCO_IN - VCO_IN_PAD / P_PAD )
+Warning: net VCO_IN_pll has a BTerm but no ITerms that match PAD_PIN_NAME
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Warning: will label the first ITerm on the net!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+Labeling  VCO_IN_pll ( VCO_IN_pll - VCO_IN_PAD / P_CORE )
+vccd handled by an external mapping; skipping...
+vdda handled by an external mapping; skipping...
+vddio handled by an external mapping; skipping...
+vssa handled by an external mapping; skipping...
+vssd handled by an external mapping; skipping...
+vssio handled by an external mapping; skipping...
+set()
+Labeling 17 pads
+Labeling 29 pad pins
+{'GPIO_0_PAD': [('IN', 'B_0_pll', 'OUTPUT'), ('PAD', 'GPIO_0', 'INPUT')], 'GPIO_1_PAD': [('IN', 'B_1_pll', 'OUTPUT'), ('PAD', 'GPIO_1', 'INPUT')], 'GPIO_2_PAD': [('IN', 'B_2_pll', 'OUTPUT'), ('PAD', 'GPIO_2', 'INPUT')], 'GPIO_3_PAD': [('IN', 'B_3_pll', 'OUTPUT'), ('PAD', 'GPIO_3', 'INPUT'), ('ENABLE_H', 'PORB', 'INPUT')], 'B_CP_PAD': [('PAD', 'B_CP', 'OUTPUT'), ('OUT', 'B_CP_pll', 'INPUT')], 'B_VCO_PAD': [('PAD', 'B_VCO', 'OUTPUT'), ('OUT', 'B_VCO_pll', 'INPUT')], 'CLK_PAD': [('P_PAD', 'CLK', 'OUTPUT'), ('P_CORE', 'CLK_pll', 'INPUT')], 'ENb_CP_PAD': [('PAD', 'EN_CP', 'INPUT'), ('IN', 'EN_CP_pll', 'OUTPUT')], 'ENb_VCO_PAD': [('PAD', 'EN_VCO', 'INPUT'), ('IN', 'EN_VCO_pll', 'OUTPUT')], 'REF_CLK_PAD': [('P_PAD', 'REF_CLK', 'INPUT'), ('P_CORE', 'REF_CLK_pll', 'OUTPUT')], 'VCO_IN_PAD': [('P_PAD', 'VCO_IN', 'INPUT'), ('P_CORE', 'VCO_IN_pll', 'OUTPUT')], 'VDDA_PAD': [('VDDA', 'vdda', 'INOUT')], 'VSSA_PAD': [('VSSA', 'vssa', 'INOUT')], 'VCCD_PAD': [('VCCD', 'vccd', 'INOUT')], 'VSSD_PAD': [('VSSD', 'vssd', 'INOUT')], 'VDDIO_PAD': [('VDDIO', 'vddio', 'INOUT')], 'VSSIO_PAD': [('VSSIO', 'vssio', 'INOUT')]}
+Found:  B_CP_PAD PAD B_CP
+64215 654500
+Found:  B_CP_PAD OUT B_CP_pll
+209765 632025
+Found:  B_VCO_PAD PAD B_VCO
+64215 1627500
+Found:  B_VCO_PAD OUT B_VCO_pll
+209765 1605025
+Found:  CLK_PAD P_PAD CLK
+3523855 699365
+Found:  CLK_PAD P_CORE CLK_pll
+3432232 674272
+Found:  ENb_CP_PAD PAD EN_CP
+64215 2600500
+Found:  ENb_CP_PAD IN EN_CP_pll
+209765 2633225
+Found:  ENb_VCO_PAD PAD EN_VCO
+64215 3573500
+Found:  ENb_VCO_PAD IN EN_VCO_pll
+209765 3606225
+Found:  GPIO_0_PAD IN B_0_pll
+3378235 4445775
+Found:  GPIO_0_PAD PAD GPIO_0
+3523785 4478500
+Found:  GPIO_1_PAD IN B_1_pll
+3378235 3365775
+Found:  GPIO_1_PAD PAD GPIO_1
+3523785 3398500
+Found:  GPIO_2_PAD IN B_2_pll
+3378235 2284775
+Found:  GPIO_2_PAD PAD GPIO_2
+3523785 2317500
+Found:  GPIO_3_PAD IN B_3_pll
+3378235 1204775
+Found:  GPIO_3_PAD PAD GPIO_3
+3523785 1237500
+Found:  GPIO_3_PAD ENABLE_H PORB
+3378235 1244795
+Found:  REF_CLK_PAD P_PAD REF_CLK
+64145 4057635
+Found:  REF_CLK_PAD P_CORE REF_CLK_pll
+155767 4082727
+Found:  VCCD_PAD VCCD vccd
+64145 1138635
+Found:  VCO_IN_PAD P_PAD VCO_IN
+64145 4541635
+Found:  VCO_IN_PAD P_CORE VCO_IN_pll
+155767 4566727
+Found:  VDDA_PAD VDDA vdda
+3523317 2860550
+Found:  VDDIO_PAD VDDIO vddio
+64682 3084450
+Found:  VSSA_PAD VSSA vssa
+3523317 3940550
+Found:  VSSD_PAD VSSD vssd
+64145 2111635
+Found:  VSSIO_PAD VSSIO vssio
+3523317 1780550
+Writing /openLANE_flow/designs/chip_io/runs/chip_io/tmp/routing/fastroute.def

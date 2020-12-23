@@ -3,34 +3,30 @@
 
 === chip_io ===
 
-   Number of wires:                 33
-   Number of wire bits:             33
-   Number of public wires:          33
-   Number of public wire bits:      33
+   Number of wires:                 31
+   Number of wire bits:             31
+   Number of public wires:          31
+   Number of public wire bits:      31
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
-   Number of cells:                 23
+   Number of cells:                 21
      sky130_ef_io__corner_pad        4
      sky130_ef_io__gpiov2_pad_wrapped      8
      sky130_ef_io__vccd_lvc_pad      1
      sky130_ef_io__vdda_hvc_pad      1
-     sky130_ef_io__vdda_lvc_pad      1
      sky130_ef_io__vddio_hvc_pad      1
      sky130_ef_io__vssa_hvc_pad      1
-     sky130_ef_io__vssa_lvc_pad      1
      sky130_ef_io__vssd_lvc_pad      1
      sky130_ef_io__vssio_hvc_pad      1
      sky130_fd_io__top_power_lvc_wpad      3
 
    Area for cell type \sky130_fd_io__top_power_lvc_wpad is unknown!
    Area for cell type \sky130_ef_io__vccd_lvc_pad is unknown!
-   Area for cell type \sky130_ef_io__vdda_lvc_pad is unknown!
    Area for cell type \sky130_ef_io__vdda_hvc_pad is unknown!
    Area for cell type \sky130_ef_io__vddio_hvc_pad is unknown!
    Area for cell type \sky130_ef_io__vssd_lvc_pad is unknown!
    Area for cell type \sky130_ef_io__vssio_hvc_pad is unknown!
-   Area for cell type \sky130_ef_io__vssa_lvc_pad is unknown!
    Area for cell type \sky130_ef_io__vssa_hvc_pad is unknown!
    Area for cell type \sky130_ef_io__corner_pad is unknown!
    Area for cell type \sky130_ef_io__gpiov2_pad_wrapped is unknown!

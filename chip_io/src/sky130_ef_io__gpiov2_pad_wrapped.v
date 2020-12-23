@@ -1,7 +1,6 @@
-
-
-
 (*blackbox*)
+
+
 module sky130_ef_io__gpiov2_pad_wrapped (IN_H, PAD_A_NOESD_H, PAD_A_ESD_0_H, PAD_A_ESD_1_H,
     PAD, DM, HLD_H_N, IN, INP_DIS, IB_MODE_SEL, ENABLE_H, ENABLE_VDDA_H,
     ENABLE_INP_H, OE_N, TIE_HI_ESD, TIE_LO_ESD, SLOW, VTRIP_SEL, HLD_OVR,
@@ -47,6 +46,7 @@ inout AMUXBUS_B;
 output IN;
 output IN_H;
 output TIE_HI_ESD, TIE_LO_ESD;
+
 
 
 
