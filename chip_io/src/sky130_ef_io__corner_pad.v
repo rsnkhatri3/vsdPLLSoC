@@ -1,3 +1,5 @@
+
+(*blackbox*)
 module sky130_ef_io__corner_pad (AMUXBUS_A, AMUXBUS_B, 
 	VSSA, VDDA, VSWITCH, VDDIO_Q, VCCHIB, VDDIO, VCCD,
 	VSSIO, VSSD, VSSIO_Q

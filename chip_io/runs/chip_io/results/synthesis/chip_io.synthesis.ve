@@ -22,8 +22,14 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
   input PORB;
   input REF_CLK;
   output REF_CLK_pll;
-  wire TIE_HI_ESD;
-  wire TIE_LO_ESD;
+  wire \TIE_LO_ESD[0] ;
+  wire \TIE_LO_ESD[1] ;
+  wire \TIE_LO_ESD[2] ;
+  wire \TIE_LO_ESD[3] ;
+  wire \TIE_LO_ESD[4] ;
+  wire \TIE_LO_ESD[5] ;
+  wire \TIE_LO_ESD[6] ;
+  wire \TIE_LO_ESD[7] ;
   input VCO_IN;
   output VCO_IN_pll;
   inout vccd;
@@ -38,7 +44,7 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .ANALOG_SEL(vssd),
     .DM({ vccd, vccd, vssd }),
     .ENABLE_H(PORB),
-    .ENABLE_INP_H(TIE_LO_ESD),
+    .ENABLE_INP_H(\TIE_LO_ESD[7] ),
     .ENABLE_VDDA_H(vssa),
     .ENABLE_VDDIO(vccd),
     .ENABLE_VSWITCH_H(vssa),
@@ -54,8 +60,8 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .PAD_A_ESD_1_H(),
     .PAD_A_NOESD_H(),
     .SLOW(vssd),
-    .TIE_HI_ESD(TIE_HI_ESD),
-    .TIE_LO_ESD(TIE_LO_ESD),
+    .TIE_HI_ESD(),
+    .TIE_LO_ESD(\TIE_LO_ESD[7] ),
     .VTRIP_SEL(vssd)
   );
   sky130_ef_io__gpiov2_pad_wrapped B_VCO_PAD (
@@ -64,7 +70,7 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .ANALOG_SEL(vssd),
     .DM({ vccd, vccd, vssd }),
     .ENABLE_H(PORB),
-    .ENABLE_INP_H(TIE_LO_ESD),
+    .ENABLE_INP_H(\TIE_LO_ESD[6] ),
     .ENABLE_VDDA_H(vssa),
     .ENABLE_VDDIO(vccd),
     .ENABLE_VSWITCH_H(vssa),
@@ -80,8 +86,8 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .PAD_A_ESD_1_H(),
     .PAD_A_NOESD_H(),
     .SLOW(vssd),
-    .TIE_HI_ESD(TIE_HI_ESD),
-    .TIE_LO_ESD(TIE_LO_ESD),
+    .TIE_HI_ESD(),
+    .TIE_LO_ESD(\TIE_LO_ESD[6] ),
     .VTRIP_SEL(vssd)
   );
   sky130_fd_io__top_power_lvc_wpad CLK_PAD (
@@ -92,7 +98,7 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .ANALOG_POL(vssd),
     .ANALOG_SEL(vssd),
     .ENABLE_H(PORB),
-    .ENABLE_INP_H(TIE_LO_ESD),
+    .ENABLE_INP_H(\TIE_LO_ESD[5] ),
     .ENABLE_VDDA_H(vssa),
     .ENABLE_VDDIO(vccd),
     .ENABLE_VSWITCH_H(vssa),
@@ -108,8 +114,8 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .PAD_A_ESD_1_H(),
     .PAD_A_NOESD_H(),
     .SLOW(vssd),
-    .TIE_HI_ESD(TIE_HI_ESD),
-    .TIE_LO_ESD(TIE_LO_ESD),
+    .TIE_HI_ESD(),
+    .TIE_LO_ESD(\TIE_LO_ESD[5] ),
     .VTRIP_SEL(vssd)
   );
   sky130_ef_io__gpiov2_pad_wrapped ENb_VCO_PAD (
@@ -117,7 +123,7 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .ANALOG_POL(vssd),
     .ANALOG_SEL(vssd),
     .ENABLE_H(PORB),
-    .ENABLE_INP_H(TIE_LO_ESD),
+    .ENABLE_INP_H(\TIE_LO_ESD[4] ),
     .ENABLE_VDDA_H(vssa),
     .ENABLE_VDDIO(vccd),
     .ENABLE_VSWITCH_H(vssa),
@@ -133,8 +139,8 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .PAD_A_ESD_1_H(),
     .PAD_A_NOESD_H(),
     .SLOW(vssd),
-    .TIE_HI_ESD(TIE_HI_ESD),
-    .TIE_LO_ESD(TIE_LO_ESD),
+    .TIE_HI_ESD(),
+    .TIE_LO_ESD(\TIE_LO_ESD[4] ),
     .VTRIP_SEL(vssd)
   );
   sky130_ef_io__gpiov2_pad_wrapped GPIO_0_PAD (
@@ -143,7 +149,7 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .ANALOG_SEL(vssd),
     .DM({ vssd, vssd, vccd }),
     .ENABLE_H(PORB),
-    .ENABLE_INP_H(TIE_LO_ESD),
+    .ENABLE_INP_H(\TIE_LO_ESD[0] ),
     .ENABLE_VDDA_H(vssa),
     .ENABLE_VDDIO(vccd),
     .ENABLE_VSWITCH_H(vssa),
@@ -159,8 +165,8 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .PAD_A_ESD_1_H(),
     .PAD_A_NOESD_H(),
     .SLOW(vssd),
-    .TIE_HI_ESD(TIE_HI_ESD),
-    .TIE_LO_ESD(TIE_LO_ESD),
+    .TIE_HI_ESD(),
+    .TIE_LO_ESD(\TIE_LO_ESD[0] ),
     .VTRIP_SEL(vssd)
   );
   sky130_ef_io__gpiov2_pad_wrapped GPIO_1_PAD (
@@ -169,7 +175,7 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .ANALOG_SEL(vssd),
     .DM({ vssd, vssd, vccd }),
     .ENABLE_H(PORB),
-    .ENABLE_INP_H(TIE_LO_ESD),
+    .ENABLE_INP_H(\TIE_LO_ESD[1] ),
     .ENABLE_VDDA_H(vssa),
     .ENABLE_VDDIO(vccd),
     .ENABLE_VSWITCH_H(vssa),
@@ -185,8 +191,8 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .PAD_A_ESD_1_H(),
     .PAD_A_NOESD_H(),
     .SLOW(vssd),
-    .TIE_HI_ESD(TIE_HI_ESD),
-    .TIE_LO_ESD(TIE_LO_ESD),
+    .TIE_HI_ESD(),
+    .TIE_LO_ESD(\TIE_LO_ESD[1] ),
     .VTRIP_SEL(vssd)
   );
   sky130_ef_io__gpiov2_pad_wrapped GPIO_2_PAD (
@@ -195,7 +201,7 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .ANALOG_SEL(vssd),
     .DM({ vssd, vssd, vccd }),
     .ENABLE_H(PORB),
-    .ENABLE_INP_H(TIE_LO_ESD),
+    .ENABLE_INP_H(\TIE_LO_ESD[2] ),
     .ENABLE_VDDA_H(vssa),
     .ENABLE_VDDIO(vccd),
     .ENABLE_VSWITCH_H(vssa),
@@ -211,8 +217,8 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .PAD_A_ESD_1_H(),
     .PAD_A_NOESD_H(),
     .SLOW(vssd),
-    .TIE_HI_ESD(TIE_HI_ESD),
-    .TIE_LO_ESD(TIE_LO_ESD),
+    .TIE_HI_ESD(),
+    .TIE_LO_ESD(\TIE_LO_ESD[2] ),
     .VTRIP_SEL(vssd)
   );
   sky130_ef_io__gpiov2_pad_wrapped GPIO_3_PAD (
@@ -221,7 +227,7 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .ANALOG_SEL(vssd),
     .DM({ vssd, vssd, vccd }),
     .ENABLE_H(PORB),
-    .ENABLE_INP_H(TIE_LO_ESD),
+    .ENABLE_INP_H(\TIE_LO_ESD[3] ),
     .ENABLE_VDDA_H(vssa),
     .ENABLE_VDDIO(vccd),
     .ENABLE_VSWITCH_H(vssa),
@@ -237,8 +243,8 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .PAD_A_ESD_1_H(),
     .PAD_A_NOESD_H(),
     .SLOW(vssd),
-    .TIE_HI_ESD(TIE_HI_ESD),
-    .TIE_LO_ESD(TIE_LO_ESD),
+    .TIE_HI_ESD(),
+    .TIE_LO_ESD(\TIE_LO_ESD[3] ),
     .VTRIP_SEL(vssd)
   );
   sky130_fd_io__top_power_lvc_wpad REF_CLK_PAD (

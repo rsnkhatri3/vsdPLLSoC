@@ -66,7 +66,7 @@ set ::env(GLB_RT_MINLAYER) "1"
 set ::env(GLB_RT_MAXLAYER) "6"
 set ::env(GLB_RT_UNIDIRECTIONAL) "0"
 set ::env(GLB_RT_ALLOW_CONGESTION) "1"
-set ::env(GLB_RT_OVERFLOW_ITERS) "500"
+set ::env(GLB_RT_OVERFLOW_ITERS) "50"
 set ::env(GLB_RT_TILES) "30"
 set ::env(GLB_RT_ESTIMATE_PARASITICS) "1"
 set ::env(GLB_RT_MAX_DIODE_INS_ITERS) "1"
@@ -84,6 +84,6 @@ set ::env(CHECK_ASSIGN_STATEMENTS) "0"
 set ::env(CHECK_UNMAPPED_CELLS) "1"
 set ::env(USE_ARC_ANTENNA_CHECK) "1"
 set ::env(RUN_SPEF_EXTRACTION) "1"
-set ::env(CURRENT_DEF) /openLANE_flow/designs/chip_io/runs/chip_io/tmp/routing/fastroute.def
+set ::env(CURRENT_DEF) /openLANE_flow/designs/chip_io/runs/chip_io/results/routing/chip_io.def
 set ::env(CURRENT_NETLIST) /openLANE_flow/designs/chip_io/runs/chip_io/results/synthesis/chip_io.synthesis.v
 set ::env(PREV_NETLIST) /openLANE_flow/designs/chip_io/runs/chip_io_lvs/results/synthesis/chip_io.synthesis.v

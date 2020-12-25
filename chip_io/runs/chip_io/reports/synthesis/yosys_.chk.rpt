@@ -1,25 +1,7 @@
 
 11. Executing CHECK pass (checking for obvious problems).
 checking module chip_io..
-Warning: multiple conflicting drivers for chip_io.\TIE_LO_ESD:
-    port TIE_LO_ESD[0] of cell B_CP_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_LO_ESD[0] of cell B_VCO_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_LO_ESD[0] of cell ENb_CP_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_LO_ESD[0] of cell ENb_VCO_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_LO_ESD[0] of cell GPIO_0_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_LO_ESD[0] of cell GPIO_1_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_LO_ESD[0] of cell GPIO_2_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_LO_ESD[0] of cell GPIO_3_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-Warning: multiple conflicting drivers for chip_io.\TIE_HI_ESD:
-    port TIE_HI_ESD[0] of cell B_CP_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_HI_ESD[0] of cell B_VCO_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_HI_ESD[0] of cell ENb_CP_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_HI_ESD[0] of cell ENb_VCO_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_HI_ESD[0] of cell GPIO_0_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_HI_ESD[0] of cell GPIO_1_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_HI_ESD[0] of cell GPIO_2_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_HI_ESD[0] of cell GPIO_3_PAD (sky130_ef_io__gpiov2_pad_wrapped)
 Warning: Wire chip_io.\CLK is used but has no driver.
 Warning: Wire chip_io.\B_VCO is used but has no driver.
 Warning: Wire chip_io.\B_CP is used but has no driver.
-found and reported 5 problems.
+found and reported 3 problems.

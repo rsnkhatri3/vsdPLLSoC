@@ -1,0 +1,128 @@
+Netgen 1.5.158 compiled on Sat Dec  5 19:50:01 UTC 2020
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Generating JSON file result
+Reading netlist file /openLANE_flow/designs/chip_io/runs/chip_io/results/magic/chip_io.spice
+Reading netlist file /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.v
+Warning:  A case-insensitive file has been read and so the	verilog file must be treated case-insensitive to match.
+Creating placeholder cell definition for module sky130_ef_io__gpiov2_pad_wrapped.
+Creating placeholder cell definition for module sky130_fd_io__top_power_lvc_wpad.
+Note:  Implicit pin DM[2]
+Note:  Implicit pin DM[1]
+Note:  Implicit pin DM[0]
+Note:  Implicit pin DM[2]
+Note:  Implicit pin DM[1]
+Note:  Implicit pin DM[0]
+Creating placeholder cell definition for module sky130_ef_io__vccd_lvc_pad.
+Creating placeholder cell definition for module sky130_ef_io__vdda_hvc_pad.
+Creating placeholder cell definition for module sky130_ef_io__vddio_hvc_pad.
+Creating placeholder cell definition for module sky130_ef_io__vssa_hvc_pad.
+Creating placeholder cell definition for module sky130_ef_io__vssd_lvc_pad.
+Creating placeholder cell definition for module sky130_ef_io__vssio_hvc_pad.
+Creating placeholder cell definition for module sky130_ef_io__corner_pad.
+Reading setup file /home/roshan/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/open_pdks/sky130/sky130A/libs.tech/netgen/sky130A_setup.tcl
+Comparison output logged to file /openLANE_flow/designs/chip_io/runs/chip_io/results/lvs/chip_io.lvs.log
+Logging to file "/openLANE_flow/designs/chip_io/runs/chip_io/results/lvs/chip_io.lvs.log" enabled
+Contents of circuit 1:  Circuit: 'sky130_ef_io__gpiov2_pad_wrapped'
+Circuit sky130_ef_io__gpiov2_pad_wrapped contains 0 device instances.
+Circuit contains 0 nets, and 39 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_ef_io__gpiov2_pad_wrapped'
+Circuit sky130_ef_io__gpiov2_pad_wrapped contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit sky130_ef_io__gpiov2_pad_wrapped contains no devices.
+Contents of circuit 1:  Circuit: 'sky130_fd_io__top_power_lvc_wpad'
+Circuit sky130_fd_io__top_power_lvc_wpad contains 0 device instances.
+Circuit contains 0 nets, and 20 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_fd_io__top_power_lvc_wpad'
+Circuit sky130_fd_io__top_power_lvc_wpad contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit sky130_fd_io__top_power_lvc_wpad contains no devices.
+Contents of circuit 1:  Circuit: 'sky130_ef_io__vccd_lvc_pad'
+Circuit sky130_ef_io__vccd_lvc_pad contains 0 device instances.
+Circuit contains 0 nets, and 17 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_ef_io__vccd_lvc_pad'
+Circuit sky130_ef_io__vccd_lvc_pad contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit sky130_ef_io__vccd_lvc_pad contains no devices.
+Contents of circuit 1:  Circuit: 'sky130_ef_io__vssa_hvc_pad'
+Circuit sky130_ef_io__vssa_hvc_pad contains 0 device instances.
+Circuit contains 0 nets, and 14 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_ef_io__vssa_hvc_pad'
+Circuit sky130_ef_io__vssa_hvc_pad contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit sky130_ef_io__vssa_hvc_pad contains no devices.
+Contents of circuit 1:  Circuit: 'sky130_ef_io__vssd_lvc_pad'
+Circuit sky130_ef_io__vssd_lvc_pad contains 0 device instances.
+Circuit contains 0 nets, and 17 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_ef_io__vssd_lvc_pad'
+Circuit sky130_ef_io__vssd_lvc_pad contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit sky130_ef_io__vssd_lvc_pad contains no devices.
+Contents of circuit 1:  Circuit: 'sky130_ef_io__vddio_hvc_pad'
+Circuit sky130_ef_io__vddio_hvc_pad contains 0 device instances.
+Circuit contains 0 nets, and 14 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_ef_io__vddio_hvc_pad'
+Circuit sky130_ef_io__vddio_hvc_pad contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit sky130_ef_io__vddio_hvc_pad contains no devices.
+Contents of circuit 1:  Circuit: 'sky130_ef_io__corner_pad'
+Circuit sky130_ef_io__corner_pad contains 0 device instances.
+Circuit contains 0 nets, and 12 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_ef_io__corner_pad'
+Circuit sky130_ef_io__corner_pad contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit sky130_ef_io__corner_pad contains no devices.
+Contents of circuit 1:  Circuit: 'sky130_ef_io__vdda_hvc_pad'
+Circuit sky130_ef_io__vdda_hvc_pad contains 0 device instances.
+Circuit contains 0 nets, and 14 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_ef_io__vdda_hvc_pad'
+Circuit sky130_ef_io__vdda_hvc_pad contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit sky130_ef_io__vdda_hvc_pad contains no devices.
+Contents of circuit 1:  Circuit: 'sky130_ef_io__vssio_hvc_pad'
+Circuit sky130_ef_io__vssio_hvc_pad contains 0 device instances.
+Circuit contains 0 nets, and 14 disconnected pins.
+Contents of circuit 2:  Circuit: 'sky130_ef_io__vssio_hvc_pad'
+Circuit sky130_ef_io__vssio_hvc_pad contains 0 device instances.
+Circuit contains 0 nets.
+
+Circuit sky130_ef_io__vssio_hvc_pad contains no devices.
+Contents of circuit 1:  Circuit: 'chip_io'
+Circuit chip_io contains 21 device instances.
+  Class: sky130_ef_io__vddio_hvc_pad instances:   1
+  Class: sky130_ef_io__vssa_hvc_pad instances:   1
+  Class: sky130_ef_io__vssd_lvc_pad instances:   1
+  Class: sky130_ef_io__gpiov2_pad_wrapped instances:   8
+  Class: sky130_ef_io__corner_pad instances:   4
+  Class: sky130_ef_io__vdda_hvc_pad instances:   1
+  Class: sky130_ef_io__vssio_hvc_pad instances:   1
+  Class: sky130_ef_io__vccd_lvc_pad instances:   1
+  Class: sky130_fd_io__top_power_lvc_wpad instances:   3
+Circuit contains 129 nets.
+Contents of circuit 2:  Circuit: 'chip_io'
+Circuit chip_io contains 21 device instances.
+  Class: sky130_ef_io__vddio_hvc_pad instances:   1
+  Class: sky130_ef_io__vssa_hvc_pad instances:   1
+  Class: sky130_ef_io__vssd_lvc_pad instances:   1
+  Class: sky130_ef_io__gpiov2_pad_wrapped instances:   8
+  Class: sky130_ef_io__corner_pad instances:   4
+  Class: sky130_ef_io__vdda_hvc_pad instances:   1
+  Class: sky130_ef_io__vssio_hvc_pad instances:   1
+  Class: sky130_ef_io__vccd_lvc_pad instances:   1
+  Class: sky130_fd_io__top_power_lvc_wpad instances:   3
+Circuit contains 169 nets.
+
+Circuit 1 contains 21 devices, Circuit 2 contains 21 devices.
+Circuit 1 contains 121 nets,    Circuit 2 contains 169 nets. *** MISMATCH ***
+
+Result: Netlists do not match.
+Logging to file "/openLANE_flow/designs/chip_io/runs/chip_io/results/lvs/chip_io.lvs.log" disabled
+LVS Done.

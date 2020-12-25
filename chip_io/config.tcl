@@ -17,9 +17,7 @@ set ::env(VERILOG_FILES_BLACKBOX) [glob $::env(DESIGN_DIR)/src/sky130_fd_io__top
 set ::env(EXTRA_LEFS) [glob $::env(DESIGN_DIR)/src/lef/*.lef]
 
 
-set ::env(USE_GPIO_ROUTING_LEF) 1
-
-set ::env(USE_GPIO_ROUTING_LEF) 1
+#set ::env(USE_GPIO_ROUTING_LEF) 1
 
 set ::env(GLB_RT_ALLOW_CONGESTION) 1
 
@@ -27,7 +25,7 @@ set ::env(DESIGN_IS_PADFRAME) 1
 set ::env(SYNTH_FLAT_TOP) 1
 set ::env(USE_GPIO_PADS) 1
 
-set ::env(GLB_RT_OVERFLOW_ITERS) 500
+#set ::env(GLB_RT_OVERFLOW_ITERS) 500
 
 set ::env(FP_SIZING) absolute
 

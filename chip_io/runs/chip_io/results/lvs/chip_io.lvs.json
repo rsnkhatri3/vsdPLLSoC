@@ -1,0 +1,4466 @@
+[
+  {
+   "pins": [
+      [
+        "AMUXBUS_A",
+        "AMUXBUS_B",
+        "ANALOG_EN",
+        "ANALOG_POL",
+        "ANALOG_SEL",
+        "DM[2]",
+        "DM[1]",
+        "DM[0]",
+        "ENABLE_H",
+        "ENABLE_INP_H",
+        "ENABLE_VDDA_H",
+        "ENABLE_VDDIO",
+        "ENABLE_VSWITCH_H",
+        "HLD_H_N",
+        "HLD_OVR",
+        "IB_MODE_SEL",
+        "IN",
+        "IN_H",
+        "INP_DIS",
+        "OE_N",
+        "OUT",
+        "PAD",
+        "PAD_A_ESD_0_H",
+        "PAD_A_ESD_1_H",
+        "PAD_A_NOESD_H",
+        "SLOW",
+        "TIE_HI_ESD",
+        "TIE_LO_ESD",
+        "VCCD",
+        "VCCHIB",
+        "VDDA",
+        "VDDIO",
+        "VDDIO_Q",
+        "VSSA",
+        "VSSD",
+        "VSSIO",
+        "VSSIO_Q",
+        "VSWITCH",
+        "VTRIP_SEL"
+      ], [
+        "AMUXBUS_A",
+        "AMUXBUS_B",
+        "ANALOG_EN",
+        "ANALOG_POL",
+        "ANALOG_SEL",
+        "DM[2]",
+        "DM[1]",
+        "DM[0]",
+        "ENABLE_H",
+        "ENABLE_INP_H",
+        "ENABLE_VDDA_H",
+        "ENABLE_VDDIO",
+        "ENABLE_VSWITCH_H",
+        "HLD_H_N",
+        "HLD_OVR",
+        "IB_MODE_SEL",
+        "IN",
+        "IN_H",
+        "INP_DIS",
+        "OE_N",
+        "OUT",
+        "PAD",
+        "PAD_A_ESD_0_H",
+        "PAD_A_ESD_1_H",
+        "PAD_A_NOESD_H",
+        "SLOW",
+        "TIE_HI_ESD",
+        "TIE_LO_ESD",
+        "VCCD",
+        "VCCHIB",
+        "VDDA",
+        "VDDIO",
+        "VDDIO_Q",
+        "VSSA",
+        "VSSD",
+        "VSSIO",
+        "VSSIO_Q",
+        "VSWITCH",
+        "VTRIP_SEL"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "AMUXBUS_A",
+        "AMUXBUS_B",
+        "P_PAD",
+        "P_CORE",
+        "VCCD",
+        "VCCHIB",
+        "VDDA",
+        "VDDIO",
+        "VDDIO_Q",
+        "VSSA",
+        "VSSD",
+        "VSSIO",
+        "VSSIO_Q",
+        "VSWITCH"
+      ], [
+        "AMUXBUS_A",
+        "AMUXBUS_B",
+        "P_PAD",
+        "P_CORE",
+        "VCCD",
+        "VCCHIB",
+        "VDDA",
+        "VDDIO",
+        "VDDIO_Q",
+        "VSSA",
+        "VSSD",
+        "VSSIO",
+        "VSSIO_Q",
+        "VSWITCH"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "AMUXBUS_A",
+        "AMUXBUS_B",
+        "DRN_LVC1",
+        "DRN_LVC2",
+        "SRC_BDY_LVC1",
+        "SRC_BDY_LVC2",
+        "BDY2_B2B",
+        "VSSA",
+        "VDDA",
+        "VSWITCH",
+        "VDDIO_Q",
+        "VCCHIB",
+        "VDDIO",
+        "VSSIO",
+        "VSSD",
+        "VSSIO_Q"
+      ], [
+        "AMUXBUS_A",
+        "AMUXBUS_B",
+        "DRN_LVC1",
+        "DRN_LVC2",
+        "SRC_BDY_LVC1",
+        "SRC_BDY_LVC2",
+        "BDY2_B2B",
+        "VSSA",
+        "VDDA",
+        "VSWITCH",
+        "VDDIO_Q",
+        "VCCHIB",
+        "VDDIO",
+        "VSSIO",
+        "VSSD",
+        "VSSIO_Q"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "AMUXBUS_A",
+        "AMUXBUS_B",
+        "DRN_HVC",
+        "SRC_BDY_HVC",
+        "VDDA",
+        "VSWITCH",
+        "VDDIO_Q",
+        "VCCHIB",
+        "VDDIO",
+        "VCCD",
+        "VSSIO",
+        "VSSD",
+        "VSSIO_Q"
+      ], [
+        "AMUXBUS_A",
+        "AMUXBUS_B",
+        "DRN_HVC",
+        "SRC_BDY_HVC",
+        "VDDA",
+        "VSWITCH",
+        "VDDIO_Q",
+        "VCCHIB",
+        "VDDIO",
+        "VCCD",
+        "VSSIO",
+        "VSSD",
+        "VSSIO_Q"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "AMUXBUS_A",
+        "AMUXBUS_B",
+        "DRN_LVC1",
+        "DRN_LVC2",
+        "SRC_BDY_LVC1",
+        "SRC_BDY_LVC2",
+        "BDY2_B2B",
+        "VSSA",
+        "VDDA",
+        "VSWITCH",
+        "VDDIO_Q",
+        "VCCHIB",
+        "VDDIO",
+        "VCCD",
+        "VSSIO",
+        "VSSIO_Q"
+      ], [
+        "AMUXBUS_A",
+        "AMUXBUS_B",
+        "DRN_LVC1",
+        "DRN_LVC2",
+        "SRC_BDY_LVC1",
+        "SRC_BDY_LVC2",
+        "BDY2_B2B",
+        "VSSA",
+        "VDDA",
+        "VSWITCH",
+        "VDDIO_Q",
+        "VCCHIB",
+        "VDDIO",
+        "VCCD",
+        "VSSIO",
+        "VSSIO_Q"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "AMUXBUS_A",
+        "AMUXBUS_B",
+        "DRN_HVC",
+        "SRC_BDY_HVC",
+        "VSSA",
+        "VDDA",
+        "VSWITCH",
+        "VDDIO_Q",
+        "VCCHIB",
+        "VCCD",
+        "VSSIO",
+        "VSSD",
+        "VSSIO_Q"
+      ], [
+        "AMUXBUS_A",
+        "AMUXBUS_B",
+        "DRN_HVC",
+        "SRC_BDY_HVC",
+        "VSSA",
+        "VDDA",
+        "VSWITCH",
+        "VDDIO_Q",
+        "VCCHIB",
+        "VCCD",
+        "VSSIO",
+        "VSSD",
+        "VSSIO_Q"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "AMUXBUS_A",
+        "AMUXBUS_B",
+        "VSSA",
+        "VDDA",
+        "VSWITCH",
+        "VDDIO_Q",
+        "VCCHIB",
+        "VDDIO",
+        "VCCD",
+        "VSSIO",
+        "VSSD",
+        "VSSIO_Q"
+      ], [
+        "AMUXBUS_A",
+        "AMUXBUS_B",
+        "VSSA",
+        "VDDA",
+        "VSWITCH",
+        "VDDIO_Q",
+        "VCCHIB",
+        "VDDIO",
+        "VCCD",
+        "VSSIO",
+        "VSSD",
+        "VSSIO_Q"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "AMUXBUS_A",
+        "AMUXBUS_B",
+        "DRN_HVC",
+        "SRC_BDY_HVC",
+        "VSSA",
+        "VSWITCH",
+        "VDDIO_Q",
+        "VCCHIB",
+        "VDDIO",
+        "VCCD",
+        "VSSIO",
+        "VSSD",
+        "VSSIO_Q"
+      ], [
+        "AMUXBUS_A",
+        "AMUXBUS_B",
+        "DRN_HVC",
+        "SRC_BDY_HVC",
+        "VSSA",
+        "VSWITCH",
+        "VDDIO_Q",
+        "VCCHIB",
+        "VDDIO",
+        "VCCD",
+        "VSSIO",
+        "VSSD",
+        "VSSIO_Q"
+      ]
+   ]
+  },
+  {
+   "pins": [
+      [
+        "AMUXBUS_A",
+        "AMUXBUS_B",
+        "DRN_HVC",
+        "SRC_BDY_HVC",
+        "VSSA",
+        "VDDA",
+        "VSWITCH",
+        "VDDIO_Q",
+        "VCCHIB",
+        "VDDIO",
+        "VCCD",
+        "VSSD",
+        "VSSIO_Q"
+      ], [
+        "AMUXBUS_A",
+        "AMUXBUS_B",
+        "DRN_HVC",
+        "SRC_BDY_HVC",
+        "VSSA",
+        "VDDA",
+        "VSWITCH",
+        "VDDIO_Q",
+        "VCCHIB",
+        "VDDIO",
+        "VCCD",
+        "VSSD",
+        "VSSIO_Q"
+      ]
+   ]
+  },
+  {
+   "name": [
+      "chip_io",
+      "chip_io"
+   ],
+   "devices": [
+       [
+         ["sky130_ef_io__gpiov2_pad_wrapped", 8],
+         ["sky130_fd_io__top_power_lvc_wpad", 3],
+         ["sky130_ef_io__vccd_lvc_pad", 1],
+         ["sky130_ef_io__vssa_hvc_pad", 1],
+         ["sky130_ef_io__vssd_lvc_pad", 1],
+         ["sky130_ef_io__vddio_hvc_pad", 1],
+         ["sky130_ef_io__corner_pad", 4],
+         ["sky130_ef_io__vdda_hvc_pad", 1],
+         ["sky130_ef_io__vssio_hvc_pad", 1 ]
+       ], [
+         ["sky130_ef_io__gpiov2_pad_wrapped", 8 ],
+         ["sky130_fd_io__top_power_lvc_wpad", 3 ],
+         ["sky130_ef_io__vccd_lvc_pad", 1 ],
+         ["sky130_ef_io__vssa_hvc_pad", 1 ],
+         ["sky130_ef_io__vssd_lvc_pad", 1 ],
+         ["sky130_ef_io__vddio_hvc_pad", 1 ],
+         ["sky130_ef_io__corner_pad", 4 ],
+         ["sky130_ef_io__vdda_hvc_pad", 1 ],
+         ["sky130_ef_io__vssio_hvc_pad", 1 ]
+       ]
+   ],
+   "nets": [
+    121,
+    169
+   ],
+   "badnets": [
+      [
+        [
+          [
+            "FILLER_580/VSSA",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "VSSA", 1 ]
+            ]
+          ],
+          [
+            "FILLER_580/VDDA",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "VDDA", 1 ]
+            ]
+          ],
+          [
+            "FILLER_580/VSWITCH",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "VSWITCH", 1 ]
+            ]
+          ],
+          [
+            "FILLER_580/VDDIO_Q",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "VDDIO_Q", 1 ]
+            ]
+          ],
+          [
+            "FILLER_580/VCCHIB",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "VCCHIB", 1 ]
+            ]
+          ],
+          [
+            "FILLER_580/VDDIO",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "VDDIO", 1 ]
+            ]
+          ],
+          [
+            "FILLER_580/VCCD",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "VCCD", 1 ]
+            ]
+          ],
+          [
+            "FILLER_580/VSSIO",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "VSSIO", 1 ]
+            ]
+          ],
+          [
+            "FILLER_580/VSSD",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "VSSD", 1 ]
+            ]
+          ],
+          [
+            "FILLER_580/VSSIO_Q",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "B_0_pll",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN", 1 ]
+            ]
+          ],
+          [
+            "B_3_pll",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN", 1 ]
+            ]
+          ],
+          [
+            "B_2_pll",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN", 1 ]
+            ]
+          ],
+          [
+            "B_1_pll",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN", 1 ]
+            ]
+          ],
+          [
+            "GPIO_0_PAD/IN_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN_H", 1 ]
+            ]
+          ],
+          [
+            "GPIO_3_PAD/IN_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN_H", 1 ]
+            ]
+          ],
+          [
+            "GPIO_2_PAD/IN_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN_H", 1 ]
+            ]
+          ],
+          [
+            "GPIO_1_PAD/IN_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN_H", 1 ]
+            ]
+          ],
+          [
+            "GPIO_0",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD", 1 ]
+            ]
+          ],
+          [
+            "GPIO_3",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD", 1 ]
+            ]
+          ],
+          [
+            "GPIO_2",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD", 1 ]
+            ]
+          ],
+          [
+            "GPIO_1",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD", 1 ]
+            ]
+          ],
+          [
+            "GPIO_0_PAD/PAD_A_ESD_0_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_0_H", 1 ]
+            ]
+          ],
+          [
+            "GPIO_3_PAD/PAD_A_ESD_0_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_0_H", 1 ]
+            ]
+          ],
+          [
+            "GPIO_2_PAD/PAD_A_ESD_0_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_0_H", 1 ]
+            ]
+          ],
+          [
+            "GPIO_1_PAD/PAD_A_ESD_0_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_0_H", 1 ]
+            ]
+          ],
+          [
+            "GPIO_0_PAD/PAD_A_ESD_1_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_1_H", 1 ]
+            ]
+          ],
+          [
+            "GPIO_3_PAD/PAD_A_ESD_1_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_1_H", 1 ]
+            ]
+          ],
+          [
+            "GPIO_2_PAD/PAD_A_ESD_1_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_1_H", 1 ]
+            ]
+          ],
+          [
+            "GPIO_1_PAD/PAD_A_ESD_1_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_1_H", 1 ]
+            ]
+          ],
+          [
+            "GPIO_0_PAD/PAD_A_NOESD_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_NOESD_H", 1 ]
+            ]
+          ],
+          [
+            "GPIO_3_PAD/PAD_A_NOESD_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_NOESD_H", 1 ]
+            ]
+          ],
+          [
+            "GPIO_2_PAD/PAD_A_NOESD_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_NOESD_H", 1 ]
+            ]
+          ],
+          [
+            "GPIO_1_PAD/PAD_A_NOESD_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_NOESD_H", 1 ]
+            ]
+          ],
+          [
+            "GPIO_0_PAD/TIE_HI_ESD",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_HI_ESD", 1 ]
+            ]
+          ],
+          [
+            "GPIO_3_PAD/TIE_HI_ESD",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_HI_ESD", 1 ]
+            ]
+          ],
+          [
+            "GPIO_2_PAD/TIE_HI_ESD",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_HI_ESD", 1 ]
+            ]
+          ],
+          [
+            "GPIO_1_PAD/TIE_HI_ESD",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_HI_ESD", 1 ]
+            ]
+          ],
+          [
+            "VCO_IN",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "P_PAD", 1 ]
+            ]
+          ],
+          [
+            "REF_CLK",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "P_PAD", 1 ]
+            ]
+          ],
+          [
+            "CLK",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "P_PAD", 1 ]
+            ]
+          ],
+          [
+            "VCO_IN_pll",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "P_CORE", 1 ]
+            ]
+          ],
+          [
+            "REF_CLK_pll",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "P_CORE", 1 ]
+            ]
+          ],
+          [
+            "CLK_pll",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "P_CORE", 1 ]
+            ]
+          ],
+          [
+            "CLK_PAD/VSSA",
+            [
+              [ "sky130_ef_io__vccd_lvc_pad", "VSSA", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "VSSA", 1 ],
+              [ "sky130_ef_io__corner_pad", "VSSA", 2 ],
+              [ "sky130_ef_io__vdda_hvc_pad", "VSSA", 1 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VSSA", 1 ]
+            ]
+          ],
+          [
+            "CLK_PAD/VSWITCH",
+            [
+              [ "sky130_ef_io__vccd_lvc_pad", "VSWITCH", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "VSWITCH", 1 ],
+              [ "sky130_ef_io__corner_pad", "VSWITCH", 2 ],
+              [ "sky130_ef_io__vdda_hvc_pad", "VSWITCH", 1 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VSWITCH", 1 ]
+            ]
+          ],
+          [
+            "CLK_PAD/VDDIO_Q",
+            [
+              [ "sky130_ef_io__vccd_lvc_pad", "VDDIO_Q", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "VDDIO_Q", 1 ],
+              [ "sky130_ef_io__corner_pad", "VDDIO_Q", 2 ],
+              [ "sky130_ef_io__vdda_hvc_pad", "VDDIO_Q", 1 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VDDIO_Q", 1 ]
+            ]
+          ],
+          [
+            "CLK_PAD/VCCHIB",
+            [
+              [ "sky130_ef_io__vccd_lvc_pad", "VCCHIB", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "VCCHIB", 1 ],
+              [ "sky130_ef_io__corner_pad", "VCCHIB", 2 ],
+              [ "sky130_ef_io__vdda_hvc_pad", "VCCHIB", 1 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VCCHIB", 1 ]
+            ]
+          ],
+          [
+            "CLK_PAD/VDDIO",
+            [
+              [ "sky130_ef_io__vccd_lvc_pad", "VDDIO", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "VDDIO", 1 ],
+              [ "sky130_ef_io__corner_pad", "VDDIO", 2 ],
+              [ "sky130_ef_io__vdda_hvc_pad", "VDDIO", 1 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VDDIO", 1 ]
+            ]
+          ],
+          [
+            "CLK_PAD/VSSIO",
+            [
+              [ "sky130_ef_io__vccd_lvc_pad", "VSSIO", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "VSSIO", 1 ],
+              [ "sky130_ef_io__corner_pad", "VSSIO", 2 ],
+              [ "sky130_ef_io__vdda_hvc_pad", "VSSIO", 1 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VSSIO", 1 ]
+            ]
+          ],
+          [
+            "CLK_PAD/VSSIO_Q",
+            [
+              [ "sky130_ef_io__vccd_lvc_pad", "VSSIO_Q", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "VSSIO_Q", 1 ],
+              [ "sky130_ef_io__corner_pad", "VSSIO_Q", 2 ],
+              [ "sky130_ef_io__vdda_hvc_pad", "VSSIO_Q", 1 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "vdda",
+            [
+              [ "sky130_ef_io__vccd_lvc_pad", "VDDA", 1 ],
+              [ "sky130_ef_io__vssa_hvc_pad", "DRN_HVC", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "VDDA", 1 ],
+              [ "sky130_ef_io__corner_pad", "VDDA", 2 ],
+              [ "sky130_ef_io__vdda_hvc_pad", "DRN_HVC", 1 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VDDA", 1 ]
+            ]
+          ],
+          [
+            "vccd",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ENABLE_VDDIO", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "OE_N", 6 ],
+              [ "sky130_ef_io__vccd_lvc_pad", "DRN_LVC1", 1 ],
+              [ "sky130_ef_io__vccd_lvc_pad", "DRN_LVC2", 1 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[0]", 4 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "DRN_LVC1", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "DRN_LVC2", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "VCCD", 1 ],
+              [ "sky130_ef_io__corner_pad", "VCCD", 2 ],
+              [ "sky130_ef_io__vdda_hvc_pad", "VCCD", 1 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[2]", 2 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[1]", 2 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VCCD", 1 ]
+            ]
+          ],
+          [
+            "vssd",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ANALOG_EN", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ANALOG_POL", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ANALOG_SEL", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "HLD_OVR", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IB_MODE_SEL", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "INP_DIS", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "OUT", 6 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "SLOW", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VTRIP_SEL", 8 ],
+              [ "sky130_ef_io__vccd_lvc_pad", "SRC_BDY_LVC1", 1 ],
+              [ "sky130_ef_io__vccd_lvc_pad", "SRC_BDY_LVC2", 1 ],
+              [ "sky130_ef_io__vccd_lvc_pad", "VSSD", 1 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[2]", 4 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[1]", 4 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "SRC_BDY_LVC1", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "SRC_BDY_LVC2", 1 ],
+              [ "sky130_ef_io__corner_pad", "VSSD", 2 ],
+              [ "sky130_ef_io__vdda_hvc_pad", "VSSD", 1 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[0]", 2 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "OE_N", 2 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VSSD", 1 ]
+            ]
+          ],
+          [
+            "vssa",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ENABLE_VDDA_H", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ENABLE_VSWITCH_H", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VSSA", 4 ],
+              [ "sky130_ef_io__vssa_hvc_pad", "SRC_BDY_HVC", 1 ],
+              [ "sky130_ef_io__vddio_hvc_pad", "VSSA", 1 ],
+              [ "sky130_ef_io__vdda_hvc_pad", "SRC_BDY_HVC", 1 ],
+              [ "sky130_ef_io__corner_pad", "VSSA", 2 ],
+              [ "sky130_ef_io__vssio_hvc_pad", "VSSA", 1 ]
+            ]
+          ],
+          [
+            "corner_3/VDDA",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VDDA", 4 ],
+              [ "sky130_ef_io__vssa_hvc_pad", "VDDA", 1 ],
+              [ "sky130_ef_io__vddio_hvc_pad", "VDDA", 1 ],
+              [ "sky130_ef_io__corner_pad", "VDDA", 2 ],
+              [ "sky130_ef_io__vssio_hvc_pad", "VDDA", 1 ]
+            ]
+          ],
+          [
+            "corner_3/VSWITCH",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VSWITCH", 4 ],
+              [ "sky130_ef_io__vssa_hvc_pad", "VSWITCH", 1 ],
+              [ "sky130_ef_io__vddio_hvc_pad", "VSWITCH", 1 ],
+              [ "sky130_ef_io__corner_pad", "VSWITCH", 2 ],
+              [ "sky130_ef_io__vssio_hvc_pad", "VSWITCH", 1 ]
+            ]
+          ],
+          [
+            "corner_3/VDDIO_Q",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VDDIO_Q", 4 ],
+              [ "sky130_ef_io__vssa_hvc_pad", "VDDIO_Q", 1 ],
+              [ "sky130_ef_io__vddio_hvc_pad", "VDDIO_Q", 1 ],
+              [ "sky130_ef_io__corner_pad", "VDDIO_Q", 2 ],
+              [ "sky130_ef_io__vssio_hvc_pad", "VDDIO_Q", 1 ]
+            ]
+          ],
+          [
+            "corner_3/VCCHIB",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VCCHIB", 4 ],
+              [ "sky130_ef_io__vssa_hvc_pad", "VCCHIB", 1 ],
+              [ "sky130_ef_io__vddio_hvc_pad", "VCCHIB", 1 ],
+              [ "sky130_ef_io__corner_pad", "VCCHIB", 2 ],
+              [ "sky130_ef_io__vssio_hvc_pad", "VCCHIB", 1 ]
+            ]
+          ],
+          [
+            "corner_3/VCCD",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VCCD", 4 ],
+              [ "sky130_ef_io__vssa_hvc_pad", "VCCD", 1 ],
+              [ "sky130_ef_io__vddio_hvc_pad", "VCCD", 1 ],
+              [ "sky130_ef_io__corner_pad", "VCCD", 2 ],
+              [ "sky130_ef_io__vssio_hvc_pad", "VCCD", 1 ]
+            ]
+          ],
+          [
+            "corner_3/VSSD",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VSSD", 4 ],
+              [ "sky130_ef_io__vssa_hvc_pad", "VSSD", 1 ],
+              [ "sky130_ef_io__vddio_hvc_pad", "VSSD", 1 ],
+              [ "sky130_ef_io__corner_pad", "VSSD", 2 ],
+              [ "sky130_ef_io__vssio_hvc_pad", "VSSD", 1 ]
+            ]
+          ],
+          [
+            "corner_3/VSSIO_Q",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VSSIO_Q", 4 ],
+              [ "sky130_ef_io__vssa_hvc_pad", "VSSIO_Q", 1 ],
+              [ "sky130_ef_io__vddio_hvc_pad", "VSSIO_Q", 1 ],
+              [ "sky130_ef_io__corner_pad", "VSSIO_Q", 2 ],
+              [ "sky130_ef_io__vssio_hvc_pad", "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "vddio",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "HLD_H_N", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VDDIO", 4 ],
+              [ "sky130_ef_io__vssa_hvc_pad", "VDDIO", 1 ],
+              [ "sky130_ef_io__vddio_hvc_pad", "DRN_HVC", 1 ],
+              [ "sky130_ef_io__corner_pad", "VDDIO", 2 ],
+              [ "sky130_ef_io__vssio_hvc_pad", "DRN_HVC", 1 ],
+              [ "sky130_ef_io__vssio_hvc_pad", "VDDIO", 1 ]
+            ]
+          ],
+          [
+            "vssio",
+            [
+              [ "sky130_ef_io__vccd_lvc_pad", "BDY2_B2B", 1 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VSSIO", 4 ],
+              [ "sky130_ef_io__vssa_hvc_pad", "VSSIO", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "BDY2_B2B", 1 ],
+              [ "sky130_ef_io__vddio_hvc_pad", "SRC_BDY_HVC", 1 ],
+              [ "sky130_ef_io__vddio_hvc_pad", "VSSIO", 1 ],
+              [ "sky130_ef_io__corner_pad", "VSSIO", 2 ],
+              [ "sky130_ef_io__vssio_hvc_pad", "SRC_BDY_HVC", 1 ]
+            ]
+          ],
+          [
+            "B_CP_PAD/VSSA",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VSSA", 4 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VSSA", 1 ]
+            ]
+          ],
+          [
+            "B_CP_PAD/VDDA",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VDDA", 4 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VDDA", 1 ]
+            ]
+          ],
+          [
+            "B_CP_PAD/VSWITCH",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VSWITCH", 4 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VSWITCH", 1 ]
+            ]
+          ],
+          [
+            "B_CP_PAD/VDDIO_Q",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VDDIO_Q", 4 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VDDIO_Q", 1 ]
+            ]
+          ],
+          [
+            "B_CP_PAD/VCCHIB",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VCCHIB", 4 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VCCHIB", 1 ]
+            ]
+          ],
+          [
+            "B_CP_PAD/VDDIO",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VDDIO", 4 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VDDIO", 1 ]
+            ]
+          ],
+          [
+            "B_CP_PAD/VCCD",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VCCD", 4 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VCCD", 1 ]
+            ]
+          ],
+          [
+            "B_CP_PAD/VSSIO",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VSSIO", 4 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VSSIO", 1 ]
+            ]
+          ],
+          [
+            "B_CP_PAD/VSSD",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VSSD", 4 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VSSD", 1 ]
+            ]
+          ],
+          [
+            "B_CP_PAD/VSSIO_Q",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VSSIO_Q", 4 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "_noconnect_49_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "AMUXBUS_A", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_58_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "AMUXBUS_A", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_67_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "AMUXBUS_A", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_76_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "AMUXBUS_A", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_50_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "AMUXBUS_B", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_59_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "AMUXBUS_B", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_68_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "AMUXBUS_B", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_77_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "AMUXBUS_B", 1 ]
+            ]
+          ],
+          [
+            "B_0_pll",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN", 1 ]
+            ]
+          ],
+          [
+            "B_1_pll",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN", 1 ]
+            ]
+          ],
+          [
+            "B_2_pll",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN", 1 ]
+            ]
+          ],
+          [
+            "B_3_pll",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_51_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN_H", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_60_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN_H", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_69_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN_H", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_78_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN_H", 1 ]
+            ]
+          ],
+          [
+            "GPIO_0",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD", 1 ]
+            ]
+          ],
+          [
+            "GPIO_1",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD", 1 ]
+            ]
+          ],
+          [
+            "GPIO_2",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD", 1 ]
+            ]
+          ],
+          [
+            "GPIO_3",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_52_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_0_H", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_61_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_0_H", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_70_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_0_H", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_79_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_0_H", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_53_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_1_H", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_62_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_1_H", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_71_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_1_H", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_80_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_1_H", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_54_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_NOESD_H", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_63_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_NOESD_H", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_72_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_NOESD_H", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_81_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_NOESD_H", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_55_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_HI_ESD", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_64_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_HI_ESD", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_73_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_HI_ESD", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_82_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_HI_ESD", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_56_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VDDIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_65_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VDDIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_74_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VDDIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_83_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VDDIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_57_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_66_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_75_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_84_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_21_",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "AMUXBUS_A", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_85_",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "AMUXBUS_A", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_94_",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "AMUXBUS_A", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_22_",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "AMUXBUS_B", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_86_",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "AMUXBUS_B", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_95_",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "AMUXBUS_B", 1 ]
+            ]
+          ],
+          [
+            "CLK_pll",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "P_CORE", 1 ]
+            ]
+          ],
+          [
+            "REF_CLK_pll",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "P_CORE", 1 ]
+            ]
+          ],
+          [
+            "VCO_IN_pll",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "P_CORE", 1 ]
+            ]
+          ],
+          [
+            "CLK",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "P_PAD", 1 ]
+            ]
+          ],
+          [
+            "REF_CLK",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "P_PAD", 1 ]
+            ]
+          ],
+          [
+            "VCO_IN",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "P_PAD", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_23_",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "VDDIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_88_",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "VDDIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_97_",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "VDDIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_24_",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_89_",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_98_",
+            [
+              [ "sky130_fd_io__top_power_lvc_wpad", "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_90_",
+            [
+              [ "sky130_ef_io__vccd_lvc_pad", "AMUXBUS_A", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_91_",
+            [
+              [ "sky130_ef_io__vccd_lvc_pad", "AMUXBUS_B", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_92_",
+            [
+              [ "sky130_ef_io__vccd_lvc_pad", "VDDIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_93_",
+            [
+              [ "sky130_ef_io__vccd_lvc_pad", "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_99_",
+            [
+              [ "sky130_ef_io__vdda_hvc_pad", "AMUXBUS_A", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_100_",
+            [
+              [ "sky130_ef_io__vdda_hvc_pad", "AMUXBUS_B", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_101_",
+            [
+              [ "sky130_ef_io__vdda_hvc_pad", "VDDIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_102_",
+            [
+              [ "sky130_ef_io__vdda_hvc_pad", "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_103_",
+            [
+              [ "sky130_ef_io__vddio_hvc_pad", "AMUXBUS_A", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_104_",
+            [
+              [ "sky130_ef_io__vddio_hvc_pad", "AMUXBUS_B", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_105_",
+            [
+              [ "sky130_ef_io__vddio_hvc_pad", "VDDIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_106_",
+            [
+              [ "sky130_ef_io__vddio_hvc_pad", "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_107_",
+            [
+              [ "sky130_ef_io__vssa_hvc_pad", "AMUXBUS_A", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_108_",
+            [
+              [ "sky130_ef_io__vssa_hvc_pad", "AMUXBUS_B", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_109_",
+            [
+              [ "sky130_ef_io__vssa_hvc_pad", "VDDIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_110_",
+            [
+              [ "sky130_ef_io__vssa_hvc_pad", "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_111_",
+            [
+              [ "sky130_ef_io__vssd_lvc_pad", "AMUXBUS_A", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_112_",
+            [
+              [ "sky130_ef_io__vssd_lvc_pad", "AMUXBUS_B", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_113_",
+            [
+              [ "sky130_ef_io__vssd_lvc_pad", "VDDIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_114_",
+            [
+              [ "sky130_ef_io__vssd_lvc_pad", "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_115_",
+            [
+              [ "sky130_ef_io__vssio_hvc_pad", "AMUXBUS_A", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_116_",
+            [
+              [ "sky130_ef_io__vssio_hvc_pad", "AMUXBUS_B", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_117_",
+            [
+              [ "sky130_ef_io__vssio_hvc_pad", "VDDIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_118_",
+            [
+              [ "sky130_ef_io__vssio_hvc_pad", "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_119_",
+            [
+              [ "sky130_ef_io__corner_pad", "AMUXBUS_A", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_123_",
+            [
+              [ "sky130_ef_io__corner_pad", "AMUXBUS_A", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_127_",
+            [
+              [ "sky130_ef_io__corner_pad", "AMUXBUS_A", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_131_",
+            [
+              [ "sky130_ef_io__corner_pad", "AMUXBUS_A", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_120_",
+            [
+              [ "sky130_ef_io__corner_pad", "AMUXBUS_B", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_124_",
+            [
+              [ "sky130_ef_io__corner_pad", "AMUXBUS_B", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_128_",
+            [
+              [ "sky130_ef_io__corner_pad", "AMUXBUS_B", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_132_",
+            [
+              [ "sky130_ef_io__corner_pad", "AMUXBUS_B", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_121_",
+            [
+              [ "sky130_ef_io__corner_pad", "VDDIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_125_",
+            [
+              [ "sky130_ef_io__corner_pad", "VDDIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_129_",
+            [
+              [ "sky130_ef_io__corner_pad", "VDDIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_133_",
+            [
+              [ "sky130_ef_io__corner_pad", "VDDIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_122_",
+            [
+              [ "sky130_ef_io__corner_pad", "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_126_",
+            [
+              [ "sky130_ef_io__corner_pad", "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_130_",
+            [
+              [ "sky130_ef_io__corner_pad", "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_134_",
+            [
+              [ "sky130_ef_io__corner_pad", "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "vssd",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ANALOG_EN", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ANALOG_POL", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ANALOG_SEL", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[0]", 2 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "HLD_OVR", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IB_MODE_SEL", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "INP_DIS", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "OE_N", 2 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "SLOW", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VSSD", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VTRIP_SEL", 8 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VSSD", 3 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "OUT", 6 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[2]", 4 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[1]", 4 ],
+              [ "sky130_ef_io__vccd_lvc_pad", "SRC_BDY_LVC1", 1 ],
+              [ "sky130_ef_io__vccd_lvc_pad", "SRC_BDY_LVC2", 1 ],
+              [ "sky130_ef_io__vccd_lvc_pad", "VSSD", 1 ],
+              [ "sky130_ef_io__vdda_hvc_pad", "VSSD", 1 ],
+              [ "sky130_ef_io__vddio_hvc_pad", "VSSD", 1 ],
+              [ "sky130_ef_io__vssa_hvc_pad", "VSSD", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "SRC_BDY_LVC1", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "SRC_BDY_LVC2", 1 ],
+              [ "sky130_ef_io__vssio_hvc_pad", "VSSD", 1 ],
+              [ "sky130_ef_io__corner_pad", "VSSD", 4 ]
+            ]
+          ],
+          [
+            "vccd",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[2]", 2 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[1]", 2 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ENABLE_VDDIO", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VCCD", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VCCHIB", 8 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VCCD", 3 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VCCHIB", 3 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "OE_N", 6 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[0]", 4 ],
+              [ "sky130_ef_io__vccd_lvc_pad", "DRN_LVC1", 1 ],
+              [ "sky130_ef_io__vccd_lvc_pad", "DRN_LVC2", 1 ],
+              [ "sky130_ef_io__vccd_lvc_pad", "VCCHIB", 1 ],
+              [ "sky130_ef_io__vdda_hvc_pad", "VCCHIB", 1 ],
+              [ "sky130_ef_io__vdda_hvc_pad", "VCCD", 1 ],
+              [ "sky130_ef_io__vddio_hvc_pad", "VCCHIB", 1 ],
+              [ "sky130_ef_io__vddio_hvc_pad", "VCCD", 1 ],
+              [ "sky130_ef_io__vssa_hvc_pad", "VCCHIB", 1 ],
+              [ "sky130_ef_io__vssa_hvc_pad", "VCCD", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "DRN_LVC1", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "DRN_LVC2", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "VCCHIB", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "VCCD", 1 ],
+              [ "sky130_ef_io__vssio_hvc_pad", "VCCHIB", 1 ],
+              [ "sky130_ef_io__vssio_hvc_pad", "VCCD", 1 ],
+              [ "sky130_ef_io__corner_pad", "VCCHIB", 4 ],
+              [ "sky130_ef_io__corner_pad", "VCCD", 4 ]
+            ]
+          ],
+          [
+            "vssa",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ENABLE_VDDA_H", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ENABLE_VSWITCH_H", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VSSA", 8 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VSSA", 3 ],
+              [ "sky130_ef_io__vccd_lvc_pad", "VSSA", 1 ],
+              [ "sky130_ef_io__vdda_hvc_pad", "SRC_BDY_HVC", 1 ],
+              [ "sky130_ef_io__vdda_hvc_pad", "VSSA", 1 ],
+              [ "sky130_ef_io__vddio_hvc_pad", "VSSA", 1 ],
+              [ "sky130_ef_io__vssa_hvc_pad", "SRC_BDY_HVC", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "VSSA", 1 ],
+              [ "sky130_ef_io__vssio_hvc_pad", "VSSA", 1 ],
+              [ "sky130_ef_io__corner_pad", "VSSA", 4 ]
+            ]
+          ],
+          [
+            "vddio",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "HLD_H_N", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VDDIO", 8 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VSWITCH", 8 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VDDIO", 3 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VSWITCH", 3 ],
+              [ "sky130_ef_io__vccd_lvc_pad", "VSWITCH", 1 ],
+              [ "sky130_ef_io__vccd_lvc_pad", "VDDIO", 1 ],
+              [ "sky130_ef_io__vdda_hvc_pad", "VSWITCH", 1 ],
+              [ "sky130_ef_io__vdda_hvc_pad", "VDDIO", 1 ],
+              [ "sky130_ef_io__vddio_hvc_pad", "DRN_HVC", 1 ],
+              [ "sky130_ef_io__vddio_hvc_pad", "VSWITCH", 1 ],
+              [ "sky130_ef_io__vssa_hvc_pad", "VSWITCH", 1 ],
+              [ "sky130_ef_io__vssa_hvc_pad", "VDDIO", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "VSWITCH", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "VDDIO", 1 ],
+              [ "sky130_ef_io__vssio_hvc_pad", "DRN_HVC", 1 ],
+              [ "sky130_ef_io__vssio_hvc_pad", "VSWITCH", 1 ],
+              [ "sky130_ef_io__vssio_hvc_pad", "VDDIO", 1 ],
+              [ "sky130_ef_io__corner_pad", "VSWITCH", 4 ],
+              [ "sky130_ef_io__corner_pad", "VDDIO", 4 ]
+            ]
+          ],
+          [
+            "vdda",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VDDA", 8 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VDDA", 3 ],
+              [ "sky130_ef_io__vccd_lvc_pad", "VDDA", 1 ],
+              [ "sky130_ef_io__vdda_hvc_pad", "DRN_HVC", 1 ],
+              [ "sky130_ef_io__vddio_hvc_pad", "VDDA", 1 ],
+              [ "sky130_ef_io__vssa_hvc_pad", "DRN_HVC", 1 ],
+              [ "sky130_ef_io__vssa_hvc_pad", "VDDA", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "VDDA", 1 ],
+              [ "sky130_ef_io__vssio_hvc_pad", "VDDA", 1 ],
+              [ "sky130_ef_io__corner_pad", "VDDA", 4 ]
+            ]
+          ],
+          [
+            "vssio",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VSSIO", 8 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "VSSIO", 3 ],
+              [ "sky130_ef_io__vccd_lvc_pad", "BDY2_B2B", 1 ],
+              [ "sky130_ef_io__vccd_lvc_pad", "VSSIO", 1 ],
+              [ "sky130_ef_io__vdda_hvc_pad", "VSSIO", 1 ],
+              [ "sky130_ef_io__vddio_hvc_pad", "SRC_BDY_HVC", 1 ],
+              [ "sky130_ef_io__vddio_hvc_pad", "VSSIO", 1 ],
+              [ "sky130_ef_io__vssa_hvc_pad", "VSSIO", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "BDY2_B2B", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "VSSIO", 1 ],
+              [ "sky130_ef_io__vssio_hvc_pad", "SRC_BDY_HVC", 1 ],
+              [ "sky130_ef_io__corner_pad", "VSSIO", 4 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "_noconnect_45_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_33_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VSSIO_Q", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "_noconnect_20_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_10_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VSSIO_Q", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "_noconnect_44_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VDDIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_32_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VDDIO_Q", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "_noconnect_19_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VDDIO_Q", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_9_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "VDDIO_Q", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "_noconnect_43_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_HI_ESD", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_31_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_HI_ESD", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "_noconnect_18_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_HI_ESD", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_8_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_HI_ESD", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "_noconnect_42_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_NOESD_H", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_30_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_NOESD_H", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "_noconnect_17_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_NOESD_H", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_7_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_NOESD_H", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "_noconnect_41_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_1_H", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_29_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_1_H", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "_noconnect_16_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_1_H", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_6_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_1_H", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "_noconnect_40_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_0_H", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_28_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_0_H", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "_noconnect_15_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_0_H", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_5_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_0_H", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "EN_VCO",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD", 1 ]
+            ]
+          ],
+          [
+            "EN_CP",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "B_VCO",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD", 1 ]
+            ]
+          ],
+          [
+            "B_CP",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "_noconnect_39_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN_H", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_27_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN_H", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "_noconnect_14_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN_H", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_4_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN_H", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "EN_VCO_pll",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN", 1 ]
+            ]
+          ],
+          [
+            "EN_CP_pll",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "_noconnect_13_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_3_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "_noconnect_38_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "AMUXBUS_B", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_26_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "AMUXBUS_B", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "_noconnect_12_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "AMUXBUS_B", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_2_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "AMUXBUS_B", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "_noconnect_37_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "AMUXBUS_A", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_25_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "AMUXBUS_A", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "_noconnect_11_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "AMUXBUS_A", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_1_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "AMUXBUS_A", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "B_CP_PAD/TIE_HI_ESD",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_HI_ESD", 1 ]
+            ]
+          ],
+          [
+            "B_VCO_PAD/TIE_HI_ESD",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_HI_ESD", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "ENb_VCO_PAD/TIE_HI_ESD",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_HI_ESD", 1 ]
+            ]
+          ],
+          [
+            "ENb_CP_PAD/TIE_HI_ESD",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_HI_ESD", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "B_CP_PAD/PAD_A_NOESD_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_NOESD_H", 1 ]
+            ]
+          ],
+          [
+            "B_VCO_PAD/PAD_A_NOESD_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_NOESD_H", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "ENb_VCO_PAD/PAD_A_NOESD_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_NOESD_H", 1 ]
+            ]
+          ],
+          [
+            "ENb_CP_PAD/PAD_A_NOESD_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_NOESD_H", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "B_CP_PAD/PAD_A_ESD_1_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_1_H", 1 ]
+            ]
+          ],
+          [
+            "B_VCO_PAD/PAD_A_ESD_1_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_1_H", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "ENb_VCO_PAD/PAD_A_ESD_1_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_1_H", 1 ]
+            ]
+          ],
+          [
+            "ENb_CP_PAD/PAD_A_ESD_1_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_1_H", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "B_CP_PAD/PAD_A_ESD_0_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_0_H", 1 ]
+            ]
+          ],
+          [
+            "B_VCO_PAD/PAD_A_ESD_0_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_0_H", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "ENb_VCO_PAD/PAD_A_ESD_0_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_0_H", 1 ]
+            ]
+          ],
+          [
+            "ENb_CP_PAD/PAD_A_ESD_0_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD_A_ESD_0_H", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "B_CP",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD", 1 ]
+            ]
+          ],
+          [
+            "B_VCO",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "EN_VCO",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD", 1 ]
+            ]
+          ],
+          [
+            "EN_CP",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "PAD", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "B_CP_PAD/IN_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN_H", 1 ]
+            ]
+          ],
+          [
+            "B_VCO_PAD/IN_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN_H", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "ENb_VCO_PAD/IN_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN_H", 1 ]
+            ]
+          ],
+          [
+            "ENb_CP_PAD/IN_H",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN_H", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "B_CP_PAD/IN",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN", 1 ]
+            ]
+          ],
+          [
+            "B_VCO_PAD/IN",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "EN_VCO_pll",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN", 1 ]
+            ]
+          ],
+          [
+            "EN_CP_pll",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "IN", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "_noconnect_48_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[0]", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_36_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[0]", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "_noconnect_47_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[1]", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_35_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[1]", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "_noconnect_46_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[2]", 1 ]
+            ]
+          ],
+          [
+            "_noconnect_34_",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[2]", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "B_VCO_pll",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "OUT", 1 ]
+            ]
+          ],
+          [
+            "B_CP_pll",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "OUT", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "B_CP_pll",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "OUT", 1 ]
+            ]
+          ],
+          [
+            "B_VCO_pll",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "OUT", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "ENb_VCO_PAD/DM[0]",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[0]", 1 ]
+            ]
+          ],
+          [
+            "ENb_CP_PAD/DM[0]",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[0]", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "ENb_VCO_PAD/DM[1]",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[1]", 1 ]
+            ]
+          ],
+          [
+            "ENb_CP_PAD/DM[1]",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[1]", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "ENb_VCO_PAD/DM[2]",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[2]", 1 ]
+            ]
+          ],
+          [
+            "ENb_CP_PAD/DM[2]",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "DM[2]", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "GPIO_1_PAD/TIE_LO_ESD",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ENABLE_INP_H", 1 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_LO_ESD", 1 ]
+            ]
+          ],
+          [
+            "GPIO_2_PAD/TIE_LO_ESD",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ENABLE_INP_H", 1 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_LO_ESD", 1 ]
+            ]
+          ],
+          [
+            "GPIO_3_PAD/TIE_LO_ESD",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ENABLE_INP_H", 1 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_LO_ESD", 1 ]
+            ]
+          ],
+          [
+            "GPIO_0_PAD/TIE_LO_ESD",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ENABLE_INP_H", 1 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_LO_ESD", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "\\TIE_LO_ESD[3] ",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ENABLE_INP_H", 1 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_LO_ESD", 1 ]
+            ]
+          ],
+          [
+            "\\TIE_LO_ESD[2] ",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ENABLE_INP_H", 1 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_LO_ESD", 1 ]
+            ]
+          ],
+          [
+            "\\TIE_LO_ESD[1] ",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ENABLE_INP_H", 1 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_LO_ESD", 1 ]
+            ]
+          ],
+          [
+            "\\TIE_LO_ESD[0] ",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ENABLE_INP_H", 1 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_LO_ESD", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "ENb_CP_PAD/TIE_LO_ESD",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ENABLE_INP_H", 1 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_LO_ESD", 1 ]
+            ]
+          ],
+          [
+            "ENb_VCO_PAD/TIE_LO_ESD",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ENABLE_INP_H", 1 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_LO_ESD", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "B_VCO_PAD/TIE_LO_ESD",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ENABLE_INP_H", 1 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_LO_ESD", 1 ]
+            ]
+          ],
+          [
+            "B_CP_PAD/TIE_LO_ESD",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ENABLE_INP_H", 1 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_LO_ESD", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "\\TIE_LO_ESD[7] ",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ENABLE_INP_H", 1 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_LO_ESD", 1 ]
+            ]
+          ],
+          [
+            "\\TIE_LO_ESD[6] ",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ENABLE_INP_H", 1 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_LO_ESD", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "\\TIE_LO_ESD[5] ",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ENABLE_INP_H", 1 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_LO_ESD", 1 ]
+            ]
+          ],
+          [
+            "\\TIE_LO_ESD[4] ",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "ENABLE_INP_H", 1 ],
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "TIE_LO_ESD", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "CLK_PAD/AMUXBUS_B",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "AMUXBUS_B", 8 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "AMUXBUS_B", 3 ],
+              [ "sky130_ef_io__vccd_lvc_pad", "AMUXBUS_B", 1 ],
+              [ "sky130_ef_io__vssa_hvc_pad", "AMUXBUS_B", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "AMUXBUS_B", 1 ],
+              [ "sky130_ef_io__vddio_hvc_pad", "AMUXBUS_B", 1 ],
+              [ "sky130_ef_io__corner_pad", "AMUXBUS_B", 4 ],
+              [ "sky130_ef_io__vdda_hvc_pad", "AMUXBUS_B", 1 ],
+              [ "sky130_ef_io__vssio_hvc_pad", "AMUXBUS_B", 1 ]
+            ]
+          ],
+          [
+            "CLK_PAD/AMUXBUS_A",
+            [
+              [ "sky130_ef_io__gpiov2_pad_wrapped", "AMUXBUS_A", 8 ],
+              [ "sky130_fd_io__top_power_lvc_wpad", "AMUXBUS_A", 3 ],
+              [ "sky130_ef_io__vccd_lvc_pad", "AMUXBUS_A", 1 ],
+              [ "sky130_ef_io__vssa_hvc_pad", "AMUXBUS_A", 1 ],
+              [ "sky130_ef_io__vssd_lvc_pad", "AMUXBUS_A", 1 ],
+              [ "sky130_ef_io__vddio_hvc_pad", "AMUXBUS_A", 1 ],
+              [ "sky130_ef_io__corner_pad", "AMUXBUS_A", 4 ],
+              [ "sky130_ef_io__vdda_hvc_pad", "AMUXBUS_A", 1 ],
+              [ "sky130_ef_io__vssio_hvc_pad", "AMUXBUS_A", 1 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ],
+          [
+            "(no matching net)",
+            [
+              [ "", "", 0 ]
+            ]
+          ]
+        ]
+      ]
+   ],
+   "badelements": [
+      [
+        [
+          [
+            "sky130_ef_io__corner_padcorner_1",
+            [
+              [ "AMUXBUS_A", 21 ],
+              [ "AMUXBUS_B", 21 ],
+              [ "VSSA", 6 ],
+              [ "VDDA", 7 ],
+              [ "VSWITCH", 6 ],
+              [ "VDDIO_Q", 6 ],
+              [ "VCCHIB", 6 ],
+              [ "VDDIO", 6 ],
+              [ "VCCD", 31 ],
+              [ "VSSIO", 6 ],
+              [ "VSSD", 91 ],
+              [ "VSSIO_Q", 6 ]
+            ]
+          ],
+          [
+            "sky130_ef_io__corner_padcorner_2",
+            [
+              [ "AMUXBUS_A", 21 ],
+              [ "AMUXBUS_B", 21 ],
+              [ "VSSA", 6 ],
+              [ "VDDA", 7 ],
+              [ "VSWITCH", 6 ],
+              [ "VDDIO_Q", 6 ],
+              [ "VCCHIB", 6 ],
+              [ "VDDIO", 6 ],
+              [ "VCCD", 31 ],
+              [ "VSSIO", 6 ],
+              [ "VSSD", 91 ],
+              [ "VSSIO_Q", 6 ]
+            ]
+          ],
+          [
+            "sky130_ef_io__corner_padcorner_3",
+            [
+              [ "AMUXBUS_A", 21 ],
+              [ "AMUXBUS_B", 21 ],
+              [ "VSSA", 26 ],
+              [ "VDDA", 9 ],
+              [ "VSWITCH", 9 ],
+              [ "VDDIO_Q", 9 ],
+              [ "VCCHIB", 9 ],
+              [ "VDDIO", 18 ],
+              [ "VCCD", 9 ],
+              [ "VSSIO", 12 ],
+              [ "VSSD", 9 ],
+              [ "VSSIO_Q", 9 ]
+            ]
+          ],
+          [
+            "sky130_ef_io__corner_padcorner_4",
+            [
+              [ "AMUXBUS_A", 21 ],
+              [ "AMUXBUS_B", 21 ],
+              [ "VSSA", 26 ],
+              [ "VDDA", 9 ],
+              [ "VSWITCH", 9 ],
+              [ "VDDIO_Q", 9 ],
+              [ "VCCHIB", 9 ],
+              [ "VDDIO", 18 ],
+              [ "VCCD", 9 ],
+              [ "VSSIO", 12 ],
+              [ "VSSD", 9 ],
+              [ "VSSIO_Q", 9 ]
+            ]
+          ]
+        ], [
+          [
+            "corner_1",
+            [
+              [ "AMUXBUS_A", 1 ],
+              [ "AMUXBUS_B", 1 ],
+              [ "VSSA", 38 ],
+              [ "VDDA", 22 ],
+              [ "VSWITCH", 51 ],
+              [ "VDDIO_Q", 1 ],
+              [ "VCCHIB", 67 ],
+              [ "VDDIO", 51 ],
+              [ "VCCD", 67 ],
+              [ "VSSIO", 24 ],
+              [ "VSSD", 106 ],
+              [ "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "corner_2",
+            [
+              [ "AMUXBUS_A", 1 ],
+              [ "AMUXBUS_B", 1 ],
+              [ "VSSA", 38 ],
+              [ "VDDA", 22 ],
+              [ "VSWITCH", 51 ],
+              [ "VDDIO_Q", 1 ],
+              [ "VCCHIB", 67 ],
+              [ "VDDIO", 51 ],
+              [ "VCCD", 67 ],
+              [ "VSSIO", 24 ],
+              [ "VSSD", 106 ],
+              [ "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "corner_3",
+            [
+              [ "AMUXBUS_A", 1 ],
+              [ "AMUXBUS_B", 1 ],
+              [ "VSSA", 38 ],
+              [ "VDDA", 22 ],
+              [ "VSWITCH", 51 ],
+              [ "VDDIO_Q", 1 ],
+              [ "VCCHIB", 67 ],
+              [ "VDDIO", 51 ],
+              [ "VCCD", 67 ],
+              [ "VSSIO", 24 ],
+              [ "VSSD", 106 ],
+              [ "VSSIO_Q", 1 ]
+            ]
+          ],
+          [
+            "corner_4",
+            [
+              [ "AMUXBUS_A", 1 ],
+              [ "AMUXBUS_B", 1 ],
+              [ "VSSA", 38 ],
+              [ "VDDA", 22 ],
+              [ "VSWITCH", 51 ],
+              [ "VDDIO_Q", 1 ],
+              [ "VCCHIB", 67 ],
+              [ "VDDIO", 51 ],
+              [ "VCCD", 67 ],
+              [ "VSSIO", 24 ],
+              [ "VSSD", 106 ],
+              [ "VSSIO_Q", 1 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_fd_io__top_power_lvc_wpadCLK_PAD",
+            [
+              [ "AMUXBUS_A", 21 ],
+              [ "AMUXBUS_B", 21 ],
+              [ "P_PAD", 1 ],
+              [ "P_CORE", 1 ],
+              [ "VCCD", 31 ],
+              [ "VCCHIB", 6 ],
+              [ "VDDA", 7 ],
+              [ "VDDIO", 6 ],
+              [ "VDDIO_Q", 6 ],
+              [ "VSSA", 6 ],
+              [ "VSSD", 91 ],
+              [ "VSSIO", 6 ],
+              [ "VSSIO_Q", 6 ],
+              [ "VSWITCH", 6 ]
+            ]
+          ],
+          [
+            "sky130_fd_io__top_power_lvc_wpadREF_CLK_PAD",
+            [
+              [ "AMUXBUS_A", 21 ],
+              [ "AMUXBUS_B", 21 ],
+              [ "P_PAD", 1 ],
+              [ "P_CORE", 1 ],
+              [ "VCCD", 1 ],
+              [ "VCCHIB", 1 ],
+              [ "VDDA", 1 ],
+              [ "VDDIO", 1 ],
+              [ "VDDIO_Q", 1 ],
+              [ "VSSA", 1 ],
+              [ "VSSD", 1 ],
+              [ "VSSIO", 1 ],
+              [ "VSSIO_Q", 1 ],
+              [ "VSWITCH", 1 ]
+            ]
+          ],
+          [
+            "sky130_fd_io__top_power_lvc_wpadVCO_IN_PAD",
+            [
+              [ "AMUXBUS_A", 21 ],
+              [ "AMUXBUS_B", 21 ],
+              [ "P_PAD", 1 ],
+              [ "P_CORE", 1 ],
+              [ "VCCD", 5 ],
+              [ "VCCHIB", 5 ],
+              [ "VDDA", 5 ],
+              [ "VDDIO", 5 ],
+              [ "VDDIO_Q", 5 ],
+              [ "VSSA", 5 ],
+              [ "VSSD", 5 ],
+              [ "VSSIO", 5 ],
+              [ "VSSIO_Q", 5 ],
+              [ "VSWITCH", 5 ]
+            ]
+          ]
+        ], [
+          [
+            "VCO_IN_PAD",
+            [
+              [ "AMUXBUS_A", 1 ],
+              [ "AMUXBUS_B", 1 ],
+              [ "P_PAD", 1 ],
+              [ "P_CORE", 1 ],
+              [ "VCCD", 67 ],
+              [ "VCCHIB", 67 ],
+              [ "VDDA", 22 ],
+              [ "VDDIO", 51 ],
+              [ "VDDIO_Q", 1 ],
+              [ "VSSA", 38 ],
+              [ "VSSD", 106 ],
+              [ "VSSIO", 24 ],
+              [ "VSSIO_Q", 1 ],
+              [ "VSWITCH", 51 ]
+            ]
+          ],
+          [
+            "REF_CLK_PAD",
+            [
+              [ "AMUXBUS_A", 1 ],
+              [ "AMUXBUS_B", 1 ],
+              [ "P_PAD", 1 ],
+              [ "P_CORE", 1 ],
+              [ "VCCD", 67 ],
+              [ "VCCHIB", 67 ],
+              [ "VDDA", 22 ],
+              [ "VDDIO", 51 ],
+              [ "VDDIO_Q", 1 ],
+              [ "VSSA", 38 ],
+              [ "VSSD", 106 ],
+              [ "VSSIO", 24 ],
+              [ "VSSIO_Q", 1 ],
+              [ "VSWITCH", 51 ]
+            ]
+          ],
+          [
+            "CLK_PAD",
+            [
+              [ "AMUXBUS_A", 1 ],
+              [ "AMUXBUS_B", 1 ],
+              [ "P_PAD", 1 ],
+              [ "P_CORE", 1 ],
+              [ "VCCD", 67 ],
+              [ "VCCHIB", 67 ],
+              [ "VDDA", 22 ],
+              [ "VDDIO", 51 ],
+              [ "VDDIO_Q", 1 ],
+              [ "VSSA", 38 ],
+              [ "VSSD", 106 ],
+              [ "VSSIO", 24 ],
+              [ "VSSIO_Q", 1 ],
+              [ "VSWITCH", 51 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_ef_io__gpiov2_pad_wrappedGPIO_1_PAD",
+            [
+              [ "AMUXBUS_A", 21 ],
+              [ "AMUXBUS_B", 21 ],
+              [ "ANALOG_EN", 91 ],
+              [ "ANALOG_POL", 91 ],
+              [ "ANALOG_SEL", 91 ],
+              [ "DM[2]", 91 ],
+              [ "DM[1]", 91 ],
+              [ "DM[0]", 31 ],
+              [ "ENABLE_H", 8 ],
+              [ "ENABLE_INP_H", 2 ],
+              [ "ENABLE_VDDA_H", 26 ],
+              [ "ENABLE_VDDIO", 31 ],
+              [ "ENABLE_VSWITCH_H", 26 ],
+              [ "HLD_H_N", 18 ],
+              [ "HLD_OVR", 91 ],
+              [ "IB_MODE_SEL", 91 ],
+              [ "IN", 1 ],
+              [ "IN_H", 1 ],
+              [ "INP_DIS", 91 ],
+              [ "OE_N", 31 ],
+              [ "OUT", 91 ],
+              [ "PAD", 1 ],
+              [ "PAD_A_ESD_0_H", 1 ],
+              [ "PAD_A_ESD_1_H", 1 ],
+              [ "PAD_A_NOESD_H", 1 ],
+              [ "SLOW", 91 ],
+              [ "TIE_HI_ESD", 1 ],
+              [ "TIE_LO_ESD", 2 ],
+              [ "VCCD", 9 ],
+              [ "VCCHIB", 9 ],
+              [ "VDDA", 9 ],
+              [ "VDDIO", 18 ],
+              [ "VDDIO_Q", 9 ],
+              [ "VSSA", 26 ],
+              [ "VSSD", 9 ],
+              [ "VSSIO", 12 ],
+              [ "VSSIO_Q", 9 ],
+              [ "VSWITCH", 9 ],
+              [ "VTRIP_SEL", 91 ]
+            ]
+          ],
+          [
+            "sky130_ef_io__gpiov2_pad_wrappedGPIO_2_PAD",
+            [
+              [ "AMUXBUS_A", 21 ],
+              [ "AMUXBUS_B", 21 ],
+              [ "ANALOG_EN", 91 ],
+              [ "ANALOG_POL", 91 ],
+              [ "ANALOG_SEL", 91 ],
+              [ "DM[2]", 91 ],
+              [ "DM[1]", 91 ],
+              [ "DM[0]", 31 ],
+              [ "ENABLE_H", 8 ],
+              [ "ENABLE_INP_H", 2 ],
+              [ "ENABLE_VDDA_H", 26 ],
+              [ "ENABLE_VDDIO", 31 ],
+              [ "ENABLE_VSWITCH_H", 26 ],
+              [ "HLD_H_N", 18 ],
+              [ "HLD_OVR", 91 ],
+              [ "IB_MODE_SEL", 91 ],
+              [ "IN", 1 ],
+              [ "IN_H", 1 ],
+              [ "INP_DIS", 91 ],
+              [ "OE_N", 31 ],
+              [ "OUT", 91 ],
+              [ "PAD", 1 ],
+              [ "PAD_A_ESD_0_H", 1 ],
+              [ "PAD_A_ESD_1_H", 1 ],
+              [ "PAD_A_NOESD_H", 1 ],
+              [ "SLOW", 91 ],
+              [ "TIE_HI_ESD", 1 ],
+              [ "TIE_LO_ESD", 2 ],
+              [ "VCCD", 9 ],
+              [ "VCCHIB", 9 ],
+              [ "VDDA", 9 ],
+              [ "VDDIO", 18 ],
+              [ "VDDIO_Q", 9 ],
+              [ "VSSA", 26 ],
+              [ "VSSD", 9 ],
+              [ "VSSIO", 12 ],
+              [ "VSSIO_Q", 9 ],
+              [ "VSWITCH", 9 ],
+              [ "VTRIP_SEL", 91 ]
+            ]
+          ],
+          [
+            "sky130_ef_io__gpiov2_pad_wrappedGPIO_3_PAD",
+            [
+              [ "AMUXBUS_A", 21 ],
+              [ "AMUXBUS_B", 21 ],
+              [ "ANALOG_EN", 91 ],
+              [ "ANALOG_POL", 91 ],
+              [ "ANALOG_SEL", 91 ],
+              [ "DM[2]", 91 ],
+              [ "DM[1]", 91 ],
+              [ "DM[0]", 31 ],
+              [ "ENABLE_H", 8 ],
+              [ "ENABLE_INP_H", 2 ],
+              [ "ENABLE_VDDA_H", 26 ],
+              [ "ENABLE_VDDIO", 31 ],
+              [ "ENABLE_VSWITCH_H", 26 ],
+              [ "HLD_H_N", 18 ],
+              [ "HLD_OVR", 91 ],
+              [ "IB_MODE_SEL", 91 ],
+              [ "IN", 1 ],
+              [ "IN_H", 1 ],
+              [ "INP_DIS", 91 ],
+              [ "OE_N", 31 ],
+              [ "OUT", 91 ],
+              [ "PAD", 1 ],
+              [ "PAD_A_ESD_0_H", 1 ],
+              [ "PAD_A_ESD_1_H", 1 ],
+              [ "PAD_A_NOESD_H", 1 ],
+              [ "SLOW", 91 ],
+              [ "TIE_HI_ESD", 1 ],
+              [ "TIE_LO_ESD", 2 ],
+              [ "VCCD", 9 ],
+              [ "VCCHIB", 9 ],
+              [ "VDDA", 9 ],
+              [ "VDDIO", 18 ],
+              [ "VDDIO_Q", 9 ],
+              [ "VSSA", 26 ],
+              [ "VSSD", 9 ],
+              [ "VSSIO", 12 ],
+              [ "VSSIO_Q", 9 ],
+              [ "VSWITCH", 9 ],
+              [ "VTRIP_SEL", 91 ]
+            ]
+          ],
+          [
+            "sky130_ef_io__gpiov2_pad_wrappedGPIO_0_PAD",
+            [
+              [ "AMUXBUS_A", 21 ],
+              [ "AMUXBUS_B", 21 ],
+              [ "ANALOG_EN", 91 ],
+              [ "ANALOG_POL", 91 ],
+              [ "ANALOG_SEL", 91 ],
+              [ "DM[2]", 91 ],
+              [ "DM[1]", 91 ],
+              [ "DM[0]", 31 ],
+              [ "ENABLE_H", 8 ],
+              [ "ENABLE_INP_H", 2 ],
+              [ "ENABLE_VDDA_H", 26 ],
+              [ "ENABLE_VDDIO", 31 ],
+              [ "ENABLE_VSWITCH_H", 26 ],
+              [ "HLD_H_N", 18 ],
+              [ "HLD_OVR", 91 ],
+              [ "IB_MODE_SEL", 91 ],
+              [ "IN", 1 ],
+              [ "IN_H", 1 ],
+              [ "INP_DIS", 91 ],
+              [ "OE_N", 31 ],
+              [ "OUT", 91 ],
+              [ "PAD", 1 ],
+              [ "PAD_A_ESD_0_H", 1 ],
+              [ "PAD_A_ESD_1_H", 1 ],
+              [ "PAD_A_NOESD_H", 1 ],
+              [ "SLOW", 91 ],
+              [ "TIE_HI_ESD", 1 ],
+              [ "TIE_LO_ESD", 2 ],
+              [ "VCCD", 9 ],
+              [ "VCCHIB", 9 ],
+              [ "VDDA", 9 ],
+              [ "VDDIO", 18 ],
+              [ "VDDIO_Q", 9 ],
+              [ "VSSA", 26 ],
+              [ "VSSD", 9 ],
+              [ "VSSIO", 12 ],
+              [ "VSSIO_Q", 9 ],
+              [ "VSWITCH", 9 ],
+              [ "VTRIP_SEL", 91 ]
+            ]
+          ]
+        ], [
+          [
+            "GPIO_3_PAD",
+            [
+              [ "AMUXBUS_A", 1 ],
+              [ "AMUXBUS_B", 1 ],
+              [ "ANALOG_EN", 106 ],
+              [ "ANALOG_POL", 106 ],
+              [ "ANALOG_SEL", 106 ],
+              [ "DM[2]", 106 ],
+              [ "DM[1]", 106 ],
+              [ "DM[0]", 67 ],
+              [ "ENABLE_H", 8 ],
+              [ "ENABLE_INP_H", 2 ],
+              [ "ENABLE_VDDA_H", 38 ],
+              [ "ENABLE_VDDIO", 67 ],
+              [ "ENABLE_VSWITCH_H", 38 ],
+              [ "HLD_H_N", 51 ],
+              [ "HLD_OVR", 106 ],
+              [ "IB_MODE_SEL", 106 ],
+              [ "IN", 1 ],
+              [ "IN_H", 1 ],
+              [ "INP_DIS", 106 ],
+              [ "OE_N", 67 ],
+              [ "OUT", 106 ],
+              [ "PAD", 1 ],
+              [ "PAD_A_ESD_0_H", 1 ],
+              [ "PAD_A_ESD_1_H", 1 ],
+              [ "PAD_A_NOESD_H", 1 ],
+              [ "SLOW", 106 ],
+              [ "TIE_HI_ESD", 1 ],
+              [ "TIE_LO_ESD", 2 ],
+              [ "VCCD", 67 ],
+              [ "VCCHIB", 67 ],
+              [ "VDDA", 22 ],
+              [ "VDDIO", 51 ],
+              [ "VDDIO_Q", 1 ],
+              [ "VSSA", 38 ],
+              [ "VSSD", 106 ],
+              [ "VSSIO", 24 ],
+              [ "VSSIO_Q", 1 ],
+              [ "VSWITCH", 51 ],
+              [ "VTRIP_SEL", 106 ]
+            ]
+          ],
+          [
+            "GPIO_2_PAD",
+            [
+              [ "AMUXBUS_A", 1 ],
+              [ "AMUXBUS_B", 1 ],
+              [ "ANALOG_EN", 106 ],
+              [ "ANALOG_POL", 106 ],
+              [ "ANALOG_SEL", 106 ],
+              [ "DM[2]", 106 ],
+              [ "DM[1]", 106 ],
+              [ "DM[0]", 67 ],
+              [ "ENABLE_H", 8 ],
+              [ "ENABLE_INP_H", 2 ],
+              [ "ENABLE_VDDA_H", 38 ],
+              [ "ENABLE_VDDIO", 67 ],
+              [ "ENABLE_VSWITCH_H", 38 ],
+              [ "HLD_H_N", 51 ],
+              [ "HLD_OVR", 106 ],
+              [ "IB_MODE_SEL", 106 ],
+              [ "IN", 1 ],
+              [ "IN_H", 1 ],
+              [ "INP_DIS", 106 ],
+              [ "OE_N", 67 ],
+              [ "OUT", 106 ],
+              [ "PAD", 1 ],
+              [ "PAD_A_ESD_0_H", 1 ],
+              [ "PAD_A_ESD_1_H", 1 ],
+              [ "PAD_A_NOESD_H", 1 ],
+              [ "SLOW", 106 ],
+              [ "TIE_HI_ESD", 1 ],
+              [ "TIE_LO_ESD", 2 ],
+              [ "VCCD", 67 ],
+              [ "VCCHIB", 67 ],
+              [ "VDDA", 22 ],
+              [ "VDDIO", 51 ],
+              [ "VDDIO_Q", 1 ],
+              [ "VSSA", 38 ],
+              [ "VSSD", 106 ],
+              [ "VSSIO", 24 ],
+              [ "VSSIO_Q", 1 ],
+              [ "VSWITCH", 51 ],
+              [ "VTRIP_SEL", 106 ]
+            ]
+          ],
+          [
+            "GPIO_1_PAD",
+            [
+              [ "AMUXBUS_A", 1 ],
+              [ "AMUXBUS_B", 1 ],
+              [ "ANALOG_EN", 106 ],
+              [ "ANALOG_POL", 106 ],
+              [ "ANALOG_SEL", 106 ],
+              [ "DM[2]", 106 ],
+              [ "DM[1]", 106 ],
+              [ "DM[0]", 67 ],
+              [ "ENABLE_H", 8 ],
+              [ "ENABLE_INP_H", 2 ],
+              [ "ENABLE_VDDA_H", 38 ],
+              [ "ENABLE_VDDIO", 67 ],
+              [ "ENABLE_VSWITCH_H", 38 ],
+              [ "HLD_H_N", 51 ],
+              [ "HLD_OVR", 106 ],
+              [ "IB_MODE_SEL", 106 ],
+              [ "IN", 1 ],
+              [ "IN_H", 1 ],
+              [ "INP_DIS", 106 ],
+              [ "OE_N", 67 ],
+              [ "OUT", 106 ],
+              [ "PAD", 1 ],
+              [ "PAD_A_ESD_0_H", 1 ],
+              [ "PAD_A_ESD_1_H", 1 ],
+              [ "PAD_A_NOESD_H", 1 ],
+              [ "SLOW", 106 ],
+              [ "TIE_HI_ESD", 1 ],
+              [ "TIE_LO_ESD", 2 ],
+              [ "VCCD", 67 ],
+              [ "VCCHIB", 67 ],
+              [ "VDDA", 22 ],
+              [ "VDDIO", 51 ],
+              [ "VDDIO_Q", 1 ],
+              [ "VSSA", 38 ],
+              [ "VSSD", 106 ],
+              [ "VSSIO", 24 ],
+              [ "VSSIO_Q", 1 ],
+              [ "VSWITCH", 51 ],
+              [ "VTRIP_SEL", 106 ]
+            ]
+          ],
+          [
+            "GPIO_0_PAD",
+            [
+              [ "AMUXBUS_A", 1 ],
+              [ "AMUXBUS_B", 1 ],
+              [ "ANALOG_EN", 106 ],
+              [ "ANALOG_POL", 106 ],
+              [ "ANALOG_SEL", 106 ],
+              [ "DM[2]", 106 ],
+              [ "DM[1]", 106 ],
+              [ "DM[0]", 67 ],
+              [ "ENABLE_H", 8 ],
+              [ "ENABLE_INP_H", 2 ],
+              [ "ENABLE_VDDA_H", 38 ],
+              [ "ENABLE_VDDIO", 67 ],
+              [ "ENABLE_VSWITCH_H", 38 ],
+              [ "HLD_H_N", 51 ],
+              [ "HLD_OVR", 106 ],
+              [ "IB_MODE_SEL", 106 ],
+              [ "IN", 1 ],
+              [ "IN_H", 1 ],
+              [ "INP_DIS", 106 ],
+              [ "OE_N", 67 ],
+              [ "OUT", 106 ],
+              [ "PAD", 1 ],
+              [ "PAD_A_ESD_0_H", 1 ],
+              [ "PAD_A_ESD_1_H", 1 ],
+              [ "PAD_A_NOESD_H", 1 ],
+              [ "SLOW", 106 ],
+              [ "TIE_HI_ESD", 1 ],
+              [ "TIE_LO_ESD", 2 ],
+              [ "VCCD", 67 ],
+              [ "VCCHIB", 67 ],
+              [ "VDDA", 22 ],
+              [ "VDDIO", 51 ],
+              [ "VDDIO_Q", 1 ],
+              [ "VSSA", 38 ],
+              [ "VSSD", 106 ],
+              [ "VSSIO", 24 ],
+              [ "VSSIO_Q", 1 ],
+              [ "VSWITCH", 51 ],
+              [ "VTRIP_SEL", 106 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_ef_io__gpiov2_pad_wrappedENb_CP_PAD",
+            [
+              [ "AMUXBUS_A", 21 ],
+              [ "AMUXBUS_B", 21 ],
+              [ "ANALOG_EN", 91 ],
+              [ "ANALOG_POL", 91 ],
+              [ "ANALOG_SEL", 91 ],
+              [ "DM[2]", 1 ],
+              [ "DM[1]", 1 ],
+              [ "DM[0]", 1 ],
+              [ "ENABLE_H", 8 ],
+              [ "ENABLE_INP_H", 2 ],
+              [ "ENABLE_VDDA_H", 26 ],
+              [ "ENABLE_VDDIO", 31 ],
+              [ "ENABLE_VSWITCH_H", 26 ],
+              [ "HLD_H_N", 18 ],
+              [ "HLD_OVR", 91 ],
+              [ "IB_MODE_SEL", 91 ],
+              [ "IN", 1 ],
+              [ "IN_H", 1 ],
+              [ "INP_DIS", 91 ],
+              [ "OE_N", 31 ],
+              [ "OUT", 91 ],
+              [ "PAD", 1 ],
+              [ "PAD_A_ESD_0_H", 1 ],
+              [ "PAD_A_ESD_1_H", 1 ],
+              [ "PAD_A_NOESD_H", 1 ],
+              [ "SLOW", 91 ],
+              [ "TIE_HI_ESD", 1 ],
+              [ "TIE_LO_ESD", 2 ],
+              [ "VCCD", 5 ],
+              [ "VCCHIB", 5 ],
+              [ "VDDA", 5 ],
+              [ "VDDIO", 5 ],
+              [ "VDDIO_Q", 5 ],
+              [ "VSSA", 5 ],
+              [ "VSSD", 5 ],
+              [ "VSSIO", 5 ],
+              [ "VSSIO_Q", 5 ],
+              [ "VSWITCH", 5 ],
+              [ "VTRIP_SEL", 91 ]
+            ]
+          ],
+          [
+            "sky130_ef_io__gpiov2_pad_wrappedENb_VCO_PAD",
+            [
+              [ "AMUXBUS_A", 21 ],
+              [ "AMUXBUS_B", 21 ],
+              [ "ANALOG_EN", 91 ],
+              [ "ANALOG_POL", 91 ],
+              [ "ANALOG_SEL", 91 ],
+              [ "DM[2]", 1 ],
+              [ "DM[1]", 1 ],
+              [ "DM[0]", 1 ],
+              [ "ENABLE_H", 8 ],
+              [ "ENABLE_INP_H", 2 ],
+              [ "ENABLE_VDDA_H", 26 ],
+              [ "ENABLE_VDDIO", 31 ],
+              [ "ENABLE_VSWITCH_H", 26 ],
+              [ "HLD_H_N", 18 ],
+              [ "HLD_OVR", 91 ],
+              [ "IB_MODE_SEL", 91 ],
+              [ "IN", 1 ],
+              [ "IN_H", 1 ],
+              [ "INP_DIS", 91 ],
+              [ "OE_N", 31 ],
+              [ "OUT", 91 ],
+              [ "PAD", 1 ],
+              [ "PAD_A_ESD_0_H", 1 ],
+              [ "PAD_A_ESD_1_H", 1 ],
+              [ "PAD_A_NOESD_H", 1 ],
+              [ "SLOW", 91 ],
+              [ "TIE_HI_ESD", 1 ],
+              [ "TIE_LO_ESD", 2 ],
+              [ "VCCD", 5 ],
+              [ "VCCHIB", 5 ],
+              [ "VDDA", 5 ],
+              [ "VDDIO", 5 ],
+              [ "VDDIO_Q", 5 ],
+              [ "VSSA", 5 ],
+              [ "VSSD", 5 ],
+              [ "VSSIO", 5 ],
+              [ "VSSIO_Q", 5 ],
+              [ "VSWITCH", 5 ],
+              [ "VTRIP_SEL", 91 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "sky130_ef_io__gpiov2_pad_wrappedB_VCO_PAD",
+            [
+              [ "AMUXBUS_A", 21 ],
+              [ "AMUXBUS_B", 21 ],
+              [ "ANALOG_EN", 91 ],
+              [ "ANALOG_POL", 91 ],
+              [ "ANALOG_SEL", 91 ],
+              [ "DM[2]", 31 ],
+              [ "DM[1]", 31 ],
+              [ "DM[0]", 91 ],
+              [ "ENABLE_H", 8 ],
+              [ "ENABLE_INP_H", 2 ],
+              [ "ENABLE_VDDA_H", 26 ],
+              [ "ENABLE_VDDIO", 31 ],
+              [ "ENABLE_VSWITCH_H", 26 ],
+              [ "HLD_H_N", 18 ],
+              [ "HLD_OVR", 91 ],
+              [ "IB_MODE_SEL", 91 ],
+              [ "IN", 1 ],
+              [ "IN_H", 1 ],
+              [ "INP_DIS", 91 ],
+              [ "OE_N", 91 ],
+              [ "OUT", 1 ],
+              [ "PAD", 1 ],
+              [ "PAD_A_ESD_0_H", 1 ],
+              [ "PAD_A_ESD_1_H", 1 ],
+              [ "PAD_A_NOESD_H", 1 ],
+              [ "SLOW", 91 ],
+              [ "TIE_HI_ESD", 1 ],
+              [ "TIE_LO_ESD", 2 ],
+              [ "VCCD", 5 ],
+              [ "VCCHIB", 5 ],
+              [ "VDDA", 5 ],
+              [ "VDDIO", 5 ],
+              [ "VDDIO_Q", 5 ],
+              [ "VSSA", 5 ],
+              [ "VSSD", 5 ],
+              [ "VSSIO", 5 ],
+              [ "VSSIO_Q", 5 ],
+              [ "VSWITCH", 5 ],
+              [ "VTRIP_SEL", 91 ]
+            ]
+          ],
+          [
+            "sky130_ef_io__gpiov2_pad_wrappedB_CP_PAD",
+            [
+              [ "AMUXBUS_A", 21 ],
+              [ "AMUXBUS_B", 21 ],
+              [ "ANALOG_EN", 91 ],
+              [ "ANALOG_POL", 91 ],
+              [ "ANALOG_SEL", 91 ],
+              [ "DM[2]", 31 ],
+              [ "DM[1]", 31 ],
+              [ "DM[0]", 91 ],
+              [ "ENABLE_H", 8 ],
+              [ "ENABLE_INP_H", 2 ],
+              [ "ENABLE_VDDA_H", 26 ],
+              [ "ENABLE_VDDIO", 31 ],
+              [ "ENABLE_VSWITCH_H", 26 ],
+              [ "HLD_H_N", 18 ],
+              [ "HLD_OVR", 91 ],
+              [ "IB_MODE_SEL", 91 ],
+              [ "IN", 1 ],
+              [ "IN_H", 1 ],
+              [ "INP_DIS", 91 ],
+              [ "OE_N", 91 ],
+              [ "OUT", 1 ],
+              [ "PAD", 1 ],
+              [ "PAD_A_ESD_0_H", 1 ],
+              [ "PAD_A_ESD_1_H", 1 ],
+              [ "PAD_A_NOESD_H", 1 ],
+              [ "SLOW", 91 ],
+              [ "TIE_HI_ESD", 1 ],
+              [ "TIE_LO_ESD", 2 ],
+              [ "VCCD", 5 ],
+              [ "VCCHIB", 5 ],
+              [ "VDDA", 5 ],
+              [ "VDDIO", 5 ],
+              [ "VDDIO_Q", 5 ],
+              [ "VSSA", 5 ],
+              [ "VSSD", 5 ],
+              [ "VSSIO", 5 ],
+              [ "VSSIO_Q", 5 ],
+              [ "VSWITCH", 5 ],
+              [ "VTRIP_SEL", 91 ]
+            ]
+          ]
+        ], [
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "B_CP_PAD",
+            [
+              [ "AMUXBUS_A", 1 ],
+              [ "AMUXBUS_B", 1 ],
+              [ "ANALOG_EN", 106 ],
+              [ "ANALOG_POL", 106 ],
+              [ "ANALOG_SEL", 106 ],
+              [ "DM[2]", 67 ],
+              [ "DM[1]", 67 ],
+              [ "DM[0]", 106 ],
+              [ "ENABLE_H", 8 ],
+              [ "ENABLE_INP_H", 2 ],
+              [ "ENABLE_VDDA_H", 38 ],
+              [ "ENABLE_VDDIO", 67 ],
+              [ "ENABLE_VSWITCH_H", 38 ],
+              [ "HLD_H_N", 51 ],
+              [ "HLD_OVR", 106 ],
+              [ "IB_MODE_SEL", 106 ],
+              [ "IN", 1 ],
+              [ "IN_H", 1 ],
+              [ "INP_DIS", 106 ],
+              [ "OE_N", 106 ],
+              [ "OUT", 1 ],
+              [ "PAD", 1 ],
+              [ "PAD_A_ESD_0_H", 1 ],
+              [ "PAD_A_ESD_1_H", 1 ],
+              [ "PAD_A_NOESD_H", 1 ],
+              [ "SLOW", 106 ],
+              [ "TIE_HI_ESD", 1 ],
+              [ "TIE_LO_ESD", 2 ],
+              [ "VCCD", 67 ],
+              [ "VCCHIB", 67 ],
+              [ "VDDA", 22 ],
+              [ "VDDIO", 51 ],
+              [ "VDDIO_Q", 1 ],
+              [ "VSSA", 38 ],
+              [ "VSSD", 106 ],
+              [ "VSSIO", 24 ],
+              [ "VSSIO_Q", 1 ],
+              [ "VSWITCH", 51 ],
+              [ "VTRIP_SEL", 106 ]
+            ]
+          ],
+          [
+            "B_VCO_PAD",
+            [
+              [ "AMUXBUS_A", 1 ],
+              [ "AMUXBUS_B", 1 ],
+              [ "ANALOG_EN", 106 ],
+              [ "ANALOG_POL", 106 ],
+              [ "ANALOG_SEL", 106 ],
+              [ "DM[2]", 67 ],
+              [ "DM[1]", 67 ],
+              [ "DM[0]", 106 ],
+              [ "ENABLE_H", 8 ],
+              [ "ENABLE_INP_H", 2 ],
+              [ "ENABLE_VDDA_H", 38 ],
+              [ "ENABLE_VDDIO", 67 ],
+              [ "ENABLE_VSWITCH_H", 38 ],
+              [ "HLD_H_N", 51 ],
+              [ "HLD_OVR", 106 ],
+              [ "IB_MODE_SEL", 106 ],
+              [ "IN", 1 ],
+              [ "IN_H", 1 ],
+              [ "INP_DIS", 106 ],
+              [ "OE_N", 106 ],
+              [ "OUT", 1 ],
+              [ "PAD", 1 ],
+              [ "PAD_A_ESD_0_H", 1 ],
+              [ "PAD_A_ESD_1_H", 1 ],
+              [ "PAD_A_NOESD_H", 1 ],
+              [ "SLOW", 106 ],
+              [ "TIE_HI_ESD", 1 ],
+              [ "TIE_LO_ESD", 2 ],
+              [ "VCCD", 67 ],
+              [ "VCCHIB", 67 ],
+              [ "VDDA", 22 ],
+              [ "VDDIO", 51 ],
+              [ "VDDIO_Q", 1 ],
+              [ "VSSA", 38 ],
+              [ "VSSD", 106 ],
+              [ "VSSIO", 24 ],
+              [ "VSSIO_Q", 1 ],
+              [ "VSWITCH", 51 ],
+              [ "VTRIP_SEL", 106 ]
+            ]
+          ]
+        ]
+      ],
+      [
+        [
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ],
+          [
+            "(no matching instance)",
+            [
+              [ "", 0 ]
+            ]
+          ]
+        ], [
+          [
+            "ENb_CP_PAD",
+            [
+              [ "AMUXBUS_A", 1 ],
+              [ "AMUXBUS_B", 1 ],
+              [ "ANALOG_EN", 106 ],
+              [ "ANALOG_POL", 106 ],
+              [ "ANALOG_SEL", 106 ],
+              [ "DM[2]", 1 ],
+              [ "DM[1]", 1 ],
+              [ "DM[0]", 1 ],
+              [ "ENABLE_H", 8 ],
+              [ "ENABLE_INP_H", 2 ],
+              [ "ENABLE_VDDA_H", 38 ],
+              [ "ENABLE_VDDIO", 67 ],
+              [ "ENABLE_VSWITCH_H", 38 ],
+              [ "HLD_H_N", 51 ],
+              [ "HLD_OVR", 106 ],
+              [ "IB_MODE_SEL", 106 ],
+              [ "IN", 1 ],
+              [ "IN_H", 1 ],
+              [ "INP_DIS", 106 ],
+              [ "OE_N", 67 ],
+              [ "OUT", 106 ],
+              [ "PAD", 1 ],
+              [ "PAD_A_ESD_0_H", 1 ],
+              [ "PAD_A_ESD_1_H", 1 ],
+              [ "PAD_A_NOESD_H", 1 ],
+              [ "SLOW", 106 ],
+              [ "TIE_HI_ESD", 1 ],
+              [ "TIE_LO_ESD", 2 ],
+              [ "VCCD", 67 ],
+              [ "VCCHIB", 67 ],
+              [ "VDDA", 22 ],
+              [ "VDDIO", 51 ],
+              [ "VDDIO_Q", 1 ],
+              [ "VSSA", 38 ],
+              [ "VSSD", 106 ],
+              [ "VSSIO", 24 ],
+              [ "VSSIO_Q", 1 ],
+              [ "VSWITCH", 51 ],
+              [ "VTRIP_SEL", 106 ]
+            ]
+          ],
+          [
+            "ENb_VCO_PAD",
+            [
+              [ "AMUXBUS_A", 1 ],
+              [ "AMUXBUS_B", 1 ],
+              [ "ANALOG_EN", 106 ],
+              [ "ANALOG_POL", 106 ],
+              [ "ANALOG_SEL", 106 ],
+              [ "DM[2]", 1 ],
+              [ "DM[1]", 1 ],
+              [ "DM[0]", 1 ],
+              [ "ENABLE_H", 8 ],
+              [ "ENABLE_INP_H", 2 ],
+              [ "ENABLE_VDDA_H", 38 ],
+              [ "ENABLE_VDDIO", 67 ],
+              [ "ENABLE_VSWITCH_H", 38 ],
+              [ "HLD_H_N", 51 ],
+              [ "HLD_OVR", 106 ],
+              [ "IB_MODE_SEL", 106 ],
+              [ "IN", 1 ],
+              [ "IN_H", 1 ],
+              [ "INP_DIS", 106 ],
+              [ "OE_N", 67 ],
+              [ "OUT", 106 ],
+              [ "PAD", 1 ],
+              [ "PAD_A_ESD_0_H", 1 ],
+              [ "PAD_A_ESD_1_H", 1 ],
+              [ "PAD_A_NOESD_H", 1 ],
+              [ "SLOW", 106 ],
+              [ "TIE_HI_ESD", 1 ],
+              [ "TIE_LO_ESD", 2 ],
+              [ "VCCD", 67 ],
+              [ "VCCHIB", 67 ],
+              [ "VDDA", 22 ],
+              [ "VDDIO", 51 ],
+              [ "VDDIO_Q", 1 ],
+              [ "VSSA", 38 ],
+              [ "VSSD", 106 ],
+              [ "VSSIO", 24 ],
+              [ "VSSIO_Q", 1 ],
+              [ "VSWITCH", 51 ],
+              [ "VTRIP_SEL", 106 ]
+            ]
+          ]
+        ]
+      ]
+   ]
+  }
+]

@@ -4,21 +4,9 @@ Components of this program may be licensed under more restrictive licenses which
 Error: cannot open '/.openroad'.
 Warning: /home/roshan/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/open_pdks/sky130/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib, line 31 default_operating_condition tt_025C_1v80 not found.
 Notice 0: Reading LEF file:  /openLANE_flow/designs/chip_io/runs/chip_io/tmp/merged_unpadded.lef
-Notice 0: Warning: WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
-The LEF parser will ignore this statement.
-To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /openLANE_flow/designs/chip_io/runs/chip_io/tmp/merged_unpadded.lef at line 68105.
-
-Notice 0: Warning: WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
-The LEF parser will ignore this statement.
-To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /openLANE_flow/designs/chip_io/runs/chip_io/tmp/merged_unpadded.lef at line 72580.
-
-Notice 0: Warning: WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
-The LEF parser will ignore this statement.
-To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /openLANE_flow/designs/chip_io/runs/chip_io/tmp/merged_unpadded.lef at line 77742.
-
 Notice 0:     Created 13 technology layers
 Notice 0:     Created 25 technology vias
-Notice 0:     Created 494 library cells
+Notice 0:     Created 534 library cells
 Notice 0: Finished LEF file:  /openLANE_flow/designs/chip_io/runs/chip_io/tmp/merged_unpadded.lef
 Warning: LEF master sky130_ef_io__gpiov2_pad_wrapped has no liberty cell.
 Warning: LEF master sky130_fd_io__top_power_lvc_wpad has no liberty cell.

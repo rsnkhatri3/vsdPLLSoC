@@ -12,5 +12,5 @@ Loading sky130A Device Generator Menu ...
 Loading "/openLANE_flow/scripts/magic/maglef.tcl" from command line.
 Reading LEF data from file /openLANE_flow/designs/chip_io/runs/chip_io/results/magic/chip_io.lef.
 This action cannot be undone.
-LEF read: Processed 15326 lines.
+LEF read: Processed 13256 lines.
 [INFO]: DONE GENERATING MAGLEF VIEW

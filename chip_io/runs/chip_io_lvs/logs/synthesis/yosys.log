@@ -62,7 +62,7 @@ Successfully finished Verilog frontend.
 
 4. Executing Verilog-2005 frontend: /openLANE_flow/designs/chip_io/src/chip_io.v
 Parsing Verilog input from `/openLANE_flow/designs/chip_io/src/chip_io.v' to AST representation.
-Replacing existing blackbox module `\sky130_ef_io__gpiov2_pad_wrapped' at /openLANE_flow/designs/chip_io/src/sky130_ef_io__gpiov2_pad_wrapped.v:4.1-53.10.
+Replacing existing blackbox module `\sky130_ef_io__gpiov2_pad_wrapped' at /openLANE_flow/designs/chip_io/src/sky130_ef_io__gpiov2_pad_wrapped.v:4.1-52.10.
 Generating RTLIL representation for module `\sky130_ef_io__gpiov2_pad_wrapped'.
 Replacing existing blackbox module `\sky130_ef_io__vddio_hvc_pad' at /openLANE_flow/designs/chip_io/src/sky130_ef_io__vddio_hvc_pad.v:4.1-29.10.
 Generating RTLIL representation for module `\sky130_ef_io__vddio_hvc_pad'.
@@ -76,7 +76,7 @@ Replacing existing blackbox module `\sky130_ef_io__vccd_lvc_pad' at /openLANE_fl
 Generating RTLIL representation for module `\sky130_ef_io__vccd_lvc_pad'.
 Replacing existing blackbox module `\sky130_ef_io__vssd_lvc_pad' at /openLANE_flow/designs/chip_io/src/sky130_ef_io__vssd_lvc_pad.v:4.1-29.10.
 Generating RTLIL representation for module `\sky130_ef_io__vssd_lvc_pad'.
-Replacing existing blackbox module `\sky130_ef_io__corner_pad' at /openLANE_flow/designs/chip_io/src/sky130_ef_io__corner_pad.v:1.1-19.10.
+Replacing existing blackbox module `\sky130_ef_io__corner_pad' at /openLANE_flow/designs/chip_io/src/sky130_ef_io__corner_pad.v:3.1-21.10.
 Generating RTLIL representation for module `\sky130_ef_io__corner_pad'.
 Generating RTLIL representation for module `\chip_io'.
 Successfully finished Verilog frontend.
@@ -100,10 +100,10 @@ Removed 0 unused modules.
 
 === chip_io ===
 
-   Number of wires:                 31
-   Number of wire bits:             31
-   Number of public wires:          31
-   Number of public wire bits:      31
+   Number of wires:                 37
+   Number of wire bits:             37
+   Number of public wires:          37
+   Number of public wire bits:      37
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
@@ -125,34 +125,16 @@ Finding unused cells or wires in module \chip_io..
 
 11. Executing CHECK pass (checking for obvious problems).
 checking module chip_io..
-Warning: multiple conflicting drivers for chip_io.\TIE_LO_ESD:
-    port TIE_LO_ESD[0] of cell B_CP_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_LO_ESD[0] of cell B_VCO_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_LO_ESD[0] of cell ENb_CP_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_LO_ESD[0] of cell ENb_VCO_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_LO_ESD[0] of cell GPIO_0_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_LO_ESD[0] of cell GPIO_1_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_LO_ESD[0] of cell GPIO_2_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_LO_ESD[0] of cell GPIO_3_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-Warning: multiple conflicting drivers for chip_io.\TIE_HI_ESD:
-    port TIE_HI_ESD[0] of cell B_CP_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_HI_ESD[0] of cell B_VCO_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_HI_ESD[0] of cell ENb_CP_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_HI_ESD[0] of cell ENb_VCO_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_HI_ESD[0] of cell GPIO_0_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_HI_ESD[0] of cell GPIO_1_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_HI_ESD[0] of cell GPIO_2_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-    port TIE_HI_ESD[0] of cell GPIO_3_PAD (sky130_ef_io__gpiov2_pad_wrapped)
-found and reported 2 problems.
+found and reported 0 problems.
 
 12. Printing statistics.
 
 === chip_io ===
 
-   Number of wires:                 31
-   Number of wire bits:             31
-   Number of public wires:          31
-   Number of public wire bits:      31
+   Number of wires:                 37
+   Number of wire bits:             37
+   Number of public wires:          37
+   Number of public wire bits:      37
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
@@ -180,7 +162,6 @@ found and reported 2 problems.
 13. Executing Verilog backend.
 Dumping module `\chip_io'.
 
-Warnings: 2 unique messages, 2 total
-End of script. Logfile hash: 298c85a53f, CPU: user 0.07s system 0.01s, MEM: 14.66 MB peak
+End of script. Logfile hash: e17b94fe5c, CPU: user 0.07s system 0.01s, MEM: 14.54 MB peak
 Yosys 0.9+3621 (git sha1 84e9fa7, gcc 8.3.1 -fPIC -Os)
-Time spent: 36% 2x write_verilog (0 sec), 30% 2x stat (0 sec), ...
+Time spent: 37% 2x write_verilog (0 sec), 29% 2x stat (0 sec), ...

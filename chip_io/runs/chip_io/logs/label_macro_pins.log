@@ -1,51 +1,27 @@
 Notice 0: Reading LEF file:  /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef
-Notice 0: Warning: WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
-The LEF parser will ignore this statement.
-To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef at line 68105.
-
-Notice 0: Warning: WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
-The LEF parser will ignore this statement.
-To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef at line 72580.
-
-Notice 0: Warning: WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
-The LEF parser will ignore this statement.
-To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef at line 77742.
-
 Notice 0:     Created 13 technology layers
 Notice 0:     Created 25 technology vias
-Notice 0:     Created 494 library cells
+Notice 0:     Created 534 library cells
 Notice 0: Finished LEF file:  /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef
 Notice 0: 
 Reading DEF file: /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.def
 Notice 0: Design: chip_io
 Notice 0:     Created 29 pins.
 Notice 0:     Created 21 components and 510 component-terminals.
-Notice 0:     Created 31 nets and 372 connections.
+Notice 0:     Created 37 nets and 364 connections.
 Notice 0: Finished DEF file: /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.def
 Notice 0: Reading LEF file:  /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef
-Notice 0: Warning: WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
-The LEF parser will ignore this statement.
-To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef at line 68105.
-
-Notice 0: Warning: WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
-The LEF parser will ignore this statement.
-To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef at line 72580.
-
-Notice 0: Warning: WARNING (LEFPARS-2036): SOURCE statement is obsolete in version 5.6 and later.
-The LEF parser will ignore this statement.
-To avoid this warning in the future, remove this statement from the LEF file with version 5.6 or later. See file /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef at line 77742.
-
 Notice 0:     Created 13 technology layers
 Notice 0:     Created 25 technology vias
-Notice 0:     Created 494 library cells
+Notice 0:     Created 534 library cells
 Notice 0: Finished LEF file:  /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef
 Notice 0: 
-Reading DEF file: /openLANE_flow/designs/chip_io/runs/chip_io/tmp/routing/fastroute.def
+Reading DEF file: /openLANE_flow/designs/chip_io/runs/chip_io/results/routing/chip_io.def
 Notice 0: Design: chip_io
 Notice 0: error: unknown library cell referenced (obs) for instance (obs_li1)
 Notice 0:     Created 826 components and 10170 component-terminals.
-Notice 0:     Created 9 nets and 194 connections.
-Notice 0: Finished DEF file: /openLANE_flow/designs/chip_io/runs/chip_io/tmp/routing/fastroute.def
+Notice 0:     Created 15 nets and 186 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/chip_io/runs/chip_io/results/routing/chip_io.def
 /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef
 Warning: net B_0_pll has a BTerm but no ITerms that match PAD_PIN_NAME
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -141,61 +117,61 @@ Labeling 17 pads
 Labeling 29 pad pins
 {'GPIO_0_PAD': [('IN', 'B_0_pll', 'OUTPUT'), ('PAD', 'GPIO_0', 'INPUT')], 'GPIO_1_PAD': [('IN', 'B_1_pll', 'OUTPUT'), ('PAD', 'GPIO_1', 'INPUT')], 'GPIO_2_PAD': [('IN', 'B_2_pll', 'OUTPUT'), ('PAD', 'GPIO_2', 'INPUT')], 'GPIO_3_PAD': [('IN', 'B_3_pll', 'OUTPUT'), ('PAD', 'GPIO_3', 'INPUT'), ('ENABLE_H', 'PORB', 'INPUT')], 'B_CP_PAD': [('PAD', 'B_CP', 'OUTPUT'), ('OUT', 'B_CP_pll', 'INPUT')], 'B_VCO_PAD': [('PAD', 'B_VCO', 'OUTPUT'), ('OUT', 'B_VCO_pll', 'INPUT')], 'CLK_PAD': [('P_PAD', 'CLK', 'OUTPUT'), ('P_CORE', 'CLK_pll', 'INPUT')], 'ENb_CP_PAD': [('PAD', 'EN_CP', 'INPUT'), ('IN', 'EN_CP_pll', 'OUTPUT')], 'ENb_VCO_PAD': [('PAD', 'EN_VCO', 'INPUT'), ('IN', 'EN_VCO_pll', 'OUTPUT')], 'REF_CLK_PAD': [('P_PAD', 'REF_CLK', 'INPUT'), ('P_CORE', 'REF_CLK_pll', 'OUTPUT')], 'VCO_IN_PAD': [('P_PAD', 'VCO_IN', 'INPUT'), ('P_CORE', 'VCO_IN_pll', 'OUTPUT')], 'VDDA_PAD': [('VDDA', 'vdda', 'INOUT')], 'VSSA_PAD': [('VSSA', 'vssa', 'INOUT')], 'VCCD_PAD': [('VCCD', 'vccd', 'INOUT')], 'VSSD_PAD': [('VSSD', 'vssd', 'INOUT')], 'VDDIO_PAD': [('VDDIO', 'vddio', 'INOUT')], 'VSSIO_PAD': [('VSSIO', 'vssio', 'INOUT')]}
 Found:  B_CP_PAD PAD B_CP
-64215 654500
+64215 3079500
 Found:  B_CP_PAD OUT B_CP_pll
-209765 632025
+209765 3057025
 Found:  B_VCO_PAD PAD B_VCO
-64215 1627500
+64215 2590500
 Found:  B_VCO_PAD OUT B_VCO_pll
-209765 1605025
+209765 2568025
 Found:  CLK_PAD P_PAD CLK
 3523855 699365
 Found:  CLK_PAD P_CORE CLK_pll
 3432232 674272
 Found:  ENb_CP_PAD PAD EN_CP
-64215 2600500
+64215 4057500
 Found:  ENb_CP_PAD IN EN_CP_pll
-209765 2633225
+209765 4090225
 Found:  ENb_VCO_PAD PAD EN_VCO
-64215 3573500
+64215 3568500
 Found:  ENb_VCO_PAD IN EN_VCO_pll
-209765 3606225
+209765 3601225
 Found:  GPIO_0_PAD IN B_0_pll
-3378235 4445775
-Found:  GPIO_0_PAD PAD GPIO_0
-3523785 4478500
-Found:  GPIO_1_PAD IN B_1_pll
-3378235 3365775
-Found:  GPIO_1_PAD PAD GPIO_1
-3523785 3398500
-Found:  GPIO_2_PAD IN B_2_pll
-3378235 2284775
-Found:  GPIO_2_PAD PAD GPIO_2
-3523785 2317500
-Found:  GPIO_3_PAD IN B_3_pll
 3378235 1204775
-Found:  GPIO_3_PAD PAD GPIO_3
+Found:  GPIO_0_PAD PAD GPIO_0
 3523785 1237500
+Found:  GPIO_1_PAD IN B_1_pll
+3378235 1747775
+Found:  GPIO_1_PAD PAD GPIO_1
+3523785 1780500
+Found:  GPIO_2_PAD IN B_2_pll
+3378235 2289775
+Found:  GPIO_2_PAD PAD GPIO_2
+3523785 2322500
+Found:  GPIO_3_PAD IN B_3_pll
+3378235 2832775
+Found:  GPIO_3_PAD PAD GPIO_3
+3523785 2865500
 Found:  GPIO_3_PAD ENABLE_H PORB
-3378235 1244795
+3378235 2872795
 Found:  REF_CLK_PAD P_PAD REF_CLK
-64145 4057635
-Found:  REF_CLK_PAD P_CORE REF_CLK_pll
-155767 4082727
-Found:  VCCD_PAD VCCD vccd
-64145 1138635
-Found:  VCO_IN_PAD P_PAD VCO_IN
 64145 4541635
-Found:  VCO_IN_PAD P_CORE VCO_IN_pll
+Found:  REF_CLK_PAD P_CORE REF_CLK_pll
 155767 4566727
+Found:  VCCD_PAD VCCD vccd
+64145 1617635
+Found:  VCO_IN_PAD P_PAD VCO_IN
+64145 2101635
+Found:  VCO_IN_PAD P_CORE VCO_IN_pll
+155767 2126727
 Found:  VDDA_PAD VDDA vdda
-3523317 2860550
+64682 649450
 Found:  VDDIO_PAD VDDIO vddio
-64682 3084450
+3523317 4483550
 Found:  VSSA_PAD VSSA vssa
-3523317 3940550
+3523317 3408550
 Found:  VSSD_PAD VSSD vssd
-64145 2111635
+64145 1133635
 Found:  VSSIO_PAD VSSIO vssio
-3523317 1780550
-Writing /openLANE_flow/designs/chip_io/runs/chip_io/tmp/routing/fastroute.def
+3523317 3945550
+Writing /openLANE_flow/designs/chip_io/runs/chip_io/results/routing/chip_io.def
