@@ -1,0 +1,41 @@
+OpenROAD 0.9.0 d03ebfc244
+This program is licensed under the BSD-3 license. See the LICENSE file for details. 
+Components of this program may be licensed under more restrictive licenses which must be honored.
+Error: cannot open '/.openroad'.
+Notice 0: Reading LEF file:  /openLANE_flow/designs/chip_io/runs/25-12_02-55/tmp/merged_unpadded.lef
+Notice 0:     Created 13 technology layers
+Notice 0:     Created 25 technology vias
+Notice 0:     Created 542 library cells
+Notice 0: Finished LEF file:  /openLANE_flow/designs/chip_io/runs/25-12_02-55/tmp/merged_unpadded.lef
+Notice 0: 
+Reading DEF file: /openLANE_flow/designs/chip_io/runs/25-12_02-55/tmp/floorplan/ioPlacer.def
+Notice 0: Design: chip_io
+Notice 0:     Created 29 pins.
+Notice 0:     Created 21 components and 510 component-terminals.
+Notice 0:     Created 37 nets and 364 connections.
+Notice 0: Finished DEF file: /openLANE_flow/designs/chip_io/runs/25-12_02-55/tmp/floorplan/ioPlacer.def
+[INFO] DBU = 1000
+[INFO] SiteSize = (460, 2720)
+[INFO] CoreAreaLxLy = (5520, 10880)
+[INFO] CoreAreaUxUy = (3582480, 5176160)
+[INFO] NumInstances = 0
+[INFO] NumPlaceInstances = 0
+[INFO] NumFixedInstances = 0
+[INFO] NumDummyInstances = 0
+[INFO] NumNets = 37
+[INFO] NumPins = 393
+[INFO] DieAreaLxLy = (0, 0)
+[INFO] DieAreaUxUy = (3588000, 5188000)
+[INFO] CoreAreaLxLy = (5520, 10880)
+[INFO] CoreAreaUxUy = (3582480, 5176160)
+[INFO] CoreArea = 18475999948800
+[INFO] NonPlaceInstsArea = 0
+[INFO] PlaceInstsArea = 0
+[INFO] Util(%) = 0.000000
+[INFO] StdInstsArea = 0
+[INFO] MacroInstsArea = 0
+[InitialPlace]  Iter: 1 CG Error: 1.19209e-07 HPWL: 131850975
+[InitialPlace]  Iter: 2 CG Error: 1.19209e-07 HPWL: 131850975
+[InitialPlace]  Iter: 3 CG Error: 1.19209e-07 HPWL: 131850975
+[InitialPlace]  Iter: 4 CG Error: 1.19209e-07 HPWL: 131850975
+[InitialPlace]  Iter: 5 CG Error: 1.19209e-07 HPWL: 131850975

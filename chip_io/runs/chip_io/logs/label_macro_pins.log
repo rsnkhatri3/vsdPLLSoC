@@ -1,7 +1,7 @@
 Notice 0: Reading LEF file:  /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef
 Notice 0:     Created 13 technology layers
 Notice 0:     Created 25 technology vias
-Notice 0:     Created 534 library cells
+Notice 0:     Created 542 library cells
 Notice 0: Finished LEF file:  /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef
 Notice 0: 
 Reading DEF file: /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.def
@@ -13,13 +13,15 @@ Notice 0: Finished DEF file: /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs
 Notice 0: Reading LEF file:  /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef
 Notice 0:     Created 13 technology layers
 Notice 0:     Created 25 technology vias
-Notice 0:     Created 534 library cells
+Notice 0:     Created 542 library cells
 Notice 0: Finished LEF file:  /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef
 Notice 0: 
 Reading DEF file: /openLANE_flow/designs/chip_io/runs/chip_io/results/routing/chip_io.def
 Notice 0: Design: chip_io
 Notice 0: error: unknown library cell referenced (obs) for instance (obs_li1)
-Notice 0:     Created 826 components and 10170 component-terminals.
+Notice 0: error: unknown library cell referenced (obs_gpio_m3_pins) for instance (obs_gpio_m3_pins)
+Notice 0: error: unknown library cell referenced (obs_core_obs) for instance (obs_core_obs)
+Notice 0:     Created 779 components and 9606 component-terminals.
 Notice 0:     Created 15 nets and 186 connections.
 Notice 0: Finished DEF file: /openLANE_flow/designs/chip_io/runs/chip_io/results/routing/chip_io.def
 /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef
@@ -117,61 +119,61 @@ Labeling 17 pads
 Labeling 29 pad pins
 {'GPIO_0_PAD': [('IN', 'B_0_pll', 'OUTPUT'), ('PAD', 'GPIO_0', 'INPUT')], 'GPIO_1_PAD': [('IN', 'B_1_pll', 'OUTPUT'), ('PAD', 'GPIO_1', 'INPUT')], 'GPIO_2_PAD': [('IN', 'B_2_pll', 'OUTPUT'), ('PAD', 'GPIO_2', 'INPUT')], 'GPIO_3_PAD': [('IN', 'B_3_pll', 'OUTPUT'), ('PAD', 'GPIO_3', 'INPUT'), ('ENABLE_H', 'PORB', 'INPUT')], 'B_CP_PAD': [('PAD', 'B_CP', 'OUTPUT'), ('OUT', 'B_CP_pll', 'INPUT')], 'B_VCO_PAD': [('PAD', 'B_VCO', 'OUTPUT'), ('OUT', 'B_VCO_pll', 'INPUT')], 'CLK_PAD': [('P_PAD', 'CLK', 'OUTPUT'), ('P_CORE', 'CLK_pll', 'INPUT')], 'ENb_CP_PAD': [('PAD', 'EN_CP', 'INPUT'), ('IN', 'EN_CP_pll', 'OUTPUT')], 'ENb_VCO_PAD': [('PAD', 'EN_VCO', 'INPUT'), ('IN', 'EN_VCO_pll', 'OUTPUT')], 'REF_CLK_PAD': [('P_PAD', 'REF_CLK', 'INPUT'), ('P_CORE', 'REF_CLK_pll', 'OUTPUT')], 'VCO_IN_PAD': [('P_PAD', 'VCO_IN', 'INPUT'), ('P_CORE', 'VCO_IN_pll', 'OUTPUT')], 'VDDA_PAD': [('VDDA', 'vdda', 'INOUT')], 'VSSA_PAD': [('VSSA', 'vssa', 'INOUT')], 'VCCD_PAD': [('VCCD', 'vccd', 'INOUT')], 'VSSD_PAD': [('VSSD', 'vssd', 'INOUT')], 'VDDIO_PAD': [('VDDIO', 'vddio', 'INOUT')], 'VSSIO_PAD': [('VSSIO', 'vssio', 'INOUT')]}
 Found:  B_CP_PAD PAD B_CP
-64215 3079500
+64215 3255500
 Found:  B_CP_PAD OUT B_CP_pll
-209765 3057025
+209765 3233025
 Found:  B_VCO_PAD PAD B_VCO
-64215 2590500
+64215 2810500
 Found:  B_VCO_PAD OUT B_VCO_pll
-209765 2568025
+209765 2788025
 Found:  CLK_PAD P_PAD CLK
-3523855 699365
+3523855 766365
 Found:  CLK_PAD P_CORE CLK_pll
-3432232 674272
+3432232 741272
 Found:  ENb_CP_PAD PAD EN_CP
-64215 4057500
+64215 4145500
 Found:  ENb_CP_PAD IN EN_CP_pll
-209765 4090225
+209765 4178225
 Found:  ENb_VCO_PAD PAD EN_VCO
-64215 3568500
+64215 3700500
 Found:  ENb_VCO_PAD IN EN_VCO_pll
-209765 3601225
+209765 3733225
 Found:  GPIO_0_PAD IN B_0_pll
-3378235 1204775
+3378235 1338775
 Found:  GPIO_0_PAD PAD GPIO_0
-3523785 1237500
+3523785 1371500
 Found:  GPIO_1_PAD IN B_1_pll
-3378235 1747775
+3378235 1948775
 Found:  GPIO_1_PAD PAD GPIO_1
-3523785 1780500
+3523785 1981500
 Found:  GPIO_2_PAD IN B_2_pll
-3378235 2289775
+3378235 2558775
 Found:  GPIO_2_PAD PAD GPIO_2
-3523785 2322500
+3523785 2591500
 Found:  GPIO_3_PAD IN B_3_pll
-3378235 2832775
+3378235 3168775
 Found:  GPIO_3_PAD PAD GPIO_3
-3523785 2865500
+3523785 3201500
 Found:  GPIO_3_PAD ENABLE_H PORB
-3378235 2872795
+3378235 3208795
 Found:  REF_CLK_PAD P_PAD REF_CLK
-64145 4541635
+64145 4585635
 Found:  REF_CLK_PAD P_CORE REF_CLK_pll
-155767 4566727
+155767 4610727
 Found:  VCCD_PAD VCCD vccd
-64145 1617635
+64145 1925635
 Found:  VCO_IN_PAD P_PAD VCO_IN
-64145 2101635
+64145 2365635
 Found:  VCO_IN_PAD P_CORE VCO_IN_pll
-155767 2126727
+155767 2390727
 Found:  VDDA_PAD VDDA vdda
-64682 649450
+64682 1045450
 Found:  VDDIO_PAD VDDIO vddio
-3523317 4483550
+3523317 4416550
 Found:  VSSA_PAD VSSA vssa
-3523317 3408550
+64682 605450
 Found:  VSSD_PAD VSSD vssd
-64145 1133635
+64145 1485635
 Found:  VSSIO_PAD VSSIO vssio
-3523317 3945550
+3523317 3811550
 Writing /openLANE_flow/designs/chip_io/runs/chip_io/results/routing/chip_io.def

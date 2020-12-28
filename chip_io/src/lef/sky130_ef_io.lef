@@ -5187,32 +5187,12 @@ MACRO sky130_ef_io__vccd_lvc_pad
     DIRECTION INOUT ;
     USE POWER ;
     PORT
-      LAYER met5 ;
-        RECT 9.315 100.105 65.955 167.535 ;
-    END
-    PORT
       LAYER met3 ;
         RECT 50.755 -0.035 74.700 6.865 ;
     END
     PORT
       LAYER met3 ;
         RECT 0.500 -0.035 24.500 6.865 ;
-    END
-    PORT
-      LAYER met5 ;
-        RECT 73.730 6.950 75.000 11.400 ;
-    END
-    PORT
-      LAYER met5 ;
-        RECT 0.000 6.950 1.270 11.400 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 73.730 6.850 75.000 11.500 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 0.000 6.850 1.270 11.500 ;
     END
   END VCCD
   PIN VSSIO
@@ -5854,32 +5834,12 @@ MACRO sky130_ef_io__vdda_hvc_pad
     DIRECTION INOUT ;
     USE POWER ;
     PORT
-      LAYER met5 ;
-        RECT 6.100 101.975 68.800 164.590 ;
-    END
-    PORT
       LAYER met3 ;
         RECT 50.390 -2.035 74.290 12.925 ;
     END
     PORT
       LAYER met3 ;
         RECT 0.495 -2.035 24.395 12.925 ;
-    END
-    PORT
-      LAYER met5 ;
-        RECT 74.035 13.000 75.000 16.250 ;
-    END
-    PORT
-      LAYER met5 ;
-        RECT 0.000 13.000 0.965 16.250 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 74.035 12.900 75.000 16.350 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 0.000 12.900 0.965 16.350 ;
     END
   END VDDA
   PIN VSWITCH
@@ -7126,48 +7086,12 @@ MACRO sky130_ef_io__vddio_hvc_pad
     DIRECTION INOUT ;
     USE POWER ;
     PORT
-      LAYER met5 ;
-        RECT 6.100 101.975 68.800 164.590 ;
-    END
-    PORT
       LAYER met3 ;
         RECT 50.390 -2.035 74.290 17.765 ;
     END
     PORT
       LAYER met3 ;
         RECT 0.495 -2.035 24.395 17.765 ;
-    END
-    PORT
-      LAYER met5 ;
-        RECT 73.730 68.000 75.000 92.950 ;
-    END
-    PORT
-      LAYER met5 ;
-        RECT 73.730 17.850 75.000 22.300 ;
-    END
-    PORT
-      LAYER met5 ;
-        RECT 0.000 68.000 1.270 92.950 ;
-    END
-    PORT
-      LAYER met5 ;
-        RECT 0.000 17.850 1.270 22.300 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 73.730 17.750 75.000 22.400 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 73.730 68.000 75.000 92.965 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 0.000 17.750 1.270 22.400 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 0.000 68.000 1.270 92.965 ;
     END
   END VDDIO
   PIN VCCD
@@ -8181,64 +8105,12 @@ MACRO sky130_ef_io__vssa_hvc_pad
     DIRECTION INOUT ;
     USE GROUND ;
     PORT
-      LAYER met5 ;
-        RECT 6.100 101.975 68.800 164.590 ;
-    END
-    PORT
       LAYER met3 ;
         RECT 0.495 -2.035 24.395 30.480 ;
     END
     PORT
       LAYER met3 ;
         RECT 50.390 -2.035 74.290 34.725 ;
-    END
-    PORT
-      LAYER met5 ;
-        RECT 73.730 45.700 75.000 54.700 ;
-    END
-    PORT
-      LAYER met5 ;
-        RECT 73.730 34.805 75.000 38.050 ;
-    END
-    PORT
-      LAYER met5 ;
-        RECT 0.000 45.700 1.270 54.700 ;
-    END
-    PORT
-      LAYER met5 ;
-        RECT 0.000 34.805 1.270 38.050 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 73.730 49.610 75.000 50.790 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 73.730 54.370 75.000 54.700 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 73.730 45.700 75.000 46.030 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 73.730 34.700 75.000 38.150 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 0.000 45.700 1.270 46.030 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 0.000 49.610 1.270 50.790 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 0.000 54.370 1.270 54.700 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 0.000 34.700 1.270 38.150 ;
     END
   END VSSA
   PIN VDDA
@@ -10396,32 +10268,12 @@ MACRO sky130_ef_io__vssd_lvc_pad
     DIRECTION INOUT ;
     USE GROUND ;
     PORT
-      LAYER met5 ;
-        RECT 9.315 100.105 65.955 167.535 ;
-    END
-    PORT
       LAYER met3 ;
         RECT 50.755 -0.035 74.700 39.565 ;
     END
     PORT
       LAYER met3 ;
         RECT 0.500 -0.035 24.500 39.565 ;
-    END
-    PORT
-      LAYER met5 ;
-        RECT 73.730 39.650 75.000 44.100 ;
-    END
-    PORT
-      LAYER met5 ;
-        RECT 0.000 39.650 1.270 44.100 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 73.730 39.550 75.000 44.200 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 0.000 39.550 1.270 44.200 ;
     END
   END VSSD
   PIN VSSIO_Q
@@ -11130,48 +10982,12 @@ MACRO sky130_ef_io__vssio_hvc_pad
     DIRECTION INOUT ;
     USE GROUND ;
     PORT
-      LAYER met5 ;
-        RECT 6.100 101.975 68.800 164.590 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 0.630 189.565 0.640 189.575 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 74.250 173.750 75.000 197.965 ;
-    END
-    PORT
       LAYER met3 ;
         RECT 0.495 -2.035 24.395 23.815 ;
     END
     PORT
       LAYER met3 ;
         RECT 50.390 -2.035 74.290 23.815 ;
-    END
-    PORT
-      LAYER met5 ;
-        RECT 73.730 23.900 75.000 28.350 ;
-    END
-    PORT
-      LAYER met5 ;
-        RECT 0.000 23.900 1.270 28.350 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 73.730 23.800 75.000 28.450 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 73.730 173.750 75.000 197.965 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 0.000 173.750 1.270 197.965 ;
-    END
-    PORT
-      LAYER met4 ;
-        RECT 0.000 23.800 1.270 28.450 ;
     END
   END VSSIO
   PIN VSSD

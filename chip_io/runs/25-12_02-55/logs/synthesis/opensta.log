@@ -1,0 +1,54 @@
+OpenSTA 2.2.0 7662c12482 Copyright (c) 2019, Parallax Software, Inc.
+License GPLv3: GNU GPL version 3 <http://gnu.org/licenses/gpl.html>
+
+This is free software, and you are free to change and redistribute it
+under certain conditions; type `show_copying' for details. 
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show_warranty'.
+Error: cannot open '/.sta'.
+Warning: /home/roshan/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/open_pdks/sky130/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ff_n40C_1v95.lib, line 31 default_operating_condition ff_n40C_1v95 not found.
+Warning: /home/roshan/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/open_pdks/sky130/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__ss_100C_1v60.lib, line 32 default_operating_condition ss_100C_1v60 not found.
+Warning: /openLANE_flow/designs/chip_io/runs/25-12_02-55/results/synthesis/chip_io.synthesis.v, line 41 module sky130_ef_io__gpiov2_pad_wrapped not found.  Creating black box for B_CP_PAD.
+Warning: /openLANE_flow/designs/chip_io/runs/25-12_02-55/results/synthesis/chip_io.synthesis.v, line 119 module sky130_fd_io__top_power_lvc_wpad not found.  Creating black box for CLK_PAD.
+Warning: /openLANE_flow/designs/chip_io/runs/25-12_02-55/results/synthesis/chip_io.synthesis.v, line 367 instance REF_CLK_PAD port BDY2_B2B not found.
+Warning: /openLANE_flow/designs/chip_io/runs/25-12_02-55/results/synthesis/chip_io.synthesis.v, line 367 instance REF_CLK_PAD port DRN_LVC1 not found.
+Warning: /openLANE_flow/designs/chip_io/runs/25-12_02-55/results/synthesis/chip_io.synthesis.v, line 367 instance REF_CLK_PAD port DRN_LVC2 not found.
+Warning: /openLANE_flow/designs/chip_io/runs/25-12_02-55/results/synthesis/chip_io.synthesis.v, line 367 instance REF_CLK_PAD port OGC_LVC not found.
+Warning: /openLANE_flow/designs/chip_io/runs/25-12_02-55/results/synthesis/chip_io.synthesis.v, line 367 instance REF_CLK_PAD port SRC_BDY_LVC1 not found.
+Warning: /openLANE_flow/designs/chip_io/runs/25-12_02-55/results/synthesis/chip_io.synthesis.v, line 367 instance REF_CLK_PAD port SRC_BDY_LVC2 not found.
+Warning: /openLANE_flow/designs/chip_io/runs/25-12_02-55/results/synthesis/chip_io.synthesis.v, line 389 module sky130_ef_io__vccd_lvc_pad not found.  Creating black box for VCCD_PAD.
+Warning: /openLANE_flow/designs/chip_io/runs/25-12_02-55/results/synthesis/chip_io.synthesis.v, line 407 instance VCO_IN_PAD port BDY2_B2B not found.
+Warning: /openLANE_flow/designs/chip_io/runs/25-12_02-55/results/synthesis/chip_io.synthesis.v, line 407 instance VCO_IN_PAD port DRN_LVC1 not found.
+Warning: /openLANE_flow/designs/chip_io/runs/25-12_02-55/results/synthesis/chip_io.synthesis.v, line 407 instance VCO_IN_PAD port DRN_LVC2 not found.
+Warning: /openLANE_flow/designs/chip_io/runs/25-12_02-55/results/synthesis/chip_io.synthesis.v, line 407 instance VCO_IN_PAD port OGC_LVC not found.
+Warning: /openLANE_flow/designs/chip_io/runs/25-12_02-55/results/synthesis/chip_io.synthesis.v, line 407 instance VCO_IN_PAD port SRC_BDY_LVC1 not found.
+Warning: /openLANE_flow/designs/chip_io/runs/25-12_02-55/results/synthesis/chip_io.synthesis.v, line 407 instance VCO_IN_PAD port SRC_BDY_LVC2 not found.
+Warning: /openLANE_flow/designs/chip_io/runs/25-12_02-55/results/synthesis/chip_io.synthesis.v, line 429 module sky130_ef_io__vdda_hvc_pad not found.  Creating black box for VDDA_PAD.
+Warning: /openLANE_flow/designs/chip_io/runs/25-12_02-55/results/synthesis/chip_io.synthesis.v, line 444 module sky130_ef_io__vddio_hvc_pad not found.  Creating black box for VDDIO_PAD.
+Warning: /openLANE_flow/designs/chip_io/runs/25-12_02-55/results/synthesis/chip_io.synthesis.v, line 459 module sky130_ef_io__vssa_hvc_pad not found.  Creating black box for VSSA_PAD.
+Warning: /openLANE_flow/designs/chip_io/runs/25-12_02-55/results/synthesis/chip_io.synthesis.v, line 474 module sky130_ef_io__vssd_lvc_pad not found.  Creating black box for VSSD_PAD.
+Warning: /openLANE_flow/designs/chip_io/runs/25-12_02-55/results/synthesis/chip_io.synthesis.v, line 492 module sky130_ef_io__vssio_hvc_pad not found.  Creating black box for VSSIO_PAD.
+Warning: /openLANE_flow/designs/chip_io/runs/25-12_02-55/results/synthesis/chip_io.synthesis.v, line 507 module sky130_ef_io__corner_pad not found.  Creating black box for corner_1.
+create_clock [get_ports $::env(CLOCK_PORT)]  -name $::env(CLOCK_PORT)  -period $::env(CLOCK_PERIOD)
+set input_delay_value [expr $::env(CLOCK_PERIOD) * $::env(IO_PCT)]
+set output_delay_value [expr $::env(CLOCK_PERIOD) * $::env(IO_PCT)]
+puts "\[INFO\]: Setting output delay to: $output_delay_value"
+[INFO]: Setting output delay to: 40.0
+puts "\[INFO\]: Setting input delay to: $input_delay_value"
+[INFO]: Setting input delay to: 40.0
+set clk_indx [lsearch [all_inputs] [get_port $::env(CLOCK_PORT)]]
+#set rst_indx [lsearch [all_inputs] [get_port resetn]]
+set all_inputs_wo_clk [lreplace [all_inputs] $clk_indx $clk_indx]
+#set all_inputs_wo_clk_rst [lreplace $all_inputs_wo_clk $rst_indx $rst_indx]
+set all_inputs_wo_clk_rst $all_inputs_wo_clk
+# correct resetn
+set_input_delay $input_delay_value  -clock [get_clocks $::env(CLOCK_PORT)] $all_inputs_wo_clk_rst
+#set_input_delay 0.0 -clock [get_clocks $::env(CLOCK_PORT)] {resetn}
+set_output_delay $output_delay_value  -clock [get_clocks $::env(CLOCK_PORT)] [all_outputs]
+# TODO set this as parameter
+set_driving_cell -lib_cell $::env(SYNTH_DRIVING_CELL) -pin $::env(SYNTH_DRIVING_CELL_PIN) [all_inputs]
+set cap_load [expr $::env(SYNTH_CAP_LOAD) / 1000.0]
+puts "\[INFO\]: Setting load to: $cap_load"
+[INFO]: Setting load to: 0.01765
+set_load  $cap_load [all_outputs]
+tns 0.00
+wns 0.00
