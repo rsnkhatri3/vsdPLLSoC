@@ -8,3 +8,4 @@ outputDRC:/openLANE_flow/designs/chip_io/runs/chip_io/reports/routing/tritonRout
 outputMaze:/openLANE_flow/designs/chip_io/runs/chip_io/tmp/routing/tritonRoute_maze.log
 threads:4
 verbose:1
+drouteEndIterNum:64

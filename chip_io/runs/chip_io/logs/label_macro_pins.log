@@ -1,7 +1,7 @@
 Notice 0: Reading LEF file:  /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef
 Notice 0:     Created 13 technology layers
 Notice 0:     Created 25 technology vias
-Notice 0:     Created 542 library cells
+Notice 0:     Created 534 library cells
 Notice 0: Finished LEF file:  /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef
 Notice 0: 
 Reading DEF file: /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.def
@@ -13,7 +13,7 @@ Notice 0: Finished DEF file: /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs
 Notice 0: Reading LEF file:  /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef
 Notice 0:     Created 13 technology layers
 Notice 0:     Created 25 technology vias
-Notice 0:     Created 542 library cells
+Notice 0:     Created 534 library cells
 Notice 0: Finished LEF file:  /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef
 Notice 0: 
 Reading DEF file: /openLANE_flow/designs/chip_io/runs/chip_io/results/routing/chip_io.def

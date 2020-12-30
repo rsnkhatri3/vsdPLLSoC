@@ -73,20 +73,12 @@ label_macro_pins\
 	-netlist_def $::env(TMP_DIR)/lvs.def\
 	-pad_pin_name "PAD"\
 	-extra_args {-v\
-	--map mgmt_vdda_hvclamp_pad VDDA vdda INOUT\
-	--map user1_vdda_hvclamp_pad\\\[0\\] VDDA vdda1 INOUT\
-	--map user2_vdda_hvclamp_pad VDDA vdda2 INOUT\
-	--map mgmt_vssa_hvclamp_pad VSSA vssa INOUT\
-	--map user1_vssa_hvclamp_pad\\\[0\\] VSSA vssa1 INOUT\
-	--map user2_vssa_hvclamp_pad VSSA vssa2 INOUT\
-	--map mgmt_vccd_lvclamp_pad VCCD vccd INOUT\
-	--map user1_vccd_lvclamp_pad VCCD vccd1 INOUT\
-	--map user2_vccd_lvclamp_pad VCCD vccd2 INOUT\
-	--map mgmt_vssd_lvclmap_pad VSSD vssd INOUT\
-	--map user1_vssd_lvclmap_pad VSSD vssd1 INOUT\
-	--map user2_vssd_lvclmap_pad VSSD vssd2 INOUT\
-	--map mgmt_vddio_hvclamp_pad\\\[0\\] VDDIO vddio INOUT\
-	--map mgmt_vssio_hvclamp_pad\\\[0\\] VSSIO vssio INOUT}
+	--map VDDA_PAD VDDA vdda INOUT\
+	--map VSSA_PAD VSSA vssa INOUT\
+	--map VCCD_PAD VCCD vccd INOUT\
+	--map VSSD_PAD VSSD vssd INOUT\
+	--map VDDIO_PAD VDDIO vddio INOUT\
+	--map VSSIO_PAD VSSIO vssio INOUT}
 
 
 run_magic

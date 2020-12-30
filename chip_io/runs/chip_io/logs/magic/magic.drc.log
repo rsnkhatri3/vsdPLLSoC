@@ -1,0 +1,46 @@
+
+Magic 8.3 revision 93 - Compiled on Mon Dec  7 16:32:25 UTC 2020.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130: scaleFactor=2, multiplier=2
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/openLANE_flow/scripts/magic/drc.tcl" from command line.
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: chip_io
+Reading "sky130_ef_io__com_bus_slice_20um".
+CIF file read warning: CIF style sky130: units rescaled by factor of 5 / 1
+Reading "sky130_ef_io__corner_pad".
+Reading "sky130_ef_io__com_bus_slice_1um".
+Reading "sky130_ef_io__vssa_hvc_pad".
+Reading "sky130_ef_io__com_bus_slice_5um".
+Reading "sky130_fd_io__top_power_lvc_wpad".
+Reading "sky130_ef_io__vdda_hvc_pad".
+Reading "sky130_ef_io__com_bus_slice_10um".
+Reading "sky130_ef_io__gpiov2_pad_wrapped".
+Reading "sky130_ef_io__vssd_lvc_pad".
+Reading "sky130_ef_io__vccd_lvc_pad".
+Reading "sky130_ef_io__vssio_hvc_pad".
+Reading "sky130_ef_io__vddio_hvc_pad".
+Reading "chip_io".
+    100 uses
+    200 uses
+    300 uses
+    400 uses
+    500 uses
+    600 uses
+    700 uses
+[INFO]: Loading chip_io
+
+DRC style is now "drc(full)"
+Loading DRC CIF style.
+[INFO]: COUNT: 283
+[INFO]: Should be divided by 3 or 4
+[INFO]: DRC Checking DONE (/openLANE_flow/designs/chip_io/runs/chip_io/logs/magic/magic.drc)
+[INFO]: Saving mag view with DRC errors(/openLANE_flow/designs/chip_io/runs/chip_io/results/magic/chip_io.drc.mag)
+[INFO]: Saved

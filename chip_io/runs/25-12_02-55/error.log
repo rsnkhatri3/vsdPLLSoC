@@ -1,8 +1,0 @@
-during executing: "openroad -exit /openLANE_flow/scripts/openroad/or_replace.tcl |& tee >&@stdout /openLANE_flow/designs/chip_io/runs/25-12_02-55/logs/placement/replace.log"
-Last 10 lines:
-child killed: floating-point exception
-
-during executing: "openroad -exit /openLANE_flow/scripts/openroad/or_replace.tcl |& tee >&@stdout /openLANE_flow/designs/chip_io/runs/25-12_02-55/logs/placement/replace.log"
-Last 10 lines:
-child killed: floating-point exception
-

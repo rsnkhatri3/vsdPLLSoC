@@ -32,8 +32,8 @@ Parsing Verilog input from `/openLANE_flow/designs/chip_io/src/sky130_fd_io__top
 Generating RTLIL representation for module `\sky130_fd_io__top_power_lvc_wpad'.
 Successfully finished Verilog frontend.
 
-2. Executing Verilog-2005 frontend: /home/roshan/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/open_pdks/sky130/sky130A/libs.ref/sky130_fd_io/verilog/sky130_ef_io.v
-Parsing Verilog input from `/home/roshan/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/open_pdks/sky130/sky130A/libs.ref/sky130_fd_io/verilog/sky130_ef_io.v' to AST representation.
+2. Executing Verilog-2005 frontend: /home/roshan/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_io/verilog/sky130_ef_io.v
+Parsing Verilog input from `/home/roshan/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_io/verilog/sky130_ef_io.v' to AST representation.
 Generating RTLIL representation for module `\sky130_ef_io__vccd_hvc_pad'.
 Generating RTLIL representation for module `\sky130_ef_io__vccd_lvc_pad'.
 Generating RTLIL representation for module `\sky130_ef_io__vdda_lvc_pad'.
@@ -53,18 +53,10 @@ Generating RTLIL representation for module `\sky130_ef_io__com_bus_slice_5um'.
 Generating RTLIL representation for module `\sky130_ef_io__com_bus_slice_10um'.
 Generating RTLIL representation for module `\sky130_ef_io__com_bus_slice_20um'.
 Generating RTLIL representation for module `\sky130_ef_io__gpiov2_pad'.
-Generating RTLIL representation for module `\sky130_ef_io__vddio_hvc_clamped_pad'.
-Generating RTLIL representation for module `\sky130_ef_io__vssio_hvc_clamped_pad'.
-Generating RTLIL representation for module `\sky130_ef_io__vdda_hvc_clamped_pad'.
-Generating RTLIL representation for module `\sky130_ef_io__vssa_hvc_clamped_pad'.
-Generating RTLIL representation for module `\sky130_ef_io__vccd_lvc_clamped_pad'.
-Generating RTLIL representation for module `\sky130_ef_io__vssd_lvc_clamped_pad'.
-Generating RTLIL representation for module `\sky130_ef_io__vccd_lvc_clamped2_pad'.
-Generating RTLIL representation for module `\sky130_ef_io__vssd_lvc_clamped2_pad'.
 Successfully finished Verilog frontend.
 
-3. Executing Verilog-2005 frontend: /home/roshan/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/open_pdks/sky130/sky130A/libs.ref/sky130_fd_io/verilog/sky130_ef_io__gpiov2_pad_wrapped.v
-Parsing Verilog input from `/home/roshan/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/open_pdks/sky130/sky130A/libs.ref/sky130_fd_io/verilog/sky130_ef_io__gpiov2_pad_wrapped.v' to AST representation.
+3. Executing Verilog-2005 frontend: /home/roshan/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_io/verilog/sky130_ef_io__gpiov2_pad_wrapped.v
+Parsing Verilog input from `/home/roshan/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_io/verilog/sky130_ef_io__gpiov2_pad_wrapped.v' to AST representation.
 Generating RTLIL representation for module `\sky130_ef_io__gpiov2_pad_wrapped'.
 Successfully finished Verilog frontend.
 
@@ -174,6 +166,6 @@ found and reported 3 problems.
 Dumping module `\chip_io'.
 
 Warnings: 3 unique messages, 3 total
-End of script. Logfile hash: a76dade8bc, CPU: user 0.07s system 0.00s, MEM: 14.86 MB peak
+End of script. Logfile hash: b444f2b860, CPU: user 0.06s system 0.00s, MEM: 14.43 MB peak
 Yosys 0.9+3621 (git sha1 84e9fa7, gcc 8.3.1 -fPIC -Os)
-Time spent: 33% 2x stat (0 sec), 28% 8x read_verilog (0 sec), ...
+Time spent: 37% 2x stat (0 sec), 30% 2x write_verilog (0 sec), ...
