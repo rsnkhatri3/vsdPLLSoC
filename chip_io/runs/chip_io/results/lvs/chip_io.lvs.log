@@ -414,460 +414,38 @@ sky130_ef_io__corner_pad (4)               |sky130_ef_io__corner_pad (4)
 sky130_ef_io__vdda_hvc_pad (1)             |sky130_ef_io__vdda_hvc_pad (1)             
 sky130_ef_io__vssio_hvc_pad (1)            |sky130_ef_io__vssio_hvc_pad (1)            
 Number of devices: 21                      |Number of devices: 21                      
-Number of nets: 122 **Mismatch**           |Number of nets: 169 **Mismatch**           
+Number of nets: 122 **Mismatch**           |Number of nets: 89 **Mismatch**            
 ---------------------------------------------------------------------------------------
 NET mismatches: Class fragments follow (with fanout counts):
 Circuit 1: chip_io                         |Circuit 2: chip_io                         
 
 ---------------------------------------------------------------------------------------
-Net: CLK_PAD/VSSA                          |Net: \TIE_LO_ESD[0]                        
-  sky130_ef_io__corner_pad/VSSA = 2        |  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ 
-  sky130_fd_io__top_power_lvc_wpad/VSSA =  |  sky130_ef_io__gpiov2_pad_wrapped/TIE_LO_ 
-                                           |                                           
-Net: FILLER_9/VDDIO                        |Net: \TIE_LO_ESD[1]                        
-  sky130_fd_io__top_power_lvc_wpad/VDDIO = |  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ 
-  sky130_ef_io__corner_pad/VDDIO = 2       |  sky130_ef_io__gpiov2_pad_wrapped/TIE_LO_ 
-                                           |                                           
-Net: VSSD_PAD/VSSA                         |Net: \TIE_LO_ESD[2]                        
-  sky130_ef_io__vccd_lvc_pad/VSSA = 1      |  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ 
-  sky130_ef_io__vssd_lvc_pad/VSSA = 1      |  sky130_ef_io__gpiov2_pad_wrapped/TIE_LO_ 
-  sky130_ef_io__vdda_hvc_pad/VSSA = 1      |                                           
-                                           |                                           
-Net: CLK_PAD/VDDA                          |Net: \TIE_LO_ESD[3]                        
-  sky130_ef_io__vssa_hvc_pad/VDDA = 1      |  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ 
-  sky130_ef_io__corner_pad/VDDA = 2        |  sky130_ef_io__gpiov2_pad_wrapped/TIE_LO_ 
-  sky130_fd_io__top_power_lvc_wpad/VDDA =  |                                           
-                                           |                                           
-Net: FILLER_723/VSSIO                      |Net: _noconnect_49_                        
-  sky130_ef_io__gpiov2_pad_wrapped/VSSIO = |  sky130_ef_io__gpiov2_pad_wrapped/AMUXBUS 
-                                           |                                           
-Net: FILLER_9/VSSIO                        |Net: _noconnect_58_                        
-  sky130_fd_io__top_power_lvc_wpad/VSSIO = |  sky130_ef_io__gpiov2_pad_wrapped/AMUXBUS 
-  sky130_ef_io__vddio_hvc_pad/VSSIO = 1    |                                           
-  sky130_ef_io__corner_pad/VSSIO = 2       |                                           
-                                           |                                           
-Net: VSSIO_PAD/VSSIO                       |Net: _noconnect_67_                        
-  sky130_ef_io__vccd_lvc_pad/BDY2_B2B = 1  |  sky130_ef_io__gpiov2_pad_wrapped/AMUXBUS 
-  sky130_ef_io__vssd_lvc_pad/BDY2_B2B = 1  |                                           
-  sky130_ef_io__vddio_hvc_pad/SRC_BDY_HVC  |                                           
-  sky130_ef_io__vssio_hvc_pad/SRC_BDY_HVC  |                                           
-                                           |                                           
-Net: CLK_PAD/VSWITCH                       |Net: _noconnect_76_                        
-  sky130_ef_io__vccd_lvc_pad/VSWITCH = 1   |  sky130_ef_io__gpiov2_pad_wrapped/AMUXBUS 
-  sky130_ef_io__vssa_hvc_pad/VSWITCH = 1   |                                           
-  sky130_ef_io__vssd_lvc_pad/VSWITCH = 1   |                                           
-  sky130_ef_io__corner_pad/VSWITCH = 2     |                                           
-  sky130_ef_io__vdda_hvc_pad/VSWITCH = 1   |                                           
-  sky130_fd_io__top_power_lvc_wpad/VSWITCH |                                           
-                                           |                                           
-Net: CLK_PAD/VDDIO_Q                       |Net: _noconnect_50_                        
-  sky130_ef_io__vccd_lvc_pad/VDDIO_Q = 1   |  sky130_ef_io__gpiov2_pad_wrapped/AMUXBUS 
-  sky130_ef_io__vssa_hvc_pad/VDDIO_Q = 1   |                                           
-  sky130_ef_io__vssd_lvc_pad/VDDIO_Q = 1   |                                           
-  sky130_ef_io__corner_pad/VDDIO_Q = 2     |                                           
-  sky130_ef_io__vdda_hvc_pad/VDDIO_Q = 1   |                                           
-  sky130_fd_io__top_power_lvc_wpad/VDDIO_Q |                                           
-                                           |                                           
-Net: CLK_PAD/VCCHIB                        |Net: _noconnect_59_                        
-  sky130_ef_io__vccd_lvc_pad/VCCHIB = 1    |  sky130_ef_io__gpiov2_pad_wrapped/AMUXBUS 
-  sky130_ef_io__vssa_hvc_pad/VCCHIB = 1    |                                           
-  sky130_ef_io__vssd_lvc_pad/VCCHIB = 1    |                                           
-  sky130_ef_io__corner_pad/VCCHIB = 2      |                                           
-  sky130_ef_io__vdda_hvc_pad/VCCHIB = 1    |                                           
-  sky130_fd_io__top_power_lvc_wpad/VCCHIB  |                                           
-                                           |                                           
-Net: CLK_PAD/VDDIO                         |Net: _noconnect_68_                        
-  sky130_ef_io__vccd_lvc_pad/VDDIO = 1     |  sky130_ef_io__gpiov2_pad_wrapped/AMUXBUS 
-  sky130_ef_io__vssa_hvc_pad/VDDIO = 1     |                                           
-  sky130_ef_io__vssd_lvc_pad/VDDIO = 1     |                                           
-  sky130_ef_io__corner_pad/VDDIO = 2       |                                           
-  sky130_ef_io__vdda_hvc_pad/VDDIO = 1     |                                           
-  sky130_fd_io__top_power_lvc_wpad/VDDIO = |                                           
-                                           |                                           
-Net: CLK_PAD/VSSIO                         |Net: _noconnect_77_                        
-  sky130_ef_io__vccd_lvc_pad/VSSIO = 1     |  sky130_ef_io__gpiov2_pad_wrapped/AMUXBUS 
-  sky130_ef_io__vssa_hvc_pad/VSSIO = 1     |                                           
-  sky130_ef_io__vssd_lvc_pad/VSSIO = 1     |                                           
-  sky130_ef_io__corner_pad/VSSIO = 2       |                                           
-  sky130_ef_io__vdda_hvc_pad/VSSIO = 1     |                                           
-  sky130_fd_io__top_power_lvc_wpad/VSSIO = |                                           
-                                           |                                           
-Net: CLK_PAD/VSSIO_Q                       |Net: B_0_pll                               
-  sky130_ef_io__vccd_lvc_pad/VSSIO_Q = 1   |  sky130_ef_io__gpiov2_pad_wrapped/IN = 1  
-  sky130_ef_io__vssa_hvc_pad/VSSIO_Q = 1   |                                           
-  sky130_ef_io__vssd_lvc_pad/VSSIO_Q = 1   |                                           
-  sky130_ef_io__corner_pad/VSSIO_Q = 2     |                                           
-  sky130_ef_io__vdda_hvc_pad/VSSIO_Q = 1   |                                           
-  sky130_fd_io__top_power_lvc_wpad/VSSIO_Q |                                           
-                                           |                                           
-Net: CLK_PAD/VCCD                          |Net: B_1_pll                               
-  sky130_ef_io__vssa_hvc_pad/VCCD = 1      |  sky130_ef_io__gpiov2_pad_wrapped/IN = 1  
-  sky130_ef_io__vssd_lvc_pad/VCCD = 1      |                                           
-  sky130_ef_io__corner_pad/VCCD = 2        |                                           
-  sky130_ef_io__vdda_hvc_pad/VCCD = 1      |                                           
-  sky130_fd_io__top_power_lvc_wpad/VCCD =  |                                           
-                                           |                                           
-Net: CLK_PAD/VSSD                          |Net: B_2_pll                               
-  sky130_ef_io__vssa_hvc_pad/VSSD = 1      |  sky130_ef_io__gpiov2_pad_wrapped/IN = 1  
-  sky130_ef_io__corner_pad/VSSD = 2        |                                           
-  sky130_ef_io__vdda_hvc_pad/VSSD = 1      |                                           
-  sky130_fd_io__top_power_lvc_wpad/VSSD =  |                                           
-                                           |                                           
-Net: VSSIO_PAD/VDDIO                       |Net: B_3_pll                               
-  sky130_ef_io__gpiov2_pad_wrapped/VDDIO = |  sky130_ef_io__gpiov2_pad_wrapped/IN = 1  
-  sky130_ef_io__vssio_hvc_pad/VDDIO = 1    |                                           
-                                           |                                           
-Net: B_CP_PAD/VCCD                         |Net: _noconnect_51_                        
-  sky130_ef_io__gpiov2_pad_wrapped/VCCD =  |  sky130_ef_io__gpiov2_pad_wrapped/IN_H =  
-  sky130_fd_io__top_power_lvc_wpad/VCCD =  |                                           
-                                           |                                           
-Net: B_CP_PAD/VCCHIB                       |Net: _noconnect_60_                        
-  sky130_ef_io__gpiov2_pad_wrapped/VCCHIB  |  sky130_ef_io__gpiov2_pad_wrapped/IN_H =  
-  sky130_fd_io__top_power_lvc_wpad/VCCHIB  |                                           
-                                           |                                           
-Net: B_CP_PAD/VDDA                         |Net: _noconnect_69_                        
-  sky130_ef_io__gpiov2_pad_wrapped/VDDA =  |  sky130_ef_io__gpiov2_pad_wrapped/IN_H =  
-  sky130_fd_io__top_power_lvc_wpad/VDDA =  |                                           
-                                           |                                           
-Net: B_CP_PAD/VDDIO                        |Net: _noconnect_78_                        
-  sky130_ef_io__gpiov2_pad_wrapped/VDDIO = |  sky130_ef_io__gpiov2_pad_wrapped/IN_H =  
-  sky130_fd_io__top_power_lvc_wpad/VDDIO = |                                           
-                                           |                                           
-Net: B_CP_PAD/VDDIO_Q                      |Net: GPIO_0                                
-  sky130_ef_io__gpiov2_pad_wrapped/VDDIO_Q |  sky130_ef_io__gpiov2_pad_wrapped/PAD = 1 
-  sky130_fd_io__top_power_lvc_wpad/VDDIO_Q |                                           
-                                           |                                           
-Net: B_CP_PAD/VSSA                         |Net: GPIO_1                                
-  sky130_ef_io__gpiov2_pad_wrapped/VSSA =  |  sky130_ef_io__gpiov2_pad_wrapped/PAD = 1 
-  sky130_fd_io__top_power_lvc_wpad/VSSA =  |                                           
-                                           |                                           
-Net: B_CP_PAD/VSSD                         |Net: GPIO_2                                
-  sky130_ef_io__gpiov2_pad_wrapped/VSSD =  |  sky130_ef_io__gpiov2_pad_wrapped/PAD = 1 
-  sky130_fd_io__top_power_lvc_wpad/VSSD =  |                                           
-                                           |                                           
-Net: B_CP_PAD/VSSIO                        |Net: GPIO_3                                
-  sky130_ef_io__gpiov2_pad_wrapped/VSSIO = |  sky130_ef_io__gpiov2_pad_wrapped/PAD = 1 
-  sky130_fd_io__top_power_lvc_wpad/VSSIO = |                                           
-                                           |                                           
-Net: B_CP_PAD/VSSIO_Q                      |Net: _noconnect_52_                        
-  sky130_ef_io__gpiov2_pad_wrapped/VSSIO_Q |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E 
-  sky130_fd_io__top_power_lvc_wpad/VSSIO_Q |                                           
-                                           |                                           
-Net: B_CP_PAD/VSWITCH                      |Net: _noconnect_61_                        
-  sky130_ef_io__gpiov2_pad_wrapped/VSWITCH |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E 
-  sky130_fd_io__top_power_lvc_wpad/VSWITCH |                                           
-                                           |                                           
-Net: FILLER_9/VSSA                         |Net: _noconnect_70_                        
-  sky130_ef_io__gpiov2_pad_wrapped/VSSA =  |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E 
-  sky130_fd_io__top_power_lvc_wpad/VSSA =  |                                           
-  sky130_ef_io__vddio_hvc_pad/VSSA = 1     |                                           
-  sky130_ef_io__corner_pad/VSSA = 2        |                                           
-  sky130_ef_io__vssio_hvc_pad/VSSA = 1     |                                           
-                                           |                                           
-Net: FILLER_9/VDDA                         |Net: _noconnect_79_                        
-  sky130_ef_io__gpiov2_pad_wrapped/VDDA =  |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E 
-  sky130_fd_io__top_power_lvc_wpad/VDDA =  |                                           
-  sky130_ef_io__vddio_hvc_pad/VDDA = 1     |                                           
-  sky130_ef_io__corner_pad/VDDA = 2        |                                           
-  sky130_ef_io__vssio_hvc_pad/VDDA = 1     |                                           
-                                           |                                           
-Net: FILLER_9/VSWITCH                      |Net: _noconnect_53_                        
-  sky130_ef_io__gpiov2_pad_wrapped/VSWITCH |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E 
-  sky130_fd_io__top_power_lvc_wpad/VSWITCH |                                           
-  sky130_ef_io__vddio_hvc_pad/VSWITCH = 1  |                                           
-  sky130_ef_io__corner_pad/VSWITCH = 2     |                                           
-  sky130_ef_io__vssio_hvc_pad/VSWITCH = 1  |                                           
-                                           |                                           
-Net: FILLER_9/VDDIO_Q                      |Net: _noconnect_62_                        
-  sky130_ef_io__gpiov2_pad_wrapped/VDDIO_Q |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E 
-  sky130_fd_io__top_power_lvc_wpad/VDDIO_Q |                                           
-  sky130_ef_io__vddio_hvc_pad/VDDIO_Q = 1  |                                           
-  sky130_ef_io__corner_pad/VDDIO_Q = 2     |                                           
-  sky130_ef_io__vssio_hvc_pad/VDDIO_Q = 1  |                                           
-                                           |                                           
-Net: FILLER_9/VCCHIB                       |Net: _noconnect_71_                        
-  sky130_ef_io__gpiov2_pad_wrapped/VCCHIB  |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E 
-  sky130_fd_io__top_power_lvc_wpad/VCCHIB  |                                           
-  sky130_ef_io__vddio_hvc_pad/VCCHIB = 1   |                                           
-  sky130_ef_io__corner_pad/VCCHIB = 2      |                                           
-  sky130_ef_io__vssio_hvc_pad/VCCHIB = 1   |                                           
-                                           |                                           
-Net: FILLER_9/VCCD                         |Net: _noconnect_80_                        
-  sky130_ef_io__gpiov2_pad_wrapped/VCCD =  |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E 
-  sky130_fd_io__top_power_lvc_wpad/VCCD =  |                                           
-  sky130_ef_io__vddio_hvc_pad/VCCD = 1     |                                           
-  sky130_ef_io__corner_pad/VCCD = 2        |                                           
-  sky130_ef_io__vssio_hvc_pad/VCCD = 1     |                                           
-                                           |                                           
-Net: FILLER_9/VSSD                         |Net: _noconnect_54_                        
-  sky130_ef_io__gpiov2_pad_wrapped/VSSD =  |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_N 
-  sky130_fd_io__top_power_lvc_wpad/VSSD =  |                                           
-  sky130_ef_io__vddio_hvc_pad/VSSD = 1     |                                           
-  sky130_ef_io__corner_pad/VSSD = 2        |                                           
-  sky130_ef_io__vssio_hvc_pad/VSSD = 1     |                                           
-                                           |                                           
-Net: FILLER_9/VSSIO_Q                      |Net: _noconnect_63_                        
-  sky130_ef_io__gpiov2_pad_wrapped/VSSIO_Q |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_N 
-  sky130_fd_io__top_power_lvc_wpad/VSSIO_Q |                                           
-  sky130_ef_io__vddio_hvc_pad/VSSIO_Q = 1  |                                           
-  sky130_ef_io__corner_pad/VSSIO_Q = 2     |                                           
-  sky130_ef_io__vssio_hvc_pad/VSSIO_Q = 1  |                                           
-                                           |                                           
-Net: VSSD_PAD/VDDA                         |Net: _noconnect_72_                        
-  sky130_ef_io__vccd_lvc_pad/VDDA = 1      |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_N 
-  sky130_ef_io__vssd_lvc_pad/VDDA = 1      |                                           
-                                           |                                           
-Net: GPIO_0_PAD/TIE_LO_ESD                 |Net: _noconnect_81_                        
-  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_N 
-  sky130_ef_io__gpiov2_pad_wrapped/TIE_LO_ |                                           
-                                           |                                           
-Net: GPIO_3_PAD/TIE_LO_ESD                 |Net: _noconnect_55_                        
-  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ |  sky130_ef_io__gpiov2_pad_wrapped/TIE_HI_ 
-  sky130_ef_io__gpiov2_pad_wrapped/TIE_LO_ |                                           
-                                           |                                           
-Net: GPIO_2_PAD/TIE_LO_ESD                 |Net: _noconnect_64_                        
-  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ |  sky130_ef_io__gpiov2_pad_wrapped/TIE_HI_ 
-  sky130_ef_io__gpiov2_pad_wrapped/TIE_LO_ |                                           
-                                           |                                           
-Net: GPIO_1_PAD/TIE_LO_ESD                 |Net: _noconnect_73_                        
-  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ |  sky130_ef_io__gpiov2_pad_wrapped/TIE_HI_ 
-  sky130_ef_io__gpiov2_pad_wrapped/TIE_LO_ |                                           
-                                           |                                           
-Net: VDDA_PAD/VDDA                         |Net: _noconnect_82_                        
-  sky130_ef_io__vssa_hvc_pad/DRN_HVC = 1   |  sky130_ef_io__gpiov2_pad_wrapped/TIE_HI_ 
-  sky130_ef_io__vdda_hvc_pad/DRN_HVC = 1   |                                           
-                                           |                                           
-Net: B_CP_PAD/SLOW                         |Net: _noconnect_56_                        
-  sky130_ef_io__gpiov2_pad_wrapped/ANALOG_ |  sky130_ef_io__gpiov2_pad_wrapped/VDDIO_Q 
-  sky130_ef_io__gpiov2_pad_wrapped/ANALOG_ |                                           
-  sky130_ef_io__gpiov2_pad_wrapped/ANALOG_ |                                           
-  sky130_ef_io__gpiov2_pad_wrapped/HLD_OVR |                                           
-  sky130_ef_io__gpiov2_pad_wrapped/IB_MODE |                                           
-  sky130_ef_io__gpiov2_pad_wrapped/INP_DIS |                                           
-  sky130_ef_io__gpiov2_pad_wrapped/OUT = 6 |                                           
-  sky130_ef_io__gpiov2_pad_wrapped/SLOW =  |                                           
-  sky130_ef_io__gpiov2_pad_wrapped/VTRIP_S |                                           
-  sky130_ef_io__vccd_lvc_pad/SRC_BDY_LVC1  |                                           
-  sky130_ef_io__vccd_lvc_pad/SRC_BDY_LVC2  |                                           
-  sky130_ef_io__gpiov2_pad_wrapped/DM[2] = |                                           
-  sky130_ef_io__gpiov2_pad_wrapped/DM[1] = |                                           
-  sky130_ef_io__vssd_lvc_pad/SRC_BDY_LVC1  |                                           
-  sky130_ef_io__vssd_lvc_pad/SRC_BDY_LVC2  |                                           
-  sky130_ef_io__gpiov2_pad_wrapped/DM[0] = |                                           
-  sky130_ef_io__gpiov2_pad_wrapped/OE_N =  |                                           
-                                           |                                           
-Net: B_0_pll                               |Net: _noconnect_65_                        
-  sky130_ef_io__gpiov2_pad_wrapped/IN = 1  |  sky130_ef_io__gpiov2_pad_wrapped/VDDIO_Q 
-                                           |                                           
-Net: B_3_pll                               |Net: _noconnect_74_                        
-  sky130_ef_io__gpiov2_pad_wrapped/IN = 1  |  sky130_ef_io__gpiov2_pad_wrapped/VDDIO_Q 
-                                           |                                           
-Net: B_2_pll                               |Net: _noconnect_83_                        
-  sky130_ef_io__gpiov2_pad_wrapped/IN = 1  |  sky130_ef_io__gpiov2_pad_wrapped/VDDIO_Q 
-                                           |                                           
-Net: B_1_pll                               |Net: _noconnect_57_                        
-  sky130_ef_io__gpiov2_pad_wrapped/IN = 1  |  sky130_ef_io__gpiov2_pad_wrapped/VSSIO_Q 
-                                           |                                           
-Net: GPIO_0_PAD/IN_H                       |Net: _noconnect_66_                        
-  sky130_ef_io__gpiov2_pad_wrapped/IN_H =  |  sky130_ef_io__gpiov2_pad_wrapped/VSSIO_Q 
-                                           |                                           
-Net: GPIO_3_PAD/IN_H                       |Net: _noconnect_75_                        
-  sky130_ef_io__gpiov2_pad_wrapped/IN_H =  |  sky130_ef_io__gpiov2_pad_wrapped/VSSIO_Q 
-                                           |                                           
-Net: GPIO_2_PAD/IN_H                       |Net: _noconnect_84_                        
-  sky130_ef_io__gpiov2_pad_wrapped/IN_H =  |  sky130_ef_io__gpiov2_pad_wrapped/VSSIO_Q 
-                                           |                                           
-Net: GPIO_1_PAD/IN_H                       |Net: _noconnect_21_                        
-  sky130_ef_io__gpiov2_pad_wrapped/IN_H =  |  sky130_fd_io__top_power_lvc_wpad/AMUXBUS 
-                                           |                                           
-Net: GPIO_0                                |Net: _noconnect_85_                        
-  sky130_ef_io__gpiov2_pad_wrapped/PAD = 1 |  sky130_fd_io__top_power_lvc_wpad/AMUXBUS 
-                                           |                                           
-Net: GPIO_3                                |Net: _noconnect_94_                        
-  sky130_ef_io__gpiov2_pad_wrapped/PAD = 1 |  sky130_fd_io__top_power_lvc_wpad/AMUXBUS 
-                                           |                                           
-Net: GPIO_2                                |Net: _noconnect_22_                        
-  sky130_ef_io__gpiov2_pad_wrapped/PAD = 1 |  sky130_fd_io__top_power_lvc_wpad/AMUXBUS 
-                                           |                                           
-Net: GPIO_1                                |Net: _noconnect_86_                        
-  sky130_ef_io__gpiov2_pad_wrapped/PAD = 1 |  sky130_fd_io__top_power_lvc_wpad/AMUXBUS 
-                                           |                                           
-Net: GPIO_0_PAD/PAD_A_ESD_0_H              |Net: _noconnect_95_                        
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E |  sky130_fd_io__top_power_lvc_wpad/AMUXBUS 
-                                           |                                           
-Net: GPIO_3_PAD/PAD_A_ESD_0_H              |Net: CLK_pll                               
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E |  sky130_fd_io__top_power_lvc_wpad/P_CORE  
-                                           |                                           
-Net: GPIO_2_PAD/PAD_A_ESD_0_H              |Net: REF_CLK_pll                           
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E |  sky130_fd_io__top_power_lvc_wpad/P_CORE  
-                                           |                                           
-Net: GPIO_1_PAD/PAD_A_ESD_0_H              |Net: VCO_IN_pll                            
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E |  sky130_fd_io__top_power_lvc_wpad/P_CORE  
-                                           |                                           
-Net: GPIO_0_PAD/PAD_A_ESD_1_H              |Net: CLK                                   
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E |  sky130_fd_io__top_power_lvc_wpad/P_PAD = 
-                                           |                                           
-Net: GPIO_3_PAD/PAD_A_ESD_1_H              |Net: REF_CLK                               
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E |  sky130_fd_io__top_power_lvc_wpad/P_PAD = 
-                                           |                                           
-Net: GPIO_2_PAD/PAD_A_ESD_1_H              |Net: VCO_IN                                
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E |  sky130_fd_io__top_power_lvc_wpad/P_PAD = 
-                                           |                                           
-Net: GPIO_1_PAD/PAD_A_ESD_1_H              |Net: _noconnect_23_                        
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E |  sky130_fd_io__top_power_lvc_wpad/VDDIO_Q 
-                                           |                                           
-Net: GPIO_0_PAD/PAD_A_NOESD_H              |Net: _noconnect_88_                        
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_N |  sky130_fd_io__top_power_lvc_wpad/VDDIO_Q 
-                                           |                                           
-Net: GPIO_3_PAD/PAD_A_NOESD_H              |Net: _noconnect_97_                        
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_N |  sky130_fd_io__top_power_lvc_wpad/VDDIO_Q 
-                                           |                                           
-Net: GPIO_2_PAD/PAD_A_NOESD_H              |Net: _noconnect_24_                        
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_N |  sky130_fd_io__top_power_lvc_wpad/VSSIO_Q 
-                                           |                                           
-Net: GPIO_1_PAD/PAD_A_NOESD_H              |Net: _noconnect_89_                        
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_N |  sky130_fd_io__top_power_lvc_wpad/VSSIO_Q 
-                                           |                                           
-Net: GPIO_0_PAD/TIE_HI_ESD                 |Net: _noconnect_98_                        
-  sky130_ef_io__gpiov2_pad_wrapped/TIE_HI_ |  sky130_fd_io__top_power_lvc_wpad/VSSIO_Q 
-                                           |                                           
-Net: GPIO_3_PAD/TIE_HI_ESD                 |Net: _noconnect_90_                        
-  sky130_ef_io__gpiov2_pad_wrapped/TIE_HI_ |  sky130_ef_io__vccd_lvc_pad/AMUXBUS_A = 1 
-                                           |                                           
-Net: GPIO_2_PAD/TIE_HI_ESD                 |Net: _noconnect_91_                        
-  sky130_ef_io__gpiov2_pad_wrapped/TIE_HI_ |  sky130_ef_io__vccd_lvc_pad/AMUXBUS_B = 1 
-                                           |                                           
-Net: GPIO_1_PAD/TIE_HI_ESD                 |Net: _noconnect_92_                        
-  sky130_ef_io__gpiov2_pad_wrapped/TIE_HI_ |  sky130_ef_io__vccd_lvc_pad/VDDIO_Q = 1   
-                                           |                                           
-Net: VCCD_PAD/VSSD                         |Net: _noconnect_93_                        
-  sky130_ef_io__vccd_lvc_pad/VSSD = 1      |  sky130_ef_io__vccd_lvc_pad/VSSIO_Q = 1   
-                                           |                                           
-Net: VCO_IN                                |Net: _noconnect_99_                        
-  sky130_fd_io__top_power_lvc_wpad/P_PAD = |  sky130_ef_io__vdda_hvc_pad/AMUXBUS_A = 1 
-                                           |                                           
-Net: REF_CLK                               |Net: _noconnect_100_                       
-  sky130_fd_io__top_power_lvc_wpad/P_PAD = |  sky130_ef_io__vdda_hvc_pad/AMUXBUS_B = 1 
-                                           |                                           
-Net: CLK                                   |Net: _noconnect_101_                       
-  sky130_fd_io__top_power_lvc_wpad/P_PAD = |  sky130_ef_io__vdda_hvc_pad/VDDIO_Q = 1   
-                                           |                                           
-Net: VCO_IN_pll                            |Net: _noconnect_102_                       
-  sky130_fd_io__top_power_lvc_wpad/P_CORE  |  sky130_ef_io__vdda_hvc_pad/VSSIO_Q = 1   
-                                           |                                           
-Net: REF_CLK_pll                           |Net: _noconnect_103_                       
-  sky130_fd_io__top_power_lvc_wpad/P_CORE  |  sky130_ef_io__vddio_hvc_pad/AMUXBUS_A =  
-                                           |                                           
-Net: CLK_pll                               |Net: _noconnect_104_                       
-  sky130_fd_io__top_power_lvc_wpad/P_CORE  |  sky130_ef_io__vddio_hvc_pad/AMUXBUS_B =  
-                                           |                                           
-Net: VSSA_PAD/VSSA                         |Net: _noconnect_105_                       
-  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ |  sky130_ef_io__vddio_hvc_pad/VDDIO_Q = 1  
-  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ |                                           
-  sky130_ef_io__vssa_hvc_pad/SRC_BDY_HVC = |                                           
-  sky130_ef_io__vdda_hvc_pad/SRC_BDY_HVC = |                                           
-                                           |                                           
-Net: VCCD_PAD/VCCD                         |Net: _noconnect_106_                       
-  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ |  sky130_ef_io__vddio_hvc_pad/VSSIO_Q = 1  
-  sky130_ef_io__gpiov2_pad_wrapped/OE_N =  |                                           
-  sky130_ef_io__vccd_lvc_pad/DRN_LVC1 = 1  |                                           
-  sky130_ef_io__vccd_lvc_pad/DRN_LVC2 = 1  |                                           
-  sky130_ef_io__gpiov2_pad_wrapped/DM[0] = |                                           
-  sky130_ef_io__vssd_lvc_pad/DRN_LVC1 = 1  |                                           
-  sky130_ef_io__vssd_lvc_pad/DRN_LVC2 = 1  |                                           
-  sky130_ef_io__gpiov2_pad_wrapped/DM[2] = |                                           
-  sky130_ef_io__gpiov2_pad_wrapped/DM[1] = |                                           
-                                           |                                           
-Net: VDDIO_PAD/VDDIO                       |Net: _noconnect_107_                       
-  sky130_ef_io__gpiov2_pad_wrapped/HLD_H_N |  sky130_ef_io__vssa_hvc_pad/AMUXBUS_A = 1 
-  sky130_ef_io__vddio_hvc_pad/DRN_HVC = 1  |                                           
-  sky130_ef_io__vssio_hvc_pad/DRN_HVC = 1  |                                           
-                                           |                                           
-(no matching net)                          |Net: _noconnect_108_                       
-                                           |  sky130_ef_io__vssa_hvc_pad/AMUXBUS_B = 1 
-                                           |                                           
-(no matching net)                          |Net: _noconnect_109_                       
+Net: CLK_PAD/VSSA                          |Net: vddio_q                               
+  sky130_ef_io__corner_pad/VSSA = 2        |  sky130_ef_io__gpiov2_pad_wrapped/VDDIO_Q 
+  sky130_fd_io__top_power_lvc_wpad/VSSA =  |  sky130_fd_io__top_power_lvc_wpad/VDDIO_Q 
+                                           |  sky130_ef_io__vccd_lvc_pad/VDDIO_Q = 1   
+                                           |  sky130_ef_io__vdda_hvc_pad/VDDIO_Q = 1   
+                                           |  sky130_ef_io__vddio_hvc_pad/VDDIO_Q = 1  
                                            |  sky130_ef_io__vssa_hvc_pad/VDDIO_Q = 1   
-                                           |                                           
-(no matching net)                          |Net: _noconnect_110_                       
-                                           |  sky130_ef_io__vssa_hvc_pad/VSSIO_Q = 1   
-                                           |                                           
-(no matching net)                          |Net: _noconnect_111_                       
-                                           |  sky130_ef_io__vssd_lvc_pad/AMUXBUS_A = 1 
-                                           |                                           
-(no matching net)                          |Net: _noconnect_112_                       
-                                           |  sky130_ef_io__vssd_lvc_pad/AMUXBUS_B = 1 
-                                           |                                           
-(no matching net)                          |Net: _noconnect_113_                       
                                            |  sky130_ef_io__vssd_lvc_pad/VDDIO_Q = 1   
-                                           |                                           
-(no matching net)                          |Net: _noconnect_114_                       
-                                           |  sky130_ef_io__vssd_lvc_pad/VSSIO_Q = 1   
-                                           |                                           
-(no matching net)                          |Net: _noconnect_115_                       
-                                           |  sky130_ef_io__vssio_hvc_pad/AMUXBUS_A =  
-                                           |                                           
-(no matching net)                          |Net: _noconnect_116_                       
-                                           |  sky130_ef_io__vssio_hvc_pad/AMUXBUS_B =  
-                                           |                                           
-(no matching net)                          |Net: _noconnect_117_                       
                                            |  sky130_ef_io__vssio_hvc_pad/VDDIO_Q = 1  
+                                           |  sky130_ef_io__corner_pad/VDDIO_Q = 4     
                                            |                                           
-(no matching net)                          |Net: _noconnect_118_                       
+Net: FILLER_9/VDDIO                        |Net: vssio_q                               
+  sky130_fd_io__top_power_lvc_wpad/VDDIO = |  sky130_ef_io__gpiov2_pad_wrapped/VSSIO_Q 
+  sky130_ef_io__corner_pad/VDDIO = 2       |  sky130_fd_io__top_power_lvc_wpad/VSSIO_Q 
+                                           |  sky130_ef_io__vccd_lvc_pad/VSSIO_Q = 1   
+                                           |  sky130_ef_io__vdda_hvc_pad/VSSIO_Q = 1   
+                                           |  sky130_ef_io__vddio_hvc_pad/VSSIO_Q = 1  
+                                           |  sky130_ef_io__vssa_hvc_pad/VSSIO_Q = 1   
+                                           |  sky130_ef_io__vssd_lvc_pad/VSSIO_Q = 1   
                                            |  sky130_ef_io__vssio_hvc_pad/VSSIO_Q = 1  
+                                           |  sky130_ef_io__corner_pad/VSSIO_Q = 4     
                                            |                                           
-(no matching net)                          |Net: _noconnect_119_                       
-                                           |  sky130_ef_io__corner_pad/AMUXBUS_A = 1   
-                                           |                                           
-(no matching net)                          |Net: _noconnect_123_                       
-                                           |  sky130_ef_io__corner_pad/AMUXBUS_A = 1   
-                                           |                                           
-(no matching net)                          |Net: _noconnect_127_                       
-                                           |  sky130_ef_io__corner_pad/AMUXBUS_A = 1   
-                                           |                                           
-(no matching net)                          |Net: _noconnect_131_                       
-                                           |  sky130_ef_io__corner_pad/AMUXBUS_A = 1   
-                                           |                                           
-(no matching net)                          |Net: _noconnect_120_                       
-                                           |  sky130_ef_io__corner_pad/AMUXBUS_B = 1   
-                                           |                                           
-(no matching net)                          |Net: _noconnect_124_                       
-                                           |  sky130_ef_io__corner_pad/AMUXBUS_B = 1   
-                                           |                                           
-(no matching net)                          |Net: _noconnect_128_                       
-                                           |  sky130_ef_io__corner_pad/AMUXBUS_B = 1   
-                                           |                                           
-(no matching net)                          |Net: _noconnect_132_                       
-                                           |  sky130_ef_io__corner_pad/AMUXBUS_B = 1   
-                                           |                                           
-(no matching net)                          |Net: _noconnect_121_                       
-                                           |  sky130_ef_io__corner_pad/VDDIO_Q = 1     
-                                           |                                           
-(no matching net)                          |Net: _noconnect_125_                       
-                                           |  sky130_ef_io__corner_pad/VDDIO_Q = 1     
-                                           |                                           
-(no matching net)                          |Net: _noconnect_129_                       
-                                           |  sky130_ef_io__corner_pad/VDDIO_Q = 1     
-                                           |                                           
-(no matching net)                          |Net: _noconnect_133_                       
-                                           |  sky130_ef_io__corner_pad/VDDIO_Q = 1     
-                                           |                                           
-(no matching net)                          |Net: _noconnect_122_                       
-                                           |  sky130_ef_io__corner_pad/VSSIO_Q = 1     
-                                           |                                           
-(no matching net)                          |Net: _noconnect_126_                       
-                                           |  sky130_ef_io__corner_pad/VSSIO_Q = 1     
-                                           |                                           
-(no matching net)                          |Net: _noconnect_130_                       
-                                           |  sky130_ef_io__corner_pad/VSSIO_Q = 1     
-                                           |                                           
-(no matching net)                          |Net: _noconnect_134_                       
-                                           |  sky130_ef_io__corner_pad/VSSIO_Q = 1     
-                                           |                                           
-(no matching net)                          |Net: vssd                                  
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/ANALOG_ 
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/ANALOG_ 
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/ANALOG_ 
+Net: VSSD_PAD/VSSA                         |Net: vssd                                  
+  sky130_ef_io__vccd_lvc_pad/VSSA = 1      |  sky130_ef_io__gpiov2_pad_wrapped/ANALOG_ 
+  sky130_ef_io__vssd_lvc_pad/VSSA = 1      |  sky130_ef_io__gpiov2_pad_wrapped/ANALOG_ 
+  sky130_ef_io__vdda_hvc_pad/VSSA = 1      |  sky130_ef_io__gpiov2_pad_wrapped/ANALOG_ 
                                            |  sky130_ef_io__gpiov2_pad_wrapped/DM[0] = 
                                            |  sky130_ef_io__gpiov2_pad_wrapped/HLD_OVR 
                                            |  sky130_ef_io__gpiov2_pad_wrapped/IB_MODE 
@@ -891,10 +469,10 @@ Net: VDDIO_PAD/VDDIO                       |Net: _noconnect_107_
                                            |  sky130_ef_io__vssio_hvc_pad/VSSD = 1     
                                            |  sky130_ef_io__corner_pad/VSSD = 4        
                                            |                                           
-(no matching net)                          |Net: vccd                                  
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/DM[2] = 
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/DM[1] = 
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ 
+Net: CLK_PAD/VDDA                          |Net: vccd                                  
+  sky130_ef_io__vssa_hvc_pad/VDDA = 1      |  sky130_ef_io__gpiov2_pad_wrapped/DM[2] = 
+  sky130_ef_io__corner_pad/VDDA = 2        |  sky130_ef_io__gpiov2_pad_wrapped/DM[1] = 
+  sky130_fd_io__top_power_lvc_wpad/VDDA =  |  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ 
                                            |  sky130_ef_io__gpiov2_pad_wrapped/VCCD =  
                                            |  sky130_ef_io__gpiov2_pad_wrapped/VCCHIB  
                                            |  sky130_fd_io__top_power_lvc_wpad/VCCD =  
@@ -919,8 +497,8 @@ Net: VDDIO_PAD/VDDIO                       |Net: _noconnect_107_
                                            |  sky130_ef_io__corner_pad/VCCHIB = 4      
                                            |  sky130_ef_io__corner_pad/VCCD = 4        
                                            |                                           
-(no matching net)                          |Net: vssa                                  
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ 
+Net: FILLER_723/VSSIO                      |Net: vssa                                  
+  sky130_ef_io__gpiov2_pad_wrapped/VSSIO = |  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ 
                                            |  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ 
                                            |  sky130_ef_io__gpiov2_pad_wrapped/VSSA =  
                                            |  sky130_fd_io__top_power_lvc_wpad/VSSA =  
@@ -933,10 +511,10 @@ Net: VDDIO_PAD/VDDIO                       |Net: _noconnect_107_
                                            |  sky130_ef_io__vssio_hvc_pad/VSSA = 1     
                                            |  sky130_ef_io__corner_pad/VSSA = 4        
                                            |                                           
-(no matching net)                          |Net: vddio                                 
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/HLD_H_N 
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/VDDIO = 
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/VSWITCH 
+Net: FILLER_9/VSSIO                        |Net: vddio                                 
+  sky130_fd_io__top_power_lvc_wpad/VSSIO = |  sky130_ef_io__gpiov2_pad_wrapped/HLD_H_N 
+  sky130_ef_io__vddio_hvc_pad/VSSIO = 1    |  sky130_ef_io__gpiov2_pad_wrapped/VDDIO = 
+  sky130_ef_io__corner_pad/VSSIO = 2       |  sky130_ef_io__gpiov2_pad_wrapped/VSWITCH 
                                            |  sky130_fd_io__top_power_lvc_wpad/VDDIO = 
                                            |  sky130_fd_io__top_power_lvc_wpad/VSWITCH 
                                            |  sky130_ef_io__vccd_lvc_pad/VSWITCH = 1   
@@ -955,11 +533,11 @@ Net: VDDIO_PAD/VDDIO                       |Net: _noconnect_107_
                                            |  sky130_ef_io__corner_pad/VSWITCH = 4     
                                            |  sky130_ef_io__corner_pad/VDDIO = 4       
                                            |                                           
-(no matching net)                          |Net: vdda                                  
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/VDDA =  
-                                           |  sky130_fd_io__top_power_lvc_wpad/VDDA =  
-                                           |  sky130_ef_io__vccd_lvc_pad/VDDA = 1      
-                                           |  sky130_ef_io__vdda_hvc_pad/DRN_HVC = 1   
+Net: VSSIO_PAD/VSSIO                       |Net: vdda                                  
+  sky130_ef_io__vccd_lvc_pad/BDY2_B2B = 1  |  sky130_ef_io__gpiov2_pad_wrapped/VDDA =  
+  sky130_ef_io__vssd_lvc_pad/BDY2_B2B = 1  |  sky130_fd_io__top_power_lvc_wpad/VDDA =  
+  sky130_ef_io__vddio_hvc_pad/SRC_BDY_HVC  |  sky130_ef_io__vccd_lvc_pad/VDDA = 1      
+  sky130_ef_io__vssio_hvc_pad/SRC_BDY_HVC  |  sky130_ef_io__vdda_hvc_pad/DRN_HVC = 1   
                                            |  sky130_ef_io__vddio_hvc_pad/VDDA = 1     
                                            |  sky130_ef_io__vssa_hvc_pad/DRN_HVC = 1   
                                            |  sky130_ef_io__vssa_hvc_pad/VDDA = 1      
@@ -967,1047 +545,224 @@ Net: VDDIO_PAD/VDDIO                       |Net: _noconnect_107_
                                            |  sky130_ef_io__vssio_hvc_pad/VDDA = 1     
                                            |  sky130_ef_io__corner_pad/VDDA = 4        
                                            |                                           
-(no matching net)                          |Net: vssio                                 
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/VSSIO = 
-                                           |  sky130_fd_io__top_power_lvc_wpad/VSSIO = 
-                                           |  sky130_ef_io__vccd_lvc_pad/BDY2_B2B = 1  
-                                           |  sky130_ef_io__vccd_lvc_pad/VSSIO = 1     
-                                           |  sky130_ef_io__vdda_hvc_pad/VSSIO = 1     
-                                           |  sky130_ef_io__vddio_hvc_pad/SRC_BDY_HVC  
+Net: CLK_PAD/VSWITCH                       |Net: vssio                                 
+  sky130_ef_io__vccd_lvc_pad/VSWITCH = 1   |  sky130_ef_io__gpiov2_pad_wrapped/VSSIO = 
+  sky130_ef_io__vssa_hvc_pad/VSWITCH = 1   |  sky130_fd_io__top_power_lvc_wpad/VSSIO = 
+  sky130_ef_io__vssd_lvc_pad/VSWITCH = 1   |  sky130_ef_io__vccd_lvc_pad/BDY2_B2B = 1  
+  sky130_ef_io__corner_pad/VSWITCH = 2     |  sky130_ef_io__vccd_lvc_pad/VSSIO = 1     
+  sky130_ef_io__vdda_hvc_pad/VSWITCH = 1   |  sky130_ef_io__vdda_hvc_pad/VSSIO = 1     
+  sky130_fd_io__top_power_lvc_wpad/VSWITCH |  sky130_ef_io__vddio_hvc_pad/SRC_BDY_HVC  
                                            |  sky130_ef_io__vddio_hvc_pad/VSSIO = 1    
                                            |  sky130_ef_io__vssa_hvc_pad/VSSIO = 1     
                                            |  sky130_ef_io__vssd_lvc_pad/BDY2_B2B = 1  
                                            |  sky130_ef_io__vssd_lvc_pad/VSSIO = 1     
                                            |  sky130_ef_io__vssio_hvc_pad/SRC_BDY_HVC  
                                            |  sky130_ef_io__corner_pad/VSSIO = 4       
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: _noconnect_45_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/VSSIO_Q 
                                            |                                           
-(no matching net)                          |Net: _noconnect_33_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/VSSIO_Q 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: _noconnect_20_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/VSSIO_Q 
+Net: CLK_PAD/VDDIO_Q                       |(no matching net)                          
+  sky130_ef_io__vccd_lvc_pad/VDDIO_Q = 1   |                                           
+  sky130_ef_io__vssa_hvc_pad/VDDIO_Q = 1   |                                           
+  sky130_ef_io__vssd_lvc_pad/VDDIO_Q = 1   |                                           
+  sky130_ef_io__corner_pad/VDDIO_Q = 2     |                                           
+  sky130_ef_io__vdda_hvc_pad/VDDIO_Q = 1   |                                           
+  sky130_fd_io__top_power_lvc_wpad/VDDIO_Q |                                           
                                            |                                           
-(no matching net)                          |Net: _noconnect_10_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/VSSIO_Q 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: _noconnect_44_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/VDDIO_Q 
+Net: CLK_PAD/VCCHIB                        |(no matching net)                          
+  sky130_ef_io__vccd_lvc_pad/VCCHIB = 1    |                                           
+  sky130_ef_io__vssa_hvc_pad/VCCHIB = 1    |                                           
+  sky130_ef_io__vssd_lvc_pad/VCCHIB = 1    |                                           
+  sky130_ef_io__corner_pad/VCCHIB = 2      |                                           
+  sky130_ef_io__vdda_hvc_pad/VCCHIB = 1    |                                           
+  sky130_fd_io__top_power_lvc_wpad/VCCHIB  |                                           
                                            |                                           
-(no matching net)                          |Net: _noconnect_32_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/VDDIO_Q 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: _noconnect_19_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/VDDIO_Q 
+Net: CLK_PAD/VDDIO                         |(no matching net)                          
+  sky130_ef_io__vccd_lvc_pad/VDDIO = 1     |                                           
+  sky130_ef_io__vssa_hvc_pad/VDDIO = 1     |                                           
+  sky130_ef_io__vssd_lvc_pad/VDDIO = 1     |                                           
+  sky130_ef_io__corner_pad/VDDIO = 2       |                                           
+  sky130_ef_io__vdda_hvc_pad/VDDIO = 1     |                                           
+  sky130_fd_io__top_power_lvc_wpad/VDDIO = |                                           
                                            |                                           
-(no matching net)                          |Net: _noconnect_9_                         
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/VDDIO_Q 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: _noconnect_43_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/TIE_HI_ 
+Net: CLK_PAD/VSSIO                         |(no matching net)                          
+  sky130_ef_io__vccd_lvc_pad/VSSIO = 1     |                                           
+  sky130_ef_io__vssa_hvc_pad/VSSIO = 1     |                                           
+  sky130_ef_io__vssd_lvc_pad/VSSIO = 1     |                                           
+  sky130_ef_io__corner_pad/VSSIO = 2       |                                           
+  sky130_ef_io__vdda_hvc_pad/VSSIO = 1     |                                           
+  sky130_fd_io__top_power_lvc_wpad/VSSIO = |                                           
                                            |                                           
-(no matching net)                          |Net: _noconnect_31_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/TIE_HI_ 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: _noconnect_18_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/TIE_HI_ 
+Net: CLK_PAD/VSSIO_Q                       |(no matching net)                          
+  sky130_ef_io__vccd_lvc_pad/VSSIO_Q = 1   |                                           
+  sky130_ef_io__vssa_hvc_pad/VSSIO_Q = 1   |                                           
+  sky130_ef_io__vssd_lvc_pad/VSSIO_Q = 1   |                                           
+  sky130_ef_io__corner_pad/VSSIO_Q = 2     |                                           
+  sky130_ef_io__vdda_hvc_pad/VSSIO_Q = 1   |                                           
+  sky130_fd_io__top_power_lvc_wpad/VSSIO_Q |                                           
                                            |                                           
-(no matching net)                          |Net: _noconnect_8_                         
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/TIE_HI_ 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: _noconnect_42_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_N 
+Net: CLK_PAD/VCCD                          |(no matching net)                          
+  sky130_ef_io__vssa_hvc_pad/VCCD = 1      |                                           
+  sky130_ef_io__vssd_lvc_pad/VCCD = 1      |                                           
+  sky130_ef_io__corner_pad/VCCD = 2        |                                           
+  sky130_ef_io__vdda_hvc_pad/VCCD = 1      |                                           
+  sky130_fd_io__top_power_lvc_wpad/VCCD =  |                                           
                                            |                                           
-(no matching net)                          |Net: _noconnect_30_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_N 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: _noconnect_17_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_N 
+Net: CLK_PAD/VSSD                          |(no matching net)                          
+  sky130_ef_io__vssa_hvc_pad/VSSD = 1      |                                           
+  sky130_ef_io__corner_pad/VSSD = 2        |                                           
+  sky130_ef_io__vdda_hvc_pad/VSSD = 1      |                                           
+  sky130_fd_io__top_power_lvc_wpad/VSSD =  |                                           
                                            |                                           
-(no matching net)                          |Net: _noconnect_7_                         
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_N 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: _noconnect_41_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E 
+Net: VSSIO_PAD/VDDIO                       |(no matching net)                          
+  sky130_ef_io__gpiov2_pad_wrapped/VDDIO = |                                           
+  sky130_ef_io__vssio_hvc_pad/VDDIO = 1    |                                           
                                            |                                           
-(no matching net)                          |Net: _noconnect_29_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: _noconnect_16_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E 
+Net: B_CP_PAD/VCCD                         |(no matching net)                          
+  sky130_ef_io__gpiov2_pad_wrapped/VCCD =  |                                           
+  sky130_fd_io__top_power_lvc_wpad/VCCD =  |                                           
                                            |                                           
-(no matching net)                          |Net: _noconnect_6_                         
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: _noconnect_40_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E 
+Net: B_CP_PAD/VCCHIB                       |(no matching net)                          
+  sky130_ef_io__gpiov2_pad_wrapped/VCCHIB  |                                           
+  sky130_fd_io__top_power_lvc_wpad/VCCHIB  |                                           
                                            |                                           
-(no matching net)                          |Net: _noconnect_28_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: _noconnect_15_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E 
+Net: B_CP_PAD/VDDA                         |(no matching net)                          
+  sky130_ef_io__gpiov2_pad_wrapped/VDDA =  |                                           
+  sky130_fd_io__top_power_lvc_wpad/VDDA =  |                                           
                                            |                                           
-(no matching net)                          |Net: _noconnect_5_                         
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: EN_VCO                                
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/PAD = 1 
+Net: B_CP_PAD/VDDIO                        |(no matching net)                          
+  sky130_ef_io__gpiov2_pad_wrapped/VDDIO = |                                           
+  sky130_fd_io__top_power_lvc_wpad/VDDIO = |                                           
                                            |                                           
-(no matching net)                          |Net: EN_CP                                 
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/PAD = 1 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: B_VCO                                 
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/PAD = 1 
+Net: B_CP_PAD/VDDIO_Q                      |(no matching net)                          
+  sky130_ef_io__gpiov2_pad_wrapped/VDDIO_Q |                                           
+  sky130_fd_io__top_power_lvc_wpad/VDDIO_Q |                                           
                                            |                                           
-(no matching net)                          |Net: B_CP                                  
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/PAD = 1 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: _noconnect_39_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/IN_H =  
+Net: B_CP_PAD/VSSA                         |(no matching net)                          
+  sky130_ef_io__gpiov2_pad_wrapped/VSSA =  |                                           
+  sky130_fd_io__top_power_lvc_wpad/VSSA =  |                                           
                                            |                                           
-(no matching net)                          |Net: _noconnect_27_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/IN_H =  
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: _noconnect_14_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/IN_H =  
+Net: B_CP_PAD/VSSD                         |(no matching net)                          
+  sky130_ef_io__gpiov2_pad_wrapped/VSSD =  |                                           
+  sky130_fd_io__top_power_lvc_wpad/VSSD =  |                                           
                                            |                                           
-(no matching net)                          |Net: _noconnect_4_                         
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/IN_H =  
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: EN_VCO_pll                            
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/IN = 1  
+Net: B_CP_PAD/VSSIO                        |(no matching net)                          
+  sky130_ef_io__gpiov2_pad_wrapped/VSSIO = |                                           
+  sky130_fd_io__top_power_lvc_wpad/VSSIO = |                                           
                                            |                                           
-(no matching net)                          |Net: EN_CP_pll                             
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/IN = 1  
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: _noconnect_13_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/IN = 1  
+Net: B_CP_PAD/VSSIO_Q                      |(no matching net)                          
+  sky130_ef_io__gpiov2_pad_wrapped/VSSIO_Q |                                           
+  sky130_fd_io__top_power_lvc_wpad/VSSIO_Q |                                           
                                            |                                           
-(no matching net)                          |Net: _noconnect_3_                         
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/IN = 1  
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: _noconnect_38_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/AMUXBUS 
+Net: B_CP_PAD/VSWITCH                      |(no matching net)                          
+  sky130_ef_io__gpiov2_pad_wrapped/VSWITCH |                                           
+  sky130_fd_io__top_power_lvc_wpad/VSWITCH |                                           
                                            |                                           
-(no matching net)                          |Net: _noconnect_26_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/AMUXBUS 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: _noconnect_12_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/AMUXBUS 
+Net: FILLER_9/VSSA                         |(no matching net)                          
+  sky130_ef_io__gpiov2_pad_wrapped/VSSA =  |                                           
+  sky130_fd_io__top_power_lvc_wpad/VSSA =  |                                           
+  sky130_ef_io__vddio_hvc_pad/VSSA = 1     |                                           
+  sky130_ef_io__corner_pad/VSSA = 2        |                                           
+  sky130_ef_io__vssio_hvc_pad/VSSA = 1     |                                           
                                            |                                           
-(no matching net)                          |Net: _noconnect_2_                         
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/AMUXBUS 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: _noconnect_37_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/AMUXBUS 
+Net: FILLER_9/VDDA                         |(no matching net)                          
+  sky130_ef_io__gpiov2_pad_wrapped/VDDA =  |                                           
+  sky130_fd_io__top_power_lvc_wpad/VDDA =  |                                           
+  sky130_ef_io__vddio_hvc_pad/VDDA = 1     |                                           
+  sky130_ef_io__corner_pad/VDDA = 2        |                                           
+  sky130_ef_io__vssio_hvc_pad/VDDA = 1     |                                           
                                            |                                           
-(no matching net)                          |Net: _noconnect_25_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/AMUXBUS 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: _noconnect_11_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/AMUXBUS 
+Net: FILLER_9/VSWITCH                      |(no matching net)                          
+  sky130_ef_io__gpiov2_pad_wrapped/VSWITCH |                                           
+  sky130_fd_io__top_power_lvc_wpad/VSWITCH |                                           
+  sky130_ef_io__vddio_hvc_pad/VSWITCH = 1  |                                           
+  sky130_ef_io__corner_pad/VSWITCH = 2     |                                           
+  sky130_ef_io__vssio_hvc_pad/VSWITCH = 1  |                                           
                                            |                                           
-(no matching net)                          |Net: _noconnect_1_                         
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/AMUXBUS 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: B_CP_PAD/TIE_HI_ESD                   |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/TIE_HI_ |                                           
+Net: FILLER_9/VDDIO_Q                      |(no matching net)                          
+  sky130_ef_io__gpiov2_pad_wrapped/VDDIO_Q |                                           
+  sky130_fd_io__top_power_lvc_wpad/VDDIO_Q |                                           
+  sky130_ef_io__vddio_hvc_pad/VDDIO_Q = 1  |                                           
+  sky130_ef_io__corner_pad/VDDIO_Q = 2     |                                           
+  sky130_ef_io__vssio_hvc_pad/VDDIO_Q = 1  |                                           
                                            |                                           
-Net: B_VCO_PAD/TIE_HI_ESD                  |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/TIE_HI_ |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: ENb_VCO_PAD/TIE_HI_ESD                |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/TIE_HI_ |                                           
+Net: FILLER_9/VCCHIB                       |(no matching net)                          
+  sky130_ef_io__gpiov2_pad_wrapped/VCCHIB  |                                           
+  sky130_fd_io__top_power_lvc_wpad/VCCHIB  |                                           
+  sky130_ef_io__vddio_hvc_pad/VCCHIB = 1   |                                           
+  sky130_ef_io__corner_pad/VCCHIB = 2      |                                           
+  sky130_ef_io__vssio_hvc_pad/VCCHIB = 1   |                                           
                                            |                                           
-Net: ENb_CP_PAD/TIE_HI_ESD                 |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/TIE_HI_ |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: B_CP_PAD/PAD_A_NOESD_H                |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_N |                                           
+Net: FILLER_9/VCCD                         |(no matching net)                          
+  sky130_ef_io__gpiov2_pad_wrapped/VCCD =  |                                           
+  sky130_fd_io__top_power_lvc_wpad/VCCD =  |                                           
+  sky130_ef_io__vddio_hvc_pad/VCCD = 1     |                                           
+  sky130_ef_io__corner_pad/VCCD = 2        |                                           
+  sky130_ef_io__vssio_hvc_pad/VCCD = 1     |                                           
                                            |                                           
-Net: B_VCO_PAD/PAD_A_NOESD_H               |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_N |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: ENb_VCO_PAD/PAD_A_NOESD_H             |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_N |                                           
+Net: FILLER_9/VSSD                         |(no matching net)                          
+  sky130_ef_io__gpiov2_pad_wrapped/VSSD =  |                                           
+  sky130_fd_io__top_power_lvc_wpad/VSSD =  |                                           
+  sky130_ef_io__vddio_hvc_pad/VSSD = 1     |                                           
+  sky130_ef_io__corner_pad/VSSD = 2        |                                           
+  sky130_ef_io__vssio_hvc_pad/VSSD = 1     |                                           
                                            |                                           
-Net: ENb_CP_PAD/PAD_A_NOESD_H              |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_N |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: B_CP_PAD/PAD_A_ESD_1_H                |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E |                                           
+Net: FILLER_9/VSSIO_Q                      |(no matching net)                          
+  sky130_ef_io__gpiov2_pad_wrapped/VSSIO_Q |                                           
+  sky130_fd_io__top_power_lvc_wpad/VSSIO_Q |                                           
+  sky130_ef_io__vddio_hvc_pad/VSSIO_Q = 1  |                                           
+  sky130_ef_io__corner_pad/VSSIO_Q = 2     |                                           
+  sky130_ef_io__vssio_hvc_pad/VSSIO_Q = 1  |                                           
                                            |                                           
-Net: B_VCO_PAD/PAD_A_ESD_1_H               |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: ENb_VCO_PAD/PAD_A_ESD_1_H             |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E |                                           
+Net: VSSD_PAD/VDDA                         |(no matching net)                          
+  sky130_ef_io__vccd_lvc_pad/VDDA = 1      |                                           
+  sky130_ef_io__vssd_lvc_pad/VDDA = 1      |                                           
                                            |                                           
-Net: ENb_CP_PAD/PAD_A_ESD_1_H              |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: B_CP_PAD/PAD_A_ESD_0_H                |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E |                                           
+Net: VDDA_PAD/VDDA                         |(no matching net)                          
+  sky130_ef_io__vssa_hvc_pad/DRN_HVC = 1   |                                           
+  sky130_ef_io__vdda_hvc_pad/DRN_HVC = 1   |                                           
                                            |                                           
-Net: B_VCO_PAD/PAD_A_ESD_0_H               |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: ENb_VCO_PAD/PAD_A_ESD_0_H             |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E |                                           
-                                           |                                           
-Net: ENb_CP_PAD/PAD_A_ESD_0_H              |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/PAD_A_E |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: B_CP                                  |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/PAD = 1 |                                           
-                                           |                                           
-Net: B_VCO                                 |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/PAD = 1 |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: EN_VCO                                |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/PAD = 1 |                                           
-                                           |                                           
-Net: EN_CP                                 |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/PAD = 1 |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: B_CP_PAD/IN_H                         |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/IN_H =  |                                           
-                                           |                                           
-Net: B_VCO_PAD/IN_H                        |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/IN_H =  |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: ENb_VCO_PAD/IN_H                      |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/IN_H =  |                                           
-                                           |                                           
-Net: ENb_CP_PAD/IN_H                       |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/IN_H =  |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: B_CP_PAD/IN                           |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/IN = 1  |                                           
-                                           |                                           
-Net: B_VCO_PAD/IN                          |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/IN = 1  |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: EN_VCO_pll                            |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/IN = 1  |                                           
-                                           |                                           
-Net: EN_CP_pll                             |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/IN = 1  |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: \TIE_LO_ESD[4]                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ 
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/TIE_LO_ 
-                                           |                                           
-(no matching net)                          |Net: \TIE_LO_ESD[5]                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ 
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/TIE_LO_ 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: \TIE_LO_ESD[6]                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ 
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/TIE_LO_ 
-                                           |                                           
-(no matching net)                          |Net: \TIE_LO_ESD[7]                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ 
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/TIE_LO_ 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: B_CP_PAD/TIE_LO_ESD                   |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ |                                           
-  sky130_ef_io__gpiov2_pad_wrapped/TIE_LO_ |                                           
-                                           |                                           
-Net: B_VCO_PAD/TIE_LO_ESD                  |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ |                                           
-  sky130_ef_io__gpiov2_pad_wrapped/TIE_LO_ |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: ENb_VCO_PAD/TIE_LO_ESD                |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ |                                           
-  sky130_ef_io__gpiov2_pad_wrapped/TIE_LO_ |                                           
-                                           |                                           
-Net: ENb_CP_PAD/TIE_LO_ESD                 |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ |                                           
-  sky130_ef_io__gpiov2_pad_wrapped/TIE_LO_ |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: _noconnect_48_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/DM[0] = 
-                                           |                                           
-(no matching net)                          |Net: _noconnect_36_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/DM[0] = 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: _noconnect_47_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/DM[1] = 
-                                           |                                           
-(no matching net)                          |Net: _noconnect_35_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/DM[1] = 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: _noconnect_46_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/DM[2] = 
-                                           |                                           
-(no matching net)                          |Net: _noconnect_34_                        
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/DM[2] = 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching net)                          |Net: B_VCO_pll                             
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/OUT = 1 
-                                           |                                           
-(no matching net)                          |Net: B_CP_pll                              
-                                           |  sky130_ef_io__gpiov2_pad_wrapped/OUT = 1 
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: B_CP_pll                              |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/OUT = 1 |                                           
-                                           |                                           
-Net: B_VCO_pll                             |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/OUT = 1 |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: ENb_VCO_PAD/DM[0]                     |(no matching net)                          
+Net: B_CP_PAD/SLOW                         |(no matching net)                          
+  sky130_ef_io__gpiov2_pad_wrapped/ANALOG_ |                                           
+  sky130_ef_io__gpiov2_pad_wrapped/ANALOG_ |                                           
+  sky130_ef_io__gpiov2_pad_wrapped/ANALOG_ |                                           
+  sky130_ef_io__gpiov2_pad_wrapped/HLD_OVR |                                           
+  sky130_ef_io__gpiov2_pad_wrapped/IB_MODE |                                           
+  sky130_ef_io__gpiov2_pad_wrapped/INP_DIS |                                           
+  sky130_ef_io__gpiov2_pad_wrapped/OUT = 6 |                                           
+  sky130_ef_io__gpiov2_pad_wrapped/SLOW =  |                                           
+  sky130_ef_io__gpiov2_pad_wrapped/VTRIP_S |                                           
+  sky130_ef_io__vccd_lvc_pad/SRC_BDY_LVC1  |                                           
+  sky130_ef_io__vccd_lvc_pad/SRC_BDY_LVC2  |                                           
+  sky130_ef_io__gpiov2_pad_wrapped/DM[2] = |                                           
+  sky130_ef_io__gpiov2_pad_wrapped/DM[1] = |                                           
+  sky130_ef_io__vssd_lvc_pad/SRC_BDY_LVC1  |                                           
+  sky130_ef_io__vssd_lvc_pad/SRC_BDY_LVC2  |                                           
   sky130_ef_io__gpiov2_pad_wrapped/DM[0] = |                                           
+  sky130_ef_io__gpiov2_pad_wrapped/OE_N =  |                                           
                                            |                                           
-Net: ENb_CP_PAD/DM[0]                      |(no matching net)                          
+Net: VCCD_PAD/VSSD                         |(no matching net)                          
+  sky130_ef_io__vccd_lvc_pad/VSSD = 1      |                                           
+                                           |                                           
+Net: VSSA_PAD/VSSA                         |(no matching net)                          
+  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ |                                           
+  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ |                                           
+  sky130_ef_io__vssa_hvc_pad/SRC_BDY_HVC = |                                           
+  sky130_ef_io__vdda_hvc_pad/SRC_BDY_HVC = |                                           
+                                           |                                           
+Net: VCCD_PAD/VCCD                         |(no matching net)                          
+  sky130_ef_io__gpiov2_pad_wrapped/ENABLE_ |                                           
+  sky130_ef_io__gpiov2_pad_wrapped/OE_N =  |                                           
+  sky130_ef_io__vccd_lvc_pad/DRN_LVC1 = 1  |                                           
+  sky130_ef_io__vccd_lvc_pad/DRN_LVC2 = 1  |                                           
   sky130_ef_io__gpiov2_pad_wrapped/DM[0] = |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: ENb_VCO_PAD/DM[1]                     |(no matching net)                          
+  sky130_ef_io__vssd_lvc_pad/DRN_LVC1 = 1  |                                           
+  sky130_ef_io__vssd_lvc_pad/DRN_LVC2 = 1  |                                           
+  sky130_ef_io__gpiov2_pad_wrapped/DM[2] = |                                           
   sky130_ef_io__gpiov2_pad_wrapped/DM[1] = |                                           
                                            |                                           
-Net: ENb_CP_PAD/DM[1]                      |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/DM[1] = |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: ENb_VCO_PAD/DM[2]                     |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/DM[2] = |                                           
-                                           |                                           
-Net: ENb_CP_PAD/DM[2]                      |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/DM[2] = |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Net: CLK_PAD/AMUXBUS_B                     |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/AMUXBUS |                                           
-  sky130_fd_io__top_power_lvc_wpad/AMUXBUS |                                           
-  sky130_ef_io__vccd_lvc_pad/AMUXBUS_B = 1 |                                           
-  sky130_ef_io__vssa_hvc_pad/AMUXBUS_B = 1 |                                           
-  sky130_ef_io__vssd_lvc_pad/AMUXBUS_B = 1 |                                           
-  sky130_ef_io__vddio_hvc_pad/AMUXBUS_B =  |                                           
-  sky130_ef_io__corner_pad/AMUXBUS_B = 4   |                                           
-  sky130_ef_io__vdda_hvc_pad/AMUXBUS_B = 1 |                                           
-  sky130_ef_io__vssio_hvc_pad/AMUXBUS_B =  |                                           
-                                           |                                           
-Net: CLK_PAD/AMUXBUS_A                     |(no matching net)                          
-  sky130_ef_io__gpiov2_pad_wrapped/AMUXBUS |                                           
-  sky130_fd_io__top_power_lvc_wpad/AMUXBUS |                                           
-  sky130_ef_io__vccd_lvc_pad/AMUXBUS_A = 1 |                                           
-  sky130_ef_io__vssa_hvc_pad/AMUXBUS_A = 1 |                                           
-  sky130_ef_io__vssd_lvc_pad/AMUXBUS_A = 1 |                                           
-  sky130_ef_io__vddio_hvc_pad/AMUXBUS_A =  |                                           
-  sky130_ef_io__corner_pad/AMUXBUS_A = 4   |                                           
-  sky130_ef_io__vdda_hvc_pad/AMUXBUS_A = 1 |                                           
-  sky130_ef_io__vssio_hvc_pad/AMUXBUS_A =  |                                           
----------------------------------------------------------------------------------------
-DEVICE mismatches: Class fragments follow (with node fanout counts):
-Circuit 1: chip_io                         |Circuit 2: chip_io                         
-
----------------------------------------------------------------------------------------
-Instance: sky130_ef_io__corner_padcorner_4 |Instance: corner_4                         
-  AMUXBUS_A = 21                           |  AMUXBUS_A = 1                            
-  AMUXBUS_B = 21                           |  AMUXBUS_B = 1                            
-  VSSA = 9                                 |  VSSA = 38                                
-  VDDA = 9                                 |  VDDA = 22                                
-  VSWITCH = 9                              |  VSWITCH = 51                             
-  VDDIO_Q = 9                              |  VDDIO_Q = 1                              
-  VCCHIB = 9                               |  VCCHIB = 67                              
-  VDDIO = 3                                |  VDDIO = 51                               
-  VCCD = 9                                 |  VCCD = 67                                
-  VSSIO = 4                                |  VSSIO = 24                               
-  VSSD = 9                                 |  VSSD = 106                               
-  VSSIO_Q = 9                              |  VSSIO_Q = 1                              
-                                           |                                           
-Instance: sky130_ef_io__corner_padcorner_3 |Instance: corner_3                         
-  AMUXBUS_A = 21                           |  AMUXBUS_A = 1                            
-  AMUXBUS_B = 21                           |  AMUXBUS_B = 1                            
-  VSSA = 9                                 |  VSSA = 38                                
-  VDDA = 9                                 |  VDDA = 22                                
-  VSWITCH = 9                              |  VSWITCH = 51                             
-  VDDIO_Q = 9                              |  VDDIO_Q = 1                              
-  VCCHIB = 9                               |  VCCHIB = 67                              
-  VDDIO = 3                                |  VDDIO = 51                               
-  VCCD = 9                                 |  VCCD = 67                                
-  VSSIO = 4                                |  VSSIO = 24                               
-  VSSD = 9                                 |  VSSD = 106                               
-  VSSIO_Q = 9                              |  VSSIO_Q = 1                              
-                                           |                                           
-Instance: sky130_ef_io__corner_padcorner_2 |Instance: corner_2                         
-  AMUXBUS_A = 21                           |  AMUXBUS_A = 1                            
-  AMUXBUS_B = 21                           |  AMUXBUS_B = 1                            
-  VSSA = 3                                 |  VSSA = 38                                
-  VDDA = 4                                 |  VDDA = 22                                
-  VSWITCH = 7                              |  VSWITCH = 51                             
-  VDDIO_Q = 7                              |  VDDIO_Q = 1                              
-  VCCHIB = 7                               |  VCCHIB = 67                              
-  VDDIO = 7                                |  VDDIO = 51                               
-  VCCD = 6                                 |  VCCD = 67                                
-  VSSIO = 7                                |  VSSIO = 24                               
-  VSSD = 5                                 |  VSSD = 106                               
-  VSSIO_Q = 7                              |  VSSIO_Q = 1                              
-                                           |                                           
-Instance: sky130_ef_io__corner_padcorner_1 |Instance: corner_1                         
-  AMUXBUS_A = 21                           |  AMUXBUS_A = 1                            
-  AMUXBUS_B = 21                           |  AMUXBUS_B = 1                            
-  VSSA = 3                                 |  VSSA = 38                                
-  VDDA = 4                                 |  VDDA = 22                                
-  VSWITCH = 7                              |  VSWITCH = 51                             
-  VDDIO_Q = 7                              |  VDDIO_Q = 1                              
-  VCCHIB = 7                               |  VCCHIB = 67                              
-  VDDIO = 7                                |  VDDIO = 51                               
-  VCCD = 6                                 |  VCCD = 67                                
-  VSSIO = 7                                |  VSSIO = 24                               
-  VSSD = 5                                 |  VSSD = 106                               
-  VSSIO_Q = 7                              |  VSSIO_Q = 1                              
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Instance: sky130_fd_io__top_power_lvc_wpad |Instance: VCO_IN_PAD                       
-  AMUXBUS_A = 21                           |  AMUXBUS_A = 1                            
-  AMUXBUS_B = 21                           |  AMUXBUS_B = 1                            
-  P_PAD = 1                                |  P_PAD = 1                                
-  P_CORE = 1                               |  P_CORE = 1                               
-  VCCD = 6                                 |  VCCD = 67                                
-  VCCHIB = 7                               |  VCCHIB = 67                              
-  VDDA = 4                                 |  VDDA = 22                                
-  VDDIO = 7                                |  VDDIO = 51                               
-  VDDIO_Q = 7                              |  VDDIO_Q = 1                              
-  VSSA = 3                                 |  VSSA = 38                                
-  VSSD = 5                                 |  VSSD = 106                               
-  VSSIO = 7                                |  VSSIO = 24                               
-  VSSIO_Q = 7                              |  VSSIO_Q = 1                              
-  VSWITCH = 7                              |  VSWITCH = 51                             
-                                           |                                           
-Instance: sky130_fd_io__top_power_lvc_wpad |Instance: REF_CLK_PAD                      
-  AMUXBUS_A = 21                           |  AMUXBUS_A = 1                            
-  AMUXBUS_B = 21                           |  AMUXBUS_B = 1                            
-  P_PAD = 1                                |  P_PAD = 1                                
-  P_CORE = 1                               |  P_CORE = 1                               
-  VCCD = 9                                 |  VCCD = 67                                
-  VCCHIB = 9                               |  VCCHIB = 67                              
-  VDDA = 9                                 |  VDDA = 22                                
-  VDDIO = 3                                |  VDDIO = 51                               
-  VDDIO_Q = 9                              |  VDDIO_Q = 1                              
-  VSSA = 9                                 |  VSSA = 38                                
-  VSSD = 9                                 |  VSSD = 106                               
-  VSSIO = 4                                |  VSSIO = 24                               
-  VSSIO_Q = 9                              |  VSSIO_Q = 1                              
-  VSWITCH = 9                              |  VSWITCH = 51                             
-                                           |                                           
-Instance: sky130_fd_io__top_power_lvc_wpad |Instance: CLK_PAD                          
-  AMUXBUS_A = 21                           |  AMUXBUS_A = 1                            
-  AMUXBUS_B = 21                           |  AMUXBUS_B = 1                            
-  P_PAD = 1                                |  P_PAD = 1                                
-  P_CORE = 1                               |  P_CORE = 1                               
-  VCCD = 5                                 |  VCCD = 67                                
-  VCCHIB = 5                               |  VCCHIB = 67                              
-  VDDA = 5                                 |  VDDA = 22                                
-  VDDIO = 5                                |  VDDIO = 51                               
-  VDDIO_Q = 5                              |  VDDIO_Q = 1                              
-  VSSA = 5                                 |  VSSA = 38                                
-  VSSD = 5                                 |  VSSD = 106                               
-  VSSIO = 5                                |  VSSIO = 24                               
-  VSSIO_Q = 5                              |  VSSIO_Q = 1                              
-  VSWITCH = 5                              |  VSWITCH = 51                             
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Instance: sky130_ef_io__gpiov2_pad_wrapped |Instance: GPIO_3_PAD                       
-  AMUXBUS_A = 21                           |  AMUXBUS_A = 1                            
-  AMUXBUS_B = 21                           |  AMUXBUS_B = 1                            
-  ANALOG_EN = 86                           |  ANALOG_EN = 106                          
-  ANALOG_POL = 86                          |  ANALOG_POL = 106                         
-  ANALOG_SEL = 86                          |  ANALOG_SEL = 106                         
-  DM[2] = 86                               |  DM[2] = 106                              
-  DM[1] = 86                               |  DM[1] = 106                              
-  DM[0] = 26                               |  DM[0] = 67                               
-  ENABLE_H = 8                             |  ENABLE_H = 8                             
-  ENABLE_INP_H = 2                         |  ENABLE_INP_H = 2                         
-  ENABLE_VDDA_H = 18                       |  ENABLE_VDDA_H = 38                       
-  ENABLE_VDDIO = 26                        |  ENABLE_VDDIO = 67                        
-  ENABLE_VSWITCH_H = 18                    |  ENABLE_VSWITCH_H = 38                    
-  HLD_H_N = 10                             |  HLD_H_N = 51                             
-  HLD_OVR = 86                             |  HLD_OVR = 106                            
-  IB_MODE_SEL = 86                         |  IB_MODE_SEL = 106                        
-  IN = 1                                   |  IN = 1                                   
-  IN_H = 1                                 |  IN_H = 1                                 
-  INP_DIS = 86                             |  INP_DIS = 106                            
-  OE_N = 26                                |  OE_N = 67                                
-  OUT = 86                                 |  OUT = 106                                
-  PAD = 1                                  |  PAD = 1                                  
-  PAD_A_ESD_0_H = 1                        |  PAD_A_ESD_0_H = 1                        
-  PAD_A_ESD_1_H = 1                        |  PAD_A_ESD_1_H = 1                        
-  PAD_A_NOESD_H = 1                        |  PAD_A_NOESD_H = 1                        
-  SLOW = 86                                |  SLOW = 106                               
-  TIE_HI_ESD = 1                           |  TIE_HI_ESD = 1                           
-  TIE_LO_ESD = 2                           |  TIE_LO_ESD = 2                           
-  VCCD = 9                                 |  VCCD = 67                                
-  VCCHIB = 9                               |  VCCHIB = 67                              
-  VDDA = 9                                 |  VDDA = 22                                
-  VDDIO = 5                                |  VDDIO = 51                               
-  VDDIO_Q = 9                              |  VDDIO_Q = 1                              
-  VSSA = 9                                 |  VSSA = 38                                
-  VSSD = 9                                 |  VSSD = 106                               
-  VSSIO = 4                                |  VSSIO = 24                               
-  VSSIO_Q = 9                              |  VSSIO_Q = 1                              
-  VSWITCH = 9                              |  VSWITCH = 51                             
-  VTRIP_SEL = 86                           |  VTRIP_SEL = 106                          
-                                           |                                           
-Instance: sky130_ef_io__gpiov2_pad_wrapped |Instance: GPIO_2_PAD                       
-  AMUXBUS_A = 21                           |  AMUXBUS_A = 1                            
-  AMUXBUS_B = 21                           |  AMUXBUS_B = 1                            
-  ANALOG_EN = 86                           |  ANALOG_EN = 106                          
-  ANALOG_POL = 86                          |  ANALOG_POL = 106                         
-  ANALOG_SEL = 86                          |  ANALOG_SEL = 106                         
-  DM[2] = 86                               |  DM[2] = 106                              
-  DM[1] = 86                               |  DM[1] = 106                              
-  DM[0] = 26                               |  DM[0] = 67                               
-  ENABLE_H = 8                             |  ENABLE_H = 8                             
-  ENABLE_INP_H = 2                         |  ENABLE_INP_H = 2                         
-  ENABLE_VDDA_H = 18                       |  ENABLE_VDDA_H = 38                       
-  ENABLE_VDDIO = 26                        |  ENABLE_VDDIO = 67                        
-  ENABLE_VSWITCH_H = 18                    |  ENABLE_VSWITCH_H = 38                    
-  HLD_H_N = 10                             |  HLD_H_N = 51                             
-  HLD_OVR = 86                             |  HLD_OVR = 106                            
-  IB_MODE_SEL = 86                         |  IB_MODE_SEL = 106                        
-  IN = 1                                   |  IN = 1                                   
-  IN_H = 1                                 |  IN_H = 1                                 
-  INP_DIS = 86                             |  INP_DIS = 106                            
-  OE_N = 26                                |  OE_N = 67                                
-  OUT = 86                                 |  OUT = 106                                
-  PAD = 1                                  |  PAD = 1                                  
-  PAD_A_ESD_0_H = 1                        |  PAD_A_ESD_0_H = 1                        
-  PAD_A_ESD_1_H = 1                        |  PAD_A_ESD_1_H = 1                        
-  PAD_A_NOESD_H = 1                        |  PAD_A_NOESD_H = 1                        
-  SLOW = 86                                |  SLOW = 106                               
-  TIE_HI_ESD = 1                           |  TIE_HI_ESD = 1                           
-  TIE_LO_ESD = 2                           |  TIE_LO_ESD = 2                           
-  VCCD = 9                                 |  VCCD = 67                                
-  VCCHIB = 9                               |  VCCHIB = 67                              
-  VDDA = 9                                 |  VDDA = 22                                
-  VDDIO = 5                                |  VDDIO = 51                               
-  VDDIO_Q = 9                              |  VDDIO_Q = 1                              
-  VSSA = 9                                 |  VSSA = 38                                
-  VSSD = 9                                 |  VSSD = 106                               
-  VSSIO = 4                                |  VSSIO = 24                               
-  VSSIO_Q = 9                              |  VSSIO_Q = 1                              
-  VSWITCH = 9                              |  VSWITCH = 51                             
-  VTRIP_SEL = 86                           |  VTRIP_SEL = 106                          
-                                           |                                           
-Instance: sky130_ef_io__gpiov2_pad_wrapped |Instance: GPIO_1_PAD                       
-  AMUXBUS_A = 21                           |  AMUXBUS_A = 1                            
-  AMUXBUS_B = 21                           |  AMUXBUS_B = 1                            
-  ANALOG_EN = 86                           |  ANALOG_EN = 106                          
-  ANALOG_POL = 86                          |  ANALOG_POL = 106                         
-  ANALOG_SEL = 86                          |  ANALOG_SEL = 106                         
-  DM[2] = 86                               |  DM[2] = 106                              
-  DM[1] = 86                               |  DM[1] = 106                              
-  DM[0] = 26                               |  DM[0] = 67                               
-  ENABLE_H = 8                             |  ENABLE_H = 8                             
-  ENABLE_INP_H = 2                         |  ENABLE_INP_H = 2                         
-  ENABLE_VDDA_H = 18                       |  ENABLE_VDDA_H = 38                       
-  ENABLE_VDDIO = 26                        |  ENABLE_VDDIO = 67                        
-  ENABLE_VSWITCH_H = 18                    |  ENABLE_VSWITCH_H = 38                    
-  HLD_H_N = 10                             |  HLD_H_N = 51                             
-  HLD_OVR = 86                             |  HLD_OVR = 106                            
-  IB_MODE_SEL = 86                         |  IB_MODE_SEL = 106                        
-  IN = 1                                   |  IN = 1                                   
-  IN_H = 1                                 |  IN_H = 1                                 
-  INP_DIS = 86                             |  INP_DIS = 106                            
-  OE_N = 26                                |  OE_N = 67                                
-  OUT = 86                                 |  OUT = 106                                
-  PAD = 1                                  |  PAD = 1                                  
-  PAD_A_ESD_0_H = 1                        |  PAD_A_ESD_0_H = 1                        
-  PAD_A_ESD_1_H = 1                        |  PAD_A_ESD_1_H = 1                        
-  PAD_A_NOESD_H = 1                        |  PAD_A_NOESD_H = 1                        
-  SLOW = 86                                |  SLOW = 106                               
-  TIE_HI_ESD = 1                           |  TIE_HI_ESD = 1                           
-  TIE_LO_ESD = 2                           |  TIE_LO_ESD = 2                           
-  VCCD = 9                                 |  VCCD = 67                                
-  VCCHIB = 9                               |  VCCHIB = 67                              
-  VDDA = 9                                 |  VDDA = 22                                
-  VDDIO = 5                                |  VDDIO = 51                               
-  VDDIO_Q = 9                              |  VDDIO_Q = 1                              
-  VSSA = 9                                 |  VSSA = 38                                
-  VSSD = 9                                 |  VSSD = 106                               
-  VSSIO = 4                                |  VSSIO = 24                               
-  VSSIO_Q = 9                              |  VSSIO_Q = 1                              
-  VSWITCH = 9                              |  VSWITCH = 51                             
-  VTRIP_SEL = 86                           |  VTRIP_SEL = 106                          
-                                           |                                           
-Instance: sky130_ef_io__gpiov2_pad_wrapped |Instance: GPIO_0_PAD                       
-  AMUXBUS_A = 21                           |  AMUXBUS_A = 1                            
-  AMUXBUS_B = 21                           |  AMUXBUS_B = 1                            
-  ANALOG_EN = 86                           |  ANALOG_EN = 106                          
-  ANALOG_POL = 86                          |  ANALOG_POL = 106                         
-  ANALOG_SEL = 86                          |  ANALOG_SEL = 106                         
-  DM[2] = 86                               |  DM[2] = 106                              
-  DM[1] = 86                               |  DM[1] = 106                              
-  DM[0] = 26                               |  DM[0] = 67                               
-  ENABLE_H = 8                             |  ENABLE_H = 8                             
-  ENABLE_INP_H = 2                         |  ENABLE_INP_H = 2                         
-  ENABLE_VDDA_H = 18                       |  ENABLE_VDDA_H = 38                       
-  ENABLE_VDDIO = 26                        |  ENABLE_VDDIO = 67                        
-  ENABLE_VSWITCH_H = 18                    |  ENABLE_VSWITCH_H = 38                    
-  HLD_H_N = 10                             |  HLD_H_N = 51                             
-  HLD_OVR = 86                             |  HLD_OVR = 106                            
-  IB_MODE_SEL = 86                         |  IB_MODE_SEL = 106                        
-  IN = 1                                   |  IN = 1                                   
-  IN_H = 1                                 |  IN_H = 1                                 
-  INP_DIS = 86                             |  INP_DIS = 106                            
-  OE_N = 26                                |  OE_N = 67                                
-  OUT = 86                                 |  OUT = 106                                
-  PAD = 1                                  |  PAD = 1                                  
-  PAD_A_ESD_0_H = 1                        |  PAD_A_ESD_0_H = 1                        
-  PAD_A_ESD_1_H = 1                        |  PAD_A_ESD_1_H = 1                        
-  PAD_A_NOESD_H = 1                        |  PAD_A_NOESD_H = 1                        
-  SLOW = 86                                |  SLOW = 106                               
-  TIE_HI_ESD = 1                           |  TIE_HI_ESD = 1                           
-  TIE_LO_ESD = 2                           |  TIE_LO_ESD = 2                           
-  VCCD = 9                                 |  VCCD = 67                                
-  VCCHIB = 9                               |  VCCHIB = 67                              
-  VDDA = 9                                 |  VDDA = 22                                
-  VDDIO = 5                                |  VDDIO = 51                               
-  VDDIO_Q = 9                              |  VDDIO_Q = 1                              
-  VSSA = 9                                 |  VSSA = 38                                
-  VSSD = 9                                 |  VSSD = 106                               
-  VSSIO = 4                                |  VSSIO = 24                               
-  VSSIO_Q = 9                              |  VSSIO_Q = 1                              
-  VSWITCH = 9                              |  VSWITCH = 51                             
-  VTRIP_SEL = 86                           |  VTRIP_SEL = 106                          
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Instance: sky130_ef_io__gpiov2_pad_wrapped |(no matching instance)                     
-  AMUXBUS_A = 21                           |                                           
-  AMUXBUS_B = 21                           |                                           
-  ANALOG_EN = 86                           |                                           
-  ANALOG_POL = 86                          |                                           
-  ANALOG_SEL = 86                          |                                           
-  DM[2] = 1                                |                                           
-  DM[1] = 1                                |                                           
-  DM[0] = 1                                |                                           
-  ENABLE_H = 8                             |                                           
-  ENABLE_INP_H = 2                         |                                           
-  ENABLE_VDDA_H = 18                       |                                           
-  ENABLE_VDDIO = 26                        |                                           
-  ENABLE_VSWITCH_H = 18                    |                                           
-  HLD_H_N = 10                             |                                           
-  HLD_OVR = 86                             |                                           
-  IB_MODE_SEL = 86                         |                                           
-  IN = 1                                   |                                           
-  IN_H = 1                                 |                                           
-  INP_DIS = 86                             |                                           
-  OE_N = 26                                |                                           
-  OUT = 86                                 |                                           
-  PAD = 1                                  |                                           
-  PAD_A_ESD_0_H = 1                        |                                           
-  PAD_A_ESD_1_H = 1                        |                                           
-  PAD_A_NOESD_H = 1                        |                                           
-  SLOW = 86                                |                                           
-  TIE_HI_ESD = 1                           |                                           
-  TIE_LO_ESD = 2                           |                                           
-  VCCD = 5                                 |                                           
-  VCCHIB = 5                               |                                           
-  VDDA = 5                                 |                                           
-  VDDIO = 5                                |                                           
-  VDDIO_Q = 5                              |                                           
-  VSSA = 5                                 |                                           
-  VSSD = 5                                 |                                           
-  VSSIO = 5                                |                                           
-  VSSIO_Q = 5                              |                                           
-  VSWITCH = 5                              |                                           
-  VTRIP_SEL = 86                           |                                           
-                                           |                                           
-Instance: sky130_ef_io__gpiov2_pad_wrapped |(no matching instance)                     
-  AMUXBUS_A = 21                           |                                           
-  AMUXBUS_B = 21                           |                                           
-  ANALOG_EN = 86                           |                                           
-  ANALOG_POL = 86                          |                                           
-  ANALOG_SEL = 86                          |                                           
-  DM[2] = 1                                |                                           
-  DM[1] = 1                                |                                           
-  DM[0] = 1                                |                                           
-  ENABLE_H = 8                             |                                           
-  ENABLE_INP_H = 2                         |                                           
-  ENABLE_VDDA_H = 18                       |                                           
-  ENABLE_VDDIO = 26                        |                                           
-  ENABLE_VSWITCH_H = 18                    |                                           
-  HLD_H_N = 10                             |                                           
-  HLD_OVR = 86                             |                                           
-  IB_MODE_SEL = 86                         |                                           
-  IN = 1                                   |                                           
-  IN_H = 1                                 |                                           
-  INP_DIS = 86                             |                                           
-  OE_N = 26                                |                                           
-  OUT = 86                                 |                                           
-  PAD = 1                                  |                                           
-  PAD_A_ESD_0_H = 1                        |                                           
-  PAD_A_ESD_1_H = 1                        |                                           
-  PAD_A_NOESD_H = 1                        |                                           
-  SLOW = 86                                |                                           
-  TIE_HI_ESD = 1                           |                                           
-  TIE_LO_ESD = 2                           |                                           
-  VCCD = 5                                 |                                           
-  VCCHIB = 5                               |                                           
-  VDDA = 5                                 |                                           
-  VDDIO = 5                                |                                           
-  VDDIO_Q = 5                              |                                           
-  VSSA = 5                                 |                                           
-  VSSD = 5                                 |                                           
-  VSSIO = 5                                |                                           
-  VSSIO_Q = 5                              |                                           
-  VSWITCH = 5                              |                                           
-  VTRIP_SEL = 86                           |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-Instance: sky130_ef_io__gpiov2_pad_wrapped |(no matching instance)                     
-  AMUXBUS_A = 21                           |                                           
-  AMUXBUS_B = 21                           |                                           
-  ANALOG_EN = 86                           |                                           
-  ANALOG_POL = 86                          |                                           
-  ANALOG_SEL = 86                          |                                           
-  DM[2] = 26                               |                                           
-  DM[1] = 26                               |                                           
-  DM[0] = 86                               |                                           
-  ENABLE_H = 8                             |                                           
-  ENABLE_INP_H = 2                         |                                           
-  ENABLE_VDDA_H = 18                       |                                           
-  ENABLE_VDDIO = 26                        |                                           
-  ENABLE_VSWITCH_H = 18                    |                                           
-  HLD_H_N = 10                             |                                           
-  HLD_OVR = 86                             |                                           
-  IB_MODE_SEL = 86                         |                                           
-  IN = 1                                   |                                           
-  IN_H = 1                                 |                                           
-  INP_DIS = 86                             |                                           
-  OE_N = 86                                |                                           
-  OUT = 1                                  |                                           
-  PAD = 1                                  |                                           
-  PAD_A_ESD_0_H = 1                        |                                           
-  PAD_A_ESD_1_H = 1                        |                                           
-  PAD_A_NOESD_H = 1                        |                                           
-  SLOW = 86                                |                                           
-  TIE_HI_ESD = 1                           |                                           
-  TIE_LO_ESD = 2                           |                                           
-  VCCD = 5                                 |                                           
-  VCCHIB = 5                               |                                           
-  VDDA = 5                                 |                                           
-  VDDIO = 5                                |                                           
-  VDDIO_Q = 5                              |                                           
-  VSSA = 5                                 |                                           
-  VSSD = 5                                 |                                           
-  VSSIO = 5                                |                                           
-  VSSIO_Q = 5                              |                                           
-  VSWITCH = 5                              |                                           
-  VTRIP_SEL = 86                           |                                           
-                                           |                                           
-Instance: sky130_ef_io__gpiov2_pad_wrapped |(no matching instance)                     
-  AMUXBUS_A = 21                           |                                           
-  AMUXBUS_B = 21                           |                                           
-  ANALOG_EN = 86                           |                                           
-  ANALOG_POL = 86                          |                                           
-  ANALOG_SEL = 86                          |                                           
-  DM[2] = 26                               |                                           
-  DM[1] = 26                               |                                           
-  DM[0] = 86                               |                                           
-  ENABLE_H = 8                             |                                           
-  ENABLE_INP_H = 2                         |                                           
-  ENABLE_VDDA_H = 18                       |                                           
-  ENABLE_VDDIO = 26                        |                                           
-  ENABLE_VSWITCH_H = 18                    |                                           
-  HLD_H_N = 10                             |                                           
-  HLD_OVR = 86                             |                                           
-  IB_MODE_SEL = 86                         |                                           
-  IN = 1                                   |                                           
-  IN_H = 1                                 |                                           
-  INP_DIS = 86                             |                                           
-  OE_N = 86                                |                                           
-  OUT = 1                                  |                                           
-  PAD = 1                                  |                                           
-  PAD_A_ESD_0_H = 1                        |                                           
-  PAD_A_ESD_1_H = 1                        |                                           
-  PAD_A_NOESD_H = 1                        |                                           
-  SLOW = 86                                |                                           
-  TIE_HI_ESD = 1                           |                                           
-  TIE_LO_ESD = 2                           |                                           
-  VCCD = 5                                 |                                           
-  VCCHIB = 5                               |                                           
-  VDDA = 5                                 |                                           
-  VDDIO = 5                                |                                           
-  VDDIO_Q = 5                              |                                           
-  VSSA = 5                                 |                                           
-  VSSD = 5                                 |                                           
-  VSSIO = 5                                |                                           
-  VSSIO_Q = 5                              |                                           
-  VSWITCH = 5                              |                                           
-  VTRIP_SEL = 86                           |                                           
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching instance)                     |Instance: B_CP_PAD                         
-                                           |  AMUXBUS_A = 1                            
-                                           |  AMUXBUS_B = 1                            
-                                           |  ANALOG_EN = 106                          
-                                           |  ANALOG_POL = 106                         
-                                           |  ANALOG_SEL = 106                         
-                                           |  DM[2] = 67                               
-                                           |  DM[1] = 67                               
-                                           |  DM[0] = 106                              
-                                           |  ENABLE_H = 8                             
-                                           |  ENABLE_INP_H = 2                         
-                                           |  ENABLE_VDDA_H = 38                       
-                                           |  ENABLE_VDDIO = 67                        
-                                           |  ENABLE_VSWITCH_H = 38                    
-                                           |  HLD_H_N = 51                             
-                                           |  HLD_OVR = 106                            
-                                           |  IB_MODE_SEL = 106                        
-                                           |  IN = 1                                   
-                                           |  IN_H = 1                                 
-                                           |  INP_DIS = 106                            
-                                           |  OE_N = 106                               
-                                           |  OUT = 1                                  
-                                           |  PAD = 1                                  
-                                           |  PAD_A_ESD_0_H = 1                        
-                                           |  PAD_A_ESD_1_H = 1                        
-                                           |  PAD_A_NOESD_H = 1                        
-                                           |  SLOW = 106                               
-                                           |  TIE_HI_ESD = 1                           
-                                           |  TIE_LO_ESD = 2                           
-                                           |  VCCD = 67                                
-                                           |  VCCHIB = 67                              
-                                           |  VDDA = 22                                
-                                           |  VDDIO = 51                               
-                                           |  VDDIO_Q = 1                              
-                                           |  VSSA = 38                                
-                                           |  VSSD = 106                               
-                                           |  VSSIO = 24                               
-                                           |  VSSIO_Q = 1                              
-                                           |  VSWITCH = 51                             
-                                           |  VTRIP_SEL = 106                          
-                                           |                                           
-(no matching instance)                     |Instance: B_VCO_PAD                        
-                                           |  AMUXBUS_A = 1                            
-                                           |  AMUXBUS_B = 1                            
-                                           |  ANALOG_EN = 106                          
-                                           |  ANALOG_POL = 106                         
-                                           |  ANALOG_SEL = 106                         
-                                           |  DM[2] = 67                               
-                                           |  DM[1] = 67                               
-                                           |  DM[0] = 106                              
-                                           |  ENABLE_H = 8                             
-                                           |  ENABLE_INP_H = 2                         
-                                           |  ENABLE_VDDA_H = 38                       
-                                           |  ENABLE_VDDIO = 67                        
-                                           |  ENABLE_VSWITCH_H = 38                    
-                                           |  HLD_H_N = 51                             
-                                           |  HLD_OVR = 106                            
-                                           |  IB_MODE_SEL = 106                        
-                                           |  IN = 1                                   
-                                           |  IN_H = 1                                 
-                                           |  INP_DIS = 106                            
-                                           |  OE_N = 106                               
-                                           |  OUT = 1                                  
-                                           |  PAD = 1                                  
-                                           |  PAD_A_ESD_0_H = 1                        
-                                           |  PAD_A_ESD_1_H = 1                        
-                                           |  PAD_A_NOESD_H = 1                        
-                                           |  SLOW = 106                               
-                                           |  TIE_HI_ESD = 1                           
-                                           |  TIE_LO_ESD = 2                           
-                                           |  VCCD = 67                                
-                                           |  VCCHIB = 67                              
-                                           |  VDDA = 22                                
-                                           |  VDDIO = 51                               
-                                           |  VDDIO_Q = 1                              
-                                           |  VSSA = 38                                
-                                           |  VSSD = 106                               
-                                           |  VSSIO = 24                               
-                                           |  VSSIO_Q = 1                              
-                                           |  VSWITCH = 51                             
-                                           |  VTRIP_SEL = 106                          
----------------------------------------------------------------------------------------
-
----------------------------------------------------------------------------------------
-(no matching instance)                     |Instance: ENb_CP_PAD                       
-                                           |  AMUXBUS_A = 1                            
-                                           |  AMUXBUS_B = 1                            
-                                           |  ANALOG_EN = 106                          
-                                           |  ANALOG_POL = 106                         
-                                           |  ANALOG_SEL = 106                         
-                                           |  DM[2] = 1                                
-                                           |  DM[1] = 1                                
-                                           |  DM[0] = 1                                
-                                           |  ENABLE_H = 8                             
-                                           |  ENABLE_INP_H = 2                         
-                                           |  ENABLE_VDDA_H = 38                       
-                                           |  ENABLE_VDDIO = 67                        
-                                           |  ENABLE_VSWITCH_H = 38                    
-                                           |  HLD_H_N = 51                             
-                                           |  HLD_OVR = 106                            
-                                           |  IB_MODE_SEL = 106                        
-                                           |  IN = 1                                   
-                                           |  IN_H = 1                                 
-                                           |  INP_DIS = 106                            
-                                           |  OE_N = 67                                
-                                           |  OUT = 106                                
-                                           |  PAD = 1                                  
-                                           |  PAD_A_ESD_0_H = 1                        
-                                           |  PAD_A_ESD_1_H = 1                        
-                                           |  PAD_A_NOESD_H = 1                        
-                                           |  SLOW = 106                               
-                                           |  TIE_HI_ESD = 1                           
-                                           |  TIE_LO_ESD = 2                           
-                                           |  VCCD = 67                                
-                                           |  VCCHIB = 67                              
-                                           |  VDDA = 22                                
-                                           |  VDDIO = 51                               
-                                           |  VDDIO_Q = 1                              
-                                           |  VSSA = 38                                
-                                           |  VSSD = 106                               
-                                           |  VSSIO = 24                               
-                                           |  VSSIO_Q = 1                              
-                                           |  VSWITCH = 51                             
-                                           |  VTRIP_SEL = 106                          
-                                           |                                           
-(no matching instance)                     |Instance: ENb_VCO_PAD                      
-                                           |  AMUXBUS_A = 1                            
-                                           |  AMUXBUS_B = 1                            
-                                           |  ANALOG_EN = 106                          
-                                           |  ANALOG_POL = 106                         
-                                           |  ANALOG_SEL = 106                         
-                                           |  DM[2] = 1                                
-                                           |  DM[1] = 1                                
-                                           |  DM[0] = 1                                
-                                           |  ENABLE_H = 8                             
-                                           |  ENABLE_INP_H = 2                         
-                                           |  ENABLE_VDDA_H = 38                       
-                                           |  ENABLE_VDDIO = 67                        
-                                           |  ENABLE_VSWITCH_H = 38                    
-                                           |  HLD_H_N = 51                             
-                                           |  HLD_OVR = 106                            
-                                           |  IB_MODE_SEL = 106                        
-                                           |  IN = 1                                   
-                                           |  IN_H = 1                                 
-                                           |  INP_DIS = 106                            
-                                           |  OE_N = 67                                
-                                           |  OUT = 106                                
-                                           |  PAD = 1                                  
-                                           |  PAD_A_ESD_0_H = 1                        
-                                           |  PAD_A_ESD_1_H = 1                        
-                                           |  PAD_A_NOESD_H = 1                        
-                                           |  SLOW = 106                               
-                                           |  TIE_HI_ESD = 1                           
-                                           |  TIE_LO_ESD = 2                           
-                                           |  VCCD = 67                                
-                                           |  VCCHIB = 67                              
-                                           |  VDDA = 22                                
-                                           |  VDDIO = 51                               
-                                           |  VDDIO_Q = 1                              
-                                           |  VSSA = 38                                
-                                           |  VSSD = 106                               
-                                           |  VSSIO = 24                               
-                                           |  VSSIO_Q = 1                              
-                                           |  VSWITCH = 51                             
-                                           |  VTRIP_SEL = 106                          
+Net: VDDIO_PAD/VDDIO                       |(no matching net)                          
+  sky130_ef_io__gpiov2_pad_wrapped/HLD_H_N |                                           
+  sky130_ef_io__vddio_hvc_pad/DRN_HVC = 1  |                                           
+  sky130_ef_io__vssio_hvc_pad/DRN_HVC = 1  |                                           
 ---------------------------------------------------------------------------------------
 Netlists do not match.
 Netlists do not match.

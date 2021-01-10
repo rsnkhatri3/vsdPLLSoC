@@ -6,12 +6,12 @@ Warning: /home/roshan/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/sky13
 Notice 0: Reading LEF file:  /openLANE_flow/designs/chip_io/runs/chip_io/tmp/merged_unpadded.lef
 Notice 0:     Created 13 technology layers
 Notice 0:     Created 25 technology vias
-Notice 0:     Created 537 library cells
+Notice 0:     Created 536 library cells
 Notice 0: Finished LEF file:  /openLANE_flow/designs/chip_io/runs/chip_io/tmp/merged_unpadded.lef
 Notice 0: 
 Reading DEF file: /openLANE_flow/designs/chip_io/runs/chip_io/results/floorplan/padframe.def
 Notice 0: Design: chip_io
-Notice 0:     Created 782 components and 9606 component-terminals.
+Notice 0:     Created 781 components and 9606 component-terminals.
 Notice 0:     Created 15 nets and 186 connections.
 Notice 0: Finished DEF file: /openLANE_flow/designs/chip_io/runs/chip_io/results/floorplan/padframe.def
 [PARAMS] Min routing layer: 1
@@ -21,15 +21,15 @@ Notice 0: Finished DEF file: /openLANE_flow/designs/chip_io/runs/chip_io/results
 [PARAMS] Grid origin: (-1, -1)
 [INFO] #DB Obstructions: 0
 [WARNING] Found obstacle outside die area in instance obs_li1
-[INFO] #DB Obstacles: 10526
-[INFO] #DB Macros: 3
+[INFO] #DB Obstacles: 10525
+[INFO] #DB Macros: 2
 [INFO] Found 0 clock nets
 [INFO] Minimum degree: 2
 [INFO] Maximum degree: 91
 [INFO] Processing 51 obstacles on layer 1
 [INFO] Processing 75 obstacles on layer 2
 [INFO] Processing 991 obstacles on layer 3
-[INFO] Processing 653 obstacles on layer 4
+[INFO] Processing 652 obstacles on layer 4
 [INFO] Processing 52427 obstacles on layer 5
 [INFO] Processing 41667 obstacles on layer 6
 [INFO] Reducing resources of layer 1 by 99%
@@ -40,7 +40,7 @@ First L Route
 [INFO] WIRELEN : 3410, WIRELEN1 : 3410
 [INFO] NumSeg  : 135
 [INFO] NumShift: 0
-[Overflow Report] Total hCap    : 1143266
+[Overflow Report] Total hCap    : 1145258
 [Overflow Report] Total vCap    : 604209
 [Overflow Report] Total Usage   : 3410
 [Overflow Report] Max H Overflow: 1
@@ -52,7 +52,7 @@ First L Route
 [Overflow Report] Final Overflow: 1362
 
 Second L Route
-[Overflow Report] Total hCap    : 1143266
+[Overflow Report] Total hCap    : 1145258
 [Overflow Report] Total vCap    : 604209
 [Overflow Report] Total Usage   : 3410
 [Overflow Report] Max H Overflow: 1
@@ -64,7 +64,7 @@ Second L Route
 [Overflow Report] Final Overflow: 1362
 
 First Z Route
-[Overflow Report] Total hCap    : 1143266
+[Overflow Report] Total hCap    : 1145258
 [Overflow Report] Total vCap    : 604209
 [Overflow Report] Total Usage   : 3410
 [Overflow Report] Max H Overflow: 1
@@ -409,7 +409,7 @@ Update congestion history type 2
 
 Usage checked
 Maze routing finished
-[INFO] P3 runtime: 0.270000 sec
+[INFO] P3 runtime: 0.350000 sec
 [INFO] Final 2D results: 
 [Overflow Report] total Usage   : 4186
 [Overflow Report] Max H Overflow: 0
@@ -422,7 +422,7 @@ Maze routing finished
 
 Layer Assignment Begins
 Layer assignment finished
-[INFO] 2D + Layer Assignment Runtime: 3.120000 sec
+[INFO] 2D + Layer Assignment Runtime: 4.610000 sec
 Post Processing Begins 
 Post Processsing finished
  Starting via filling
@@ -443,7 +443,7 @@ Final usage/overflow report:
     Layer 1 capacity: 0
     Layer 2 capacity: 737690
     Layer 3 capacity: 552214
-    Layer 4 capacity: 366806
+    Layer 4 capacity: 368798
     Layer 5 capacity: 51995
     Layer 6 capacity: 38770
 
@@ -464,7 +464,7 @@ Final usage/overflow report:
     Layer 6 overflow: 0
 
 [Overflow Report] Total Usage   : 4186
-[Overflow Report] Total Capacity: 1747475
+[Overflow Report] Total Capacity: 1749467
 [Overflow Report] Max H Overflow: 0
 [Overflow Report] Max V Overflow: 0
 [Overflow Report] Max Overflow  : 0

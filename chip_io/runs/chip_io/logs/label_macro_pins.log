@@ -8,7 +8,7 @@ Reading DEF file: /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.def
 Notice 0: Design: chip_io
 Notice 0:     Created 29 pins.
 Notice 0:     Created 21 components and 510 component-terminals.
-Notice 0:     Created 37 nets and 364 connections.
+Notice 0:     Created 41 nets and 448 connections.
 Notice 0: Finished DEF file: /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.def
 Notice 0: Reading LEF file:  /openLANE_flow/designs/chip_io/runs/chip_io/tmp/lvs.lef
 Notice 0:     Created 13 technology layers
@@ -19,7 +19,6 @@ Notice 0:
 Reading DEF file: /openLANE_flow/designs/chip_io/runs/chip_io/results/routing/chip_io.def
 Notice 0: Design: chip_io
 Notice 0: error: unknown library cell referenced (obs) for instance (obs_li1)
-Notice 0: error: unknown library cell referenced (obs_gpio_m3_pins) for instance (obs_gpio_m3_pins)
 Notice 0: error: unknown library cell referenced (obs_core_obs) for instance (obs_core_obs)
 Notice 0:     Created 779 components and 9606 component-terminals.
 Notice 0:     Created 15 nets and 186 connections.

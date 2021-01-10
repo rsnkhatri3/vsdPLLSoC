@@ -37,12 +37,12 @@ LEF read, Line 246 (Message): Unknown keyword "DENSITYCHECKSTEP" in LEF file; ig
 LEF read, Line 282 (Message): Unknown keyword "ANTENNAMODEL" in LEF file; ignoring.
 LEF read, Line 283 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
 LEF read: Processed 789 lines.
-Reading LEF data from file /openLANE_flow/designs/chip_io/src/lef/sky130_fd_io.lef.
-This action cannot be undone.
-LEF read: Processed 193990 lines.
 Reading LEF data from file /openLANE_flow/designs/chip_io/src/lef/sky130_ef_io.lef.
 This action cannot be undone.
 LEF read: Processed 11509 lines.
+Reading LEF data from file /openLANE_flow/designs/chip_io/src/lef/sky130_fd_io.lef.
+This action cannot be undone.
+LEF read: Processed 193990 lines.
 Reading DEF data from file /openLANE_flow/designs/chip_io/runs/chip_io/results/routing/chip_io.def.
 This action cannot be undone.
   Processed 2 vias total.

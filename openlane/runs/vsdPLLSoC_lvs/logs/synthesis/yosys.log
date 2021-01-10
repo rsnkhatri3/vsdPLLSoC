@@ -1,0 +1,118 @@
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2020  Claire Wolf <claire@symbioticeda.com>          |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.9+3621 (git sha1 84e9fa7, gcc 8.3.1 -fPIC -Os)
+
+[TCL: yosys -import] Command name collision: found pre-existing command `cd' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `eval' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `exec' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `read' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `trace' -> skip.
+
+1. Executing Liberty frontend.
+Imported 57 cell types from liberty file.
+
+2. Executing Liberty frontend.
+Imported 8 cell types from liberty file.
+
+3. Executing Verilog-2005 frontend: /openLANE_flow/designs/vsdPLLSoC/src/verilog/rtl/avsdpll_1v8.v
+Parsing Verilog input from `/openLANE_flow/designs/vsdPLLSoC/src/verilog/rtl/avsdpll_1v8.v' to AST representation.
+Generating RTLIL representation for module `\avsdpll_1v8'.
+Successfully finished Verilog frontend.
+
+4. Executing Verilog-2005 frontend: /openLANE_flow/designs/vsdPLLSoC/src/verilog/rtl/vsdPLLSoC.v
+Parsing Verilog input from `/openLANE_flow/designs/vsdPLLSoC/src/verilog/rtl/vsdPLLSoC.v' to AST representation.
+Generating RTLIL representation for module `\chip_io'.
+Replacing existing blackbox module `\avsdpll_1v8' at /openLANE_flow/designs/vsdPLLSoC/src/verilog/rtl/avsdpll_1v8.v:8.1-39.10.
+Generating RTLIL representation for module `\avsdpll_1v8'.
+Generating RTLIL representation for module `\simple_por'.
+Generating RTLIL representation for module `\vsdPLLSoC'.
+Successfully finished Verilog frontend.
+
+5. Generating Graphviz representation of design.
+Writing dot description to `/openLANE_flow/designs/vsdPLLSoC/runs/vsdPLLSoC_lvs/tmp/synthesis/hierarchy.dot'.
+Dumping module vsdPLLSoC to page 1.
+
+6. Executing HIERARCHY pass (managing design hierarchy).
+
+6.1. Analyzing design hierarchy..
+Top module:  \vsdPLLSoC
+
+6.2. Analyzing design hierarchy..
+Top module:  \vsdPLLSoC
+Removed 0 unused modules.
+
+7. Executing FLATTEN pass (flatten design).
+
+8. Printing statistics.
+
+=== vsdPLLSoC ===
+
+   Number of wires:                 29
+   Number of wire bits:             29
+   Number of public wires:          29
+   Number of public wire bits:      29
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  3
+     avsdpll_1v8                     1
+     chip_io                         1
+     simple_por                      1
+
+9. Executing SPLITNETS pass (splitting up multi-bit signals).
+
+10. Executing OPT_CLEAN pass (remove unused cells and wires).
+Finding unused cells or wires in module \vsdPLLSoC..
+
+11. Executing CHECK pass (checking for obvious problems).
+checking module vsdPLLSoC..
+Warning: Wire vsdPLLSoC.\b_vco_pll is used but has no driver.
+Warning: Wire vsdPLLSoC.\b_cp_pll is used but has no driver.
+found and reported 2 problems.
+
+12. Printing statistics.
+
+=== vsdPLLSoC ===
+
+   Number of wires:                 29
+   Number of wire bits:             29
+   Number of public wires:          29
+   Number of public wire bits:      29
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  3
+     avsdpll_1v8                     1
+     chip_io                         1
+     simple_por                      1
+
+   Area for cell type \avsdpll_1v8 is unknown!
+   Area for cell type \chip_io is unknown!
+   Area for cell type \simple_por is unknown!
+
+13. Executing Verilog backend.
+Dumping module `\vsdPLLSoC'.
+
+Warnings: 2 unique messages, 2 total
+End of script. Logfile hash: c4ff83a69b, CPU: user 0.66s system 0.01s, MEM: 21.51 MB peak
+Yosys 0.9+3621 (git sha1 84e9fa7, gcc 8.3.1 -fPIC -Os)
+Time spent: 49% 4x read_liberty (0 sec), 46% 2x stat (0 sec), ...

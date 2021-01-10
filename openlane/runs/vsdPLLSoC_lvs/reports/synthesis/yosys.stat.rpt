@@ -1,0 +1,21 @@
+
+12. Printing statistics.
+
+=== vsdPLLSoC ===
+
+   Number of wires:                 29
+   Number of wire bits:             29
+   Number of public wires:          29
+   Number of public wire bits:      29
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  3
+     avsdpll_1v8                     1
+     chip_io                         1
+     simple_por                      1
+
+   Area for cell type \avsdpll_1v8 is unknown!
+   Area for cell type \chip_io is unknown!
+   Area for cell type \simple_por is unknown!
+

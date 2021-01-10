@@ -1,7 +1,7 @@
 package require openlane
 
 
-
+set save_path chip_io/../..
 
 set ::env(USE_GPIO_ROUTING_LEF) 0
 prep -design chip_io -tag chip_io_lvs -overwrite
@@ -52,16 +52,6 @@ add_macro_obs \
 	-fixed 1 \
 	-layerNames "met1 met2 met3 met4 met5"
 
-add_macro_obs \
-	-defFile $::env(CURRENT_DEF) \
-	-lefFile $::env(MERGED_LEF_UNPADDED) \
-	-obstruction gpio_m3_pins \
-	-placementX 469.965 \
-	-placementY 4972.585 \
-	-sizeWidth 1149.480 \
-	-sizeHeight 16.200 \
-	-fixed 1 \
-	-layerNames "met3"
 
 li1_hack_start
 global_routing
@@ -88,8 +78,10 @@ run_magic
 save_views       -lef_path $::env(magic_result_file_tag).lef \
                  -def_path $::env(CURRENT_DEF) \
                  -gds_path $::env(magic_result_file_tag).gds \
-                 -mag_path $::env(magic_result_file_tag).mag \
-                 -save_path $save_path \
+		 -mag_path $::env(magic_result_file_tag).mag \
+                 -maglef_path $::env(magic_result_file_tag).lef.mag \
+		 -verilog_path $::env(TMP_DIR)/lvs.v \
+		 -save_path $save_path \
                  -tag $::env(RUN_TAG)
 
 

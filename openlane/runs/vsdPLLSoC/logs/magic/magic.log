@@ -1,0 +1,137 @@
+
+Magic 8.3 revision 93 - Compiled on Mon Dec  7 16:32:25 UTC 2020.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130: scaleFactor=2, multiplier=2
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/openLANE_flow/scripts/magic/mag_gds.tcl" from command line.
+Reading LEF data from file /home/roshan/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hvl/techlef/sky130_fd_sc_hvl.tlef.
+This action cannot be undone.
+LEF read, Line 64 (Message): Unknown keyword "MINWIDTH" in LEF file; ignoring.
+LEF read, Line 77 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 98 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 99 (Message): Unknown keyword "MINWIDTH" in LEF file; ignoring.
+LEF read, Line 111 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 137 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 138 (Message): Unknown keyword "MINWIDTH" in LEF file; ignoring.
+LEF read, Line 155 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 174 (Message): Unknown keyword "MINWIDTH" in LEF file; ignoring.
+LEF read, Line 191 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 209 (Message): Unknown keyword "MINWIDTH" in LEF file; ignoring.
+LEF read, Line 227 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 246 (Message): Unknown keyword "MINWIDTH" in LEF file; ignoring.
+LEF read, Line 263 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read: Processed 769 lines.
+Reading LEF data from file /openLANE_flow/designs/vsdPLLSoC/src/lef/simple_por.lef.
+This action cannot be undone.
+LEF read: Processed 63 lines.
+Reading LEF data from file /openLANE_flow/designs/vsdPLLSoC/src/lef/chip_io.lef.
+This action cannot be undone.
+LEF read: Processed 13700 lines.
+Reading LEF data from file /openLANE_flow/designs/vsdPLLSoC/src/lef/avsdpll_1v8.lef.
+This action cannot be undone.
+LEF read: Processed 1351 lines.
+Reading DEF data from file /openLANE_flow/designs/vsdPLLSoC/runs/vsdPLLSoC/results/routing/vsdPLLSoC.def.
+This action cannot be undone.
+  Processed 2 vias total.
+Cell obs couldn't be read
+DEF read, Line 2570 (Error): Cell obs is not defined.  Maybe you have not read the corresponding LEF file?
+  Processed 4 subcell instances total.
+  Processed 6 nets total.
+DEF read: Processed 2720 lines.
+DEF Read: encountered 1 error total.
+[INFO]: Zeroizing Origin
+[INFO]: Current Box Values: 0 0 717600 1037600
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: chip_io
+Reading "sky130_ef_io__com_bus_slice_20um".
+CIF file read warning: CIF style sky130: units rescaled by factor of 5 / 1
+Reading "sky130_ef_io__corner_pad".
+Reading "sky130_ef_io__com_bus_slice_1um".
+Reading "sky130_ef_io__vssa_hvc_pad".
+Reading "sky130_ef_io__com_bus_slice_5um".
+Reading "sky130_fd_io__top_power_lvc_wpad".
+Reading "sky130_ef_io__vdda_hvc_pad".
+Reading "sky130_ef_io__com_bus_slice_10um".
+Reading "sky130_ef_io__gpiov2_pad_wrapped".
+Reading "sky130_ef_io__vssd_lvc_pad".
+Reading "sky130_ef_io__vccd_lvc_pad".
+Reading "sky130_ef_io__vssio_hvc_pad".
+Reading "sky130_ef_io__vddio_hvc_pad".
+Reading "chip_io".
+Warning:  cell chip_io already existed before reading GDS!
+    100 uses
+    200 uses
+    300 uses
+    400 uses
+    500 uses
+    600 uses
+    700 uses
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: PLL
+Reading "FD".
+Reading "PFD".
+Reading "CP".
+Reading "VCO".
+Reading "MUX".
+Reading "PLL".
+Warning: Calma reading is not undoable!  I hope that's OK.
+Library written using GDS-II Release 3.0
+Library name: simple_por
+Reading "sky130_fd_pr__pfet_g5v0d10v5_3YBPVB".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ".
+Reading "sky130_fd_pr__nfet_g5v0d10v5_ZK8HQC".
+Reading "sky130_fd_pr__nfet_g5v0d10v5_TGFUGS".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_YEUEBV".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_YUHPBG".
+Reading "sky130_fd_pr__nfet_g5v0d10v5_PKVMTM".
+Reading "sky130_fd_pr__pfet_g5v0d10v5_YUHPXE".
+Reading "sky130_fd_sc_hvl__buf_8".
+Reading "sky130_fd_sc_hvl__schmittbuf_1".
+Reading "sky130_fd_sc_hvl__inv_8".
+Reading "sky130_fd_sc_hvl__fill_4".
+Reading "sky130_fd_pr__res_xhigh_po_0p69_S5N9F3".
+Reading "sky130_fd_pr__cap_mim_m3_2_W5U4AW".
+Reading "sky130_fd_pr__cap_mim_m3_1_WRT4AW".
+Reading "simple_por".
+Warning:  cell simple_por already existed before reading GDS!
+   Writing cell vsdPLLSoC
+   Writing cell simple_por
+   Writing cell sky130_fd_pr__cap_mim_m3_1_WRT4AW
+   Writing cell sky130_fd_pr__cap_mim_m3_2_W5U4AW
+   Writing cell sky130_fd_pr__res_xhigh_po_0p69_S5N9F3
+   Writing cell sky130_fd_sc_hvl__fill_4
+   Writing cell sky130_fd_sc_hvl__inv_8
+   Writing cell sky130_fd_sc_hvl__schmittbuf_1
+   Writing cell sky130_fd_sc_hvl__buf_8
+   Writing cell sky130_fd_pr__pfet_g5v0d10v5_YUHPXE
+   Writing cell sky130_fd_pr__pfet_g5v0d10v5_3YBPVB
+   Writing cell sky130_fd_pr__nfet_g5v0d10v5_PKVMTM
+   Writing cell sky130_fd_pr__pfet_g5v0d10v5_YUHPBG
+   Writing cell sky130_fd_pr__pfet_g5v0d10v5_YEUEBV
+   Writing cell sky130_fd_pr__nfet_g5v0d10v5_TGFUGS
+   Writing cell sky130_fd_pr__nfet_g5v0d10v5_ZK8HQC
+   Writing cell sky130_fd_pr__pfet_g5v0d10v5_ZEUEFZ
+   Writing cell chip_io
+   Writing cell sky130_ef_io__com_bus_slice_20um
+   Writing cell sky130_ef_io__corner_pad
+   Writing cell sky130_ef_io__com_bus_slice_1um
+   Writing cell sky130_ef_io__vssa_hvc_pad
+   Writing cell sky130_fd_io__top_power_lvc_wpad
+   Writing cell sky130_ef_io__com_bus_slice_5um
+   Writing cell sky130_ef_io__vdda_hvc_pad
+   Writing cell sky130_ef_io__com_bus_slice_10um
+   Writing cell sky130_ef_io__gpiov2_pad_wrapped
+   Writing cell sky130_ef_io__vssd_lvc_pad
+   Writing cell sky130_ef_io__vccd_lvc_pad
+   Writing cell sky130_ef_io__vssio_hvc_pad
+   Writing cell sky130_ef_io__vddio_hvc_pad
+   Writing cell avsdpll_1v8
+[INFO]: GDS Write Complete

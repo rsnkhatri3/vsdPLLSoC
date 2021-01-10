@@ -32,12 +32,16 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
   wire \TIE_LO_ESD[7] ;
   input VCO_IN;
   output VCO_IN_pll;
+  wire analog_a;
+  wire analog_b;
   inout vccd;
   inout vdda;
   inout vddio;
+  wire vddio_q;
   inout vssa;
   inout vssd;
   inout vssio;
+  wire vssio_q;
   sky130_ef_io__gpiov2_pad_wrapped B_CP_PAD (
     .ANALOG_EN(vssd),
     .ANALOG_POL(vssd),

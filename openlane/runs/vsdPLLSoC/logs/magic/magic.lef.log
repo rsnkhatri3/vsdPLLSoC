@@ -1,0 +1,46 @@
+
+Magic 8.3 revision 93 - Compiled on Mon Dec  7 16:32:25 UTC 2020.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Sourcing design .magicrc for technology sky130A ...
+2 Magic internal units = 1 Lambda
+Input style sky130: scaleFactor=2, multiplier=2
+Scaled tech values by 2 / 1 to match internal grid scaling
+Loading sky130A Device Generator Menu ...
+Loading "/openLANE_flow/scripts/magic/lef.tcl" from command line.
+Reading LEF data from file /home/roshan/Desktop/vsdflow/work/tools/openlane_working_dir/pdks/sky130A/libs.ref/sky130_fd_sc_hvl/techlef/sky130_fd_sc_hvl.tlef.
+This action cannot be undone.
+LEF read, Line 64 (Message): Unknown keyword "MINWIDTH" in LEF file; ignoring.
+LEF read, Line 77 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 98 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 99 (Message): Unknown keyword "MINWIDTH" in LEF file; ignoring.
+LEF read, Line 111 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 137 (Message): Unknown keyword "MINENCLOSEDAREA" in LEF file; ignoring.
+LEF read, Line 138 (Message): Unknown keyword "MINWIDTH" in LEF file; ignoring.
+LEF read, Line 155 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 174 (Message): Unknown keyword "MINWIDTH" in LEF file; ignoring.
+LEF read, Line 191 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 209 (Message): Unknown keyword "MINWIDTH" in LEF file; ignoring.
+LEF read, Line 227 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read, Line 246 (Message): Unknown keyword "MINWIDTH" in LEF file; ignoring.
+LEF read, Line 263 (Message): Unknown keyword "ANTENNADIFFSIDEAREARATIO" in LEF file; ignoring.
+LEF read: Processed 769 lines.
+Reading LEF data from file /openLANE_flow/designs/vsdPLLSoC/src/lef/simple_por.lef.
+This action cannot be undone.
+LEF read: Processed 63 lines.
+Reading LEF data from file /openLANE_flow/designs/vsdPLLSoC/src/lef/chip_io.lef.
+This action cannot be undone.
+LEF read: Processed 13700 lines.
+Reading LEF data from file /openLANE_flow/designs/vsdPLLSoC/src/lef/avsdpll_1v8.lef.
+This action cannot be undone.
+LEF read: Processed 1351 lines.
+Processing timestamp mismatches: chip_io, avsdpll_1v8, simple_por.
+[INFO]: Writing abstract LEF
+Generating LEF output /openLANE_flow/designs/vsdPLLSoC/runs/vsdPLLSoC/results/magic/vsdPLLSoC.lef for cell vsdPLLSoC:
+Diagnostic:  Write LEF header for cell vsdPLLSoC
+Diagnostic:  Writing LEF output for cell vsdPLLSoC
+Diagnostic:  Scale value is 0.005000
+[INFO]: LEF Write Complete
+Using technology "sky130A", version 1.0.85-0-g32cdb20

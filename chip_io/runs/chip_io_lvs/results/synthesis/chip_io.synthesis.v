@@ -32,15 +32,19 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
   wire \TIE_LO_ESD[7] ;
   input VCO_IN;
   output VCO_IN_pll;
+  wire analog_a;
+  wire analog_b;
   inout vccd;
   inout vdda;
   inout vddio;
+  wire vddio_q;
   inout vssa;
   inout vssd;
   inout vssio;
+  wire vssio_q;
   sky130_ef_io__gpiov2_pad_wrapped B_CP_PAD (
-    .AMUXBUS_A(),
-    .AMUXBUS_B(),
+    .AMUXBUS_A(analog_a),
+    .AMUXBUS_B(analog_b),
     .ANALOG_EN(vssd),
     .ANALOG_POL(vssd),
     .ANALOG_SEL(vssd),
@@ -69,17 +73,17 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .VCCHIB(vccd),
     .VDDA(vdda),
     .VDDIO(vddio),
-    .VDDIO_Q(),
+    .VDDIO_Q(vddio_q),
     .VSSA(vssa),
     .VSSD(vssd),
     .VSSIO(vssio),
-    .VSSIO_Q(),
+    .VSSIO_Q(vssio_q),
     .VSWITCH(vddio),
     .VTRIP_SEL(vssd)
   );
   sky130_ef_io__gpiov2_pad_wrapped B_VCO_PAD (
-    .AMUXBUS_A(),
-    .AMUXBUS_B(),
+    .AMUXBUS_A(analog_a),
+    .AMUXBUS_B(analog_b),
     .ANALOG_EN(vssd),
     .ANALOG_POL(vssd),
     .ANALOG_SEL(vssd),
@@ -108,33 +112,33 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .VCCHIB(vccd),
     .VDDA(vdda),
     .VDDIO(vddio),
-    .VDDIO_Q(),
+    .VDDIO_Q(vddio_q),
     .VSSA(vssa),
     .VSSD(vssd),
     .VSSIO(vssio),
-    .VSSIO_Q(),
+    .VSSIO_Q(vssio_q),
     .VSWITCH(vddio),
     .VTRIP_SEL(vssd)
   );
   sky130_fd_io__top_power_lvc_wpad CLK_PAD (
-    .AMUXBUS_A(),
-    .AMUXBUS_B(),
+    .AMUXBUS_A(analog_a),
+    .AMUXBUS_B(analog_b),
     .P_CORE(CLK_pll),
     .P_PAD(CLK),
     .VCCD(vccd),
     .VCCHIB(vccd),
     .VDDA(vdda),
     .VDDIO(vddio),
-    .VDDIO_Q(),
+    .VDDIO_Q(vddio_q),
     .VSSA(vssa),
     .VSSD(vssd),
     .VSSIO(vssio),
-    .VSSIO_Q(),
+    .VSSIO_Q(vssio_q),
     .VSWITCH(vddio)
   );
   sky130_ef_io__gpiov2_pad_wrapped ENb_CP_PAD (
-    .AMUXBUS_A(),
-    .AMUXBUS_B(),
+    .AMUXBUS_A(analog_a),
+    .AMUXBUS_B(analog_b),
     .ANALOG_EN(vssd),
     .ANALOG_POL(vssd),
     .ANALOG_SEL(vssd),
@@ -162,17 +166,17 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .VCCHIB(vccd),
     .VDDA(vdda),
     .VDDIO(vddio),
-    .VDDIO_Q(),
+    .VDDIO_Q(vddio_q),
     .VSSA(vssa),
     .VSSD(vssd),
     .VSSIO(vssio),
-    .VSSIO_Q(),
+    .VSSIO_Q(vssio_q),
     .VSWITCH(vddio),
     .VTRIP_SEL(vssd)
   );
   sky130_ef_io__gpiov2_pad_wrapped ENb_VCO_PAD (
-    .AMUXBUS_A(),
-    .AMUXBUS_B(),
+    .AMUXBUS_A(analog_a),
+    .AMUXBUS_B(analog_b),
     .ANALOG_EN(vssd),
     .ANALOG_POL(vssd),
     .ANALOG_SEL(vssd),
@@ -200,17 +204,17 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .VCCHIB(vccd),
     .VDDA(vdda),
     .VDDIO(vddio),
-    .VDDIO_Q(),
+    .VDDIO_Q(vddio_q),
     .VSSA(vssa),
     .VSSD(vssd),
     .VSSIO(vssio),
-    .VSSIO_Q(),
+    .VSSIO_Q(vssio_q),
     .VSWITCH(vddio),
     .VTRIP_SEL(vssd)
   );
   sky130_ef_io__gpiov2_pad_wrapped GPIO_0_PAD (
-    .AMUXBUS_A(),
-    .AMUXBUS_B(),
+    .AMUXBUS_A(analog_a),
+    .AMUXBUS_B(analog_b),
     .ANALOG_EN(vssd),
     .ANALOG_POL(vssd),
     .ANALOG_SEL(vssd),
@@ -239,17 +243,17 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .VCCHIB(vccd),
     .VDDA(vdda),
     .VDDIO(vddio),
-    .VDDIO_Q(),
+    .VDDIO_Q(vddio_q),
     .VSSA(vssa),
     .VSSD(vssd),
     .VSSIO(vssio),
-    .VSSIO_Q(),
+    .VSSIO_Q(vssio_q),
     .VSWITCH(vddio),
     .VTRIP_SEL(vssd)
   );
   sky130_ef_io__gpiov2_pad_wrapped GPIO_1_PAD (
-    .AMUXBUS_A(),
-    .AMUXBUS_B(),
+    .AMUXBUS_A(analog_a),
+    .AMUXBUS_B(analog_b),
     .ANALOG_EN(vssd),
     .ANALOG_POL(vssd),
     .ANALOG_SEL(vssd),
@@ -278,17 +282,17 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .VCCHIB(vccd),
     .VDDA(vdda),
     .VDDIO(vddio),
-    .VDDIO_Q(),
+    .VDDIO_Q(vddio_q),
     .VSSA(vssa),
     .VSSD(vssd),
     .VSSIO(vssio),
-    .VSSIO_Q(),
+    .VSSIO_Q(vssio_q),
     .VSWITCH(vddio),
     .VTRIP_SEL(vssd)
   );
   sky130_ef_io__gpiov2_pad_wrapped GPIO_2_PAD (
-    .AMUXBUS_A(),
-    .AMUXBUS_B(),
+    .AMUXBUS_A(analog_a),
+    .AMUXBUS_B(analog_b),
     .ANALOG_EN(vssd),
     .ANALOG_POL(vssd),
     .ANALOG_SEL(vssd),
@@ -317,17 +321,17 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .VCCHIB(vccd),
     .VDDA(vdda),
     .VDDIO(vddio),
-    .VDDIO_Q(),
+    .VDDIO_Q(vddio_q),
     .VSSA(vssa),
     .VSSD(vssd),
     .VSSIO(vssio),
-    .VSSIO_Q(),
+    .VSSIO_Q(vssio_q),
     .VSWITCH(vddio),
     .VTRIP_SEL(vssd)
   );
   sky130_ef_io__gpiov2_pad_wrapped GPIO_3_PAD (
-    .AMUXBUS_A(),
-    .AMUXBUS_B(),
+    .AMUXBUS_A(analog_a),
+    .AMUXBUS_B(analog_b),
     .ANALOG_EN(vssd),
     .ANALOG_POL(vssd),
     .ANALOG_SEL(vssd),
@@ -356,17 +360,17 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .VCCHIB(vccd),
     .VDDA(vdda),
     .VDDIO(vddio),
-    .VDDIO_Q(),
+    .VDDIO_Q(vddio_q),
     .VSSA(vssa),
     .VSSD(vssd),
     .VSSIO(vssio),
-    .VSSIO_Q(),
+    .VSSIO_Q(vssio_q),
     .VSWITCH(vddio),
     .VTRIP_SEL(vssd)
   );
   sky130_fd_io__top_power_lvc_wpad REF_CLK_PAD (
-    .AMUXBUS_A(),
-    .AMUXBUS_B(),
+    .AMUXBUS_A(analog_a),
+    .AMUXBUS_B(analog_b),
     .BDY2_B2B(vssio),
     .DRN_LVC1(vccd),
     .DRN_LVC2(vccd),
@@ -379,16 +383,16 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .VCCHIB(vccd),
     .VDDA(vdda),
     .VDDIO(vddio),
-    .VDDIO_Q(),
+    .VDDIO_Q(vddio_q),
     .VSSA(vssa),
     .VSSD(vssd),
     .VSSIO(vssio),
-    .VSSIO_Q(),
+    .VSSIO_Q(vssio_q),
     .VSWITCH(vddio)
   );
   sky130_ef_io__vccd_lvc_pad VCCD_PAD (
-    .AMUXBUS_A(),
-    .AMUXBUS_B(),
+    .AMUXBUS_A(analog_a),
+    .AMUXBUS_B(analog_b),
     .BDY2_B2B(vssio),
     .DRN_LVC1(vccd),
     .DRN_LVC2(vccd),
@@ -397,16 +401,16 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .VCCHIB(vccd),
     .VDDA(vdda),
     .VDDIO(vddio),
-    .VDDIO_Q(),
+    .VDDIO_Q(vddio_q),
     .VSSA(vssa),
     .VSSD(vssd),
     .VSSIO(vssio),
-    .VSSIO_Q(),
+    .VSSIO_Q(vssio_q),
     .VSWITCH(vddio)
   );
   sky130_fd_io__top_power_lvc_wpad VCO_IN_PAD (
-    .AMUXBUS_A(),
-    .AMUXBUS_B(),
+    .AMUXBUS_A(analog_a),
+    .AMUXBUS_B(analog_b),
     .BDY2_B2B(vssio),
     .DRN_LVC1(vccd),
     .DRN_LVC2(vccd),
@@ -419,61 +423,61 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .VCCHIB(vccd),
     .VDDA(vdda),
     .VDDIO(vddio),
-    .VDDIO_Q(),
+    .VDDIO_Q(vddio_q),
     .VSSA(vssa),
     .VSSD(vssd),
     .VSSIO(vssio),
-    .VSSIO_Q(),
+    .VSSIO_Q(vssio_q),
     .VSWITCH(vddio)
   );
   sky130_ef_io__vdda_hvc_pad VDDA_PAD (
-    .AMUXBUS_A(),
-    .AMUXBUS_B(),
+    .AMUXBUS_A(analog_a),
+    .AMUXBUS_B(analog_b),
     .DRN_HVC(vdda),
     .SRC_BDY_HVC(vssa),
     .VCCD(vccd),
     .VCCHIB(vccd),
     .VDDIO(vddio),
-    .VDDIO_Q(),
+    .VDDIO_Q(vddio_q),
     .VSSA(vssa),
     .VSSD(vssd),
     .VSSIO(vssio),
-    .VSSIO_Q(),
+    .VSSIO_Q(vssio_q),
     .VSWITCH(vddio)
   );
   sky130_ef_io__vddio_hvc_pad VDDIO_PAD (
-    .AMUXBUS_A(),
-    .AMUXBUS_B(),
+    .AMUXBUS_A(analog_a),
+    .AMUXBUS_B(analog_b),
     .DRN_HVC(vddio),
     .SRC_BDY_HVC(vssio),
     .VCCD(vccd),
     .VCCHIB(vccd),
     .VDDA(vdda),
-    .VDDIO_Q(),
+    .VDDIO_Q(vddio_q),
     .VSSA(vssa),
     .VSSD(vssd),
     .VSSIO(vssio),
-    .VSSIO_Q(),
+    .VSSIO_Q(vssio_q),
     .VSWITCH(vddio)
   );
   sky130_ef_io__vssa_hvc_pad VSSA_PAD (
-    .AMUXBUS_A(),
-    .AMUXBUS_B(),
+    .AMUXBUS_A(analog_a),
+    .AMUXBUS_B(analog_b),
     .DRN_HVC(vdda),
     .SRC_BDY_HVC(vssa),
     .VCCD(vccd),
     .VCCHIB(vccd),
     .VDDA(vdda),
     .VDDIO(vddio),
-    .VDDIO_Q(),
+    .VDDIO_Q(vddio_q),
     .VSSD(vssd),
     .VSSIO(vssio),
-    .VSSIO_Q(),
+    .VSSIO_Q(vssio_q),
     .VSWITCH(vddio)
   );
   sky130_ef_io__vssd_lvc_pad VSSD_PAD (
-    .AMUXBUS_A(),
-    .AMUXBUS_B(),
+    .AMUXBUS_A(analog_a),
+    .AMUXBUS_B(analog_b),
     .BDY2_B2B(vssio),
     .DRN_LVC1(vccd),
     .DRN_LVC2(vccd),
@@ -483,81 +487,81 @@ module chip_io(GPIO_0, GPIO_1, GPIO_2, GPIO_3, B_0_pll, B_1_pll, B_2_pll, B_3_pl
     .VCCHIB(vccd),
     .VDDA(vdda),
     .VDDIO(vddio),
-    .VDDIO_Q(),
+    .VDDIO_Q(vddio_q),
     .VSSA(vssa),
     .VSSIO(vssio),
-    .VSSIO_Q(),
+    .VSSIO_Q(vssio_q),
     .VSWITCH(vddio)
   );
   sky130_ef_io__vssio_hvc_pad VSSIO_PAD (
-    .AMUXBUS_A(),
-    .AMUXBUS_B(),
+    .AMUXBUS_A(analog_a),
+    .AMUXBUS_B(analog_b),
     .DRN_HVC(vddio),
     .SRC_BDY_HVC(vssio),
     .VCCD(vccd),
     .VCCHIB(vccd),
     .VDDA(vdda),
     .VDDIO(vddio),
-    .VDDIO_Q(),
+    .VDDIO_Q(vddio_q),
     .VSSA(vssa),
     .VSSD(vssd),
-    .VSSIO_Q(),
+    .VSSIO_Q(vssio_q),
     .VSWITCH(vddio)
   );
   sky130_ef_io__corner_pad corner_1 (
-    .AMUXBUS_A(),
-    .AMUXBUS_B(),
+    .AMUXBUS_A(analog_a),
+    .AMUXBUS_B(analog_b),
     .VCCD(vccd),
     .VCCHIB(vccd),
     .VDDA(vdda),
     .VDDIO(vddio),
-    .VDDIO_Q(),
+    .VDDIO_Q(vddio_q),
     .VSSA(vssa),
     .VSSD(vssd),
     .VSSIO(vssio),
-    .VSSIO_Q(),
+    .VSSIO_Q(vssio_q),
     .VSWITCH(vddio)
   );
   sky130_ef_io__corner_pad corner_2 (
-    .AMUXBUS_A(),
-    .AMUXBUS_B(),
+    .AMUXBUS_A(analog_a),
+    .AMUXBUS_B(analog_b),
     .VCCD(vccd),
     .VCCHIB(vccd),
     .VDDA(vdda),
     .VDDIO(vddio),
-    .VDDIO_Q(),
+    .VDDIO_Q(vddio_q),
     .VSSA(vssa),
     .VSSD(vssd),
     .VSSIO(vssio),
-    .VSSIO_Q(),
+    .VSSIO_Q(vssio_q),
     .VSWITCH(vddio)
   );
   sky130_ef_io__corner_pad corner_3 (
-    .AMUXBUS_A(),
-    .AMUXBUS_B(),
+    .AMUXBUS_A(analog_a),
+    .AMUXBUS_B(analog_b),
     .VCCD(vccd),
     .VCCHIB(vccd),
     .VDDA(vdda),
     .VDDIO(vddio),
-    .VDDIO_Q(),
+    .VDDIO_Q(vddio_q),
     .VSSA(vssa),
     .VSSD(vssd),
     .VSSIO(vssio),
-    .VSSIO_Q(),
+    .VSSIO_Q(vssio_q),
     .VSWITCH(vddio)
   );
   sky130_ef_io__corner_pad corner_4 (
-    .AMUXBUS_A(),
-    .AMUXBUS_B(),
+    .AMUXBUS_A(analog_a),
+    .AMUXBUS_B(analog_b),
     .VCCD(vccd),
     .VCCHIB(vccd),
     .VDDA(vdda),
     .VDDIO(vddio),
-    .VDDIO_Q(),
+    .VDDIO_Q(vddio_q),
     .VSSA(vssa),
     .VSSD(vssd),
     .VSSIO(vssio),
-    .VSSIO_Q(),
+    .VSSIO_Q(vssio_q),
     .VSWITCH(vddio)
   );
 endmodule

@@ -1929,9 +1929,8 @@ VIAS 2 ;
   ;
 END VIAS
 
-COMPONENTS 782 ;
+COMPONENTS 781 ;
     - obs_li1 obs + PLACED ( 0 0 ) N ;
-    - obs_gpio_m3_pins obs_gpio_m3_pins + FIXED ( 469965 4972585 ) N ;
     - obs_core_obs obs_core_obs + FIXED ( 230000 240000 ) N ;
     - B_CP_PAD sky130_ef_io__gpiov2_pad_wrapped + FIXED ( 0 3213000 ) W ;
     - B_VCO_PAD sky130_ef_io__gpiov2_pad_wrapped + FIXED ( 0 2768000 ) W ;

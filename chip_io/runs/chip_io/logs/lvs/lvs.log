@@ -118,10 +118,10 @@ Circuit chip_io contains 21 device instances.
   Class: sky130_ef_io__vssio_hvc_pad instances:   1
   Class: sky130_ef_io__vccd_lvc_pad instances:   1
   Class: sky130_fd_io__top_power_lvc_wpad instances:   3
-Circuit contains 169 nets.
+Circuit contains 89 nets.
 
 Circuit 1 contains 21 devices, Circuit 2 contains 21 devices.
-Circuit 1 contains 122 nets,    Circuit 2 contains 169 nets. *** MISMATCH ***
+Circuit 1 contains 122 nets,    Circuit 2 contains 89 nets. *** MISMATCH ***
 
 Result: Netlists do not match.
 Logging to file "/openLANE_flow/designs/chip_io/runs/chip_io/results/lvs/chip_io.lvs.log" disabled

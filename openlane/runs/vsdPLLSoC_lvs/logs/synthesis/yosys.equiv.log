@@ -1,0 +1,219 @@
+
+ /----------------------------------------------------------------------------\
+ |                                                                            |
+ |  yosys -- Yosys Open SYnthesis Suite                                       |
+ |                                                                            |
+ |  Copyright (C) 2012 - 2020  Claire Wolf <claire@symbioticeda.com>          |
+ |                                                                            |
+ |  Permission to use, copy, modify, and/or distribute this software for any  |
+ |  purpose with or without fee is hereby granted, provided that the above    |
+ |  copyright notice and this permission notice appear in all copies.         |
+ |                                                                            |
+ |  THE SOFTWARE IS PROVIDED "AS IS" AND THE AUTHOR DISCLAIMS ALL WARRANTIES  |
+ |  WITH REGARD TO THIS SOFTWARE INCLUDING ALL IMPLIED WARRANTIES OF          |
+ |  MERCHANTABILITY AND FITNESS. IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR   |
+ |  ANY SPECIAL, DIRECT, INDIRECT, OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES    |
+ |  WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN     |
+ |  ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF   |
+ |  OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.            |
+ |                                                                            |
+ \----------------------------------------------------------------------------/
+
+ Yosys 0.9+3621 (git sha1 84e9fa7, gcc 8.3.1 -fPIC -Os)
+
+[TCL: yosys -import] Command name collision: found pre-existing command `cd' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `eval' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `exec' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `read' -> skip.
+[TCL: yosys -import] Command name collision: found pre-existing command `trace' -> skip.
+
+1. Executing Verilog-2005 frontend: /openLANE_flow/designs/vsdPLLSoC/src/verilog/rtl/avsdpll_1v8.v
+Parsing Verilog input from `/openLANE_flow/designs/vsdPLLSoC/src/verilog/rtl/avsdpll_1v8.v' to AST representation.
+Generating RTLIL representation for module `\avsdpll_1v8'.
+Successfully finished Verilog frontend.
+
+2. Executing Liberty frontend.
+Imported 57 cell types from liberty file.
+
+3. Executing Liberty frontend.
+Imported 8 cell types from liberty file.
+
+4. Executing Verilog-2005 frontend: designs/vsdPLLSoC/src/verilog/rtl/vsdPLLSoC.v
+Parsing Verilog input from `designs/vsdPLLSoC/src/verilog/rtl/vsdPLLSoC.v' to AST representation.
+Generating RTLIL representation for module `\chip_io'.
+Replacing existing blackbox module `\avsdpll_1v8' at designs/vsdPLLSoC/src/verilog/rtl/avsdpll_1v8.v:8.1-39.10.
+Generating RTLIL representation for module `\avsdpll_1v8'.
+Generating RTLIL representation for module `\simple_por'.
+Generating RTLIL representation for module `\vsdPLLSoC'.
+Successfully finished Verilog frontend.
+
+5. Executing RMPORTS pass (remove ports with no connections).
+Finding unconnected ports in module \vsdPLLSoC
+Removed 0 unused ports.
+Removing now-unused cell ports in module \vsdPLLSoC
+
+6. Executing HIERARCHY pass (managing design hierarchy).
+Entering generate mode.
+Celltype: sky130_fd_sc_hvl__decap_*
+
+7. Executing HIERARCHY pass (managing design hierarchy).
+Entering generate mode.
+Celltype: sky130_fd_sc_hvl__fill_*
+
+8. Executing SPLITNETS pass (splitting up multi-bit signals).
+
+9. Executing HIERARCHY pass (managing design hierarchy).
+
+9.1. Finding top of design hierarchy..
+root of   1 design levels: vsdPLLSoC           
+Automatically selected vsdPLLSoC as design top module.
+
+9.2. Analyzing design hierarchy..
+Top module:  \vsdPLLSoC
+
+9.3. Analyzing design hierarchy..
+Top module:  \vsdPLLSoC
+Removed 0 unused modules.
+
+10. Executing FLATTEN pass (flatten design).
+
+11. Printing statistics.
+
+=== vsdPLLSoC ===
+
+   Number of wires:                 29
+   Number of wire bits:             29
+   Number of public wires:          29
+   Number of public wire bits:      29
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  3
+     avsdpll_1v8                     1
+     chip_io                         1
+     simple_por                      1
+
+Renaming module vsdPLLSoC to gold.
+
+12. Executing Verilog-2005 frontend: /openLANE_flow/designs/vsdPLLSoC/src/verilog/rtl/avsdpll_1v8.v
+Parsing Verilog input from `/openLANE_flow/designs/vsdPLLSoC/src/verilog/rtl/avsdpll_1v8.v' to AST representation.
+Generating RTLIL representation for module `\avsdpll_1v8'.
+Successfully finished Verilog frontend.
+
+13. Executing Liberty frontend.
+Imported 57 cell types from liberty file.
+
+14. Executing Liberty frontend.
+Imported 8 cell types from liberty file.
+
+15. Executing Verilog-2005 frontend: /openLANE_flow/designs/vsdPLLSoC/runs/vsdPLLSoC_lvs/results/synthesis/vsdPLLSoC.synthesis.v
+Parsing Verilog input from `/openLANE_flow/designs/vsdPLLSoC/runs/vsdPLLSoC_lvs/results/synthesis/vsdPLLSoC.synthesis.v' to AST representation.
+Generating RTLIL representation for module `\vsdPLLSoC'.
+Successfully finished Verilog frontend.
+
+16. Executing RMPORTS pass (remove ports with no connections).
+Finding unconnected ports in module \vsdPLLSoC
+Removed 0 unused ports.
+Removing now-unused cell ports in module \vsdPLLSoC
+
+17. Executing HIERARCHY pass (managing design hierarchy).
+Entering generate mode.
+Celltype: sky130_fd_sc_hvl__decap_*
+
+18. Executing HIERARCHY pass (managing design hierarchy).
+Entering generate mode.
+Celltype: sky130_fd_sc_hvl__fill_*
+
+19. Executing SPLITNETS pass (splitting up multi-bit signals).
+
+20. Executing HIERARCHY pass (managing design hierarchy).
+
+20.1. Finding top of design hierarchy..
+root of   1 design levels: vsdPLLSoC           
+Automatically selected vsdPLLSoC as design top module.
+
+20.2. Analyzing design hierarchy..
+Top module:  \vsdPLLSoC
+
+20.3. Analyzing design hierarchy..
+Top module:  \vsdPLLSoC
+Removed 0 unused modules.
+
+21. Executing FLATTEN pass (flatten design).
+
+22. Printing statistics.
+
+=== vsdPLLSoC ===
+
+   Number of wires:                 29
+   Number of wire bits:             29
+   Number of public wires:          29
+   Number of public wire bits:      29
+   Number of memories:               0
+   Number of memory bits:            0
+   Number of processes:              0
+   Number of cells:                  3
+     avsdpll_1v8                     1
+     chip_io                         1
+     simple_por                      1
+
+Renaming module vsdPLLSoC to gate.
+
+23. Executing Verilog-2005 frontend: /openLANE_flow/designs/vsdPLLSoC/src/verilog/rtl/avsdpll_1v8.v
+Parsing Verilog input from `/openLANE_flow/designs/vsdPLLSoC/src/verilog/rtl/avsdpll_1v8.v' to AST representation.
+Generating RTLIL representation for module `\avsdpll_1v8'.
+Successfully finished Verilog frontend.
+
+24. Executing Liberty frontend.
+Imported 57 cell types from liberty file.
+
+25. Executing Liberty frontend.
+Imported 8 cell types from liberty file.
+
+26. Executing EQUIV_MAKE pass (creating equiv checking module).
+Presumably equivalent wires: porb_gold (\porb_gold), porb_gate (\porb_gate) -> porb
+Presumably equivalent wires: b_vco_pll_gold (\b_vco_pll_gold), b_vco_pll_gate (\b_vco_pll_gate) -> b_vco_pll
+Presumably equivalent wires: b_cp_pll_gold (\b_cp_pll_gold), b_cp_pll_gate (\b_cp_pll_gate) -> b_cp_pll
+Presumably equivalent wires: en_vco_pll_gold (\en_vco_pll_gold), en_vco_pll_gate (\en_vco_pll_gate) -> en_vco_pll
+Presumably equivalent wires: en_cp_pll_gold (\en_cp_pll_gold), en_cp_pll_gate (\en_cp_pll_gate) -> en_cp_pll
+Presumably equivalent wires: vco_in_pll_gold (\vco_in_pll_gold), vco_in_pll_gate (\vco_in_pll_gate) -> vco_in_pll
+Presumably equivalent wires: clk_pll_gold (\clk_pll_gold), clk_pll_gate (\clk_pll_gate) -> clk_pll
+Presumably equivalent wires: ref_clk_pll_gold (\ref_clk_pll_gold), ref_clk_pll_gate (\ref_clk_pll_gate) -> ref_clk_pll
+Presumably equivalent wires: b_0_pll_gold (\b_0_pll_gold), b_0_pll_gate (\b_0_pll_gate) -> b_0_pll
+Presumably equivalent wires: b_3_pll_gold (\b_3_pll_gold), b_3_pll_gate (\b_3_pll_gate) -> b_3_pll
+Presumably equivalent wires: b_2_pll_gold (\b_2_pll_gold), b_2_pll_gate (\b_2_pll_gate) -> b_2_pll
+Presumably equivalent wires: b_1_pll_gold (\b_1_pll_gold), b_1_pll_gate (\b_1_pll_gate) -> b_1_pll
+Presumably equivalent wires: clk_gold (\clk_gold), clk_gate (\clk_gate) -> clk
+Presumably equivalent wires: gpio_0_gold (\gpio_0_gold), gpio_0_gate (\gpio_0_gate) -> gpio_0
+Presumably equivalent wires: gpio_1_gold (\gpio_1_gold), gpio_1_gate (\gpio_1_gate) -> gpio_1
+Presumably equivalent wires: gpio_2_gold (\gpio_2_gold), gpio_2_gate (\gpio_2_gate) -> gpio_2
+Presumably equivalent wires: gpio_3_gold (\gpio_3_gold), gpio_3_gate (\gpio_3_gate) -> gpio_3
+Presumably equivalent wires: VSSA_gold (\VSSA_gold), VSSA_gate (\VSSA_gate) -> VSSA
+Presumably equivalent wires: VDDA_gold (\VDDA_gold), VDDA_gate (\VDDA_gate) -> VDDA
+Presumably equivalent wires: VSSIO_gold (\VSSIO_gold), VSSIO_gate (\VSSIO_gate) -> VSSIO
+Presumably equivalent wires: VDDIO_gold (\VDDIO_gold), VDDIO_gate (\VDDIO_gate) -> VDDIO
+Presumably equivalent wires: VSSD_gold (\VSSD_gold), VSSD_gate (\VSSD_gate) -> VSSD
+Presumably equivalent wires: VCCD_gold (\VCCD_gold), VCCD_gate (\VCCD_gate) -> VCCD
+Presumably equivalent wires: en_vco_gold (\en_vco_gold), en_vco_gate (\en_vco_gate) -> en_vco
+Presumably equivalent wires: en_cp_gold (\en_cp_gold), en_cp_gate (\en_cp_gate) -> en_cp
+Presumably equivalent wires: vco_in_gold (\vco_in_gold), vco_in_gate (\vco_in_gate) -> vco_in
+Presumably equivalent wires: b_vco_gold (\b_vco_gold), b_vco_gate (\b_vco_gate) -> b_vco
+Presumably equivalent wires: b_cp_gold (\b_cp_gold), b_cp_gate (\b_cp_gate) -> b_cp
+Presumably equivalent wires: ref_clk_gold (\ref_clk_gold), ref_clk_gate (\ref_clk_gate) -> ref_clk
+Presumably equivalent cells: PLL_gold PLL_gate (avsdpll_1v8) -> PLL
+
+27. Executing HIERARCHY pass (managing design hierarchy).
+Entering generate mode.
+Celltype: sky130_fd_sc_hvl__decap_*
+
+28. Executing HIERARCHY pass (managing design hierarchy).
+Entering generate mode.
+Celltype: sky130_fd_sc_hvl__fill_*
+
+29. Executing PREP pass.
+
+29.1. Executing HIERARCHY pass (managing design hierarchy).
+
+29.1.1. Analyzing design hierarchy..
+Top module:  \equiv
+ERROR: Module `\chip_io' referenced in module `\equiv' in cell `\PADFRAME_gate' is not part of the design.
