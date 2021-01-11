@@ -66,10 +66,10 @@ Removed 0 unused modules.
 
 === vsdPLLSoC ===
 
-   Number of wires:                 29
-   Number of wire bits:             29
-   Number of public wires:          29
-   Number of public wire bits:      29
+   Number of wires:                 23
+   Number of wire bits:             23
+   Number of public wires:          23
+   Number of public wire bits:      23
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
@@ -85,18 +85,16 @@ Finding unused cells or wires in module \vsdPLLSoC..
 
 11. Executing CHECK pass (checking for obvious problems).
 checking module vsdPLLSoC..
-Warning: Wire vsdPLLSoC.\b_vco_pll is used but has no driver.
-Warning: Wire vsdPLLSoC.\b_cp_pll is used but has no driver.
-found and reported 2 problems.
+found and reported 0 problems.
 
 12. Printing statistics.
 
 === vsdPLLSoC ===
 
-   Number of wires:                 29
-   Number of wire bits:             29
-   Number of public wires:          29
-   Number of public wire bits:      29
+   Number of wires:                 23
+   Number of wire bits:             23
+   Number of public wires:          23
+   Number of public wire bits:      23
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
@@ -112,7 +110,6 @@ found and reported 2 problems.
 13. Executing Verilog backend.
 Dumping module `\vsdPLLSoC'.
 
-Warnings: 2 unique messages, 2 total
-End of script. Logfile hash: c4ff83a69b, CPU: user 0.66s system 0.01s, MEM: 21.51 MB peak
+End of script. Logfile hash: 48bf5d793f, CPU: user 0.65s system 0.01s, MEM: 21.51 MB peak
 Yosys 0.9+3621 (git sha1 84e9fa7, gcc 8.3.1 -fPIC -Os)
-Time spent: 49% 4x read_liberty (0 sec), 46% 2x stat (0 sec), ...
+Time spent: 50% 4x read_liberty (0 sec), 46% 2x stat (0 sec), ...

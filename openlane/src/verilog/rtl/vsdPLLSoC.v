@@ -29,36 +29,36 @@ module vsdPLLSoC ( input  ref_clk,
 
 
 
-wire gpio_0;
-wire gpio_1;
-wire gpio_2;
-wire gpio_3;
+//wire gpio_0;
+//wire gpio_1;
+//wire gpio_2;
+//wire gpio_3;
 
-wire b_1_pll;
-wire b_2_pll;
-wire b_3_pll;
-wire b_0_pll;
+//wire b_1_pll;
+//wire b_2_pll;
+//wire b_3_pll;
+//wire b_0_pll;
 
-wire  ref_clk;
+//wire  ref_clk;
 wire  ref_clk_pll;
 
-wire  clk;
+//wire  clk;
 wire  clk_pll;
 
-wire   vco_in;
+//wire   vco_in;
 wire   vco_in_pll;
 
-wire en_cp;
+//wire en_cp;
 wire en_cp_pll;
 
-wire en_vco;
+//wire en_vco;
 wire en_vco_pll;
 
-wire b_cp;
-wire b_cp_pll;
+//wire b_cp;
+//wire b_cp_pll;
 
-wire b_vco;
-wire b_vco_pll;
+//wire b_vco;
+//wire b_vco_pll;
 
 
 wire   porb;
@@ -127,10 +127,10 @@ chip_io   PADFRAME     (
                          .GPIO_1(gpio_1),
 	                 .GPIO_2(gpio_2),
 	                 .GPIO_3(gpio_3), 
-		         .B_0_pll(b_0_pll),
-	                 .B_1_pll(b_1_pll), 
-		         .B_2_pll(b_2_pll), 
-		         .B_3_pll(b_3_pll),
+		         .B_0_pll(),
+	                 .B_1_pll(), 
+		         .B_2_pll(), 
+		         .B_3_pll(),
 		         
 		         .REF_CLK(ref_clk), 
 		         .REF_CLK_pll(ref_clk_pll),		 
@@ -148,10 +148,10 @@ chip_io   PADFRAME     (
 		         .EN_VCO_pll(en_vco_pll),		 
 		         
 		         .B_CP(b_cp), 
-		         .B_CP_pll(b_cp_pll),		 
+		         .B_CP_pll(),		 
 		         
 		         .B_VCO(b_vco), 
-		         .B_VCO_pll(b_vco_pll), 		
+		         .B_VCO_pll(), 		
 		
 		      	.PORB(porb)
 		);

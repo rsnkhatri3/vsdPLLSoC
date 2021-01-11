@@ -3,10 +3,10 @@
 
 === vsdPLLSoC ===
 
-   Number of wires:                 29
-   Number of wire bits:             29
-   Number of public wires:          29
-   Number of public wire bits:      29
+   Number of wires:                 23
+   Number of wire bits:             23
+   Number of public wires:          23
+   Number of public wire bits:      23
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0

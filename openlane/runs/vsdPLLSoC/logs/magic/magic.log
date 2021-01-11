@@ -43,7 +43,7 @@ Cell obs couldn't be read
 DEF read, Line 2570 (Error): Cell obs is not defined.  Maybe you have not read the corresponding LEF file?
   Processed 4 subcell instances total.
   Processed 6 nets total.
-DEF read: Processed 2720 lines.
+DEF read: Processed 2724 lines.
 DEF Read: encountered 1 error total.
 [INFO]: Zeroizing Origin
 [INFO]: Current Box Values: 0 0 717600 1037600

@@ -9,10 +9,10 @@ Reading DEF file: /openLANE_flow/designs/vsdPLLSoC/runs/vsdPLLSoC/tmp/floorplan/
 Notice 0: Design: vsdPLLSoC
 Notice 0:     Created 17 pins.
 Notice 0:     Created 3 components and 44 component-terminals.
-Notice 0:     Created 29 nets and 29 connections.
+Notice 0:     Created 23 nets and 23 connections.
 Notice 0: Finished DEF file: /openLANE_flow/designs/vsdPLLSoC/runs/vsdPLLSoC/tmp/floorplan/verilog2def_openroad.def
 Placing the following macros:
-{'PADFRAME': ['0', '0', 'N'], 'PLL': ['1700000', '2590000', 'N'], 'POR': ['3270880', '522711', 'MX']}
+{'PADFRAME': ['0', '0', 'N'], 'PLL': ['1700000', '2590000', 'N'], 'POR': ['2500000', '1495000', 'MX']}
 Design name: vsdPLLSoC
 Placing PADFRAME
 Placing PLL

@@ -1,6 +1,0 @@
-Traceback (most recent call last):
-  File "/openLANE_flow/scripts/count_lvs.py", line 115, in <module>
-    failures = count_LVS_failures(args.file)
-  File "/openLANE_flow/scripts/count_lvs.py", line 37, in count_LVS_failures
-    with open(filename, 'r') as cfile:
-FileNotFoundError: [Errno 2] No such file or directory: '/openLANE_flow/designs/vsdPLLSoC/runs/vsdPLLSoC_lvs/results/lvs/vsdPLLSoC.lvs.json'

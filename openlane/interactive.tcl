@@ -11,7 +11,7 @@ init_floorplan
 
 add_macro_placement PADFRAME 0 0 N
 add_macro_placement PLL 1700 2590 N
-add_macro_placement POR 3270.880 522.711 MX
+add_macro_placement POR 2500 1495 MX
 
 manual_macro_placement f
 

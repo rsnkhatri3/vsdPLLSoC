@@ -1270,8 +1270,8 @@ ROW ROW_1262 unithv 5760 5152620 FS DO 7451 BY 1 STEP 480 0 ;
 ROW ROW_1263 unithv 5760 5156690 N DO 7451 BY 1 STEP 480 0 ;
 ROW ROW_1264 unithv 5760 5160760 FS DO 7451 BY 1 STEP 480 0 ;
 ROW ROW_1265 unithv 5760 5164830 N DO 7451 BY 1 STEP 480 0 ;
-TRACKS X 240 DO 1 STEP 480 LAYER li1 ;
-TRACKS Y 240 DO 1 STEP 480 LAYER li1 ;
+TRACKS X 240 DO 7475 STEP 480 LAYER li1 ;
+TRACKS Y 240 DO 10808 STEP 480 LAYER li1 ;
 TRACKS X 185 DO 9697 STEP 370 LAYER met1 ;
 TRACKS Y 185 DO 14022 STEP 370 LAYER met1 ;
 TRACKS X 240 DO 7475 STEP 480 LAYER met2 ;
@@ -1282,35 +1282,53 @@ TRACKS X 480 DO 3738 STEP 960 LAYER met4 ;
 TRACKS Y 480 DO 5404 STEP 960 LAYER met4 ;
 TRACKS X 1665 DO 1077 STEP 3330 LAYER met5 ;
 TRACKS Y 1665 DO 1558 STEP 3330 LAYER met5 ;
-COMPONENTS 4 ;
-- obs_li1 obs + PLACED ( 0 0 ) N ;
-    - PADFRAME chip_io + FIXED ( 0 0 ) N ;
-    - PLL avsdpll_1v8 + FIXED ( 1700000 2590000 ) N ;
-    - POR simple_por + FIXED ( 2500000 1495000 ) FS ;
+COMPONENTS 3 ;
+    - PADFRAME chip_io ;
+    - PLL avsdpll_1v8 ;
+    - POR simple_por ;
 END COMPONENTS
+PINS 17 ;
+    - VCCD + NET VCCD + DIRECTION INPUT + USE SIGNAL ;
+    - VDDA + NET VDDA + DIRECTION INPUT + USE SIGNAL ;
+    - VDDIO + NET VDDIO + DIRECTION INPUT + USE SIGNAL ;
+    - VSSA + NET VSSA + DIRECTION INPUT + USE SIGNAL ;
+    - VSSD + NET VSSD + DIRECTION INPUT + USE SIGNAL ;
+    - VSSIO + NET VSSIO + DIRECTION INPUT + USE SIGNAL ;
+    - b_cp + NET b_cp + DIRECTION OUTPUT + USE SIGNAL ;
+    - b_vco + NET b_vco + DIRECTION OUTPUT + USE SIGNAL ;
+    - clk + NET clk + DIRECTION OUTPUT + USE SIGNAL ;
+    - en_cp + NET en_cp + DIRECTION INPUT + USE SIGNAL ;
+    - en_vco + NET en_vco + DIRECTION INPUT + USE SIGNAL ;
+    - gpio_0 + NET gpio_0 + DIRECTION INPUT + USE SIGNAL ;
+    - gpio_1 + NET gpio_1 + DIRECTION INPUT + USE SIGNAL ;
+    - gpio_2 + NET gpio_2 + DIRECTION INPUT + USE SIGNAL ;
+    - gpio_3 + NET gpio_3 + DIRECTION INPUT + USE SIGNAL ;
+    - ref_clk + NET ref_clk + DIRECTION INPUT + USE SIGNAL ;
+    - vco_in + NET vco_in + DIRECTION INPUT + USE SIGNAL ;
+END PINS
 NETS 23 ;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    - VCCD ( PIN VCCD ) ( PADFRAME vccd ) + USE SIGNAL ;
+    - VDDA ( PIN VDDA ) ( PLL VDD ) ( PADFRAME vdda ) + USE SIGNAL ;
+    - VDDIO ( PIN VDDIO ) ( POR vdd3v3 ) ( PADFRAME vddio ) + USE SIGNAL ;
+    - VSSA ( PIN VSSA ) ( PADFRAME vssa ) + USE SIGNAL ;
+    - VSSD ( PIN VSSD ) ( PADFRAME vssd ) + USE SIGNAL ;
+    - VSSIO ( PIN VSSIO ) ( POR vss ) ( PLL GND ) ( PADFRAME vssio ) + USE SIGNAL ;
+    - b_cp ( PIN b_cp ) ( PADFRAME B_CP ) + USE SIGNAL ;
+    - b_vco ( PIN b_vco ) ( PADFRAME B_VCO ) + USE SIGNAL ;
+    - clk ( PIN clk ) ( PADFRAME CLK ) + USE SIGNAL ;
     - clk_pll ( PLL CLK ) ( PADFRAME CLK_pll ) + USE SIGNAL ;
+    - en_cp ( PIN en_cp ) ( PADFRAME EN_CP ) + USE SIGNAL ;
     - en_cp_pll ( PLL ENb_CP ) ( PADFRAME EN_CP_pll ) + USE SIGNAL ;
+    - en_vco ( PIN en_vco ) ( PADFRAME EN_VCO ) + USE SIGNAL ;
     - en_vco_pll ( PLL ENb_VCO ) ( PADFRAME EN_VCO_pll ) + USE SIGNAL ;
+    - gpio_0 ( PIN gpio_0 ) ( PADFRAME GPIO_0 ) + USE SIGNAL ;
+    - gpio_1 ( PIN gpio_1 ) ( PADFRAME GPIO_1 ) + USE SIGNAL ;
+    - gpio_2 ( PIN gpio_2 ) ( PADFRAME GPIO_2 ) + USE SIGNAL ;
+    - gpio_3 ( PIN gpio_3 ) ( PADFRAME GPIO_3 ) + USE SIGNAL ;
     - porb ( POR porb_h ) ( PADFRAME PORB ) + USE SIGNAL ;
+    - ref_clk ( PIN ref_clk ) ( PADFRAME REF_CLK ) + USE SIGNAL ;
     - ref_clk_pll ( PLL REF ) ( PADFRAME REF_CLK_pll ) + USE SIGNAL ;
+    - vco_in ( PIN vco_in ) ( PADFRAME VCO_IN ) + USE SIGNAL ;
     - vco_in_pll ( PLL VCO_IN ) ( PADFRAME VCO_IN_pll ) + USE SIGNAL ;
 END NETS
 END DESIGN

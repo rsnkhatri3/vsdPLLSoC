@@ -81,10 +81,10 @@ Removed 0 unused modules.
 
 === vsdPLLSoC ===
 
-   Number of wires:                 29
-   Number of wire bits:             29
-   Number of public wires:          29
-   Number of public wire bits:      29
+   Number of wires:                 23
+   Number of wire bits:             23
+   Number of public wires:          23
+   Number of public wire bits:      23
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
@@ -145,10 +145,10 @@ Removed 0 unused modules.
 
 === vsdPLLSoC ===
 
-   Number of wires:                 29
-   Number of wire bits:             29
-   Number of public wires:          29
-   Number of public wire bits:      29
+   Number of wires:                 23
+   Number of wire bits:             23
+   Number of public wires:          23
+   Number of public wire bits:      23
    Number of memories:               0
    Number of memory bits:            0
    Number of processes:              0
@@ -172,17 +172,11 @@ Imported 8 cell types from liberty file.
 
 26. Executing EQUIV_MAKE pass (creating equiv checking module).
 Presumably equivalent wires: porb_gold (\porb_gold), porb_gate (\porb_gate) -> porb
-Presumably equivalent wires: b_vco_pll_gold (\b_vco_pll_gold), b_vco_pll_gate (\b_vco_pll_gate) -> b_vco_pll
-Presumably equivalent wires: b_cp_pll_gold (\b_cp_pll_gold), b_cp_pll_gate (\b_cp_pll_gate) -> b_cp_pll
 Presumably equivalent wires: en_vco_pll_gold (\en_vco_pll_gold), en_vco_pll_gate (\en_vco_pll_gate) -> en_vco_pll
 Presumably equivalent wires: en_cp_pll_gold (\en_cp_pll_gold), en_cp_pll_gate (\en_cp_pll_gate) -> en_cp_pll
 Presumably equivalent wires: vco_in_pll_gold (\vco_in_pll_gold), vco_in_pll_gate (\vco_in_pll_gate) -> vco_in_pll
 Presumably equivalent wires: clk_pll_gold (\clk_pll_gold), clk_pll_gate (\clk_pll_gate) -> clk_pll
 Presumably equivalent wires: ref_clk_pll_gold (\ref_clk_pll_gold), ref_clk_pll_gate (\ref_clk_pll_gate) -> ref_clk_pll
-Presumably equivalent wires: b_0_pll_gold (\b_0_pll_gold), b_0_pll_gate (\b_0_pll_gate) -> b_0_pll
-Presumably equivalent wires: b_3_pll_gold (\b_3_pll_gold), b_3_pll_gate (\b_3_pll_gate) -> b_3_pll
-Presumably equivalent wires: b_2_pll_gold (\b_2_pll_gold), b_2_pll_gate (\b_2_pll_gate) -> b_2_pll
-Presumably equivalent wires: b_1_pll_gold (\b_1_pll_gold), b_1_pll_gate (\b_1_pll_gate) -> b_1_pll
 Presumably equivalent wires: clk_gold (\clk_gold), clk_gate (\clk_gate) -> clk
 Presumably equivalent wires: gpio_0_gold (\gpio_0_gold), gpio_0_gate (\gpio_0_gate) -> gpio_0
 Presumably equivalent wires: gpio_1_gold (\gpio_1_gold), gpio_1_gate (\gpio_1_gate) -> gpio_1

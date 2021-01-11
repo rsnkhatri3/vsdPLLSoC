@@ -1286,7 +1286,7 @@ COMPONENTS 4 ;
     - obs_li1 obs + PLACED ( 0 0 ) N ;
     - PADFRAME chip_io + FIXED ( 0 0 ) N ;
     - PLL avsdpll_1v8 + FIXED ( 1700000 2590000 ) N ;
-    - POR simple_por + FIXED ( 3270880 522710 ) FS ;
+    - POR simple_por + FIXED ( 2500000 1495000 ) FS ;
 END COMPONENTS
 NETS 6 ;
     - clk_pll ( PLL CLK ) ( PADFRAME CLK_pll ) + USE SIGNAL ;
