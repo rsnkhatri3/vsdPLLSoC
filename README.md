@@ -22,7 +22,7 @@
 
 * ##  [IO and PG PAD cells](https://github.com/rsnkhatri3/pllsoc#io-and-pg-pad-cells)
 
-* ## [Using Openlane for Synthesis and Floorplanning](https://github.com/rsnkhatri3/pllsoc/wiki#using-openlane-for-synthesis-and-floorplanning)
+* ## [Using Openlane flow](https://github.com/rsnkhatri3/pllsoc/wiki#using-openlane-for-synthesis-and-floorplanning)
 
 
 
@@ -148,122 +148,50 @@ The PAD cells used are listed below:
 
 
 
-# Using Openlane for Synthesis and Floorplanning
+# Using Openlane flow
 
 
 
-For developing the SoC, we use opensource flow Openlane. Here, we have done till synthesis and floorplannnig through Openlane. 
-To perform the above mentioned operation, we use verilog blackbox technique. Here, we consider the IO and Periphery cells used, PLL IP to be tested and 
-the Power on Reset circuit as a black box. For this we use their .lef and verilog files containing only the input output port description. The top level 
-verilog file whose module name is pll_soc can be found [here](https://github.com/rsnkhatri3/pllsoc/blob/main/openlane/verilog/pll_soc.v). Here, we have 
-included all verilog files present in src directory as `include "*.v".
+For developing the SoC, we use opensource flow Openlane. Here, we have generated GDSII file for this chip using Openlane. 
+To perform the above mentioned operation, the methodology used is given in Openlane git repository [here](https://github.com/efabless/openlane/blob/master/doc/chip_integration.md).
+
+First of all, we have generated the padframe using SKY130 IO and Periphery library.
+The configuration and other required files for generating padframe is given [here](https://github.com/rsnkhatri3/vsdPLLSoC/tree/main/chip_io).
+The top-level verilog file is given as chip_io.v in chip_io folder above. The IO and Periphery cells used in padframe is included as black-box. We have to also include LEF files of the cells used for P&R. In the LEF file provided by the efabless sky130_ef_io.lef we have removed metal5 and metal4 pins of PG cells's specific pins(for example VDDIO metal5 and metal4 pin for sky130_ef_io_vddio_hvc_pad) for ease in routing. 
+
+Then we run the Openlane flow with the interactive script given [here](https://github.com/rsnkhatri3/vsdPLLSoC/blob/main/chip_io/interactive.tcl).
 
 
 
-We follow the below mentioned steps:
-
-
-1. Create a folder with the module name of top level verilog file in design directory.
-               
-                      cd vsdflow/work/tools/openlane_working_dir/openlane/designs/
-
-                      mkdir pll_soc
-2. Again create a new folder src inside pll_soc
-                      
-                      cd pll_soc
-                      
-                      mkdir src
-
-3. Inside the src directory place .lef files of all the IO and Periphery PAD cells used, the PLL IP to be tested and the Power on Reset circuit used.
-
-                     avsdpll_1v8.lef
-
-                     simple_por.lef
-
-                     sky130_fd_io__top_gpiov2.lef
-
-                     sky130_fd_io__top_ground_hvc_wpad.lef
-
-                     sky130_fd_io__top_ground_lvc_wpad.lef
-
-                     sky130_fd_io__top_power_hvc_wpad.lef
-
-                     sky130_fd_io__top_power_lvc_wpad.lef
-
-4. Place the top level verilog file pll_soc.v in the src directory.
-
-   Also, place the verilog files with extension .blackbox.v  present in the SKY130 IO and Periphery PAD cells library. For PLL IP to be tested and the 
-   Power on Reset circuit used, the verilog files with only the input output port description is placed.
-
-                    pll_soc.v
-
-                    avsdpll_1v8.v
-
-                    simple_por.v
-
-                    sky130_fd_io__top_gpiov2.v
-
-                    sky130_fd_io__top_ground_hvc_wpad.v
-
-                    sky130_fd_io__top_ground_lvc_wpad.v
-
-                    sky130_fd_io__top_power_hvc_wpad.v
-
-                    sky130_fd_io__top_power_lvc_wpad.v
-
-   Above mentioned files are present under pllsoc/openlane/verilog.
-
-5. Now, we have to add a config.tcl file in pll_soc directory. So, go to the terminal and run the following:
-
-                    cd vsdflow/work/tools/openlane_working_dir/openlane/
-                    
-      and execute:
-
-                    export PDK_ROOT=<absolute path to where skywater-pdk and open_pdks reside>
-
-                    docker run -it -v $(pwd):/openLANE_flow -v $PDK_ROOT:$PDK_ROOT -e PDK_ROOT=$PDK_ROOT -u $(id -u $USER):$(id -g $USER) openlane:rc2
-
-                     ./flow.tcl -design pll_soc -init_design_config   
+![PADFRAME](https://github.com/rsnkhatri3/vsdPLLSoC/blob/main/images/chip_io.png)
 
 
 
-This will create `config.tcl` file with default settings. We then modify the file with required configuration variables that can be seen from 
-[here](https://github.com/rsnkhatri3/pllsoc/blob/main/openlane/config.tcl). The information about configuration variables can be found [here] 
-(https://github.com/efabless/openlane/blob/master/configuration/README.md). We have basically pointed the location of verilog and lef files 
-present in src directory in config.tcl.          
 
-6. Repeat the commands mentioned in step 5 till the bash window opens. In the bash window, the interactive flow is executed.
+The PLL and POR(Power on Reset) circuit we are using is already hardened which we have used from 
 
-                                 ./flow.tcl -design pll_soc -interactive
+[PLL](https://github.com/lakshmi-sathi/avsdpll_1v8) 
 
-7. Run the below mentioned commands sequentially.
+[POR](https://github.com/efabless/caravel/blob/master/lef/simple_por.lef).
 
-                                  package require openlane 0.9                                           //Setting up flow
+So, now we have to place these three instances(PADFRAME, PLL and POR) in right places and route.
+For this, the required configuration file is given [here](https://github.com/rsnkhatri3/vsdPLLSoC/blob/main/openlane/config.tcl).
+The top-level verilog file for this is vsdPLLSoC.v placed in src/verilog/rtl. The three instances to be used are used as black-box. We have to also place the LEF file of instances used in src/lef. 
 
-                                  prep -design pll_soc -overwrite
-                                  
-                                  
-                                  set lefs 	 [glob $::env(DESIGN_DIR)/src/*.lef]                     //The LEF file for macro
-
-                                  add_lefs -src $lefs
-                                  
-
-                                  run_synthesis                                                          //Synthesis
-
-                                   
-The output file can be found [here](https://github.com/rsnkhatri3/pllsoc/blob/main/openlane/results/synthesis/pll_soc.synthesis.v).
-
-                           
-                                  init_floorplan_or                                                      //Floorplanning
+Then we run the Openlane flow with the interactive script given [here](https://github.com/rsnkhatri3/vsdPLLSoC/blob/main/openlane/interactive.tcl).
 
 
-The output DEF file can be found [here](https://github.com/rsnkhatri3/pllsoc/blob/main/openlane/results/floorplan/pll_soc.floorplan.def)
+
+
+
+![vsdPLLSoC](https://github.com/rsnkhatri3/vsdPLLSoC/blob/main/images/vsdPLLSoC.png)
+
 
 
 # Future Works
 
 
-* To perform PNR
+* To get clean DRC and LVS
 
 
 # Acknowledgement
@@ -275,8 +203,13 @@ The output DEF file can be found [here](https://github.com/rsnkhatri3/pllsoc/blo
 
 * Tim Edwards, Senior Vice President of Analog and Design at efabless corporation
 
+* Ahmed Ghazy, Efabless corporation
+
+* Nickson Jose, VLSI Engineer
+
+* Laxmi S, MS ECE
+
 * Praharsha Mahurkar, Maharashtra Institute of Technology
 
 * Philipp Gühring, Developer at Falcontrol
 
-* Nickson Jose, VLSI Engineer
