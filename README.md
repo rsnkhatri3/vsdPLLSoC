@@ -213,3 +213,15 @@ Then we run the Openlane flow with the interactive script given [here](https://g
 
 * Philipp Gühring, Developer at Falcontrol
 
+
+# Contact Information
+
+* Roshan Khatri Luitel,
+  Electronics and Communication Engineering,
+  Panjab University
+  rsnkhatri@gmail.com
+
+* Kunal Ghosh, 
+  Co-founder, VSD Corp. Pvt. Ltd. 
+  kunalpghosh@gmail.com
+
